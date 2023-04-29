@@ -1,0 +1,239 @@
+// Place all the styles related to the User controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+
+#navbar {
+  padding: 20px;
+  background-color: rgb(13, 110, 253);
+  width: 100%;
+}
+
+.inside-navbar {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#navbar a, .navbar-brand {
+  font-size: 24px;
+  font-weight:600;
+  color: white;
+  padding: 5px 20px;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: blue;
+}
+
+#text-center {
+  text-align: center;
+}
+
+#header-welcome {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+
+  /* transition-property: opacity, left, top, height; */
+  /* transition-duration: 3s, 5s; */
+  /* z-index: ; */
+  /* position: absolute; */
+}
+
+#header-body {
+    z-index: 6;
+    margin: 150px auto;
+    width: 70%;
+
+    
+}
+
+#navbar #brand-logo {
+  color: white;
+}
+
+#header-group {
+  font-size: 79px;
+  color: white;
+  letter-spacing: 0.3rem;
+  z-index: 0;
+  font-weight: bold;
+  text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+}
+
+#header {
+  height: 740px;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(19, 0, 255, 1) 100%
+  );
+  border-radius: 0%;
+  width:auto
+}
+
+// .card {
+//   width: 100%;
+// }
+
+#card-body {
+  width: 50%;
+  /* margin-top: 150px; */
+  margin: 125px auto;
+  z-index: 5;
+  position: relative;
+  padding-top: 25px;
+}
+
+/* Images */
+
+#first-image {
+  width: 59rem;
+  position: absolute;
+  z-index: 4;
+  margin-top: 90px;
+  right: 10%;
+  margin-top: 20px;
+}
+
+#second-image {
+  width: 30rem;
+  position: absolute;
+  z-index: 4;
+  margin-top: 20px;
+  left: 11%;
+  border-radius: 25%;
+}
+
+#third-image {
+  width: 14rem;
+  position: absolute;
+  z-index: 3;
+  margin-top: 20px;
+  left: 22%;
+  border-radius: 25%;
+}
+
+#fourth-image {
+  width: 23rem;
+  position: absolute;
+  z-index: 4;
+  margin-top: 14rem;
+  left: 31%;
+  border-radius: 10%;
+}
+
+#fifth-image {
+  width: 14rem;
+  position: absolute;
+  z-index: 2;
+  margin-top: 5rem;
+  left: 32%;
+  border-radius: 25%;
+}
+
+#sixth-image {
+  width: 14rem;
+  position: absolute;
+  z-index: 5;
+  margin-top: 23.6rem;
+  right: 28%;
+}
+
+
+/* Our Mission Component */
+
+#img-div {
+  background-color: white;
+  /* margin: 0 auto; */
+  width: auto;
+}
+
+#mission {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* #img-div img {
+  width: 500rem;
+  height: 500rem;
+} */
+
+/* Navbar Component if link is selected */
+
+.selected {
+  color: blue;
+}
+
+/* Do the same thing as the categories lab with a ternary expression. If the category is seleted, then add the classname to be selected, else empty string */
+
+/* Footer Section */
+
+#footer-section .card {
+  
+  background-color: rgb(13, 110, 253);
+ 
+  color: white;
+  border-radius: 0%;
+  text-align: center;
+  // float: left;
+  border: none;
+}
+
+#footer-section a:hover {
+  background-color: none;
+}
+
+footer {
+  height: 250px;
+  background-color: rgb(13, 110, 253);
+} 
+
+#footer-section a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.08rem;
+  padding-bottom: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+#footer-logo {
+  color: white;
+  padding: 0;
+}
+
+#ind-div-footer {
+  // width: 25%;
+  float: left;
+  border: none;
+}
+
+#carousel {
+  background-color: black;
+  padding: 10px 10rem 20px;
+}
+
+#ind-img-carousel {
+  width: 88%;
+  margin: 0 auto;
+  padding: 20px 10px 50px;
+}
+
+#img-center {
+  text-align: center;
+}
+
+
