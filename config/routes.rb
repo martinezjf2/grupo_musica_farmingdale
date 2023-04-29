@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root to: 'users#index'
   get '/videos', to: 'videos#show'
   get '/calendar', to: 'events#calendar'
+  get '/contact', to: 'users#contact'
 end

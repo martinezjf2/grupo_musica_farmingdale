@@ -1,0 +1,74 @@
+
+<section id="contact" class="contact">
+    <div class="container contact">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p class="contact-paragraph">Would you like to contact me? Fill out the form below:</p>
+      </div>
+
+
+      <div class=" col-sm-12 col-lg-8 bg-white rounded shadow p-4 contact-form">
+        <!-- <div class="bg-white rounded shadow p-4">  -->
+         <form id="contact-form">
+            <h4 style="text-align: center">Fill out the form below:</h4>
+            <div class="mt-3">
+                <label class="form-label" style="font-weight: 500;">Name</label>
+                <input type="text" name="user_name" class="form-control shadow-none" required>
+            </div>
+            <div class="mt-3">
+                <label class="form-label" style="font-weight: 500;">Email</label>
+                <input type="email" name="email" class="form-control shadow-none" required>
+            </div>
+            <div class="mt-3">
+                <label class="form-label" style="font-weight: 500;">Subject</label>
+                <input type="text" name="subject" class="form-control shadow-none" required>
+            </div>
+            <div class="mt-3">
+                <label class="form-label" style="font-weight: 500;">Message</label>
+                <textarea class="form-control shadow-none" name="message" rows="5" style="resize: none;" required></textarea>
+            </div>
+            <button type="submit" style="background: #149ddd; border:0; padding: 10px 24px; color: #fff; transition: 0.4s; border-radius: 4px;" id="sendButton" onclick='sendMail()' class="btn-primary mt-3 outline shadow">SEND</button>
+         </form>         
+<!-- </div> -->
+</div>
+
+     </div>
+  </section>
+<!-- End Contact Section -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('user_RYevFp6mtIxGCcmTimhuP');
+        })();
+    </script>
+
+    <script type="text/javascript">
+     function sendMail() {
+          document.getElementById('contact-form').addEventListener('submit', function(event) {
+              event.preventDefault();
+              // This method is provided within documentation: https://www.emailjs.com/docs/sdk/send-form/
+              emailjs.sendForm('service_3n8xbix', "personal_website", '#contact-form')
+                  .then(function() {
+                      console.log('SUCCESS!');
+                      // Get the button element
+                      let success = document.getElementById("sendButton");
+                      // Get the contact-form
+                      let contactForm = document.getElementById('contact-form');
+                      // reset will clear the form
+                      contactForm.reset();
+                      // Underneath will change the html of the button to ay Successfully Sent if succesful
+                      success.innerHTML = "Successfully Sent";
+                      // Change the backgroundColor of the button if successful
+                      success.style.backgroundColor = "green";
+                      // Within 3 seconds, the page will reload
+                      setInterval(() => window.location.reload(true), 3000)
+                      // If there is an error, it will log "FAILED..., and console log the error"
+                  }, function(error) {
+                      console.log('FAILED...', error);
+                  });
+          });
+      }
+  </script> 
