@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get '/videos', to: 'videos#show'
   get '/calendar', to: 'events#calendar'
   get '/contact', to: 'users#contact'
+  get '/about', to: 'users#about'
 end

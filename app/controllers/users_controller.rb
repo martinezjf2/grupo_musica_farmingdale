@@ -8,5 +8,9 @@ class UsersController < ApplicationController
     
     end
 
+    def about
+
+    end
+
 
 end
