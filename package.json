@@ -10,12 +10,13 @@
     "browser": "^0.2.6",
     "jquery": "^3.6.4",
     "node-sass": "4.12.0",
+    "popper": "^1.0.1",
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "engines": {
-    "node": "12.22.12"
+    "node": "14.0.0"
   },
   "devDependencies": {
     "webpack-dev-server": "^4.13.3"
