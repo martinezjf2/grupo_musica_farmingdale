@@ -34,41 +34,7 @@
 </div>
 
      </div>
-  </section>
+  
 <!-- End Contact Section -->
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('user_RYevFp6mtIxGCcmTimhuP');
-        })();
-    </script>
-
-    <script type="text/javascript">
-     function sendMail() {
-          document.getElementById('contact-form').addEventListener('submit', function(event) {
-              event.preventDefault();
-              // This method is provided within documentation: https://www.emailjs.com/docs/sdk/send-form/
-              emailjs.sendForm('service_3n8xbix', "personal_website", '#contact-form')
-                  .then(function() {
-                      console.log('SUCCESS!');
-                      // Get the button element
-                      let success = document.getElementById("sendButton");
-                      // Get the contact-form
-                      let contactForm = document.getElementById('contact-form');
-                      // reset will clear the form
-                      contactForm.reset();
-                      // Underneath will change the html of the button to ay Successfully Sent if succesful
-                      success.innerHTML = "Successfully Sent";
-                      // Change the backgroundColor of the button if successful
-                      success.style.backgroundColor = "green";
-                      // Within 3 seconds, the page will reload
-                      setInterval(() => window.location.reload(true), 3000)
-                      // If there is an error, it will log "FAILED..., and console log the error"
-                  }, function(error) {
-                      console.log('FAILED...', error);
-                  });
-          });
-      }
-  </script> 
+</section>
