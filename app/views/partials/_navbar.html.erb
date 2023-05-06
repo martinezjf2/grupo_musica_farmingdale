@@ -1,24 +1,42 @@
 <nav class="navbar navbar-expand-xl bg-body-tertiary" id="navbar">
-    <div class="container-fluid inside-navbar overflow-auto">
-      <span><%= image_tag "logowhitedove.jpg", class: "logo" %></span><a class="navbar-brand" href="/">Seguidores de Jesus</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/videos">Videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/login">Log In</a>
-          </li>
-        </ul>
-      </div>
+  <div class="container-fluid inside-navbar overflow-auto">
+    <span><%= image_tag "logowhitedove.jpg", class: "logo" %></span
+    ><a class="navbar-brand" href="/">Seguidores de Jesus</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNavDropdown"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/videos">Videos</a>
+        </li>
+        <% if current_user %>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Log Out</a>
+        </li>
+        <% else %>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Log In</a>
+        </li>
+        <% end %>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
