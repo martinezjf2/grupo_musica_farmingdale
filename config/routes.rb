@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get '/calendar', to: 'events#calendar'
   get '/contact', to: 'users#contact'
   get '/about', to: 'users#about'
+  get '/events', to: 'users#events'
   get '/', to: 'users#index'
 end

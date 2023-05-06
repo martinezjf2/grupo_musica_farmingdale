@@ -46,9 +46,9 @@
 
 
 @media (min-width: 1480px) {
-    .footerWrap {
-        margin: 0px 240px
-    }
+    // .footerWrap {
+    //     margin: 0px 240px
+    // }
 }
   
 
@@ -107,6 +107,11 @@
     .valueImg iframe {
         display: none;
     }
+
+   div .mainDiv {
+    margin: 0px;
+    padding:0px;
+   }
 }
 
 

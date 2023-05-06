@@ -12,5 +12,9 @@ class UsersController < ApplicationController
 
     end
 
+    def events
+    end
+    
+
 
 end
