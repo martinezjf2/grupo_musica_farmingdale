@@ -31,7 +31,8 @@ ActiveRecord::Schema.define(version: 2023_05_02_134100) do
   create_table "members", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
-    t.string "favorite_bible_verse"
+    t.string "favorite_bible_verse_quote"
+    t.string "chapter"
     t.string "position"
     t.string "profile_image"
     t.datetime "created_at", precision: 6, null: false
