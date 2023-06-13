@@ -11,10 +11,6 @@ class MembersController < ApplicationController
     def about
 
     end
-
-    def events
-    end
     
-
 
 end

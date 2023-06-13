@@ -1,0 +1,13 @@
+<h3>(More information about individual event)</h3>
+<div>
+    <h2><%=@event.event_name%></h2>
+    <p>Date: <%=@event.event_date%>, Place: <%=@event.location%></p>
+    <p><%=@event.address%> <%=@event.city%> <%=@event.zip%></p>
+    <p>Mas Informaccion Contactar: <%=@event.phone_number%></p>
+    <p>Description: <%=@event.description%></p>
+    <% if current_user %>
+
+    <button>Edit Event</button>
+    <button>Delete Event</button>
+    <% end %>
+</div>

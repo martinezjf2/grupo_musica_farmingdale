@@ -1,0 +1,10 @@
+<h1>This is where we will render all the events</h1>
+
+<% @events.each do |event| %>
+
+<div>
+    <h2><%=event.event_name%></h2>
+    <p>Date: <%=event.event_date%>, Place: <%=event.location%></p>
+    <%= button_to "More Information", event_path(event), class: "login-button", method: :get %>
+</div>
+<% end %>

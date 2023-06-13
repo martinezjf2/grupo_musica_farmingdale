@@ -1,16 +1,21 @@
 class EventsController < ApplicationController
+    before_action :require_login, only: [:new, :edit, :update, :destroy]
+
     def calendar
 
     end
 
     def index
-        # demonstrate all events
         @events = Event.all
+    end
+
+    def show
+        @event = Event.find_by(id: params[:id])
     end
 
     def new
         # get request to make a new event
-        @event = Event.new()
+        @event = Event.new
     end
 
     def create
