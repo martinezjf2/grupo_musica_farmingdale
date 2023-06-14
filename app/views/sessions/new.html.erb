@@ -1,14 +1,21 @@
-<h1>login Page</h1>
 
-<div class="section">
+
+<div class="section textInputs">
   <div class="container-fluid newCourseForm">
-    <h3 class="welcomeBack">Welcome Back!</h3>
+    <h3 class="welcomeBack" style="text-align: center;">Welcome Back!</h3>
     <%= form_for :user, url: login_path do |f| %>
-    <div class="textInputs">
-      <%=f.text_field :username, class: "form-control Input", :placeholder => 'Enter Username' %> 
-      <%=f.password_field :password, class: "form-control Input", :placeholder => 'Enter Password' %>
-    </div>
-    <%=f.submit "LOG IN", class: "btn btn-lg btn-default loginButton" %> 
+    
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Username</label>
+        <%=f.text_field :username, class: "form-control Input", :placeholder =>'Enter Username' %>
+      </div>
+      
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Password</label>
+        <%=f.password_field :password, class: "form-control Input", :placeholder => 'Enter Password' %>
+      </div>
+    
+      <%=f.submit "LOG IN", class: "btn btn-lg btn-default loginButton" %> 
     <%end%>
   </div>
 </div>
