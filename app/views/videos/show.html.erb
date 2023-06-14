@@ -1,5 +1,6 @@
+<section id="events">
 <div id="videos-section">
-  <h2 id="videos-heading">Ven Y Goza Con Nosotros</h2>
+  <h2 id="videos-heading" class="text-white">Ven Y Goza Con Nosotros</h2>
   <div class="row">
     <!-- </div> -->
     <!-- <div id="videos"> -->
@@ -7,13 +8,13 @@
 
     <div class="col-lg-6">
       <div id="video">
-        <h3><%= video.name %></h3>
+        <h3 class="text-white"><%= video.name %></h3>
         <iframe
           src="<%= video.link_to_video %>"
           allowFullScreen
           title="<%= video.name %>"
         ></iframe>
-        <figcaption><%= video.date_created %></figcaption>
+        <figcaption class="text-white"><%= video.date_created %></figcaption>
       </div>
     </div>
 
@@ -21,3 +22,4 @@
 
   </div>
 </div>
+</section>

@@ -326,3 +326,18 @@
 .section {
  margin: 100px auto;
 }
+
+// Events Page
+
+#events {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(19, 0, 255, 1) 100%
+  );
+  border-radius: 0%;
+  width:auto;
+  margin: 0;
+}
