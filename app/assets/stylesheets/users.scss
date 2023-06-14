@@ -352,15 +352,15 @@
  box-sizing: border-box;
 }
 
-.compTestBox {
-  max-width: 888px;
-  position: relative;
-  margin: 60px auto;
-  color: #313131;
-  font-size: 1.125em;
-  font-weight: 100;
-  text-align: center;
-}
+// .compTestBox {
+//   max-width: 888px;
+//   position: relative;
+//   margin: 60px auto;
+//   color: #313131;
+//   font-size: 1.125em;
+//   font-weight: 100;
+//   text-align: center;
+// }
 
 .carousel-item {
   height: 180px;
@@ -371,5 +371,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  padding-bottom: 25px;
   text-align: center
+}
+
+#carousel h5 {
+  font-style: italic;
+  letter-spacing: 2px;
 }
