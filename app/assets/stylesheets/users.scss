@@ -341,3 +341,35 @@
   width:auto;
   margin: 0;
 }
+
+// Carousel
+
+#carousel {
+ background-color: #fff2c2;
+ padding: 30px 10px 50px;
+ margin: 0;
+ vertical-align: baseline;
+ box-sizing: border-box;
+}
+
+.compTestBox {
+  max-width: 888px;
+  position: relative;
+  margin: 60px auto;
+  color: #313131;
+  font-size: 1.125em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.carousel-item {
+  height: 180px;
+}
+
+#bible {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center
+}
