@@ -187,6 +187,14 @@
 
 /* Footer Section */
 
+footer {
+  position: absolute;
+  // bottom: 0;
+  // left: 0;
+  width: 100%;
+  clear: both;
+}
+
 .footer-section .card {
   
   background-color: rgb(13, 110, 253);
@@ -241,10 +249,6 @@
 //   padding-bottom: 20px;
 // }
 
-#carousel {
-  background-color: black;
-  padding: 10px 10rem 20px;
-}
 
 #ind-img-carousel {
   width: 88%;
@@ -277,12 +281,25 @@
 //Core Values
 
 .mainDiv {
-  width: 80%;
-  margin: 0px auto;
-  padding: 75px 100px;
-  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  // padding: 75px 100px;
+  // justify-content: center;
+  display: block;
 }
 
+.media {
+ display: block;
+ height: 800px;
+}
+
+.media-body {
+  // padding-right: 150px;
+  display: block;
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+}
 
 .valueImg {
   width: 100%;
@@ -303,10 +320,7 @@
 
 }
 
-.media-body {
-  padding-right: 150px;
-  text-align: left;
-}
+
 
 .float-child {
   width: 50%;
