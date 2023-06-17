@@ -12,5 +12,8 @@ class MembersController < ApplicationController
 
     end
     
+    def virtus
+
+    end
 
 end

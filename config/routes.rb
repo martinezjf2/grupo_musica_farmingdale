@@ -14,6 +14,8 @@ resources :events
   get '/login', to: 'sessions#new'
   get '/logout', to: 'sessions#destroy'
   get '/users/:id', to: 'members#index'
+  get '/virtus', to: 'members#virtus'
+  get '/documents/show', to: 'documents#show', as: :show_document
   
 
 
