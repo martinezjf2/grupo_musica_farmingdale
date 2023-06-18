@@ -179,9 +179,9 @@
 
 /* Navbar Component if link is selected */
 
-.selected {
-  color: blue;
-}
+// .selected {
+//   color: blue;
+// }
 
 /* Do the same thing as the categories lab with a ternary expression. If the category is seleted, then add the classname to be selected, else empty string */
 
@@ -234,6 +234,11 @@ footer {
   padding-bottom: 10px;
   width: 50%;
   margin: 0 auto;
+}
+
+.footer-section a:hover {
+  // color: green;
+  background-color:rgb(13, 110, 253)
 }
 
 
