@@ -1,0 +1,43 @@
+.daily-word {
+    // width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(19, 0, 255, 1) 100%
+  );
+  border-radius: 0%;
+  width:auto;
+  
+}
+
+.all-content {
+    
+}
+
+.body-evan {
+    margin-bottom: 0;
+    font-size: 20px;
+
+}
+
+.evan-title {
+    padding-bottom: 10px;
+
+}
+
+.evan-date {
+// font-size: 20px;
+font-weight: 400;
+}
+
+.evan-body {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}

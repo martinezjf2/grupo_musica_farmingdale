@@ -1,9 +1,14 @@
+<section class="daily-word">
+  <div class="container all-content">
+    <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+        <h2 id="videos-heading" class="text-white">Lectura del Dia: <span class="evan-date"><%= @current_date%></span></h2>
+    </div>
 
-
-
-
-
-<h2>Lectura del Dia</h2>
-<h4><%= @current_date%></h4>
-<h5><%= @evan_title %> - <%= @evan_verse %></h5>
-<p><%= @body %></p>
+    <div>
+      <h4 class="evan-title"><%= @evan_title %> - <%= @evan_verse %></h4>
+    </div>
+    <div>
+      <p class="evan-body"><%= @body %></p>
+    </div>
+  </div>
+</section>
