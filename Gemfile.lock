@@ -198,6 +198,7 @@ DEPENDENCIES
   byebug
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  nokogiri (~> 1.14)
   pg (>= 0.18, < 2.0)
   psych (< 4)
   puma (~> 4.1)

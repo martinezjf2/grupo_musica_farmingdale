@@ -16,6 +16,7 @@ resources :events
   get '/users/:id', to: 'members#index'
   get '/virtus', to: 'members#virtus'
   get '/documents/show', to: 'documents#show', as: :show_document
+  get '/dailyword', to: 'scraping#dailyword'
   
 
 
