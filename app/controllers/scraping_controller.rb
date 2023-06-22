@@ -3,7 +3,7 @@ require 'net/http'
 class ScrapingController < ApplicationController
 
     def dailyword
-        url = URI.parse('https://bible.usccb.org/es/lectura-diaria-biblia')
+        url = URI.parse('https://evangeli.net/evangelio')
         http = Net::HTTP.new(url.host, url.port)
         http.use_ssl = true if url.scheme == 'https'
 
@@ -12,10 +12,14 @@ class ScrapingController < ApplicationController
         if response.code == '200'
             html_content = response.body
             doc = Nokogiri::HTML(html_content)
-            @current_date = doc.css('time')[0].content
-            @evan_title = doc.css('.name')[3].content
-            @evan_verse = doc.css('.address')[3].content
-            @body = doc.css('.content-body')[3].content
+            
+            date = Date.current
+            @current_date = date.strftime("%B %e, %Y")
+            
+            @evan_text = doc.css('.evangeli_text')[0].content
+            @evan_comment = doc.css('.comentari_evangeli')[0].content
+            @autor_name = doc.css('.autor_name')[0].content
+            @evan_thoughts = doc.css('.thoughts_wrapper')[0].content
 
             render 'members/dailyword'
         

@@ -1,14 +1,40 @@
 <section class="daily-word">
   <div class="container all-content">
-    <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
-        <h2 id="videos-heading" class="text-white">Lectura del Dia: <span class="evan-date"><%= @current_date%></span></h2>
+    <div
+      style="width: 50%; margin: 0px auto; padding: 20px; text-align: center"
+    >
+      <h2 id="videos-heading" class="text-white">
+        Evangelio del Dia: <span class="evan-date"><%= @current_date%></span>
+      </h2>
     </div>
 
     <div>
-      <h4 class="evan-title"><%= @evan_title %> - <%= @evan_verse %></h4>
+      <p class="evan-body"><%= @evan_text %></p>
+    </div>
+
+    <div
+      style="width: 50%; margin: 0px auto; padding: 20px; text-align: center"
+    >
+      <h2 id="videos-heading" class="text-white">
+        Commentarios </h2>
+    </div>
+
+    <div>
+      <p class="evan-body"><%= @evan_comment %></p>
     </div>
     <div>
-      <p class="evan-body"><%= @body %></p>
+      <p class="autor">-<%= @autor_name %></p>
+    </div>
+
+
+    <div style="margin: 0px auto;">
+    <h2 id="" class="text-white" style="text-align: left;">
+      Pensamientos
+    </h2>
+  </div>
+
+    <div>
+      <p class="pensamientos"><%= @evan_thoughts %></p>
     </div>
   </div>
 </section>
