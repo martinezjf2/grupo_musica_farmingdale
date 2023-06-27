@@ -13,6 +13,7 @@
         <% if current_user %>
             <a href="#" class="card-link">Edit Event</a>
             <a href="#" class="card-link">Delete Event</a>
+            <%= link_to 'Delete Event', event_path(@event), method: :delete, data: { confirm: 'Are you sure?' } %>
         <% end %>
 
     </div>

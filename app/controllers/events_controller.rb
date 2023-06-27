@@ -39,6 +39,7 @@ class EventsController < ApplicationController
         # delete request to delete the event
         @event = Event.find_by(id: params[:id])
         @event.destroy
+        redirect_to events_path, sucess: "Event deleted successfully."
     end
 
     private
