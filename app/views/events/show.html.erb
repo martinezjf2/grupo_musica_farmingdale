@@ -3,7 +3,7 @@
     <h2 id="videos-heading" class="text-white"><%=@event.event_name%></h2>
 </div>
 <div class="card" style="width: 800px; margin:20px auto;">
-    <%= image_tag "assamblea.jpg", class: "card-img-top", width: "100", alt: "" %>
+    <%= image_tag @event.image, class: "card-img-top", width: "100", alt: "" %>
     <div class="card-body">
         <h5 class="card-title"><%=@event.event_date%>, Place: <%=@event.location%></h5>
         <h6 class="card-subtitle mb-2 text-body-secondary"><%=@event.address%>, <%=@event.city%> <%=@event.zip%>, Phone: <%=@event.phone_number%></h6>
@@ -12,7 +12,6 @@
 
         <% if current_user %>
             <a href="#" class="card-link">Edit Event</a>
-            <a href="#" class="card-link">Delete Event</a>
             <%= link_to 'Delete Event', event_path(@event), method: :delete, data: { confirm: 'Are you sure?' } %>
         <% end %>
 

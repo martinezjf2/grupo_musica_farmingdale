@@ -9,6 +9,7 @@ class CreateEvents < ActiveRecord::Migration[6.0]
       t.string :city
       t.string :phone_number
       t.string :zip
+      t.string :image
       t.timestamps
     end
   end

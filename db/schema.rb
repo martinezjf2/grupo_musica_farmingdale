@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2023_05_06_163729) do
     t.string "city"
     t.string "phone_number"
     t.string "zip"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

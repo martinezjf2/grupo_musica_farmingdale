@@ -6,7 +6,7 @@
 <% if @events %>
 <% @events.each do |event| %>
 <div class="card" style="width: 800px; margin:20px auto;">
-    <%= image_tag "assamblea.jpg", class: "card-img-top", width: "100", alt: "" %>
+    <%= image_tag event.image, class: "card-img-top", width: "100", alt: "" %>
     <div class="card-body">
         <h2><strong><%=event.event_name%></strong>, <span><%=event.event_date%></span></h2>
         <h5 class="card-title">Location: <%=event.location%></h5>
