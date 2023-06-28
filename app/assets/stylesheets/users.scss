@@ -232,7 +232,7 @@ footer {
   font-weight: bold;
   letter-spacing: 0.08rem;
   padding-bottom: 10px;
-  width: 50%;
+  // width: 50%;
   margin: 0 auto;
 }
 
@@ -397,4 +397,13 @@ footer {
 #carousel h5 {
   font-style: italic;
   letter-spacing: 2px;
+}
+
+
+// Address on Footer
+
+.address {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 0.08rem;
 }
