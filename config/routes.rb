@@ -17,11 +17,13 @@ resources :events
   get '/virtus', to: 'members#virtus'
   get '/documents/show', to: 'documents#show', as: :show_document
   get '/dailyword', to: 'scraping#dailyword'
+
   
 
 
   # Post Requests
   post '/login', to: 'sessions#create'
+  post '/events/new', to: 'events#create'
 
   # Delete Requests
   delete '/logout', to: 'sessions#destroy'

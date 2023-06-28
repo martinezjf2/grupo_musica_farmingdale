@@ -5,7 +5,7 @@
 <div class="card" style="width: 800px; margin:20px auto;">
     <%= image_tag @event.image, class: "card-img-top", width: "100", alt: "" %>
     <div class="card-body">
-        <h5 class="card-title"><%=@event.event_date%>, Place: <%=@event.location%></h5>
+        <h5 class="card-title"><%=@event.event_date%>, Place: <%=@event.location%>, Hora: <%=@event.event_start_time%> - <%=@event.event_end_time%></h5>
         <h6 class="card-subtitle mb-2 text-body-secondary"><%=@event.address%>, <%=@event.city%> <%=@event.zip%>, Phone: <%=@event.phone_number%></h6>
         <p class="card-text"><%=@event.description%></p>
 
