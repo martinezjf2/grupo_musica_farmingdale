@@ -12,11 +12,18 @@
       <p class="evan-body"><%= @evan_text %></p>
     </div>
 
+    <audio controls>
+      <source
+        src="https://evangeli.net/_mp3/daily/es/IV_111.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
     <div
       style="width: 50%; margin: 0px auto; padding: 20px; text-align: center"
     >
-      <h2 id="videos-heading" class="text-white">
-        Commentarios </h2>
+      <h2 id="videos-heading" class="text-white">Commentarios</h2>
     </div>
 
     <div>
@@ -26,12 +33,9 @@
       <p class="autor">-<%= @autor_name %></p>
     </div>
 
-
-    <div style="margin: 0px auto;">
-    <h2 id="" class="text-white" style="text-align: left;">
-      Pensamientos
-    </h2>
-  </div>
+    <div style="margin: 0px auto">
+      <h2 id="" class="text-white" style="text-align: left">Pensamientos</h2>
+    </div>
 
     <div>
       <p class="pensamientos"><%= @evan_thoughts %></p>
@@ -39,4 +43,3 @@
 
   </div>
 </section>
-
