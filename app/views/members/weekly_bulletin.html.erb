@@ -1,16 +1,23 @@
 
 
-<!-- <%= @name %> -->
-<!-- <%= @href %> -->
-<!-- <%= @img_src %> -->
-<!-- <%= @alt_picture %> -->
-<!-- <%= @source %> -->
 
-<a href="<%= @href %>"><h1><%= @name %></h1></a>
-<a href="<%= @href %>">
-<picture> 
-    <source type="image/webp" srcset="<%=@source%>"> 
-    <img alt="<%=@alt_picture%>" src="<%=@img_src%>"> 
-</source>
-</picture>
-</a> 
+
+
+
+<section id="events" style="padding-bottom:50px;">
+
+    <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+        <h2 id="videos-heading" class="text-white">Bulletin Semanal de Nuestra Parroquia</h2>
+        <a style="text-decoration: none;" href="<%= @href %>"><h1 id="videos-heading a-bulletin" class="text-white"><%= @name %></h1></a>
+    </div>
+
+    <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+        <a href="<%= @href %>">
+            <picture> 
+                <source type="image/webp" srcset="<%= @source %>"> 
+                <img width="600px" alt="<%= @alt_picture %>" src="<%= @img_src %>"> 
+            </source>
+            </picture>
+            </a> 
+    </div>
+</section>
