@@ -1,1 +1,16 @@
-<h1>This is for the weekly bulletin</h1>
+
+
+<!-- <%= @name %> -->
+<!-- <%= @href %> -->
+<!-- <%= @img_src %> -->
+<!-- <%= @alt_picture %> -->
+<!-- <%= @source %> -->
+
+<a href="<%= @href %>"><h1><%= @name %></h1></a>
+<a href="<%= @href %>">
+<picture> 
+    <source type="image/webp" srcset="<%=@source%>"> 
+    <img alt="<%=@alt_picture%>" src="<%=@img_src%>"> 
+</source>
+</picture>
+</a> 

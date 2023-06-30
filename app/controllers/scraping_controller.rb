@@ -32,8 +32,32 @@ class ScrapingController < ApplicationController
 
 
     def weekly_bulletin
+        url = URI.parse('https://stkilian.com/bulletins')
+        http = Net::HTTP.new(url.host, url.port)
+        http.use_ssl = true if url.scheme == 'https'
 
-        render 'members/weekly_bulletin'
+        response = http.get(url.path)
+
+        if response.code == '200'
+            html_content = response.body
+            doc = Nokogiri::HTML(html_content)
+            
+            @name = doc.css('.bulletinName')[1].content
+            @href = doc.css('.bulletinName a')[1]['href']
+            @img_src = doc.css('.bulletinName picture img')[0]['src']
+            @alt_picture = doc.css('.bulletinName picture img')[0]['alt']
+            @source = doc.css('.bulletinName picture source')[0]['srcset']
+
+
+
+            
+
+            render 'members/weekly_bulletin'
+        
+        else
+            render plain: "Error: #{response.code} #{response.message}"
+        end
+        
     end
 
 end
