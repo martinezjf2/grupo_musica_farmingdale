@@ -14,9 +14,10 @@
 
     <audio controls>
       <source
-        src="https://evangeli.net/_mp3/daily/es/IV_111.mp3"
+        src="<%= @listen %>"
         type="audio/mpeg"
       />
+      <!-- https://evangeli.net/_mp3/daily/es/IV_111.mp3 -->
       Your browser does not support the audio element.
     </audio>
 
@@ -39,6 +40,10 @@
 
     <div>
       <p class="pensamientos"><%= @evan_thoughts %></p>
+    </div>
+
+    <div>
+      <p class="pensamientos"><%= @listen %></p>
     </div>
 
   </div>

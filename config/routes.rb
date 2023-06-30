@@ -17,6 +17,8 @@ resources :events
   get '/virtus', to: 'members#virtus'
   get '/documents/show', to: 'documents#show', as: :show_document
   get '/dailyword', to: 'scraping#dailyword'
+  get '/weekly_bulletin', to: 'scraping#weekly_bulletin'
+
 
   
 

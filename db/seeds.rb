@@ -14,7 +14,6 @@
 # john = Member.create(first_name: "Johnathan", last_name: "M", favorite_bible_verse_quote:"", chapter:"", position: "Drummer and Bass", profile_image:"john.png")
 # rosali = Member.create(first_name: "Rosali", last_name: "M", favorite_bible_verse_quote:"", chapter:"", position: "Equipment Specialist", profile_image:"rosali.png")
 # fermina = Member.create(first_name: "Fermina", last_name: "M", favorite_bible_verse_quote:"", chapter:"", position: "Singer", profile_image:"fermina.png")
-# joseph = Member.create(first_name: "", last_name: "", favorite_bible_verse_quote:"", chapter:"", position: "", profile_image:"")
 
 # Events: Event.create(event_name: "", event_date: "", location: "", description: "", address: "", city: "", phone_number: "", zip:"")
 # event_1 = Event.create(event_name: "Grupo de Oracion", event_date: "2023-06-28", event_start_time:"18:30", event_end_time:"21:00", location: "St.Kilian Church", description: "Ut ornare lectus sit amet est placerat in egestas. Sit amet nisl suscipit adipiscing bibendum est. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Interdum varius sit amet mattis. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Sagittis vitae et leo duis ut diam quam. Cras fermentum odio eu feugiat pretium nibh ipsum. Tincidunt vitae semper quis lectus nulla. Convallis convallis tellus id interdum velit laoreet id donec. Placerat vestibulum lectus mauris ultrices eros. Id ornare arcu odio ut sem nulla pharetra. Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices.", address: "123 Apple St", city: "Farmingdale", phone_number: "6311737373", zip:"11735", image: "https://www.nacion.com/resizer/YeXzAo3P9OxrKgCLrJdyYk6liT8=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/gruponacion/EATOMBZLWVETDG45SIKFAFDARM.JPG")
@@ -30,12 +29,12 @@
 
 
 # Videos: Video.create(name: "", link_to_video: "", date_created: "")
-video_1 = Video.create(name: "Canciones Navideñas", link_to_video: "https://www.youtube.com/embed/01jnClnzO2c", date_created: "January 5, 2023")
-video_2 = Video.create(name: "La Unica Razon", link_to_video: "https://www.youtube.com/embed/1PWTbCcNdrU", date_created: "December 4, 2022")
-video_3 = Video.create(name: "Ya No Soy Esclavo", link_to_video: "https://www.youtube.com/embed/wlZAtiAJAZI", date_created: "December 4, 2022")
-video_4 = Video.create(name: "Jesus Mirame", link_to_video: "https://www.youtube.com/embed/9Gwil-bhVUY", date_created: "Septiembre 29, 2022")
-video_5 = Video.create(name: "El Borracho Y Cantinero", link_to_video: "https://www.youtube.com/embed/cg3gFfJwKTY", date_created: "Septiembre 29, 2022")
-video_6 = Video.create(name: "Los Que Esperan en Jesus", link_to_video: "https://www.youtube.com/embed/lGsWlo2NBhI", date_created: "July 17, 2022")
+# video_1 = Video.create(name: "Canciones Navideñas", link_to_video: "https://www.youtube.com/embed/01jnClnzO2c", date_created: "January 5, 2023")
+# video_2 = Video.create(name: "La Unica Razon", link_to_video: "https://www.youtube.com/embed/1PWTbCcNdrU", date_created: "December 4, 2022")
+# video_3 = Video.create(name: "Ya No Soy Esclavo", link_to_video: "https://www.youtube.com/embed/wlZAtiAJAZI", date_created: "December 4, 2022")
+# video_4 = Video.create(name: "Jesus Mirame", link_to_video: "https://www.youtube.com/embed/9Gwil-bhVUY", date_created: "Septiembre 29, 2022")
+# video_5 = Video.create(name: "El Borracho Y Cantinero", link_to_video: "https://www.youtube.com/embed/cg3gFfJwKTY", date_created: "Septiembre 29, 2022")
+# video_6 = Video.create(name: "Los Que Esperan en Jesus", link_to_video: "https://www.youtube.com/embed/lGsWlo2NBhI", date_created: "July 17, 2022")
 # video_7 = Video.create(name: "", link_to_video: "", date_created: "")
 # video_8 = Video.create(name: "", link_to_video: "", date_created: "")
 
@@ -54,4 +53,4 @@ video_6 = Video.create(name: "Los Que Esperan en Jesus", link_to_video: "https:/
 
 
 # Seed for Users Table
-jeffrey = User.create(username: "martinezjf2", password: "abcde")
+# jeffrey = User.create(username: "martinezjf2", password: "abcde")

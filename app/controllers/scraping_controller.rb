@@ -20,6 +20,7 @@ class ScrapingController < ApplicationController
             @evan_comment = doc.css('.comentari_evangeli')[0].content
             @autor_name = doc.css('.autor_name')[0].content
             @evan_thoughts = doc.css('.thoughts_wrapper')[0].content
+            # Fix this @listen, it is not updating the href link
             @listen = doc.css('.listen')[0]['href']
 
             render 'members/dailyword'
@@ -28,4 +29,11 @@ class ScrapingController < ApplicationController
             render plain: "Error: #{response.code} #{response.message}"
         end
     end
+
+
+    def weekly_bulletin
+
+        render 'members/weekly_bulletin'
+    end
+
 end
