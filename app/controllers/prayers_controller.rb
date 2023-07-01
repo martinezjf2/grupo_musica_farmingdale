@@ -1,12 +1,12 @@
-class VideosController < ApplicationController
-
+class PrayersController < ApplicationController
+    
+    def index
+    end
 
     def show
-        @videos = Video.all
     end
 
     def new
-
     end
 
     def create
@@ -15,7 +15,5 @@ class VideosController < ApplicationController
     def destroy
     end
 
-    
 
-    
 end

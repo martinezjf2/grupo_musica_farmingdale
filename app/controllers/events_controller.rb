@@ -14,12 +14,10 @@ class EventsController < ApplicationController
     end
 
     def new
-        # get request to make a new event
         @event = Event.new
     end
 
     def create
-        # post request to make a new event
         @event = Event.new(event_params)
         if @event.save
             redirect_to event_path(@event), success: "Evento añadido con éxito"
@@ -41,7 +39,6 @@ class EventsController < ApplicationController
     end
 
     def destroy
-        # delete request to delete the event
         @event = Event.find_by(id: params[:id])
         @event.destroy
         redirect_to events_path, success: "El Evento se ah eliminado con exito."
