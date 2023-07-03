@@ -1,4 +1,6 @@
 require 'net/http'
+require 'dotenv/load'
+
 
 class ScrapingController < ApplicationController
 
