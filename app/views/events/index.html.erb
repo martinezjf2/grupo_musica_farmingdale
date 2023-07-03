@@ -7,7 +7,7 @@
 </div>
 
 
-
+<% if !@events.blank? %>
 <% @events.each do |event| %>
 <div class="card" style="width: 800px; margin:20px auto;">
     <%= image_tag event.image, class: "card-img-top", width: "100", alt: "" %>
@@ -20,6 +20,11 @@
         <%= button_to "More Information", event_path(event), class: "login-button btn btn-primary", method: :get %>
     </div>
   </div>
+<% end %>
+<% else %>
+<div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+    <h2 id="videos-heading" class="text-white">No hay eventos en este momento</h2>
+</div>
 <% end %>
 </section>
 
