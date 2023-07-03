@@ -18,14 +18,12 @@ resources :events
   get '/documents/show', to: 'documents#show', as: :show_document
   get '/dailyword', to: 'scraping#dailyword'
   get '/weekly_bulletin', to: 'scraping#weekly_bulletin'
-
-
-  
-
+  get '/videos/new', to: 'videos#new'
 
   # Post Requests
   post '/login', to: 'sessions#create'
   post '/events/new', to: 'events#create'
+  post '/videos/new', to: 'videos#create'
 
   # Delete Requests
   delete '/logout', to: 'sessions#destroy'

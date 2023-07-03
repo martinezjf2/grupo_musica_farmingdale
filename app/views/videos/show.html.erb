@@ -1,6 +1,17 @@
 <section id="events">
+
+  <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+    <h2 id="videos-heading" class="text-white">Ven Y Goza Con Nosotros</h2>
+    <% if current_user %>
+    <%= link_to 'Add New Video', videos_new_path, class: "btn btn-primary"%>
+    <% end %>
+  </div>
+
 <div id="videos-section">
-  <h2 id="videos-heading" class="text-white">Ven Y Goza Con Nosotros</h2>
+
+    
+
+
   <div class="row">
     <!-- </div> -->
     <!-- <div id="videos"> -->
