@@ -1,2 +1,2 @@
-web: bundle exec dotenv -f Procfile.env rails server -p $PORT
+web: rails server
 release: bundle exec rails db:migrate
