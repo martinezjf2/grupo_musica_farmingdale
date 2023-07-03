@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+require 'dotenv/load'
+
 # Members: Member.create(first_name: "", last_name: "", favorite_bible_verse_quote:"", chapter:"", position: "", profile_image:"")
 # jeffrey = Member.create(first_name: "Jeffrey", last_name: "M", favorite_bible_verse_quote:"", chapter:"", position: "Live Sound and Software", profile_image:"jeffrey.png")
 # jorge = Member.create(first_name: "Jorge", last_name: "V", favorite_bible_verse_quote:"", chapter:"", position: "Singer", profile_image:"jorge.png")
@@ -53,4 +55,4 @@
 
 
 # Seed for Users Table
-# jeffrey = User.create(username: "martinezjf2", password: "abcde")
+# jeffrey = User.create(username: ENV['JEFF_USERNAME'], password: ENV['JEFF_PASSWORD'])
