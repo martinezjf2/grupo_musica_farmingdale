@@ -1,9 +1,11 @@
 require 'net/http'
+require 'dotenv/load'
+
 
 class ScrapingController < ApplicationController
 
     def dailyword
-        url = URI.parse('https://evangeli.net/evangelio')
+        url = URI.parse(ENV['API_WORD_OF_DAY'])
         http = Net::HTTP.new(url.host, url.port)
         http.use_ssl = true if url.scheme == 'https'
 
@@ -31,7 +33,7 @@ class ScrapingController < ApplicationController
 
 
     def weekly_bulletin
-        url = URI.parse('https://stkilian.com/bulletins')
+        url = URI.parse(ENV['API_BULLETIN'])
         http = Net::HTTP.new(url.host, url.port)
         http.use_ssl = true if url.scheme == 'https'
 
