@@ -2,12 +2,16 @@
 <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
     <h2 id="videos-heading" class="text-white"><%=@event.event_name%></h2>
 </div>
-<div class="card" style="width: 800px; margin:20px auto;">
+<div class="card text-center" style="width: 800px; margin:20px auto;">
     <%= image_tag @event.image, class: "card-img-top", width: "100", alt: "" %>
     <div class="card-body">
-        <h5 class="card-title"><%=@event.event_date.strftime("%A, %B %d, %Y") %>, Place: <%=@event.location%>, Hora: <%=@event.event_start_time.strftime("%I:%M %p") %> - <%=@event.event_end_time.strftime("%I:%M %p") %></h5>
-        <h6 class="card-subtitle mb-2 text-body-secondary"><%=@event.address%>, <%=@event.city%> <%=@event.zip%>, Phone: <%=@event.phone_number%></h6>
-        <p class="card-text"><%=@event.description%></p>
+
+
+        <h3><%= @event.event_name%></h3>
+        <h4><%= @event.event_date.strftime("%A, %B %d, %Y")%></h4>
+        <h6 class="card-text"><%= @event.event_start_time.strftime("%I:%M %p")%> - <%= @event.event_end_time.strftime("%I:%M %p") %></h6>
+        <h6 class="card-text">(<%= @event.location%>) <%= @event.address%>, <%= @event.city%> <%= @event.zip%>, Phone: <%= @event.phone_number%></h6>
+        <p class="card-text"><%= @event.description[0..100]%>... </p>
 
 
         <% if current_user %>
