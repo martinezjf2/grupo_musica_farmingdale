@@ -29,7 +29,7 @@
         </li>
         <% if current_user %>
         <li class="nav-item">
-          <a class="nav-link" href="/logout">Log Out</a>
+          <a class="nav-link" onclick="return confirm('Are you sure you want to proceed?')" href="/logout">Log Out</a>
         </li>
         <% else %>
         <li class="nav-item">
