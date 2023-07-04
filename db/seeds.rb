@@ -25,12 +25,12 @@ event_3 = Event.create(event_name: "Vigilia de Servidores", event_date: "2023-06
 
 
 # Videos: Video.create(name: "", link_to_video: "", date_created: "")
-video_1 = Video.create(name: "Canciones Navideñas", link_to_video: "https://www.youtube.com/embed/01jnClnzO2c", date_created: "2023-01-05")
-video_2 = Video.create(name: "La Unica Razon", link_to_video: "https://www.youtube.com/embed/1PWTbCcNdrU", date_created: "2022-12-04")
-video_3 = Video.create(name: "Ya No Soy Esclavo", link_to_video: "https://www.youtube.com/embed/wlZAtiAJAZI", date_created: "2022-12-04")
-video_4 = Video.create(name: "Jesus Mirame", link_to_video: "https://www.youtube.com/embed/9Gwil-bhVUY", date_created: "2022-09-29")
-video_5 = Video.create(name: "El Borracho Y Cantinero", link_to_video: "https://www.youtube.com/embed/cg3gFfJwKTY", date_created: "2022-09-29")
-video_6 = Video.create(name: "Los Que Esperan en Jesus", link_to_video: "https://www.youtube.com/embed/lGsWlo2NBhI", date_created: "2022-07-12")
+# video_1 = Video.create(name: "Canciones Navideñas", link_to_video: "https://www.youtube.com/embed/01jnClnzO2c", date_created: "2023-01-05")
+# video_2 = Video.create(name: "La Unica Razon", link_to_video: "https://www.youtube.com/embed/1PWTbCcNdrU", date_created: "2022-12-04")
+# video_3 = Video.create(name: "Ya No Soy Esclavo", link_to_video: "https://www.youtube.com/embed/wlZAtiAJAZI", date_created: "2022-12-04")
+# video_4 = Video.create(name: "Jesus Mirame", link_to_video: "https://www.youtube.com/embed/9Gwil-bhVUY", date_created: "2022-09-29")
+# video_5 = Video.create(name: "El Borracho Y Cantinero", link_to_video: "https://www.youtube.com/embed/cg3gFfJwKTY", date_created: "2022-09-29")
+# video_6 = Video.create(name: "Los Que Esperan en Jesus", link_to_video: "https://www.youtube.com/embed/lGsWlo2NBhI", date_created: "2022-07-12")
 # video_7 = Video.create(name: "", link_to_video: "", date_created: "")
 # video_8 = Video.create(name: "", link_to_video: "", date_created: "")
 
