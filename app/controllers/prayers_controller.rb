@@ -1,6 +1,7 @@
 class PrayersController < ApplicationController
     
     def index
+        
     end
 
     def show

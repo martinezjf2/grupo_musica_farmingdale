@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 resources :users
 resources :events
 resources :videos
+resources :prayers
   # Home/Root Route
   root to: 'members#index'
 
