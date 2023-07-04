@@ -49,4 +49,4 @@ require 'dotenv/load'
 
 
 # Seed for Users Table
-# jeffrey = User.create(username: ENV['JEFF_USERNAME'], password: ENV['JEFF_PASSWORD'])
+jeffrey = User.create(username: ENV['JEFF_USERNAME'], password: ENV['JEFF_PASSWORD'])
