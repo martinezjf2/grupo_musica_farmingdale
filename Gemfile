@@ -50,4 +50,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "nokogiri", "~> 1.14"
 
 gem 'dotenv-rails', groups: [:development, :test]
-gem 'dotenv'
+gem 'dotenv', '~> 2.7', require: 'dotenv/load'
