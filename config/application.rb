@@ -1,4 +1,6 @@
 require_relative 'boot'
+require 'dotenv/load' if File.exist?('.env')
+
 
 require "rails"
 # Pick the frameworks you want:
