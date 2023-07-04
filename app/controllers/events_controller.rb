@@ -22,19 +22,21 @@ class EventsController < ApplicationController
         if @event.save
             redirect_to event_path(@event), success: "Evento añadido con éxito"
         else
-            redirect_to new_event_path, warning: "El evento NO se agregó con éxito"
+            redirect_to new_event_path, danger: "El evento NO se agregó con éxito"
         end
     end
     
     def edit
-        # get request to find the event
         @event = Event.find_by(id: params[:id])
     end
 
     def update
-        # patch request to edit the event
-        @event = Event.find_by(id: params[:id])
-        @event.update()
+        @event = Event.find(params[:id])
+        if @event.update(event_params)
+            redirect_to event_path(@event), success: "El evento se editado con éxito"
+        else
+            redirect_to edit_event_path(@event), danger: "El evento NO se edito con éxito"
+        end
 
     end
 
