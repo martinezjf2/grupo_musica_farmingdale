@@ -1,68 +1,68 @@
 
 <div class="section textInputs">
     <div class="container-fluid newCourseForm">
-      <h3 class="welcomeBack" style="text-align: center;">Agregar Nuevo Evento</h3>
+      <h3 class="welcomeBack" style="text-align: center;">Editar Evento</h3>
       <%= form_for @event, url: event_path(@event) do |f| %>
       
         
         <div class="mb-3">
           <%= f.label :event_name, 'Nombre del Evento', class: "form-label" %>
-          <%=f.text_field :event_name, class: "form-control Input", :placeholder => 'Ingrese Nombre de Evento', value: f.object.event_name %>
+          <%= f.text_field :event_name, class: "form-control Input", :placeholder => 'Ingrese Nombre de Evento', value: f.object.event_name %>
         </div>
 
         <div class="mb-3">
             <%= f.label :event_date, 'Fecha del Evento', class: "form-label" %>
-            <%=f.date_field :event_date, class: "form-control Input", :placeholder => 'Ingrese Fecha del Evento' %>
+            <%= f.date_field :event_date, class: "form-control Input", :placeholder => 'Ingrese Fecha del Evento', value: f.object.event_date %>
           </div>
 
           <div class="mb-3">
             <%= f.label :event_start_time, 'Hora Que Comienza Evento', class: "form-label" %>
-            <%=f.time_field :event_start_time, class: "form-control Input" %>
+            <%= f.time_field :event_start_time, class: "form-control Input", value: f.object.event_start_time  %>
           </div>
 
           <div class="mb-3">
             <%= f.label :event_end_time, 'Hora Que Termina Evento', class: "form-label" %>
-            <%=f.time_field :event_end_time, class: "form-control Input"%>
+            <%= f.time_field :event_end_time, class: "form-control Input", value: f.object.event_end_time %>
           </div>
 
           <div class="mb-3">
             <%= f.label :location, 'Lugar (Gymnasio, Iglesia de ...)', class: "form-label" %>
-            <%=f.text_field :location, class: "form-control Input", :placeholder => 'Ingrese donde sera el evento. En el gymnasio, en la cafeteria, en la Iglesia, etc..' %>
+            <%= f.text_field :location, class: "form-control Input", :placeholder => 'Ingrese donde sera el evento. En el gymnasio, en la cafeteria, en la Iglesia, etc..', value: f.object.location  %>
           </div>
 
           
           <div class="mb-3">
             <%= f.label :address, 'Direccion', class: "form-label" %>
-            <%=f.text_field :address, class: "form-control Input", :placeholder => 'Ingrese Direccion' %>
+            <%= f.text_field :address, class: "form-control Input", :placeholder => 'Ingrese Direccion', value: f.object.address  %>
           </div>
 
           <div class="mb-3">
             <%= f.label :city, 'Cuidad', class: "form-label" %>
-            <%=f.text_field :city, class: "form-control Input", :placeholder => 'Ingrese Cuidad' %>
+            <%= f.text_field :city, class: "form-control Input", :placeholder => 'Ingrese Cuidad', value: f.object.city  %>
           </div>
 
           <div class="mb-3">
             <%= f.label :phone_number, 'Numero de Telefono', class: "form-label" %>
-            <%=f.text_field :phone_number, class: "form-control Input", :placeholder => 'Ingrese Numero de Telefono' %>
+            <%= f.text_field :phone_number, class: "form-control Input", :placeholder => 'Ingrese Numero de Telefono', value: f.object.phone_number  %>
           </div>
 
           <div class="mb-3">
             <%= f.label :zip, 'Codigo Postal', class: "form-label" %>
-            <%=f.text_field :zip, class: "form-control Input", :placeholder => 'Ingrese Codigo Postal' %>
+            <%= f.text_field :zip, class: "form-control Input", :placeholder => 'Ingrese Codigo Postal', value: f.object.zip  %>
           </div>
 
           <div class="mb-3">
             <%= f.label :image, 'Imagen por URL', class: "form-label" %>
-            <%=f.text_field :image, class: "form-control Input", :placeholder => 'Ingrese URL de foto' %>
+            <%= f.text_field :image, class: "form-control Input", :placeholder => 'Ingrese URL de foto', value: f.object.image  %>
           </div>
 
           <div class="mb-3">
             <%= f.label :description, 'Descripción', class: "form-label" %>
-            <%=f.text_area :description, class: "form-control Input", :placeholder => 'Ingrese Descripción' %>
+            <%= f.text_area :description, class: "form-control Input", :placeholder => 'Ingrese Descripción', value: f.object.description  %>
           </div>
 
       
-        <%=f.submit "AGREGAR", class: "btn btn-lg btn-default loginButton" %> 
+          <%= f.submit "AGREGAR", class: "btn btn-lg btn-default loginButton" %> 
       <%end%>
     </div>
   </div>

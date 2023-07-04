@@ -3,6 +3,8 @@
     <div class="container-fluid newCourseForm">
       <h3 class="welcomeBack" style="text-align: center;">Agregar Nuevo Video</h3>
 
+
+
       <%= form_for :video, url: videos_path do |f| %>
         <div class="mb-3">
           <%= f.label :name, 'Nombre del Video', class: "form-label" %>
@@ -21,6 +23,9 @@
       
         <%=f.submit "AGREGAR", class: "btn btn-lg btn-default loginButton" %> 
       <%end%>
+
+
+      
 
     </div>
   </div>
