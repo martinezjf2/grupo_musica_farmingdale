@@ -22,7 +22,7 @@ class EventsController < ApplicationController
         if @event.save
             redirect_to event_path(@event), success: "Evento añadido con éxito"
         else
-            redirect_to new_event_path, warning: "El evento no se agregó con éxito"
+            redirect_to new_event_path, warning: "El evento NO se agregó con éxito"
         end
     end
     

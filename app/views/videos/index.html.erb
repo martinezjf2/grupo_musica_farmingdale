@@ -1,5 +1,4 @@
 <section id="events">
-
     <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
       <h2 id="videos-heading" class="text-white">Ven Y Goza Con Nosotros</h2>
       <% if current_user %>
@@ -26,8 +25,9 @@
 
             <% if current_user %>
             <%= link_to 'Delete Video', video_path(video), method: :delete, data: { confirm: 'Are you sure you want to delete the video?' }, class: "text-white delete-video" %>
+            <%= link_to "Editar Video", edit_video_path(video), class: "text-white delete-video" %>
             <% end %>
-            <%= video.date_created %>
+            <%= video.date_created.strftime("%B %d, %Y") %>
         
           </figcaption>
         </div>

@@ -2,22 +2,20 @@
 <div class="section textInputs">
     <div class="container-fluid newCourseForm">
       <h3 class="welcomeBack" style="text-align: center;">Agregar Nuevo Video</h3>
-      <%= form_for :video, url: videos_path do |f| %>
-      
-        
+      <%= form_for @video, url: video_path do |f| %>
         <div class="mb-3">
           <%= f.label :name, 'Nombre del Video', class: "form-label" %>
-          <%=f.text_field :name, class: "form-control Input", :placeholder => 'Ingrese Nombre del Video' %>
+          <%=f.text_field :name, class: "form-control Input", :placeholder => 'Ingrese Nombre del Video', value: f.object.name %>
         </div>
 
         <div class="mb-3">
             <%= f.label :link_to_video, 'URL del Video', class: "form-label" %>
-            <%=f.text_field :link_to_video, class: "form-control Input", :placeholder => 'Ingrese URL del Video' %>
+            <%=f.text_field :link_to_video, class: "form-control Input", :placeholder => 'Ingrese URL del Video', value: f.object.link_to_video%>
           </div>
 
         <div class="mb-3">
             <%= f.label :date_created, 'Fecha del Video', class: "form-label" %>
-            <%=f.date_field :date_created, class: "form-control Input", :placeholder => 'Ingrese Fecha del Video' %>
+            <%=f.date_field :date_created, class: "form-control Input", :placeholder => 'Ingrese Fecha del Video', value: f.object.date_created  %>
         </div>
       
         <%=f.submit "AGREGAR", class: "btn btn-lg btn-default loginButton" %> 

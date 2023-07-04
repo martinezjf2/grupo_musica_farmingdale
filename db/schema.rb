@@ -60,7 +60,7 @@ ActiveRecord::Schema.define(version: 2023_05_06_163729) do
   create_table "videos", force: :cascade do |t|
     t.string "name"
     t.string "link_to_video"
-    t.string "date_created"
+    t.date "date_created"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
