@@ -4,6 +4,7 @@ resources :users
 resources :events
 resources :videos
 resources :prayers
+resources :documents
   # Home/Root Route
   root to: 'members#index'
 
