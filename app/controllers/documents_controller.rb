@@ -1,5 +1,6 @@
 # app/controllers/documents_controller.rb
 class DocumentsController < ApplicationController
+  before_action :require_login, only: [:new, :edit, :update, :destroy]
 
   def index 
     @document = Document.all.first

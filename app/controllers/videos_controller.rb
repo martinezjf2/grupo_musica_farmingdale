@@ -1,4 +1,5 @@
 class VideosController < ApplicationController
+    before_action :require_login, only: [:new, :edit, :update, :destroy]
 
 
     def index
