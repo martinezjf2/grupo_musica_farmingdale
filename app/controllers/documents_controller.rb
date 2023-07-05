@@ -12,7 +12,7 @@ class DocumentsController < ApplicationController
   def create
     @document = Document.new(document_params)
     if @document.save
-      redirect_to documents_path, success: 'Document was successfully created.'
+      redirect_to virtus_path, success: 'Document was successfully created.'
     else
       render :new, danger: "Document was NOT SAVED"
     end
@@ -26,7 +26,7 @@ class DocumentsController < ApplicationController
   def update
     @document = Document.all.first
     if @document.update(document_params)
-      redirect_to documents_path, success: 'Document was successfully updated.'
+      redirect_to virtus_path, success: 'Document was successfully updated.'
     else
       render :edit, danger: "Document was NOT SAVED"
     end
@@ -35,7 +35,7 @@ class DocumentsController < ApplicationController
   def destroy
     @document = Document.find(params[:id])
     @document.destroy
-    redirect_to documents_url, success: 'Document was successfully deleted.'
+    redirect_to virtus_path, success: 'Document was successfully deleted.'
   end
 
   private

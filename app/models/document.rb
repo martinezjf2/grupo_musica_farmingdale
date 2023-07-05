@@ -1,6 +1,7 @@
 # app/models/document.rb
 class Document < ApplicationRecord
     has_one_attached :file
+    # validates :document, presence: {message: "can't be empty"}
 
     validate :validate_file_presence
 

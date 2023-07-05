@@ -4,7 +4,7 @@ resources :users
 resources :events
 resources :videos
 resources :prayers
-resources :documents
+resources :documents, path: 'virtus', as: 'virtus'
   # Home/Root Route
   root to: 'members#index'
 
@@ -16,7 +16,7 @@ resources :documents
   get '/login', to: 'sessions#new'
   get '/logout', to: 'sessions#destroy'
   # get '/users/:id', to: 'members#index'
-  get '/virtus', to: 'members#virtus'
+  # get '/virtus', to: 'members#virtus'
   # get '/documents/show', to: 'documents#show', as: :show_document
   get '/dailyword', to: 'scraping#dailyword'
   get '/weekly_bulletin', to: 'scraping#weekly_bulletin'

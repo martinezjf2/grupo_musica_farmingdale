@@ -1,6 +1,6 @@
 <h1>New Document</h1>
 
-<%= form_with(model: @document, url: documents_path, local: true) do |form| %>
+<%= form_with(model: @document, url: virtus_path, local: true) do |form| %>
   <% if @document.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@document.errors.count, "error") %> prohibited this document from being saved:</h2>
