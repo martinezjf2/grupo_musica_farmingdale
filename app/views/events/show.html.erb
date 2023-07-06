@@ -12,6 +12,8 @@
         <h6 class="card-text"><%= @event.event_start_time.strftime("%I:%M %p")%> - <%= @event.event_end_time.strftime("%I:%M %p") %></h6>
         <h6 class="card-text">(<%= @event.location%>) <%= @event.address%>, <%= @event.city%> <%= @event.zip%>, Phone: <%= @event.phone_number%></h6>
         <p class="card-text"><%= @event.description%></p>
+        <%= link_to "Formulario para Retiros", "/pdfs/formulario.pdf", target: "_blank", style: 'text-decoration: none;' %> <br><br>
+
 
 
         <% if current_user %>
