@@ -66,4 +66,79 @@
     padding-top: 20px
 }
 
+// Two Columns within the members/about.html.erb
 
+// .innovation-container {
+//     margin-top: 50px;
+//     width: 70%;
+//   }
+
+//   .left-div,
+//   .right-div {
+//     padding: 20px;
+//     border: 1px solid #ccc;
+//     margin-bottom: 20px;
+//     display: flex;
+//     align-items: stretch;
+//     height: 200px;
+//     // width: 70%;
+//   }
+
+
+ 
+.highlight {
+    background-position: 0 -8px;
+    background-image: linear-gradient(180deg, hsla(0,0%,100%,0) 83%, #fee280 -8px);
+}
+
+// Features Section
+
+#features {
+    text-align: center;
+    margin: 15px 0px;
+    padding: 10px 0px 30px
+}
+
+.feature {
+    margin-right: 300px;
+    margin-left: 300px
+}
+
+
+// .featureTitle {
+//     color: #119DA4;
+//     font-weight: bold;
+// }
+
+.feature-title {
+    padding-top: 10px
+}
+
+.investPeople {
+    color: #8f8f8f;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.featureSubtitle {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.featuresTogether {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.feature-box {
+    padding: 10px
+}
+
+div.feature-box.col-lg-4 {
+    padding: 0px
+}
+
+.innovation-image {
+    padding: 10px
+}
