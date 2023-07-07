@@ -3,7 +3,7 @@ class VideosController < ApplicationController
 
 
     def index
-        @videos = Video.all.sort_by {|video| video.id}.reverse
+        @videos = Video.all.order(date_created: :desc)
     end
 
     def new
