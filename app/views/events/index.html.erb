@@ -8,6 +8,18 @@
 
 
 <% if !@events.blank? %>
+
+<%= form_tag events_path, method: :get, id: 'search-form', style: "width: 30%; margin: 10px auto;" do %>
+  <div class="row">
+    <div class="col-md-11">
+      <%= text_field_tag :search, params[:search], placeholder: 'Search Events', class: "form-control" %>
+    </div>
+    <div class="col-md-1">
+      <%= submit_tag 'Search', class: "btn btn-primary btn-block" %>
+    </div>
+  </div>
+<% end %>
+
 <% @events.each do |event| %>
 <div class="card text-center" style="width: 800px; margin:20px auto;">
     <%= image_tag event.image, class: "card-img-top", width: "100", alt: "" %>

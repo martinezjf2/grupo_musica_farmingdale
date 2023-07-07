@@ -6,7 +6,11 @@ class EventsController < ApplicationController
     end
 
     def index
-        @events = Event.all.order(:event_date)
+        if params[:search].present?
+            @events = Event.where('lower(event_name) LIKE ?', "%#{params[:search].downcase}%").order(:event_date)
+          else
+            @events = Event.all.order(:event_date)
+          end
     end
 
     def show

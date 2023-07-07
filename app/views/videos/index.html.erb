@@ -7,6 +7,16 @@
     </div>
 
 
+    
+
+
+
+  
+  <div id="videos-section">
+  
+      
+    <% if !@videos.blank? %>
+
     <%= form_tag videos_path, method: :get, id: 'search-form', style: "width: 40%; margin: 10px auto;" do %>
   <div class="row">
     <div class="col-md-11">
@@ -17,14 +27,6 @@
     </div>
   </div>
 <% end %>
-
-
-
-  
-  <div id="videos-section">
-  
-      
-    <% if !@videos.blank? %>
   
     <div class="row">
       <% @videos.map do |video| %>

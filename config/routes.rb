@@ -22,6 +22,8 @@ resources :documents, path: 'virtus', as: 'virtus'
   get '/weekly_bulletin', to: 'scraping#weekly_bulletin'
   get '/pdfs/formulario.pdf', to: redirect('/pdfs/formulario.pdf')
   get '/videos/search', to: 'videos#index', as: 'search_videos'
+  get '/events/search', to: 'events#index', as: 'search_events'
+
 
   # get '/videos/new', to: 'videos#new'
 
