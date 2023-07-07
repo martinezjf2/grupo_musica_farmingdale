@@ -8,6 +8,8 @@ resources :documents, path: 'virtus', as: 'virtus'
   # Home/Root Route
   root to: 'members#index'
 
+
+
   # Get Requests
   get '/calendar', to: 'events#calendar'
   get '/contact', to: 'members#contact'
@@ -23,17 +25,20 @@ resources :documents, path: 'virtus', as: 'virtus'
   get '/pdfs/formulario.pdf', to: redirect('/pdfs/formulario.pdf')
   get '/videos/search', to: 'videos#index', as: 'search_videos'
   get '/events/search', to: 'events#index', as: 'search_events'
-  get '/videos?page=1', to: 'videos#index'
+  
+  # get '/videos?page=1', to: 'videos#index', defaults: {page: 1}, as: 'videos'
+  # post '/videos?page=1', to: 'videos#index', defaults: {page: 1}
+  # get '/videos?page=1/new', to: 'videos#new', as: 'new_video'
+  # get '/videos?page=1/:id/edit', to: 'videos#edit', as: 'edit_video'
+  # get '/videos?page=1/:id', to: 'videos#show', as: 'video'
+  # patch '/videos?page=1/:id', to: 'videos#update'
+  # put '/videos?page=1/:id', to: 'videos#update'
+  # delete '/videos?page=1/:id', to: 'videos#destroy'
 
-
-
-
-  # get '/videos/new', to: 'videos#new'
 
   # Post Requests
   post '/login', to: 'sessions#create'
   post '/events/new', to: 'events#create'
-  # post '/videos/new', to: 'videos#create'
 
   # Delete Requests
   delete '/logout', to: 'sessions#destroy'
