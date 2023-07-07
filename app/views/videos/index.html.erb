@@ -48,6 +48,25 @@
         </div>
       </div>
       <% end %>
+
+
+      <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+          <% if params[:page].to_i > 1 %>
+            <li class="page-item">
+              <%= link_to 'Previous', videos_path(page: params[:page].to_i - 1), class: 'btn btn-primary' %>
+            </li>
+          <% end %>
+      
+          <% if params[:page].to_i < @total_pages %>
+            <li class="page-item">
+              <%= link_to 'Next', videos_path(page: params[:page].to_i + 1), class: 'btn btn-primary' %>
+            </li>
+          <% end %>
+        </ul>
+      </nav>
+
+
     </div>
   
     <% else %>
@@ -58,4 +77,8 @@
   
     <% end %>
   </div>
+
+
+  
+
   </section>

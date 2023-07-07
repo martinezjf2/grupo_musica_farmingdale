@@ -3,12 +3,24 @@ class VideosController < ApplicationController
 
 
     def index
+        videos_per_page = 6
+        page = params[:page].to_i || 1
+        offset = [(page - 1) * videos_per_page, 0].max
+      
         if params[:search].present?
-            @videos = Video.where('lower(name) LIKE ?', "%#{params[:search].downcase}%").order(date_created: :desc)
-          else
-            @videos = Video.all.order(date_created: :desc)
-          end
-    end
+          total_videos = Video.where('lower(name) LIKE ?', "%#{params[:search].downcase}%").count
+          @videos = Video.where('lower(name) LIKE ?', "%#{params[:search].downcase}%")
+                         .order(date_created: :desc)
+                         .offset(offset).limit(videos_per_page)
+        else
+          total_videos = Video.count
+          @videos = Video.all.order(date_created: :desc)
+                         .offset(offset).limit(videos_per_page)
+        end
+      
+        @total_pages = (total_videos.to_f / videos_per_page).ceil
+      end
+      
 
     def new
         @video = Video.new
