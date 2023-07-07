@@ -4,7 +4,7 @@ class VideosController < ApplicationController
 
     def index
         videos_per_page = 6
-        page = params[:page].to_i || 1
+        page = params[:page].to_i || 2
         offset = [(page - 1) * videos_per_page, 0].max
       
         if params[:search].present?
