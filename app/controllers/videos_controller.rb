@@ -3,7 +3,11 @@ class VideosController < ApplicationController
 
 
     def index
-        @videos = Video.all.order(date_created: :desc)
+        if params[:search].present?
+            @videos = Video.where('lower(name) LIKE ?', "%#{params[:search].downcase}%").order(date_created: :desc)
+          else
+            @videos = Video.all.order(date_created: :desc)
+          end
     end
 
     def new
