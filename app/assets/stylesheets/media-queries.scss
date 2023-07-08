@@ -258,12 +258,12 @@
     padding: 0px
    }
 
+
 // Oraciones Communes Section
 // New Submission for Virtus
 // Testimonials Section
-// Fix VIRTUS Section, can't see the iFrame within the mobile site
-// Copyright needs more padding right and left
-// The Log in Form needs to be fixed
+
+
 
 }
 
@@ -306,21 +306,14 @@
     }
 
     #header-body {
-        margin: 70px auto;
+        margin: 100px auto;
         width:100%;
     }
 
     #header-group {
-        font-size: 50px;
-    }
-
-    #header-group-two {
         font-size: 60px;
     }
 
-    #header {
-        height: 500px
-    }
 
 
     // Navbar from the users.scss
@@ -331,12 +324,12 @@
     }
 
     #navbar a {
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
     }
 
     .navbar-brand {
-        font-size: 16px;
+        font-size: 18px;
         padding: 0px; 
     }
     
@@ -352,10 +345,19 @@
 
     }
 
-    #first-image, 
-    #second-image, 
-    #third-image, 
-    #fourth-image, 
+    #first-image {
+        right: 2%
+    }
+
+    #second-image {
+        left: 2%;
+    }
+
+    #third-image {
+        left: 17%
+    } 
+
+    
     #fifth-image, 
     #sixth-image {
         display: none
@@ -368,9 +370,9 @@
 
     // Carousel on quotes from users.scss
 
-    #carousel {
-        display : none;
-    }
+    // #carousel {
+    //     display : none;
+    // }
 
     // Contact Form from users.scss
 
@@ -393,7 +395,7 @@
     }
 
     .media {
-        height: 950px
+        height: 1200px
     }
 
     .float-child {
@@ -401,17 +403,21 @@
     }
 
     .cVInfo {
-        padding: 0px;
+        padding: 10px 80px;
+        height: 400px
     }
 
-    .second-jovenes-div {
-        display: none
+    #second-jovenes-div #imageCarousel {
+        width: 80%;
+        margin: 0 auto
     }
+
+
 
     // Core Values from users.scss for about seguidores on about
 
     .seguidores-about {
-        height: 1070px
+        height: 1030px
     }
 
 
@@ -419,7 +425,7 @@
 
     .events-heading{
         width: 95%;
-        padding: 15px 0px
+        padding: 25px 0px
     }
 
     #search-form {
@@ -428,7 +434,7 @@
 
     #ind-card-for-event {
         width: auto;
-        margin: 5px
+        margin: 30px
     }
 
     // Footer Section in users.scss
@@ -442,21 +448,21 @@
     }
 
     .footer-section .card {
-        padding-bottom: 10px
+        padding: 10px 2px
     }
 
     // Calendar from events.scss
 
     #calendar {
-        width: 100%
+        width: 90%
     }
 
     #calendar iframe {
-        height: 400px
+        height: 800px
     }
 
     #personalInfo p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     // Videos from videos.scss
@@ -467,11 +473,11 @@
     }
 
     #video figcaption {
-        font-size: 12px
+        font-size: 14px
     }
 
     #video h3 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #videos-heading {
@@ -491,19 +497,19 @@
 
     
     .evan-body-p p {
-        font-size: 14px
+        font-size: 17px
     }
 
     .pensamientos-p p {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .evan-body-p p {
-        font-size: 14px
+        font-size: 17px
     }
 
     .autor-p p {
-        font-size: 10px
+        font-size: 13px
     }
 
 
@@ -514,20 +520,20 @@
     #features .feature {
         margin: 0px 0px 0px 12px;
         // padding: 0px;
-        width: 93%
+        width: 98%
     }
 
     #ind-card {
-        padding: 0px
+        padding: 10px 5px;
     }
 
     // #features {
     //     padding: 0px
     // }
 
-    .innovation-image {
-        width: 100px
-    }
+    // .innovation-image {
+    //     width: 100px
+    // }
 
   
     // New Event Form from events.scss
@@ -546,7 +552,7 @@
    
 
    .bulletin .bulletin-img {
-    width: 300px
+    width: 400px
    }
 
    #events .bulletin {
@@ -557,9 +563,6 @@
 // Oraciones Communes Section
 // New Submission for Virtus
 // Testimonials Section
-// Fix VIRTUS Section, can't see the iFrame within the mobile site
-// Copyright needs more padding right and left
-// The Log in Form needs to be fixed
 
 }
 
