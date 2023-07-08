@@ -601,6 +601,280 @@
 
 
 
+// Responsive Design for Ipad Pro
+
+
+@media (min-width: 1026px) and (max-width: 1366px) {
+
+    // Header Section from users.scss
+
+    #header-welcome {
+        font-size: 45px;
+    }
+
+    #header-body {
+        margin: 100px auto;
+        width:100%;
+    }
+
+    #header-group {
+        font-size: 70px;
+    }
+
+
+
+    // Navbar from the users.scss
+
+    .inside-navbar {
+        margin: 0px;
+        padding: 0px
+    }
+
+    #navbar a {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+        padding: 0px; 
+    }
+    
+    // .navbar-toggler-icon:active {
+    //     border-width: 1px
+    // }
+
+
+    // Images within Header from users.scss
+
+    #card-body {
+        width: 100%
+
+    }
+
+    #first-image {
+        right: 2%
+    }
+
+    #second-image {
+        left: 2%;
+    }
+
+    #third-image {
+        left: 17%
+    } 
+
+    #fourth-image {
+        left: 25%
+    }
+    
+    #fifth-image, 
+    #sixth-image {
+        display: none
+    }
+
+
+    // Misson Component from users.scss
+
+  
+
+    // Carousel on quotes from users.scss
+
+    // #carousel {
+    //     display : none;
+    // }
+
+    // Contact Form from users.scss
+
+    .contact {
+        width: 100%;
+        padding: 5px
+    }
+
+    .section-title {
+        width: 100%;
+        padding-bottom: 10px;
+        margin: 5px auto;
+    }
+
+    // Core Values from users.scss for about jovenes on homepage
+
+    .media-body {
+        width: 85%;
+    }
+
+    // .media {
+    //     height: 1200px
+    // }
+
+    // .float-child {
+    //     width: 100%;
+    // }
+
+    .cVInfo {
+        padding: 5px 25px;
+        
+    }
+
+    // #second-jovenes-div #imageCarousel {
+    //     width: 80%;
+    //     margin: 0 auto
+    // }
+
+
+
+    // Core Values from users.scss for about seguidores on about
+
+    .seguidores-about {
+        height: 800px
+    }
+
+
+    // Events Page from the users.scss
+
+    .events-heading{
+        width: 95%;
+        padding: 25px 0px
+    }
+
+    #search-form {
+        width: 80%;
+    }
+
+    #ind-card-for-event {
+        width: auto;
+        margin:  25px 80px
+    }
+
+    // Footer Section in users.scss
+
+    .address {
+        font-size: 17px;
+    }
+
+    .footer-section a {
+        font-size: 17px
+    }
+
+    .footer-section .card {
+        padding: 10px 2px
+    }
+
+    // Calendar from events.scss
+
+    #calendar {
+        width: 90%
+    }
+
+    #calendar iframe {
+        height: 800px
+    }
+
+    #personalInfo p {
+        font-size: 20px;
+    }
+
+    // Videos from videos.scss
+
+    #videos-section {
+        padding: 0px;
+        margin: 5px
+    }
+
+    #video figcaption {
+        font-size: 14px
+    }
+
+    #video h3 {
+        font-size: 16px;
+    }
+
+    #videos-heading {
+        padding: 10px 5px;
+    }
+
+    .delete-video {
+        padding-right: 5px
+    }
+
+    // .logo {
+    //     display: none
+    // }
+
+
+    // Daily word from members.scss
+
+    
+    .evan-body-p p {
+        font-size: 18px
+    }
+
+    .pensamientos-p p {
+        font-size: 18px;
+    }
+
+    .evan-body-p p {
+        font-size: 18px
+    }
+
+    .autor-p p {
+        font-size: 14px
+    }
+
+
+    // Placeholder partial from members.scss
+
+    // Features section from the members.scss
+
+    #features .feature {
+        margin: 0px 0px 0px 12px;
+        // padding: 0px;
+        width: 98%
+    }
+
+    #ind-card {
+        padding: 10px 5px;
+    }
+
+    // #features {
+    //     padding: 0px
+    // }
+
+    // .innovation-image {
+    //     width: 100px
+    // }
+
+  
+    // New Event Form from events.scss
+
+   .newCourseForm {
+    margin: 20px auto;
+    width: 95%
+   }
+
+   .welcomeBack {
+    padding-bottom: 10px;
+   }
+
+
+   // Weekly Bulletin from the members.scss
+   
+
+   .bulletin .bulletin-img {
+    width: 500px
+   }
+
+   #events .bulletin {
+    width: 100%;
+    padding: 0px
+   }
+
+// Oraciones Communes Section
+// New Submission for Virtus
+// Testimonials Section
+
+}
+
 
 
 
