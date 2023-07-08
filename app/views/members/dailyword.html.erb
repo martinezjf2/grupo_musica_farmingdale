@@ -1,14 +1,14 @@
 <section class="daily-word">
   <div class="container all-content">
     <div
-      style="width: 50%; margin: 0px auto; padding: 20px; text-align: center"
+      class="events-heading"
     >
       <h2 id="videos-heading" class="text-white">
         Evangelio del Dia: <span class="evan-date"><%= @current_date%></span>
       </h2>
     </div>
 
-    <div>
+    <div class="evan-body-p">
       <p class="evan-body"><%= @evan_text %></p>
     </div>
 
@@ -22,15 +22,15 @@
     </audio>
 
     <div
-      style="width: 50%; margin: 0px auto; padding: 20px; text-align: center"
+      class="events"
     >
       <h2 id="videos-heading" class="text-white">Commentarios</h2>
     </div>
 
-    <div>
+    <div class="evan-body-p">
       <p class="evan-body"><%= @evan_comment %></p>
     </div>
-    <div>
+    <div class="autor-p">
       <p class="autor">-<%= @autor_name %></p>
     </div>
 
@@ -38,7 +38,7 @@
       <h2 id="" class="text-white" style="text-align: left">Pensamientos</h2>
     </div>
 
-    <div>
+    <div class="pensamientos-p">
       <p class="pensamientos"><%= @evan_thoughts %></p>
     </div>
 

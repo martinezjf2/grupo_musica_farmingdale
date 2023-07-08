@@ -1,5 +1,5 @@
-<section id="events" style="padding-bottom:50px;">
-<div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+<section id="events">
+<div class="events-heading">
     <h2 id="videos-heading" class="text-white">Todos Nuestros Eventos</h2>
     <% if current_user %>
     <%= link_to 'Add New Event', new_event_path, class: "btn btn-primary"%>
@@ -9,7 +9,7 @@
 
 <% if !@events.blank? %>
 
-<%= form_tag events_path, method: :get, id: 'search-form', style: "width: 30%; margin: 10px auto;" do %>
+<%= form_tag events_path, method: :get, id: 'search-form' do %>
   <div class="row">
     <div class="col-md-11">
       <%= text_field_tag :search, params[:search], placeholder: 'Search Events', class: "form-control" %>
@@ -21,7 +21,7 @@
 <% end %>
 
 <% @events.each do |event| %>
-<div class="card text-center" style="width: 800px; margin:20px auto;">
+<div class="card text-center" id="ind-card-for-event">
     <%= image_tag event.image, class: "card-img-top", width: "100", alt: "" %>
     <div class="card-body">
         <h3><%=event.event_name%></h3>
@@ -34,7 +34,7 @@
   </div>
 <% end %>
 <% else %>
-<div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+<div class="events-heading">
     <h2 id="videos-heading" class="text-white">No hay eventos en este momento</h2>
 </div>
 <% end %>

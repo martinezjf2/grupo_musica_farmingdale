@@ -1,5 +1,5 @@
 <section id="events">
-    <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+    <div class="events-heading">
       <h2 id="videos-heading" class="text-white">Ven Y Goza Con Nosotros</h2>
       <% if current_user %>
       <%= link_to 'Add New Video', new_video_path, class: "btn btn-primary"%>
@@ -17,7 +17,7 @@
       
     <% if !@videos.blank? %>
 
-    <%= form_tag videos_path, method: :get, id: 'search-form', style: "width: 40%; margin: 10px auto;" do %>
+    <%= form_tag videos_path, method: :get, id: 'search-form' do %>
   <div class="row">
     <div class="col-md-11">
       <%= text_field_tag :search, params[:search], placeholder: 'Search videos', class: "form-control" %>
@@ -73,7 +73,7 @@
   
     <% else %>
   
-    <div style="width: 50%; margin: 0px auto; padding: 20px; text-align: center;">
+    <div class="events-heading">
       <h2 id="videos-heading" class="text-white">No hay videos en este momento</h2>
     </div>
   

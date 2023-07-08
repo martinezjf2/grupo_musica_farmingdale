@@ -166,22 +166,13 @@
   width: auto;
 }
 
-#mission {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* #img-div img {
-  width: 500rem;
-  height: 500rem;
-} */
-
-/* Navbar Component if link is selected */
-
-// .selected {
-//   color: blue;
+// Don't know what this does
+// #mission {
+//   width: 50%;
+//   margin: 0 auto;
+//   text-align: center;
 // }
+
 
 /* Do the same thing as the categories lab with a ternary expression. If the category is seleted, then add the classname to be selected, else empty string */
 
@@ -208,19 +199,6 @@ footer {
   // padding-right: 0px;
   padding-bottom: 30px;
 }
-
-// .footer-section.row {
-//   // --bs-gutter-x: 0;
-//   // width: %
-// }
-
-// .footer-section a:hover {
-//   background-color: none;
-// }
-
-// .footer-section {
-//   width: inherit;
-// }
 
 
 
@@ -254,6 +232,7 @@ footer {
 //   padding-bottom: 20px;
 // }
 
+// Carousel for quotes
 
 #ind-img-carousel {
   width: 88%;
@@ -265,6 +244,8 @@ footer {
   text-align: center;
 }
 
+
+// Contact Form
 
 .contact {
   width: 80%;
@@ -306,10 +287,6 @@ footer {
   margin: 0 auto;
 }
 
-.valueImg {
-  width: 100%;
-  // height: 100%;
-}
 
 
 .cVHeading {
@@ -366,6 +343,24 @@ footer {
   border-radius: 0%;
   width:auto;
   margin: 0;
+  padding-bottom: 50px;
+}
+
+.events-heading {
+  width: 50%; 
+  margin: 0px auto; 
+  padding: 20px; 
+  text-align: center;
+}
+
+#search-form {
+  width: 30%; 
+  margin: 10px auto;
+}
+
+#ind-card-for-event{
+  width: 800px;
+  margin:20px auto;
 }
 
 // Carousel
