@@ -9,7 +9,7 @@
 
 
     <% if @document %>
-        <div style="width: 70%; margin: 0 auto; height: auto; text-align: center" >
+        <div class="virtus" id="virtus-bulletin">
             <% if current_user %>
                 <%= link_to 'Edit', edit_virtu_path(@document), class: 'btn btn-primary m-2' %> 
                 <%= link_to 'Delete', virtu_path(@document), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger m-2' %>
