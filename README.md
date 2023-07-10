@@ -23,5 +23,12 @@ Things you may want to cover:
 
 * ...
 
+Steps to take when cloning this repository
+
+rvm use 3.1.4
+bundle install
+yarn install
+rails assets:precompile
+
 bundle exec rails db:drop && bundle exec rails db:create && bundle exec rails db:migrate && bundle exec rails db:seed
 
