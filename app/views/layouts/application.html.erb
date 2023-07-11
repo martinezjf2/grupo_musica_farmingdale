@@ -48,7 +48,22 @@
                       // Change the backgroundColor of the button if successful
                       success.style.backgroundColor = "green";
                       // Within 3 seconds, the page will reload
-                      setInterval(() => window.location.reload(true), 3000)
+
+                    let form = document.querySelector(".removeContactForm")
+                    form.remove()
+                    let section = document.querySelector("section.contact")
+                    let newDiv = document.createElement('div')
+                    newDiv.className = 'events-heading'
+                    let h2 = document.createElement('h2')
+                    h2.className = 'text-white'
+                    h2.id = 'videos-heading'
+                    h2.innerHTML = "Gracias por Contactarnos! Vamos hacer lo possible para responder su mensaje! Bendiciones!"
+                    newDiv.append(h2)
+                    section.append(newDiv)
+
+                    // setInterval(() => window.location.reload(true), 5000)
+
+
                       // If there is an error, it will log "FAILED..., and console log the error"
                   }, function(error) {
                       console.log('FAILED...', error);
