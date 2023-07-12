@@ -34,7 +34,7 @@
           document.getElementById('contact-form').addEventListener('submit', function(event) {
               event.preventDefault();
               // This method is provided within documentation: https://www.emailjs.com/docs/sdk/send-form/
-              emailjs.sendForm('service_3n8xbix', "personal_website", '#contact-form')
+              emailjs.sendForm('service_3n8xbix', "contact_form_seg", '#contact-form')
                   .then(function() {
                       console.log('SUCCESS!');
                       // Get the button element

@@ -14,19 +14,23 @@
             <h4 style="text-align: center">Fill out the form below:</h4>
             <div class="mt-3">
                 <label class="form-label" style="font-weight: 500;">Name</label>
-                <input type="text" name="user_name" class="form-control shadow-none" required>
+                <input type="text" name="user_name" class="form-control shadow-none" placeholder="Primer nombre y Appellido" required>
             </div>
             <div class="mt-3">
                 <label class="form-label" style="font-weight: 500;">Email</label>
-                <input type="email" name="email" class="form-control shadow-none" required>
+                <input type="email" name="email" class="form-control shadow-none" placeholder="Correo Electronico" required>
+            </div>
+            <div class="mt-3">
+                <label class="form-label" style="font-weight: 500;">Phone Number</label>
+                <input type="text" name="phone_number" class="form-control shadow-none" placeholder="Numero de telefono" required>
             </div>
             <div class="mt-3">
                 <label class="form-label" style="font-weight: 500;">Subject</label>
-                <input type="text" name="subject" class="form-control shadow-none" required>
+                <input type="text" name="subject" class="form-control shadow-none" placeholder="Titulo de Mensaje" required>
             </div>
             <div class="mt-3">
                 <label class="form-label" style="font-weight: 500;">Message</label>
-                <textarea class="form-control shadow-none" name="message" rows="5" style="resize: none;" required></textarea>
+                <textarea class="form-control shadow-none" name="message" rows="5" style="resize: none;" placeholder="Explique en que podemos asistir" required></textarea>
             </div>
             <button type="submit" style="background: #149ddd; border:0; padding: 10px 24px; color: #fff; transition: 0.4s; border-radius: 4px;" id="sendButton" onclick='sendMail()' class="btn-primary mt-3 outline shadow">SEND</button>
          </form>         
