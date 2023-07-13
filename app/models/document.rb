@@ -17,6 +17,6 @@ class Document < ApplicationRecord
     return if file.attachment.persisted?
 
     file.attachment.record = self
-    file.attachment.save(expires_in: 30, days)
+    file.attachment.save(expires_in: 30.days)
   end
 end
