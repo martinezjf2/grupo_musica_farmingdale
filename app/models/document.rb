@@ -3,7 +3,7 @@ class Document < ApplicationRecord
   
 
   validate :validate_file_presence
-  after_save :persist_file_to_storage, if: -> { persist_file.present? && persist_file }
+  after_save :persist_file_to_storage, if: -> { file.attached? }
 
   private
 

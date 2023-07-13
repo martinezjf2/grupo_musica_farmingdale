@@ -4,6 +4,7 @@ class DocumentsController < ApplicationController
 
   def index 
     @document = Document.all.first
+    response.headers.delete('Content-Disposition')
   end
 
   def new
