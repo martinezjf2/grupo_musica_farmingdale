@@ -33,7 +33,7 @@ class DocumentsController < ApplicationController
     @document.file.purge if @document.file.attached?  # Remove existing file
   
     @document.assign_attributes(document_params)
-    @document.persist_file = true  # Set the flag to indicate persistence
+   
   
     if @document.save
       redirect_to virtus_path, success: 'Document was successfully updated.'
