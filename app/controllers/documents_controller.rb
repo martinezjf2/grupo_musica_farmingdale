@@ -10,18 +10,10 @@ class DocumentsController < ApplicationController
     @document = Document.new
   end
 
-  # def create
-  #   @document = Document.new(document_params)
-  #   if @document.save
-  #     redirect_to virtus_path, success: 'Document was successfully created.'
-  #   else
-  #     render :new, danger: "Document was NOT SAVED"
-  #   end
-  # end
 
   def create
     @document = Document.new(document_params)
-    @document.persist_file = true  # Set the flag to indicate persistence
+    
   
     if @document.save
       redirect_to virtus_path, success: 'Document was successfully created.'
@@ -35,14 +27,6 @@ class DocumentsController < ApplicationController
     @document = Document.first
   end
 
-  # def update
-  #   @document = Document.all.first
-  #   if @document.update(document_params)
-  #     redirect_to virtus_path, success: 'Document was successfully updated.'
-  #   else
-  #     render :edit, danger: "Document was NOT SAVED"
-  #   end
-  # end
 
   def update
     @document = Document.first
@@ -67,6 +51,6 @@ class DocumentsController < ApplicationController
   private
 
   def document_params
-    params.require(:document).permit(:file, :persist_file)
+    params.require(:document).permit(:file)
   end
 end
