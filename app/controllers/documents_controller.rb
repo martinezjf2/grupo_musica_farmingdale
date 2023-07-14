@@ -24,6 +24,8 @@ class DocumentsController < ApplicationController
   end
 
 
+  # Take away the edit and the update actions. no need for them here, adjust routes as needed
+
   def edit
     @document = Document.first
   end
