@@ -3,7 +3,7 @@
 
 <section id="events" style="padding-bottom: 50px">
   <div class="events-heading">
-    <h2 id="videos-heading" class="text-white">Bulletin Mensual de Virtus</h2>
+    <h2 id="videos-heading" class="text-white">VIRTUS</h2>
   </div>
 
 
@@ -13,16 +13,10 @@
             <% if current_user %>
                 <%= link_to 'Delete', virtu_path(@document), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger m-2' %>
             <% end %>
-            <iframe src="<%= rails_blob_path(@document.file) %>" type="application/pdf" width="100%" height="600px" scrolling="yes"></iframe>
+            <%= link_to 'Click Aqui Para Ver Bulletin del Mes', rails_blob_path(@document.file), target: '_blank', class: 'btn btn-primary m-2' %>
         </div>
 
-        <!-- 
-            1. Make the iframe a link to open up the PDF on Another Window instead target=_blank
-            2. Make VIRTUS Headline here instead of "Bulletin Mensual de Virtus"
-            3. Add who is the coordinator and what is VIRTUS and where we do sessions
-            4. How can people be able to join sessions and courses for VIRTUS
-            5. Make it responsive!
-        -->
+     
 
     <% else %>
         
@@ -34,3 +28,12 @@
         </div>
     <% end %>
 </section>
+
+
+   <!-- 
+            1. Make the iframe a link to open up the PDF on Another Window instead target=_blank
+            2. Make VIRTUS Headline here instead of "Bulletin Mensual de Virtus"
+            3. Add who is the coordinator and what is VIRTUS and where we do sessions
+            4. How can people be able to join sessions and courses for VIRTUS
+            5. Make it responsive!
+        -->
