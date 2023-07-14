@@ -9,12 +9,12 @@
 
 
     <% if @document %>
-        <div class="virtus" id="virtus-bulletin">
+        <div class="virtus" id="">
             <% if current_user %>
                 <%= link_to 'Edit', edit_virtu_path(@document), class: 'btn btn-primary m-2' %> 
                 <%= link_to 'Delete', virtu_path(@document), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger m-2' %>
             <% end %>
-            <iframe src="<%= rails_blob_path(@document.file) %>" width="100%" style="height: 100%;" scrolling="yes"></iframe>
+            <iframe src="<%= rails_blob_path(@document.file) %>" width="100%" height="600px" scrolling="yes"></iframe>
         </div>
 
     <% else %>
