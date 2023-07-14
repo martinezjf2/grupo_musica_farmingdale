@@ -1,34 +1,6 @@
 
 
 
-<section id="events" style="padding-bottom: 50px">
-  <div class="events-heading">
-    <h2 id="videos-heading" class="text-white">VIRTUS</h2>
-  </div>
-
-
-
-    <% if @document %>
-        <div class="virtus" id="">
-            <% if current_user %>
-                <%= link_to 'Delete', virtu_path(@document), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger m-2' %>
-            <% end %>
-            <%= link_to 'Click Aqui Para Ver Bulletin del Mes', rails_blob_path(@document.file), target: '_blank', class: 'btn btn-primary m-2' %>
-        </div>
-
-     
-
-    <% else %>
-        
-        <div class="videos-heading text-center">
-        <h2 id="videos-heading" class="text-white">Bulletin No esta disponible en este momento...</h2>
-        <% if current_user %>
-            <%= link_to 'New Virtus Bulletin', new_virtu_path, class: 'btn btn-primary m-2'  %>
-        <% end %>
-        </div>
-    <% end %>
-</section>
-
 
    <!-- 
             1. Make the iframe a link to open up the PDF on Another Window instead target=_blank
@@ -37,3 +9,40 @@
             4. How can people be able to join sessions and courses for VIRTUS
             5. Make it responsive!
         -->
+
+        <section id="about-author" class="bg-light py-5">
+
+        <h2 class="text-center" style="padding-bottom: 50px;">VIRTUS</h2>
+
+
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-4">
+                  <%= image_tag 'profile/jeffrey.jpg', class: "rounded-circle", alt:"jeffrey", width:"250px"%>
+                </div>
+                <div class="col-md-8 p-4">
+                  <h2>Que es VIRTUS?</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel magna magna. Vestibulum at turpis sed nunc egestas malesuada. Mauris vel sollicitudin risus. Ut dignissim semper libero, id dignissim turpis tincidunt ac.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis luctus odio, ac facilisis metus commodo id. Nam eu justo id massa consequat facilisis. Vestibulum hendrerit bibendum tristique.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                  <% if @document %>
+                  <div class="virtus" id="">
+                      <% if current_user %>
+                          <%= link_to 'Delete Current Bulletin', virtu_path(@document), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger m-2' %>
+                      <% end %>
+                      <%= link_to 'Click Aqui Para Ver Bulletin del Mes', rails_blob_path(@document.file), target: '_blank', class: 'btn btn-primary m-2' %>
+                  </div>
+              <% else %>
+                  <div class="videos-heading text-center">
+                  <h2 id="videos-heading" class="text-white">Bulletin No esta disponible en este momento...</h2>
+                  <% if current_user %>
+                      <%= link_to 'New Virtus Bulletin', new_virtu_path, class: 'btn btn-primary m-2'  %>
+                  <% end %>
+                  </div>
+              <% end %>
+
+                </div>
+              </div>
+            </div>
+          </section>
