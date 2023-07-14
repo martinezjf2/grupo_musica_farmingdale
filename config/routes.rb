@@ -4,7 +4,7 @@ resources :users
 resources :events
 resources :videos
 resources :prayers
-resources :documents, path: 'virtus', as: 'virtus'
+resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create, :destroy]
   # Home/Root Route
   root to: 'members#index'
 

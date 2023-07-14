@@ -24,26 +24,6 @@ class DocumentsController < ApplicationController
   end
 
 
-  # Take away the edit and the update actions. no need for them here, adjust routes as needed
-
-  def edit
-    @document = Document.first
-  end
-
-
-  def update
-    @document = Document.first
-    @document.file.purge if @document.file.attached?  # Remove existing file
-    @document.assign_attributes(document_params)
-   
-  
-    if @document.save
-      redirect_to virtus_path, success: 'Document was successfully updated.'
-    else
-      redirect_to edit_virtu_path, danger: "Document was NOT SAVED"
-    end
-  end
-
   def destroy
     @document = Document.find(params[:id])
     @document.destroy
