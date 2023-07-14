@@ -6,6 +6,7 @@ class User < ApplicationRecord
 validates :username, presence: {message: "can't be empty"}, uniqueness: true
 validates :password, presence: {message: "can't be empty"}
 
-
+attr_accessor :admin_code
+  
 
 end

@@ -21,4 +21,32 @@ class SessionsController < ApplicationController
         redirect_to "/", success: "You've successfully logged out. Hope to see you soon!"
     end
 
+    def signup
+        @user = User.new
+      end
+    
+      def create_user
+        @user = User.new(user_params)
+        admin_code = params[:user][:admin_code]
+    
+        if admin_code == ENV['ADMIN_CODE']
+          @user.admin_code = admin_code
+    
+          if @user.save
+            session[:user_id] = @user.id
+            redirect_to root_path, success: "User created successfully"
+          else
+            redirect_to signup_path, danger: "Missing or Wrong Information, Please Try Again"
+          end
+        else
+            redirect_to signup_path, danger: "Missing or Wrong Information, Please Try Again"
+        end
+      end
+    
+      private
+    
+      def user_params
+        params.require(:user).permit(:username, :password, :password_confirmation, :admin_code)
+      end
+
 end

@@ -25,6 +25,9 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   get '/pdfs/formulario.pdf', to: redirect('/pdfs/formulario.pdf')
   get '/videos/search', to: 'videos#index', as: 'search_videos'
   get '/events/search', to: 'events#index', as: 'search_events'
+
+  get '/signup', to: 'sessions#signup'
+  post '/signup', to: 'sessions#create_user'
   
   # get '/videos?page=1', to: 'videos#index', defaults: {page: 1}, as: 'videos'
   # post '/videos?page=1', to: 'videos#index', defaults: {page: 1}
