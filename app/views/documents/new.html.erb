@@ -1,25 +1,19 @@
-<h1>New Document</h1>
+
+<section id="events" style="padding-bottom: 50px" class="text-center">
+  <div class="events-heading">
+    <h2 id="videos-heading" class="text-white">Add New Document</h2>
+  </div>
 
 <%= form_with(model: @document, url: virtus_path, local: true) do |form| %>
-  <% if @document.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@document.errors.count, "error") %> prohibited this document from being saved:</h2>
-
-      <ul>
-        <% @document.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
-
   <div class="field">
-    <%= form.label :file %>
-    <%= form.file_field :file %>
+    <%= form.label :file, class: "text-white"%>
+    <%= form.file_field :file, class: 'btn btn-primary m-2'%>
   </div>
 
   <div class="actions">
-    <%= form.submit "Upload Document" %>
+    <%= form.submit "Upload Document", class: 'btn btn-primary m-2' %>
   </div>
 <% end %>
+
+</section>
 

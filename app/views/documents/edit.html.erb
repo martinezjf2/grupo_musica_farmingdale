@@ -1,7 +1,7 @@
-<h1>Edit Document</h1>
 
-<%= form_with(model: @document, url: virtu_path(@document), local: true, method: :patch) do |form| %>
-  <% if @document.errors.any? %>
+
+
+  <!-- <% if @document.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@document.errors.count, "error") %> prohibited this document from being saved:</h2>
 
@@ -11,14 +11,24 @@
         <% end %>
       </ul>
     </div>
-  <% end %>
+  <% end %> -->
 
+  
+
+<section id="events" style="padding-bottom: 50px" class="text-center">
+  <div class="events-heading">
+    <h2 id="videos-heading" class="text-white">Edit Document</h2>
+  </div>
+
+<%= form_with(model: @document, url: virtu_path(@document), local: true, method: :patch) do |form| %>
   <div class="field">
-    <%= form.label :file %>
-    <%= form.file_field :file %>
+    <%= form.label :file, class: "text-white"%>
+    <%= form.file_field :file, class: 'btn btn-primary m-2'%>
   </div>
 
   <div class="actions">
-    <%= form.submit "Update Document" %>
+    <%= form.submit "Update Document", class: 'btn btn-primary m-2' %>
   </div>
 <% end %>
+
+</section>

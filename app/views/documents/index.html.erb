@@ -17,9 +17,17 @@
             <iframe src="<%= rails_blob_path(@document.file) %>" type="application/pdf" width="100%" height="600px" scrolling="yes"></iframe>
         </div>
 
+        <!-- 
+            1. Make the iframe a link to open up the PDF on Another Window instead target=_blank
+            2. Make VIRTUS Headline here instead of "Bulletin Mensual de Virtus"
+            3. Add who is the coordinator and what is VIRTUS and where we do sessions
+            4. How can people be able to join sessions and courses for VIRTUS
+            5. Make it responsive!
+        -->
+
     <% else %>
         
-        <div class="videos-heading">
+        <div class="videos-heading text-center">
         <h2 id="videos-heading" class="text-white">Bulletin No esta disponible en este momento...</h2>
         <% if current_user %>
             <%= link_to 'New Virtus Bulletin', new_virtu_path, class: 'btn btn-primary m-2'  %>

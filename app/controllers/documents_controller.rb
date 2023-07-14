@@ -32,14 +32,13 @@ class DocumentsController < ApplicationController
   def update
     @document = Document.first
     @document.file.purge if @document.file.attached?  # Remove existing file
-  
     @document.assign_attributes(document_params)
    
   
     if @document.save
       redirect_to virtus_path, success: 'Document was successfully updated.'
     else
-      render :edit, danger: "Document was NOT SAVED"
+      redirect_to edit_virtu_path, danger: "Document was NOT SAVED"
     end
   end
 
