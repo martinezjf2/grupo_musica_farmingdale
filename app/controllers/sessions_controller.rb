@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
             session[:user_id] = @user.id
             redirect_to root_path, success: "You are Successfully Logged In"
         else 
-            redirect_to '/login', danger: "User not found. Please Try Again"
+            redirect_to '/login', danger: "No podimos encontrar tu cuenta, Por Favor intentar de nuevo."
         end
     end
 
@@ -34,12 +34,12 @@ class SessionsController < ApplicationController
     
           if @user.save
             session[:user_id] = @user.id
-            redirect_to root_path, success: "User created successfully"
+            redirect_to root_path, success: "Bienvenidos! Su cuenta hacido creado con exito!"
           else
-            redirect_to signup_path, danger: "Missing or Wrong Information, Please Try Again"
+            redirect_to signup_path, danger: "Falta informaccion o informaccion incorrecta. Por favor intentar de nuevo."
           end
         else
-            redirect_to signup_path, danger: "Missing or Wrong Information, Please Try Again"
+            redirect_to signup_path, danger: "Falta informaccion o informaccion incorrecta. Por favor intentar de nuevo."
         end
       end
     
