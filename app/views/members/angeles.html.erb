@@ -1,28 +1,44 @@
 
 <style>
     .jumbotron {
-      background-image: url('youth-group-background.jpg');
-      background-size: cover;
-      padding: 6rem 2rem;
-      text-align: center;
-      margin-bottom: 0;
-    }
+    background: url('https://seguidoresdejesus.s3.amazonaws.com/jovenes.jpeg');
+    background-position: center 35%;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+  }
 
     .jumbotron h1 {
       font-size: 4.5rem;
       font-weight: bold;
       margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
     }
 
     .jumbotron p {
       font-size: 2rem;
       margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+
     }
 
+    .jumbotron h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
 
-    .author-section {
-      padding: 4rem 2rem;
-      text-align: center;
+  .author-section {
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 0.3rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 
     .author-img {
@@ -50,6 +66,7 @@
 <div class="jumbotron">
   <div class="container">
     <h1>Únete a Nuestro Grupo de Jóvenes</h1>
+    <h2>Angeles De Dios</h2>
     <p>Experimenta la alegría de la fe, la amistad y el servicio en una comunidad católica vibrante.</p>
     <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
   </div>
@@ -58,6 +75,9 @@
 <section id="about">
   <div class="container">
     <h2 class="text-center">About the Authors</h2>
+
+    <!-- Nuestros Valores aqui -->
+
     <div class="author-section" id="about-the-priest">
         <div class="row">
           <div class="col-sm-4">
@@ -81,6 +101,19 @@
           <div class="col-sm-4">
             <%= image_tag 'profile/romulo.png', class: "rounded-circle", alt:"Padre Romulo", width:"350px"%>
         </div>
+        </div>
+      </div>
+
+      <div class="author-section" id="about-the-priest">
+        <div class="row">
+          <div class="col-sm-4">
+              <%= image_tag 'profile/romulo.png', class: "rounded-circle", alt:"Padre Romulo", width:"350px"%>
+          </div>
+          <div class="col-sm-8">
+            <h2>Alex M</h2>
+            <h5>Coordinador de la Comunidad Hispana</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada diam sit amet nulla dapibus, in venenatis elit consequat. Sed ac nisl non felis sodales luctus. Integer tempus leo vel nibh sollicitudin, eget tempor lacus dignissim.</p>
+          </div>
         </div>
       </div>
     <br>
