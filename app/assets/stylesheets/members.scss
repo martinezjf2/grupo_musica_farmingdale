@@ -136,3 +136,215 @@
 .bulletin-img {
     width: 600px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------------------------------
+// New Styles that need to be responsive
+
+// Luz.html.erb
+
+.luzDelMundoJumbo {
+    background: url('https://seguidoresdejesus.s3.amazonaws.com/assamblea.jpg');
+    background-position: center 40%;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .luzDelMundoJumbo h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+  .luzDelMundoJumbo h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  .luzDelMundoJumbo p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+
+  }
+
+  .pequena-comunidad {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .quoteDiv {
+    background-color: #f8f9fa;
+      color: #333;
+  }
+
+  .quote {
+      text-align: center;
+      margin-top: 100px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .quote h2 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .quote p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-top: 20px;
+    }
+
+
+// misa.html.erb
+
+.misaJumbo {
+    background: url("https://seguidoresdejesus.s3.amazonaws.com/stkilian.jpeg");
+    background-position: center 80%;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .misaJumbo h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+    
+  }
+
+  .misaJumbo p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  .author-section {
+    padding: 6rem 1rem 1rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .author-img {
+    width: 100%;
+    /* max-width: 200px; */
+    height: auto;
+  }
+
+  .confessionDiv {
+      margin-top: 50px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .section-content {
+      margin-bottom: 40px;
+    }
+
+    .section-content p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .misaCard {
+      border: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .misaCardHeader {
+      background-color: #f8f9fa;
+      border-bottom: none;
+      text-align: center;
+    }
+
+    .misaCardTitle {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 0;
+    }
+
+    .misaCardBody {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .section-content img {
+      width: 500px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .mass-hours {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .mass-hours li {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+

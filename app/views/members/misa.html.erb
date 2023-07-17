@@ -1,5 +1,5 @@
 <div class="">
-  <div class="jumbotron">
+  <div class="jumbotron misaJumbo">
     <div class="container">
       <h1>Bienvenidos A Nuestra Misa Hispana!</h1>
       <p>
@@ -12,11 +12,11 @@
 
 
   <div class="container confessionDiv">
-    <div class="card">
-        <div class="card-header">
-            <h2 class="card-title text-center">¿Qué es una Misa Católica?</h2>
+    <div class="card misaCard">
+        <div class="card-header misaCardHeader">
+            <h2 class="card-title misaCardTitle text-center">¿Qué es una Misa Católica?</h2>
         </div>
-        <div class="card-body">
+        <div class="card-body misaCardBody">
             <div class="section-content">
                 <p>La Misa Católica es una celebración sagrada donde los creyentes se reúnen para adorar y recibir el Cuerpo y la Sangre de Jesucristo.</p>
                 <img src="https://seguidoresdejesus.s3.amazonaws.com/mass.png" alt="Misa Católica" class="img-fluid">
@@ -27,6 +27,12 @@
             </div>
             <hr>
             <h4 class="text-center">Horarios de la Misa:</h4>
+            <ul class="mass-hours">
+                <li>Domingo: 9:00 am, 11:00 am, 6:00 pm</li>
+                <li>Lunes a viernes: 7:30 am</li>
+                <li>Sábado: 8:00 am, 5:00 pm</li>
+            </ul>
+            <h4 class="text-center">Horarios de la Misa en Español:</h4>
             <ul class="mass-hours">
                 <li>Domingo: 9:00 am, 11:00 am, 6:00 pm</li>
                 <li>Lunes a viernes: 7:30 am</li>
@@ -76,112 +82,3 @@
   </div>
 </div>
 
-<style>
-  .jumbotron {
-    background: url("https://seguidoresdejesus.s3.amazonaws.com/stkilian.jpeg");
-    background-position: center 80%;
-    background-size: cover;
-    padding: 6rem 2rem;
-    text-align: center;
-    margin-bottom: 0;
-    color: white;
-    /* filter: grayscale(100%); */
-  }
-
-  .jumbotron h1 {
-    font-size: 4.5rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
-    letter-spacing: 0.4rem;
-  }
-
-  .jumbotron p {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
-  }
-
-  .author-section {
-    padding: 6rem 1rem 1rem 1rem;
-    margin-bottom: 2rem;
-    border-radius: 0.3rem;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-
-  .author-img {
-    width: 100%;
-    /* max-width: 200px; */
-    height: auto;
-  }
-
-  .confessionDiv {
-      margin-top: 50px;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .section-title h2 {
-      font-size: 28px;
-      font-weight: bold;
-      color: #333;
-    }
-
-    .section-content {
-      margin-bottom: 40px;
-    }
-
-    .section-content p {
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-
-    .card {
-      border: none;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .card-header {
-      background-color: #f8f9fa;
-      border-bottom: none;
-      text-align: center;
-    }
-
-    .card-title {
-      font-size: 24px;
-      font-weight: bold;
-      color: #333;
-      margin-bottom: 0;
-    }
-
-    .card-body {
-      padding: 20px;
-      text-align: center;
-    }
-
-    .section-content img {
-      /* max-width: 100%; */
-      width: 500px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-    .mass-hours {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    .mass-hours li {
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-
-
-</style>
