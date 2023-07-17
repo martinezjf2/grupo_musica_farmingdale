@@ -1,0 +1,91 @@
+
+<style>
+    .jumbotron {
+      background-image: url('youth-group-background.jpg');
+      background-size: cover;
+      padding: 6rem 2rem;
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .jumbotron h1 {
+      font-size: 4.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .jumbotron p {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+
+    .author-section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .author-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .author-name {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .author-bio {
+      font-size: 1.5rem;
+    }
+  </style>
+  
+
+<body>
+  
+<div class="jumbotron">
+  <div class="container">
+    <h1>Únete a Nuestro Grupo de Jóvenes</h1>
+    <p>Experimenta la alegría de la fe, la amistad y el servicio en una comunidad católica vibrante.</p>
+    <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+  </div>
+</div>
+
+<section id="about">
+  <div class="container">
+    <h2 class="text-center">About the Authors</h2>
+    <div class="author-section" id="about-the-priest">
+        <div class="row">
+          <div class="col-sm-4">
+              <%= image_tag 'profile/romulo.png', class: "rounded-circle", alt:"Padre Romulo", width:"350px"%>
+          </div>
+          <div class="col-sm-8">
+            <h2>Alex M</h2>
+            <h5>Coordinador de la Comunidad Hispana</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada diam sit amet nulla dapibus, in venenatis elit consequat. Sed ac nisl non felis sodales luctus. Integer tempus leo vel nibh sollicitudin, eget tempor lacus dignissim.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="author-section" id="about-the-priest">
+        <div class="row">
+          <div class="col-sm-8">
+            <h2>Alex M</h2>
+            <h5>Coordinador de la Comunidad Hispana</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada diam sit amet nulla dapibus, in venenatis elit consequat. Sed ac nisl non felis sodales luctus. Integer tempus leo vel nibh sollicitudin, eget tempor lacus dignissim.</p>
+          </div>
+          <div class="col-sm-4">
+            <%= image_tag 'profile/romulo.png', class: "rounded-circle", alt:"Padre Romulo", width:"350px"%>
+        </div>
+        </div>
+      </div>
+    <br>
+
+ 
+  </div>
+</section>
+</body>

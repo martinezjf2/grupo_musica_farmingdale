@@ -28,6 +28,18 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
 
   get '/signup', to: 'sessions#signup'
   post '/signup', to: 'sessions#create_user'
+
+
+# Uncomment this when working with these paths
+  # get '/angeles-de-dios', to: 'members#angeles'
+  # get '/luz-del-mundo', to: 'members#luz'
+  # get '/resos', to: 'members#resos'
+  # get '/misas', to: 'members#misa'
+  # get '/guadalupanos', to: 'members#guadalupanos'
+  # get '/pastoral-familiar', to: 'members#familiar'
+
+
+
   
   # get '/videos?page=1', to: 'videos#index', defaults: {page: 1}, as: 'videos'
   # post '/videos?page=1', to: 'videos#index', defaults: {page: 1}
