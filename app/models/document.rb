@@ -3,7 +3,7 @@ class Document < ApplicationRecord
   
 
   validate :validate_file_presence
-  after_save :persist_file_to_storage, if: -> { file.attached? }
+
 
   private
 
@@ -13,10 +13,4 @@ class Document < ApplicationRecord
     end
   end
 
-  def persist_file_to_storage
-    return if file.attachment.persisted?
-
-    file.attachment.record = self
-    file.attachment.save(expires_in: 30.days)
-  end
 end

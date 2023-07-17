@@ -53,3 +53,6 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'dotenv', '~> 2.7', require: 'dotenv/load'
 # gem 'will_paginate' 
 gem 'kaminari'
+
+# Amazon S3
+gem 'aws-sdk-s3'

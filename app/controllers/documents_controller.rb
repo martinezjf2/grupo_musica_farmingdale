@@ -26,6 +26,7 @@ class DocumentsController < ApplicationController
 
   def destroy
     @document = Document.find(params[:id])
+    @document.file.purge if @document.file.attached?
     @document.destroy
     redirect_to virtus_path, success: 'Document was successfully deleted.'
   end
