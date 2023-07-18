@@ -359,3 +359,45 @@
       margin-bottom: 10px;
     }
 
+
+    // Resos Partial
+
+    #rosarySection {
+        background-color: #f8f9fa;
+        padding: 50px 10px;
+       }
+       
+        .rosary-section {
+            padding: 30px;
+            /* margin: 100px 20px; */
+        }
+    
+        .rosary-section img {
+            /* border-radius: 10px; */
+            width: 280px;
+            margin: 0 auto;
+        }
+    
+        .rosary-section-content {
+            padding-left: 20px;
+        }
+    
+        .rosary-section h2 {
+            color: #007bff;
+            font-weight: bold;
+        }
+    
+        .rosary-section p {
+            color: #343a40;
+        }
+    
+        .rosary-section a.btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            font-weight: bold;
+        }
+    
+        .rosary-section a.btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
