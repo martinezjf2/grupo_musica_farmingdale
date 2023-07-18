@@ -1,4 +1,4 @@
-<div class="">
+<div class="misaSection">
   <div class="jumbotron misaJumbo">
     <div class="container">
       <h1>Bienvenidos A Nuestra Misa Hispana!</h1>
@@ -6,12 +6,12 @@
         ¡Te invitamos a unirte a nosotros para vivir una experiencia memorable
         de adoración que elevará tu espíritu y te acercará a Dios!
       </p>
-      <a href="#about-the-priest" class="btn btn-primary btn-lg">Learn More</a>
+      <a href="#whatIsMass" class="btn btn-primary btn-lg">Quieres ver mas?</a>
     </div>
   </div>
 
 
-  <div class="container confessionDiv">
+  <div class="container confessionDiv" id="whatIsMass">
     <div class="card misaCard">
         <div class="card-header misaCardHeader">
             <h2 class="card-title misaCardTitle text-center">¿Qué es una Misa Católica?</h2>
@@ -28,15 +28,13 @@
             <hr>
             <h4 class="text-center">Horarios de la Misa:</h4>
             <ul class="mass-hours">
-                <li>Domingo: 9:00 am, 11:00 am, 6:00 pm</li>
-                <li>Lunes a viernes: 7:30 am</li>
-                <li>Sábado: 8:00 am, 5:00 pm</li>
+                <li>Domingos: 7:00 AM, 8:00 AM, 9:30 AM, 11:00 AM, 12:00 PM</li>
+                <li>Lunes a Viernes: 7:30 AM & 8:30 AM</li>
+                <li>Sábados: 5:00 PM</li>
             </ul>
             <h4 class="text-center">Horarios de la Misa en Español:</h4>
             <ul class="mass-hours">
-                <li>Domingo: 9:00 am, 11:00 am, 6:00 pm</li>
-                <li>Lunes a viernes: 7:30 am</li>
-                <li>Sábado: 8:00 am, 5:00 pm</li>
+                <li>Sábados: 6:15 PM</li>
             </ul>
         </div>
     </div>
@@ -55,30 +53,20 @@
         <p>Es importante tener en cuenta que la confesión no es un evento único, sino una práctica continua. A medida que nos esforzamos por vivir una vida alineada con la voluntad de Dios, inevitablemente tropezaremos y cometeremos errores. Las confesiones sirven como un recordatorio constante de nuestra necesidad de la gracia de Dios y como un medio para mantener una relación saludable y auténtica con Él.</p>
         <p>Tómate tiempo para reflexionar sobre tu vida, buscar el perdón de Dios y hacer confesiones según sea necesario. Acepta el poder transformador de la confesión y experimenta la vida abundante que Dios ha preparado para ti.</p>
       </div>  
-    <p class="text-center"><strong>Las confesiones están disponibles durante:</strong></p>
+    <p class="text-center"><strong>Las confesiones en ESPANOL están disponibles durante:</strong></p>
     <ul class="list-group list-group-horizontal justify-content-center">
-      <li class="list-group-item">Sunday Services: 9:00 am - 12:00 pm</li>
       <li class="list-group-item">Miercoles (Cafeteria): 7:00 pm - 9:00 pm</li>
     </ul>
   </div>
 
-  <div class="author-section" id="about-the-priest">
-    <div class="row">
-      <div class="col-sm-4">
-        <%= image_tag 'profile/romulo.png', class: "rounded-circle", alt:"Padre
-        Romulo", width:"350px"%>
-      </div>
-      <div class="col-sm-8">
-        <h2>Padre Romulo Gomez</h2>
-        <h5>Sacerdote de la Comunidad Hispana</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada
-          diam sit amet nulla dapibus, in venenatis elit consequat. Sed ac nisl
-          non felis sodales luctus. Integer tempus leo vel nibh sollicitudin,
-          eget tempor lacus dignissim.
-        </p>
-      </div>
-    </div>
-  </div>
+
+
+
+
+  <%= render "/partials/aboutPriest" %>
+  
+
+
+
 </div>
 
