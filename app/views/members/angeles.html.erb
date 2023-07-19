@@ -33,33 +33,23 @@
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
   }
 
-  .author-section {
-        padding: 2rem;
-        margin-bottom: 2rem;
-        border-radius: 0.3rem;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
+  #aboutJovenes {
+    background-color: #f8f9fa;
+    padding: 10px 5px 5px 25px
+  }
 
-    .author-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 1rem;
-    }
 
-    .author-name {
+    .section-heading {
       font-size: 2rem;
       font-weight: bold;
-      margin-bottom: 0.5rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .section-content {
+      font-size: 1.2rem;
     }
 
-    .author-bio {
-      font-size: 1.5rem;
-    }
+
   </style>
   
 
@@ -74,53 +64,36 @@
   </div>
 </div>
 
-<section id="about">
-  <div class="container">
-    <h2 class="text-center">About the Authors</h2>
 
-    <!-- Nuestros Valores aqui -->
+<%= render "/partials/features"%>
 
-    <!-- <div class="author-section" id="about-the-priest">
-        <div class="row">
-          <div class="col-sm-4">
-              <%= image_tag 'jovenes/faith.png', class: "", alt:"Imagen de Fe", width:"300px"%>
-          </div>
-          <div class="col-sm-8">
-            <h2>Tener Fé</h2>
-            <h5>Hebreos 11:1</h5>
-            <p>"Ahora bien, la fe es la certeza de lo que se espera, la convicción de lo que no se ve."</p>
-            <p>La fe nos empodera con esperanza inquebrantable, confiando en las promesas invisibles de Dios y llenando nuestros corazones de certeza.</p>
-          </div>
-        </div>
-      </div>
+<section id="aboutJovenes">
+<div class="container">
+    <div class="section">
+      <h2 class="section-heading">Los jóvenes son el futuro de la Iglesia Católica</h2>
+      <p class="section-content">Los jóvenes desempeñan un papel crucial en el futuro de la Iglesia Católica. Son el fundamento sobre el cual la fe y la comunidad se perpetuarán y crecerán. Aquí hay algunas razones por las que los jóvenes son tan importantes:</p>
+      <ul class="section-content">
+        <li><strong>Herencia de la fe:</strong> Al aprender sobre Dios y la fe católica a una edad temprana, los jóvenes se preparan para convertirse en líderes y defensores de la fe en las generaciones futuras.</li>
+        <li><strong>Renovación y vitalidad:</strong> Los jóvenes aportan energía, entusiasmo y nuevas perspectivas a la Iglesia, lo que ayuda a mantenerla vibrante y relevante en un mundo en constante cambio.</li>
+        <li><strong>Solidaridad y servicio:</strong> La juventud tiene un espíritu compasivo y está dispuesta a servir a los demás, lo que enriquece la comunidad y refleja el amor de Dios en acción.</li>
+        <li><strong>Evangelización:</strong> Los jóvenes tienen una presencia significativa en las plataformas digitales y sociales, lo que les brinda una oportunidad única para difundir el mensaje del Evangelio en el mundo moderno.</li>
+      </ul>
+    </div>
 
-      <div class="author-section" id="about-the-priest">
-        <div class="row">
-          <div class="col-sm-4">
-              <%= image_tag 'profile/romulo.png', class: "rounded-circle", alt:"Padre Romulo", width:"350px"%>
-          </div>
-          <div class="col-sm-8">
-            <h2>Trabajar en Comunidad</h2>
-            <h5>Gálatas 6:2</h5>
-            <p>"Carguen los unos con los otros sus cargas, y así cumplirán la ley de Cristo."</p>
-            <p>En una comunidad amorosa, abrazamos la ley de Cristo al apoyarnos mutuamente, compartir cargas y regocijarnos en los triunfos, fomentando un poderoso vínculo de compasión.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="author-section" id="about-the-priest">
-        <div class="row">
-          <div class="col-sm-4">
-              <%= image_tag 'profile/romulo.png', class: "rounded-circle", alt:"Padre Romulo", width:"350px"%>
-          </div>
-          <div class="col-sm-8">
-            <h2>Nuestro Servicio</h2>
-            <h5>Mateo 25:40</h5>
-            <p>"El Rey les responderá: 'Les aseguro que todo lo que hicieron por uno de mis hermanos, aun por el más pequeño, lo hicieron por mí."</p>
-            <p>A través del servicio, experimentamos la emocionante revelación de que cada acto de bondad hacia los demás es un encuentro directo con lo divino, reflejando el amor de Cristo en acción.</p>
-          </div>
-        </div>
-      </div> -->
- 
+    <div class="section">
+      <h2 class="section-heading">La importancia de conocer a Dios desde temprana edad</h2>
+      <p class="section-content">Aprender sobre Dios desde una edad temprana es esencial para el desarrollo espiritual y moral de los jóvenes. Aquí se destacan algunos puntos importantes:</p>
+      <ul class="section-content">
+        <li><strong>Formación sólida:</strong> Conocer a Dios desde joven proporciona una base sólida para enfrentar los desafíos de la vida y tomar decisiones fundamentadas en la fe.</li>
+        <li><strong>Relación personal con Dios:</strong> El conocimiento temprano de Dios permite a los jóvenes desarrollar una relación cercana y personal con Él, lo que puede brindar consuelo y guía en momentos difíciles.</li>
+        <li><strong>Discernimiento de la vocación:</strong> Conocer a Dios desde joven ayuda a los jóvenes a discernir su vocación en la vida y a comprender cómo pueden servir mejor a los demás y a la comunidad.</li>
+        <li><strong>Resiliencia:</strong> La fe en Dios puede proporcionar a los jóvenes la fortaleza y la resiliencia necesarias para enfrentar los desafíos y las pruebas que pueden encontrar en su camino.</li>
+      </ul>
+    </div>
   </div>
+
 </section>
+
+      
+
+

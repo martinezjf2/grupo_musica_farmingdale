@@ -34,6 +34,8 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   get '/angeles-de-dios', to: 'members#angeles'
   get '/luz-del-mundo', to: 'members#luz'
   get '/misa', to: 'members#misa'
+  get '/resos', to: 'members#resos'
+
 
   # This will be partials instead and will render on various pages
   # get '/resos', to: 'members#resos'

@@ -24,11 +24,12 @@ class MembersController < ApplicationController
     def misa
     end
 
-    def familiar
-    end
+    # Create Partials for these two
+    # def familiar
+    # end
 
-    def guadalupanos
-    end
+    # def guadalupanos
+    # end
 
 
 
