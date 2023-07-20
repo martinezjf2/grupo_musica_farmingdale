@@ -1,331 +1,305 @@
-
-
 // Iphone Portrait Mode
 @media (min-width: 0px) and (max-width: 428px) {
+  // Header Section from users.scss
 
-    // Header Section from users.scss
+  #header-welcome {
+    font-size: 25px;
+  }
 
-    #header-welcome {
-        font-size: 25px;
-    }
-
-    #header-body {
-        margin: 70px auto;
-        width:100%;
-    }
-
-    #header-group {
-        font-size: 50px;
-    }
-
-    #header-group-two {
-        font-size: 60px;
-    }
-
-    #header {
-        height: 500px
-    }
-
-
-    // Navbar from the users.scss
-
-    .inside-navbar {
-        margin: 0px;
-        padding: 0px
-    }
-
-    #navbar a {
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .navbar-brand {
-        font-size: 16px;
-        padding: 0px; 
-    }
-    
-    .navbar-toggler-icon:active {
-        border-width: 1px
-    }
-
-
-    // Images within Header from users.scss
-
-    #card-body {
-        width: 100%
-
-    }
-
-    #first-image, 
-    #second-image, 
-    #third-image, 
-    #fourth-image, 
-    #fifth-image, 
-    #sixth-image {
-        display: none
-    }
-
-
-    // Misson Component from users.scss
-
-  
-
-    // Carousel on quotes from users.scss
-
-    #carousel {
-        display : none;
-    }
-
-    // Contact Form from users.scss
-
-    .contact {
-        width: 100%;
-        padding: 5px
-    }
-
-    .section-title {
-        width: 100%;
-        padding-bottom: 10px;
-        margin: 5px auto;
-    }
-
-    // Core Values from users.scss for about jovenes on homepage
-
-    .media-body {
-        width: 90%;
-        text-align: center;
-    }
-
-    .media {
-        height: 950px
-    }
-
-    .float-child {
-        width: 100%;
-    }
-
-    .cVInfo {
-        padding: 0px;
-    }
-
-    .second-jovenes-div {
-        display: none
-    }
-
-    // Core Values from users.scss for about seguidores on about
-
-    .seguidores-about {
-        height: 1070px
-    }
-
-
-    // Events Page from the users.scss
-
-    .events-heading{
-        width: 95%;
-        padding: 15px 0px
-    }
-
-    #search-form {
-        width: 80%;
-    }
-
-    #ind-card-for-event {
-        width: auto;
-        margin: 5px
-    }
-
-    // Footer Section in users.scss
-
-    .address {
-        font-size: 16px;
-    }
-
-    .footer-section a {
-        font-size: 16px
-    }
-
-    .footer-section .card {
-        padding-bottom: 10px
-    }
-
-    .footerCard {
-        padding: 20px 10px 10px 10px
-      }
-
-    .footerLogoDiv {
-        padding-top: 25px
-      }
-
-      
-
-    // Calendar from events.scss
-
-    #calendar {
-        width: 100%
-    }
-
-    #calendar iframe {
-        height: 400px
-    }
-
-    #personalInfo p {
-        font-size: 16px;
-    }
-
-    // Videos from videos.scss
-
-    #videos-section {
-        padding: 0px;
-        margin: 5px
-    }
-
-    #video figcaption {
-        font-size: 12px
-    }
-
-    #video h3 {
-        font-size: 14px;
-    }
-
-    #videos-heading {
-        padding: 10px 5px;
-    }
-
-    .delete-video {
-        padding-right: 5px
-    }
-
-    .logo {
-        display: none
-    }
-
-
-    // Daily word from members.scss
-
-    
-    .evan-body-p p {
-        font-size: 14px
-    }
-
-    .pensamientos-p p {
-        font-size: 14px;
-    }
-
-    .evan-body-p p {
-        font-size: 14px
-    }
-
-    .autor-p p {
-        font-size: 10px
-    }
-
-
-    // Placeholder partial from members.scss
-
-    // Features section from the members.scss
-
-    #features .feature {
-        margin: 0px 0px 0px 12px;
-        // padding: 0px;
-        width: 93%
-    }
-
-    #ind-card {
-        padding: 0px
-    }
-
-    // #features {
-    //     padding: 0px
-    // }
-
-    .innovation-image {
-        width: 100px
-    }
-
-    .features-text {
-        width: 80%;
-        margin: 0 auto;
-      }
-
-    .featureSubtitle {
-        width: 87%;
-        margin: 0 auto;
-    }
-
-  
-    // New Event Form from events.scss
-
-   .newCourseForm {
-    margin: 20px auto;
-    width: 95%
-   }
-
-   .welcomeBack {
-    padding-bottom: 10px;
-   }
-
-
-   // Weekly Bulletin from the members.scss
-   
-
-   .bulletin .bulletin-img {
-    width: 300px
-   }
-
-   #events .bulletin {
+  #header-body {
+    margin: 70px auto;
     width: 100%;
-    padding: 0px
-   }
+  }
 
+  #header-group {
+    font-size: 50px;
+  }
 
-   .virtus {
-    width: 95%
-   }
+  #header-group-two {
+    font-size: 60px;
+  }
 
-   .virtus iframe {
-    height: 800px
-   }
+  #header {
+    height: 500px;
+  }
 
+  // Navbar from the users.scss
 
-// Bodas Quince Section from the users.scss
+  .inside-navbar {
+    margin: 0px;
+    padding: 0px;
+  }
 
-
-   #bodas {
-    width: 90%;
-   }
-
-   .quince-image {
-    width: 230px;
-    padding: 20px
-   }
-
-
-
-// Oraciones Communes Section
-
-.tabs {
+  #navbar a {
+    font-size: 16px;
     text-align: center;
-    padding-top: 25px; 
   }
-  
 
-// Virtus Section from users.scss
-  
-  .virtusLogoDiv {
-    padding: 20px
+  .navbar-brand {
+    font-size: 16px;
+    padding: 0px;
   }
-  
+
+  .navbar-toggler-icon:active {
+    border-width: 1px;
+  }
+
+  // Images within Header from users.scss
+
+  #card-body {
+    width: 100%;
+  }
+
+  #first-image,
+  #second-image,
+  #third-image,
+  #fourth-image,
+  #fifth-image,
+  #sixth-image {
+    display: none;
+  }
+
+  // Misson Component from users.scss
+
+  // Carousel on quotes from users.scss
+
+  #carousel {
+    display: none;
+  }
+
+  // Contact Form from users.scss
+
+  .contact {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .section-title {
+    width: 100%;
+    padding-bottom: 10px;
+    margin: 5px auto;
+  }
+
+  // Core Values from users.scss for about jovenes on homepage
+
+  .media-body {
+    width: 90%;
+    text-align: center;
+  }
+
+  .media {
+    height: 950px;
+  }
+
+  .float-child {
+    width: 100%;
+  }
+
+  .cVInfo {
+    padding: 0px;
+  }
+
+  .second-jovenes-div {
+    display: none;
+  }
+
+  // Core Values from users.scss for about seguidores on about
+
+  .seguidores-about {
+    height: 1070px;
+  }
+
+  // Events Page from the users.scss
+
+  .events-heading {
+    width: 95%;
+    padding: 15px 0px;
+  }
+
+  #search-form {
+    width: 80%;
+  }
+
+  #ind-card-for-event {
+    width: auto;
+    margin: 5px;
+  }
+
+  // Footer Section in users.scss
+
+  .address {
+    font-size: 16px;
+  }
+
+  .footer-section a {
+    font-size: 16px;
+  }
+
+  .footer-section .card {
+    padding-bottom: 10px;
+  }
+
+  .footerCard {
+    padding: 20px 10px 10px 10px;
+  }
+
+  .footerLogoDiv {
+    padding-top: 25px;
+  }
+
+  // Calendar from events.scss
+
+  #calendar {
+    width: 100%;
+  }
+
+  #calendar iframe {
+    height: 400px;
+  }
+
+  #personalInfo p {
+    font-size: 16px;
+  }
+
+  // Videos from videos.scss
+
+  #videos-section {
+    padding: 0px;
+    margin: 5px;
+  }
+
+  #video figcaption {
+    font-size: 12px;
+  }
+
+  #video h3 {
+    font-size: 14px;
+  }
+
+  #videos-heading {
+    padding: 10px 5px;
+  }
+
+  .delete-video {
+    padding-right: 5px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  // Daily word from members.scss
+
+  .evan-body-p p {
+    font-size: 14px;
+  }
+
+  .pensamientos-p p {
+    font-size: 14px;
+  }
+
+  .evan-body-p p {
+    font-size: 14px;
+  }
+
+  .autor-p p {
+    font-size: 10px;
+  }
+
+  // Placeholder partial from members.scss
+
+  // Features section from the members.scss
+
+  #features .feature {
+    margin: 0px 0px 0px 12px;
+    // padding: 0px;
+    width: 93%;
+  }
+
+  #ind-card {
+    padding: 0px;
+  }
+
+  // #features {
+  //     padding: 0px
+  // }
+
+  .innovation-image {
+    width: 100px;
+  }
+
+  .features-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .featureSubtitle {
+    width: 87%;
+    margin: 0 auto;
+  }
+
+  // New Event Form from events.scss
+
+  .newCourseForm {
+    margin: 20px auto;
+    width: 95%;
+  }
+
+  .welcomeBack {
+    padding-bottom: 10px;
+  }
+
+  // Weekly Bulletin from the members.scss
+
+  .bulletin .bulletin-img {
+    width: 300px;
+  }
+
+  #events .bulletin {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .virtus {
+    width: 95%;
+  }
+
+  .virtus iframe {
+    height: 800px;
+  }
+
+  // Bodas Quince Section from the users.scss
+
+  #bodas {
+    width: 90%;
+  }
+
+  .quince-image {
+    width: 230px;
+    padding: 20px;
+  }
+
+  // Oraciones Communes Section
+
+  .tabs {
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  // Virtus Section from users.scss
+
+  .virtusLogoDiv {
+    padding: 20px;
+  }
+
   .virtusLogo {
     margin-top: 0px;
     width: 250px;
   }
-  
 
+  //   Misa from members.scss
 
-//   Misa from members.scss
-
-.misaSection .misaJumbo {
+  .misaSection .misaJumbo {
     // background: url("https://seguidoresdejesus.s3.amazonaws.com/stkilian.jpeg");
     background-position: initial;
     background-position: center 70%;
@@ -342,7 +316,6 @@
     margin-bottom: 2rem;
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
     letter-spacing: 0.4rem;
-    
   }
 
   .misaSection .misaJumbo p {
@@ -351,38 +324,33 @@
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
   }
 
-
   .misaSection .confessionDiv {
-      margin-top: 50px;
-    }
+    margin-top: 50px;
+  }
 
+  .misaSection .section-content {
+    margin-bottom: 40px;
+    width: 95%;
+    margin: 0 auto;
+  }
 
-    .misaSection .section-content {
-      margin-bottom: 40px;
-      width: 95%;
-      margin: 0 auto;
-    }
+  .misaSection .section-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
 
-    .misaSection .section-content p {
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
+  .misaCardBody h4 {
+    font-weight: bold;
+  }
 
+  .author-section img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+  }
 
-    .misaCardBody h4 {
-      font-weight: bold;
-    }
-
-    .author-section img {
-      width: 250px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-
-    // Luz del Mundo Page from members.scss
-
+  // Luz del Mundo Page from members.scss
 
   .luzDelMundoSection .luzDelMundoJumbo h1 {
     font-size: 2.5rem;
@@ -403,9 +371,7 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
-
   }
-
 
   .pequena-communidad-section #pequena-comunidad {
     padding: 1rem;
@@ -422,82 +388,131 @@
   }
 
   #h2Pequena {
-    padding: 50px 10px 5px 10px; 
-    font-weight: 700
+    padding: 50px 10px 5px 10px;
+    font-weight: 700;
   }
 
-
   div#quoteDiv {
-    width: 90%; 
+    width: 90%;
     margin: 0 auto;
-
   }
 
   div.quote {
     margin-top: 50px;
   }
 
-
   // Resos Partial
 
   section#rosarySection {
     padding: 10px;
-   }
-   
-    .rosary-section {
-        padding: 30px;
-    }
+  }
 
-    #rosarySection .rosary-section img {
-        width: 180px;
-        margin: 0 auto;
-        padding-bottom: 20px;
-        padding-left: 25px;
-    }
+  .rosary-section {
+    padding: 30px;
+  }
 
-    .rosary-section-content {
-        padding-left: 18px;
-    }
+  #rosarySection .rosary-section img {
+    width: 180px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
 
-    .rosary-section h2 {
-        color: #007bff;
-        font-weight: bold;
-    }
+  .rosary-section-content {
+    padding-left: 18px;
+  }
+
+  .rosary-section h2 {
+    color: #007bff;
+    font-weight: bold;
+  }
+
+  // Angeles de Dios Page
+
+  div.jovenesJumbotron {
+    background-position: center 50%;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  div.jovenesJumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+  div.jovenesJumbotron p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  div.jovenesJumbotron h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  section#aboutJovenes {
+    padding: 10px 5px;
+  }
+
+  #aboutJovenes .aboutJovenesHeading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #aboutJovenes .aboutJovenesContent {
+    font-size: 16px;
+  }
+
+  section#angeles-de-dios {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .jovenes-image {
+    width: 400px
+  }
+  #angeles-de-dios p {
+    font-size: 16px
+  }
+
+//   Uncomment this out when the video is there
+//   .video-container {
+//     position: relative;
+//     /* padding-bottom: 56.25%; */
+//     overflow: hidden;
+//   }
+
+//   .video-container iframe {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//   }
 
 
 
-// New Submission for Virtus
-// Testimonials Section
-// Angeles de Dios Page
-// Resos Page
 
 
 
 
 
+
+  // New Submission for Virtus
+  // Testimonials Section
+  // Resos Page
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -556,333 +571,310 @@
 
 // Iphone Landscape, Ipad (regular)
 
-
 @media (min-width: 429px) and (max-width: 1024px) {
+  // Header Section from users.scss
 
-    // Header Section from users.scss
+  #header-welcome {
+    font-size: 35px;
+  }
 
-    #header-welcome {
-        font-size: 35px;
-    }
-
-    #header-body {
-        margin: 100px auto;
-        width:100%;
-    }
-
-    #header-group {
-        font-size: 60px;
-    }
-
-
-
-    // Navbar from the users.scss
-
-    .inside-navbar {
-        margin: 0px;
-        padding: 0px
-    }
-
-    #navbar a {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .navbar-brand {
-        font-size: 18px;
-        padding: 0px; 
-    }
-    
-    .navbar-toggler-icon:active {
-        border-width: 1px
-    }
-
-
-    // Images within Header from users.scss
-
-    #card-body {
-        width: 100%
-
-    }
-
-    #first-image {
-        right: 2%
-    }
-
-    #second-image {
-        left: 2%;
-    }
-
-    #third-image {
-        left: 17%
-    } 
-
-    
-    #fifth-image, 
-    #sixth-image {
-        display: none
-    }
-
-
-    // Misson Component from users.scss
-
-  
-
-    // Carousel on quotes from users.scss
-
-    // #carousel {
-    //     display : none;
-    // }
-
-    // Contact Form from users.scss
-
-    .contact {
-        width: 100%;
-        padding: 5px
-    }
-
-    .section-title {
-        width: 100%;
-        padding-bottom: 10px;
-        margin: 5px auto;
-    }
-
-    // Core Values from users.scss for about jovenes on homepage
-
-    .media-body {
-        width: 90%;
-        text-align: center;
-    }
-
-    .media {
-        height: 1320px
-    }
-
-    .float-child {
-        width: 100%;
-    }
-
-    .cVInfo {
-        padding: 10px 80px;
-        height: 500px
-    }
-
-    #second-jovenes-div #imageCarousel {
-        width: 80%;
-        margin: 0 auto
-    }
-
-
-
-    // Core Values from users.scss for about seguidores on about
-
-    .seguidores-about {
-        height: 1030px
-    }
-
-
-    // Events Page from the users.scss
-
-    .events-heading{
-        width: 95%;
-        padding: 25px 0px
-    }
-
-    #search-form {
-        width: 80%;
-    }
-
-    #ind-card-for-event {
-        width: auto;
-        margin: 30px
-    }
-
-    // Footer Section in users.scss
-
-    .address {
-        font-size: 16px;
-    }
-
-    .footer-section a {
-        font-size: 16px
-    }
-
-    .footer-section .card {
-        padding: 10px 2px
-    }
-
-    .footerCard {
-        padding: 35px 10px 20px 10px
-      }
-
-      .footerLogoDiv {
-        padding-top: 15px
-      }
-
-    // Calendar from events.scss
-
-    #calendar {
-        width: 90%
-    }
-
-    #calendar iframe {
-        height: 800px
-    }
-
-    #personalInfo p {
-        font-size: 18px;
-    }
-
-    // Videos from videos.scss
-
-    #videos-section {
-        padding: 0px;
-        margin: 5px
-    }
-
-    #video figcaption {
-        font-size: 14px
-    }
-
-    #video h3 {
-        font-size: 16px;
-    }
-
-    #videos-heading {
-        padding: 10px 5px;
-    }
-
-    .delete-video {
-        padding-right: 5px
-    }
-
-    // .logo {
-    //     display: none
-    // }
-
-
-    // Daily word from members.scss
-
-    
-    .evan-body-p p {
-        font-size: 17px
-    }
-
-    .pensamientos-p p {
-        font-size: 17px;
-    }
-
-    .evan-body-p p {
-        font-size: 17px
-    }
-
-    .autor-p p {
-        font-size: 13px
-    }
-
-
-    // Placeholder partial from members.scss
-
-    // Features section from the members.scss
-
-    #features .feature {
-        margin: 0px 0px 0px 12px;
-        // padding: 0px;
-        width: 96%
-    }
-
-    #ind-card {
-        padding: 10px 5px;
-    }
-
-    // #features {
-    //     padding: 0px
-    // }
-
-    // .innovation-image {
-    //     width: 100px
-    // }
-
-    .features-text {
-        width: 88%;
-        padding: 0;
-        margin: 0 auto;
-      }
-
-     
-    .featureSubtitle {
-        width: 87%;
-        margin: 0 auto;
-    } 
-
-  
-    // New Event Form from events.scss
-
-   .newCourseForm {
-    margin: 20px auto;
-    width: 95%
-   }
-
-   .welcomeBack {
-    padding-bottom: 10px;
-   }
-
-
-   // Weekly Bulletin from the members.scss
-   
-
-   .bulletin .bulletin-img {
-    width: 400px
-   }
-
-   #events .bulletin {
+  #header-body {
+    margin: 100px auto;
     width: 100%;
-    padding: 0px
-   }
+  }
 
-   .virtus {
-    width: 80%
-   }
+  #header-group {
+    font-size: 60px;
+  }
 
-   .virtus iframe {
-    height: 700px
-   }
+  // Navbar from the users.scss
 
+  .inside-navbar {
+    margin: 0px;
+    padding: 0px;
+  }
 
-   // Bodas Quince Section from the users.scss
-
-
-   #bodas {
-    width: 85%;
-   }
-
-   .quince-image {
-    width: 300px;
-    padding: 20px
-   }
-
-// Oraciones Communes Section
-
-.tabs {
+  #navbar a {
+    font-size: 18px;
     text-align: center;
-    padding-top: 25px; 
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+    padding: 0px;
+  }
+
+  .navbar-toggler-icon:active {
+    border-width: 1px;
+  }
+
+  // Images within Header from users.scss
+
+  #card-body {
+    width: 100%;
+  }
+
+  #first-image {
+    right: 2%;
+  }
+
+  #second-image {
+    left: 2%;
+  }
+
+  #third-image {
+    left: 17%;
+  }
+
+  #fifth-image,
+  #sixth-image {
+    display: none;
+  }
+
+  // Misson Component from users.scss
+
+  // Carousel on quotes from users.scss
+
+  // #carousel {
+  //     display : none;
+  // }
+
+  // Contact Form from users.scss
+
+  .contact {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .section-title {
+    width: 100%;
+    padding-bottom: 10px;
+    margin: 5px auto;
+  }
+
+  // Core Values from users.scss for about jovenes on homepage
+
+  .media-body {
+    width: 90%;
+    text-align: center;
+  }
+
+  .media {
+    height: 1320px;
+  }
+
+  .float-child {
+    width: 100%;
+  }
+
+  .cVInfo {
+    padding: 10px 80px;
+    height: 500px;
+  }
+
+  #second-jovenes-div #imageCarousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  // Core Values from users.scss for about seguidores on about
+
+  .seguidores-about {
+    height: 1030px;
+  }
+
+  // Events Page from the users.scss
+
+  .events-heading {
+    width: 95%;
+    padding: 25px 0px;
+  }
+
+  #search-form {
+    width: 80%;
+  }
+
+  #ind-card-for-event {
+    width: auto;
+    margin: 30px;
+  }
+
+  // Footer Section in users.scss
+
+  .address {
+    font-size: 16px;
+  }
+
+  .footer-section a {
+    font-size: 16px;
+  }
+
+  .footer-section .card {
+    padding: 10px 2px;
+  }
+
+  .footerCard {
+    padding: 35px 10px 20px 10px;
+  }
+
+  .footerLogoDiv {
+    padding-top: 15px;
+  }
+
+  // Calendar from events.scss
+
+  #calendar {
+    width: 90%;
+  }
+
+  #calendar iframe {
+    height: 800px;
+  }
+
+  #personalInfo p {
+    font-size: 18px;
+  }
+
+  // Videos from videos.scss
+
+  #videos-section {
+    padding: 0px;
+    margin: 5px;
+  }
+
+  #video figcaption {
+    font-size: 14px;
+  }
+
+  #video h3 {
+    font-size: 16px;
+  }
+
+  #videos-heading {
+    padding: 10px 5px;
+  }
+
+  .delete-video {
+    padding-right: 5px;
+  }
+
+  // .logo {
+  //     display: none
+  // }
+
+  // Daily word from members.scss
+
+  .evan-body-p p {
+    font-size: 17px;
+  }
+
+  .pensamientos-p p {
+    font-size: 17px;
+  }
+
+  .evan-body-p p {
+    font-size: 17px;
+  }
+
+  .autor-p p {
+    font-size: 13px;
+  }
+
+  // Placeholder partial from members.scss
+
+  // Features section from the members.scss
+
+  #features .feature {
+    margin: 0px 0px 0px 12px;
+    // padding: 0px;
+    width: 96%;
+  }
+
+  #ind-card {
+    padding: 10px 5px;
+  }
+
+  // #features {
+  //     padding: 0px
+  // }
+
+  // .innovation-image {
+  //     width: 100px
+  // }
+
+  .features-text {
+    width: 88%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .featureSubtitle {
+    width: 87%;
+    margin: 0 auto;
+  }
+
+  // New Event Form from events.scss
+
+  .newCourseForm {
+    margin: 20px auto;
+    width: 95%;
+  }
+
+  .welcomeBack {
+    padding-bottom: 10px;
+  }
+
+  // Weekly Bulletin from the members.scss
+
+  .bulletin .bulletin-img {
+    width: 400px;
+  }
+
+  #events .bulletin {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .virtus {
+    width: 80%;
+  }
+
+  .virtus iframe {
+    height: 700px;
+  }
+
+  // Bodas Quince Section from the users.scss
+
+  #bodas {
+    width: 85%;
+  }
+
+  .quince-image {
+    width: 300px;
+    padding: 20px;
+  }
+
+  // Oraciones Communes Section
+
+  .tabs {
+    text-align: center;
+    padding-top: 25px;
   }
 
   // Virtus Section from users.scss
-  
+
   .virtusLogoDiv {
-    padding-top: 100px
+    padding-top: 100px;
   }
-  
+
   .virtusLogo {
     margin-top: 0px;
     width: 300px;
   }
 
-
   //   Misa from members.scss
 
-.misaSection .misaJumbo {
+  .misaSection .misaJumbo {
     // background: url("https://seguidoresdejesus.s3.amazonaws.com/stkilian.jpeg");
     background-position: initial;
     background-position: center 70%;
@@ -899,7 +891,6 @@
     margin-bottom: 2rem;
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
     letter-spacing: 0.4rem;
-    
   }
 
   .misaSection .misaJumbo p {
@@ -908,39 +899,33 @@
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
   }
 
-
   .misaSection .confessionDiv {
-      margin-top: 50px;
-    }
+    margin-top: 50px;
+  }
 
+  .misaSection .section-content {
+    margin-bottom: 40px;
+    width: 95%;
+    margin: 0 auto;
+  }
 
-    .misaSection .section-content {
-      margin-bottom: 40px;
-      width: 95%;
-      margin: 0 auto;
-    }
+  .misaSection .section-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
 
-    .misaSection .section-content p {
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
+  .misaCardBody h4 {
+    font-weight: bold;
+  }
 
+  .author-section img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+  }
 
-    .misaCardBody h4 {
-      font-weight: bold;
-    }
-
-    .author-section img {
-      width: 250px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-
-
-     // Luz del Mundo Page from members.scss
-
+  // Luz del Mundo Page from members.scss
 
   .luzDelMundoSection .luzDelMundoJumbo h1 {
     font-size: 2.5rem;
@@ -961,9 +946,7 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
-
   }
-
 
   .pequena-communidad-section #pequena-comunidad {
     padding: 1rem;
@@ -981,80 +964,129 @@
   }
 
   #h2Pequena {
-    padding: 50px 10px 5px 10px; 
-    font-weight: 700
+    padding: 50px 10px 5px 10px;
+    font-weight: 700;
   }
 
-
   div#quoteDiv {
-    width: 85%; 
+    width: 85%;
     margin: 0 auto;
-
   }
 
   div.quote {
     margin-top: 50px;
   }
 
-   // Resos Partial
+  // Resos Partial
 
-   section#rosarySection {
+  section#rosarySection {
     padding: 10px;
-   }
-   
-    .rosary-section {
-        padding: 30px;
-    }
+  }
 
-    #rosarySection .rosary-section img {
-        width: 300px;
-        margin: 0 auto;
-        padding-bottom: 20px;
-        padding-left: 25px;
-    }
+  .rosary-section {
+    padding: 30px;
+  }
 
-    .rosary-section-content {
-        padding-left: 18px;
-    }
+  #rosarySection .rosary-section img {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
 
-    .rosary-section h2 {
-        color: #007bff;
-        font-weight: bold;
-        font-size: 36px;
-    }
+  .rosary-section-content {
+    padding-left: 18px;
+  }
 
-
-// New Submission for Virtus
-// Testimonials Section
+  .rosary-section h2 {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 36px;
+  }
 
 
 
+  // Angeles de Dios Page
+
+  div.jovenesJumbotron {
+    background-position: center 35%;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  div.jovenesJumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+  div.jovenesJumbotron p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  div.jovenesJumbotron h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  section#aboutJovenes {
+    padding: 1px 15px 10px 15px;
+  }
+
+  #aboutJovenes .aboutJovenesHeading {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #aboutJovenes .aboutJovenesContent {
+    font-size: 18px;
+  }
+
+  section#angeles-de-dios {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .jovenes-image {
+    width: 500px
+  }
+  #angeles-de-dios p {
+    font-size: 18px
+  }
+
+//   Uncomment this out when the video is there
+//   .video-container {
+//     position: relative;
+//     /* padding-bottom: 56.25%; */
+//     overflow: hidden;
+//   }
+
+//   .video-container iframe {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//   }
+
+
+
+
+
+  // New Submission for Virtus
+  // Testimonials Section
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1113,376 +1145,340 @@
 
 // IPad Pro Landscape
 
-
 // @media (min-width: 1025px) and (max-width: 1366px) {
-
-    
 
 // }
 
-
-
-
-
 // Responsive Design for Ipad Pro
 
-
 @media (min-width: 1026px) and (max-width: 1366px) {
+  // Header Section from users.scss
 
-    // Header Section from users.scss
-
-    #header-welcome {
-        font-size: 45px;
-    }
-
-    #header-body {
-        margin: 100px auto;
-        width:100%;
-    }
-
-    #header-group {
-        font-size: 70px;
-    }
-
-
-
-    // Navbar from the users.scss
-
-    .inside-navbar {
-        margin: 0px;
-        padding: 0px 35px 0px 35px
-    }
-
-    #navbar a {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .navbar-brand {
-        font-size: 18px;
-        padding: 0px; 
-    }
-    
-    // .navbar-toggler-icon:active {
-    //     border-width: 1px
-    // }
-
-
-    // Images within Header from users.scss
-
-    #card-body {
-        width: 100%
-
-    }
-
-    // Jorge
-    #first-image {
-        right: 5%
-    }
-
-    // Elmer
-    #second-image {
-        left: 5%;
-    }
-
-    // Fermina
-    #third-image {
-        left: 20%
-    } 
-
-    // Johnathan
-    #fourth-image {
-        left: 25%
-    }
-    
-    #fifth-image, 
-    #sixth-image {
-        display: none
-    }
-
-
-    // Misson Component from users.scss
-
-  
-
-    // Carousel on quotes from users.scss
-
-    // #carousel {
-    //     display : none;
-    // }
-
-    // Contact Form from users.scss
-
-    .contact {
-        width: 100%;
-        padding: 5px
-    }
-
-    .section-title {
-        width: 100%;
-        padding-bottom: 10px;
-        margin: 5px auto;
-    }
-
-    // Core Values from users.scss for about jovenes on homepage
-
-    .media-body {
-        width: 85%;
-    }
-
-    // .media {
-    //     height: 1200px
-    // }
-
-    // .float-child {
-    //     width: 100%;
-    // }
-
-    .cVInfo {
-        padding: 5px 25px;
-        
-    }
-
-    // #second-jovenes-div #imageCarousel {
-    //     width: 80%;
-    //     margin: 0 auto
-    // }
-
-
-
-    // Core Values from users.scss for about seguidores on about
-
-    .seguidores-about {
-        height: 800px
-    }
-
-
-    // Events Page from the users.scss
-
-    .events-heading{
-        width: 95%;
-        padding: 25px 0px
-    }
-
-    #search-form {
-        width: 80%;
-    }
-
-    #ind-card-for-event {
-        width: auto;
-        margin:  25px 80px
-    }
-
-    // Footer Section in users.scss
-
-    .address {
-        font-size: 17px;
-    }
-
-    .footer-section a {
-        font-size: 17px
-    }
-
-    .footer-section .card {
-        padding: 10px 2px
-    }
-
-    .footerCard {
-        padding: 35px 15px 20px 15px
-      }
-
-      .footerLogoDiv {
-        padding-top: 20px
-      }
-    
-    // Calendar from events.scss
-
-    #calendar {
-        width: 90%
-    }
-
-    #calendar iframe {
-        height: 800px
-    }
-
-    #personalInfo p {
-        font-size: 20px;
-    }
-
-    // Videos from videos.scss
-
-    #videos-section {
-        padding: 0px;
-        margin: 5px
-    }
-
-    #video figcaption {
-        font-size: 14px
-    }
-
-    #video h3 {
-        font-size: 16px;
-    }
-
-    #videos-heading {
-        padding: 10px 5px;
-    }
-
-    .delete-video {
-        padding-right: 5px
-    }
-
-    // .logo {
-    //     display: none
-    // }
-
-
-    // Daily word from members.scss
-
-    
-    .evan-body-p p {
-        font-size: 18px
-    }
-
-    .pensamientos-p p {
-        font-size: 18px;
-    }
-
-    .evan-body-p p {
-        font-size: 18px
-    }
-
-    .autor-p p {
-        font-size: 14px
-    }
-
-
-    // Placeholder partial from members.scss
-
-    // Features section from the members.scss
-
-    #features .feature {
-        margin: 0px 0px 0px 12px;
-        // padding: 0px;
-        width: 98%
-    }
-
-    #ind-card {
-        padding: 10px 5px;
-    }
-
-    // #features {
-    //     padding: 0px
-    // }
-
-    // .innovation-image {
-    //     width: 100px
-    // }
-
-    .features-text {
-        width: 88%;
-        padding: 0;
-        margin: 0 auto;
-      }
-
-      .featureSubtitle {
-        width: 75%;
-        margin: 0 auto;
-    } 
-  
-    // New Event Form from events.scss
-
-   .newCourseForm {
-    margin: 20px auto;
-    width: 95%
-   }
-
-   .welcomeBack {
-    padding-bottom: 10px;
-   }
-
-
-   // Weekly Bulletin from the members.scss
-   
-
-   .bulletin .bulletin-img {
-    width: 500px
-   }
-
-   #events .bulletin {
-    width: 100%;
-    padding: 0px
-   }
-
-
-    // Bodas Quince Section from the users.scss
-
-
-    #bodas {
-        width: 85%;
-       }
-    
-       .quince-image {
-        width: 400px;
-        padding: 20px
-       }
-
-
-// Virtus Section from users.scss
-  
-  .virtusLogoDiv {
-    padding-top: 100px
+  #header-welcome {
+    font-size: 45px;
   }
-  
+
+  #header-body {
+    margin: 100px auto;
+    width: 100%;
+  }
+
+  #header-group {
+    font-size: 70px;
+  }
+
+  // Navbar from the users.scss
+
+  .inside-navbar {
+    margin: 0px;
+    padding: 0px 35px 0px 35px;
+  }
+
+  #navbar a {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+    padding: 0px;
+  }
+
+  // .navbar-toggler-icon:active {
+  //     border-width: 1px
+  // }
+
+  // Images within Header from users.scss
+
+  #card-body {
+    width: 100%;
+  }
+
+  // Jorge
+  #first-image {
+    right: 5%;
+  }
+
+  // Elmer
+  #second-image {
+    left: 5%;
+  }
+
+  // Fermina
+  #third-image {
+    left: 20%;
+  }
+
+  // Johnathan
+  #fourth-image {
+    left: 25%;
+  }
+
+  #fifth-image,
+  #sixth-image {
+    display: none;
+  }
+
+  // Misson Component from users.scss
+
+  // Carousel on quotes from users.scss
+
+  // #carousel {
+  //     display : none;
+  // }
+
+  // Contact Form from users.scss
+
+  .contact {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .section-title {
+    width: 100%;
+    padding-bottom: 10px;
+    margin: 5px auto;
+  }
+
+  // Core Values from users.scss for about jovenes on homepage
+
+  .media-body {
+    width: 85%;
+  }
+
+  // .media {
+  //     height: 1200px
+  // }
+
+  // .float-child {
+  //     width: 100%;
+  // }
+
+  .cVInfo {
+    padding: 5px 25px;
+  }
+
+  // #second-jovenes-div #imageCarousel {
+  //     width: 80%;
+  //     margin: 0 auto
+  // }
+
+  // Core Values from users.scss for about seguidores on about
+
+  .seguidores-about {
+    height: 800px;
+  }
+
+  // Events Page from the users.scss
+
+  .events-heading {
+    width: 95%;
+    padding: 25px 0px;
+  }
+
+  #search-form {
+    width: 80%;
+  }
+
+  #ind-card-for-event {
+    width: auto;
+    margin: 25px 80px;
+  }
+
+  // Footer Section in users.scss
+
+  .address {
+    font-size: 17px;
+  }
+
+  .footer-section a {
+    font-size: 17px;
+  }
+
+  .footer-section .card {
+    padding: 10px 2px;
+  }
+
+  .footerCard {
+    padding: 35px 15px 20px 15px;
+  }
+
+  .footerLogoDiv {
+    padding-top: 20px;
+  }
+
+  // Calendar from events.scss
+
+  #calendar {
+    width: 90%;
+  }
+
+  #calendar iframe {
+    height: 800px;
+  }
+
+  #personalInfo p {
+    font-size: 20px;
+  }
+
+  // Videos from videos.scss
+
+  #videos-section {
+    padding: 0px;
+    margin: 5px;
+  }
+
+  #video figcaption {
+    font-size: 14px;
+  }
+
+  #video h3 {
+    font-size: 16px;
+  }
+
+  #videos-heading {
+    padding: 10px 5px;
+  }
+
+  .delete-video {
+    padding-right: 5px;
+  }
+
+  // .logo {
+  //     display: none
+  // }
+
+  // Daily word from members.scss
+
+  .evan-body-p p {
+    font-size: 18px;
+  }
+
+  .pensamientos-p p {
+    font-size: 18px;
+  }
+
+  .evan-body-p p {
+    font-size: 18px;
+  }
+
+  .autor-p p {
+    font-size: 14px;
+  }
+
+  // Placeholder partial from members.scss
+
+  // Features section from the members.scss
+
+  #features .feature {
+    margin: 0px 0px 0px 12px;
+    // padding: 0px;
+    width: 98%;
+  }
+
+  #ind-card {
+    padding: 10px 5px;
+  }
+
+  // #features {
+  //     padding: 0px
+  // }
+
+  // .innovation-image {
+  //     width: 100px
+  // }
+
+  .features-text {
+    width: 88%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .featureSubtitle {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  // New Event Form from events.scss
+
+  .newCourseForm {
+    margin: 20px auto;
+    width: 95%;
+  }
+
+  .welcomeBack {
+    padding-bottom: 10px;
+  }
+
+  // Weekly Bulletin from the members.scss
+
+  .bulletin .bulletin-img {
+    width: 500px;
+  }
+
+  #events .bulletin {
+    width: 100%;
+    padding: 0px;
+  }
+
+  // Bodas Quince Section from the users.scss
+
+  #bodas {
+    width: 85%;
+  }
+
+  .quince-image {
+    width: 400px;
+    padding: 20px;
+  }
+
+  // Virtus Section from users.scss
+
+  .virtusLogoDiv {
+    padding-top: 100px;
+  }
+
   .virtusLogo {
     margin-top: 0px;
     width: 300px;
   }
-       
-// Oraciones Communes Section
 
-// .tabs {
-//     text-align: center;
-//     padding-top: 25px; 
-//   }
+  // Oraciones Communes Section
 
+  // .tabs {
+  //     text-align: center;
+  //     padding-top: 25px;
+  //   }
 
   //   Misa from members.scss
 
-
   .misaSection .confessionDiv {
-      margin-top: 50px;
-    }
+    margin-top: 50px;
+  }
 
+  .misaSection .section-content {
+    margin-bottom: 40px;
+    width: 95%;
+    margin: 0 auto;
+  }
 
-    .misaSection .section-content {
-      margin-bottom: 40px;
-      width: 95%;
-      margin: 0 auto;
-    }
+  .misaSection .section-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
 
-    .misaSection .section-content p {
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
+  .misaCardBody h4 {
+    font-weight: bold;
+  }
 
+  .author-section img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+  }
 
-    .misaCardBody h4 {
-      font-weight: bold;
-    }
-
-    .author-section img {
-      width: 250px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-
-
-
-       // Luz del Mundo Page from members.scss
-
+  // Luz del Mundo Page from members.scss
 
   .luzDelMundoSection .luzDelMundoJumbo h1 {
     font-size: 2.5rem;
@@ -1503,9 +1499,7 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
-
   }
-
 
   .pequena-communidad-section #pequena-comunidad {
     padding: 1rem;
@@ -1523,79 +1517,106 @@
   }
 
   #h2Pequena {
-    padding: 50px 10px 5px 10px; 
-    font-weight: 700
+    padding: 50px 10px 5px 10px;
+    font-weight: 700;
   }
 
-
   div#quoteDiv {
-    width: 85%; 
+    width: 85%;
     margin: 0 auto;
-
   }
 
   div.quote {
     margin-top: 50px;
   }
 
-
   // Resos Partial
 
   section#rosarySection {
     padding: 10px;
-   }
-   
-    .rosary-section {
-        padding: 30px;
-    }
+  }
 
-    #rosarySection .rosary-section img {
-        width: 300px;
-        margin: 0 auto;
-        padding-bottom: 20px;
-        padding-left: 25px;
-    }
+  .rosary-section {
+    padding: 30px;
+  }
 
-    .rosary-section-content {
-        padding-left: 18px;
-    }
+  #rosarySection .rosary-section img {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
 
-    .rosary-section h2 {
-        color: #007bff;
-        font-weight: bold;
-        font-size: 36px;
-    }
+  .rosary-section-content {
+    padding-left: 18px;
+  }
 
-// New Submission for Virtus
-// Testimonials Section
+  .rosary-section h2 {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 36px;
+  }
 
 
+  // Angeles de Dios Page
+
+  div.jovenesJumbotron {
+    background-position: center 35%;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  div.jovenesJumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+  div.jovenesJumbotron p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  div.jovenesJumbotron h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  section#aboutJovenes {
+    padding: 1px 15px 10px 15px;
+  }
+
+  #aboutJovenes .aboutJovenesHeading {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #aboutJovenes .aboutJovenesContent {
+    font-size: 18px;
+  }
+
+  section#angeles-de-dios {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .jovenes-image {
+    width: 600px
+  }
+  #angeles-de-dios p {
+    font-size: 18px
+  }
+
+  // New Submission for Virtus
+  // Testimonials Section
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
