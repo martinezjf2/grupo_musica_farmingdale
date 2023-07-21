@@ -55,7 +55,7 @@ class VideosController < ApplicationController
     def update
         @video = Video.find_by(id: params[:id])
         if @video.update(video_params)
-            redirect_to videos_path, success: "Video editado con éxito"
+            redirect_to '/videos?page=1', success: "Video editado con éxito"
         else
             redirect_to new_video_path, danger: "El video NO se edito con éxito"
         end
@@ -64,7 +64,7 @@ class VideosController < ApplicationController
     def create
         @video = Video.new(video_params)
         if @video.save
-            redirect_to videos_path, success: "Video añadido con éxito"
+            redirect_to '/videos?page=1', success: "Video añadido con éxito"
         else
             redirect_to new_video_path, danger: "El video NO se agregó con éxito"
         end
