@@ -24,6 +24,10 @@ class MembersController < ApplicationController
     def misa
     end
 
+    def forms
+        @document = Document.all.first
+    end
+
     # Create Partials for these two
     # def familiar
     # end
