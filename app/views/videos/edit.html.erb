@@ -1,5 +1,4 @@
 
-<div class="section textInputs">
     <div class="container-fluid newCourseForm">
       <h3 class="welcomeBack" style="text-align: center;">Editar Video</h3>
 
@@ -18,10 +17,14 @@
             <%= f.label :date_created, 'Fecha del Video', class: "form-label" %>
             <%=f.date_field :date_created, class: "form-control Input", :placeholder => 'Ingrese Fecha del Video', value: f.object.date_created  %>
         </div>
+
+        <div class="mb-3">
+          <%= f.label :category, 'Categoría del Video', class: "form-label" %>
+          <%= f.select :category, ['Predicas', 'Juvenil', 'Musica', 'Dramas'], { prompt: 'Seleccione una categoría' }, class: "form-control Input" %>
+        </div>
       
         <%=f.submit "AGREGAR", class: "btn btn-lg btn-default loginButton" %> 
       <%end%>
 
     </div>
-  </div>
   

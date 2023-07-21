@@ -58,7 +58,7 @@ class VideosController < ApplicationController
     private
 
     def video_params
-        params.require(:video).permit(:name, :link_to_video, :date_created)
+        params.require(:video).permit(:name, :link_to_video, :date_created, :category)
     end
     
 
