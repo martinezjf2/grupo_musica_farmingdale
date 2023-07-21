@@ -2,20 +2,42 @@ class VideosController < ApplicationController
     before_action :require_login, only: [:new, :edit, :update, :destroy]
 
 
+    # def index
+    #     videos_per_page = 6
+    #     page = params[:page].to_i || 2
+    #     offset = [(page - 1) * videos_per_page, 0].max
+      
+    #     if params[:search].present? || params[:category].present?
+    #       category = params[:category]
+    #       total_videos = Video.where('lower(name) LIKE ?', "%#{params[:search].downcase}%").count
+    #       @videos = Video.where('lower(name) LIKE ?', "%#{params[:search].downcase}%").order(date_created: :desc).offset(offset).limit(videos_per_page) if params[:search].present?
+    #       @videos = Video.where(category: category) if params[:category].present?
+    #     else
+    #       total_videos = Video.count
+    #       @videos = Video.all.order(date_created: :desc).offset(offset).limit(videos_per_page)
+    #     end
+      
+    #     @total_pages = (total_videos.to_f / videos_per_page).ceil
+    #   end
+
     def index
         videos_per_page = 6
         page = params[:page].to_i || 2
         offset = [(page - 1) * videos_per_page, 0].max
       
-        if params[:search].present?
-          total_videos = Video.where('lower(name) LIKE ?', "%#{params[:search].downcase}%").count
-          @videos = Video.where('lower(name) LIKE ?', "%#{params[:search].downcase}%")
-                         .order(date_created: :desc)
-                         .offset(offset).limit(videos_per_page)
+        if params[:search].present? || params[:category].present?
+          query = "%#{params[:search].downcase}%"
+          category = params[:category]
+    
+          videos = Video.all
+          videos = videos.where('lower(name) LIKE ?', query) if params[:search].present?
+          videos = videos.where(category: category) if params[:category].present?
+    
+          total_videos = videos.count
+          @videos = videos.order(date_created: :desc).offset(offset).limit(videos_per_page)
         else
           total_videos = Video.count
-          @videos = Video.all.order(date_created: :desc)
-                         .offset(offset).limit(videos_per_page)
+          @videos = Video.all.order(date_created: :desc).offset(offset).limit(videos_per_page)
         end
       
         @total_pages = (total_videos.to_f / videos_per_page).ceil

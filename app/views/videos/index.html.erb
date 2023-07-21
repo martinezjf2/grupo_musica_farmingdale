@@ -22,6 +22,11 @@
     <div class="col-md-11">
       <%= text_field_tag :search, params[:search], placeholder: 'Search videos', class: "form-control" %>
     </div>
+<br><br>
+    <div class="col-md-11">
+      <%= select_tag :category, options_for_select(['Predicas', 'Juvenil', 'Musica', 'Dramas', 'Testimonios', 'Inspiracion', 'Retiro/Vigilia', 'Podcast'], params[:category]), prompt: 'All Categories', class: "form-control" %>
+    </div>
+
     <div class="col-md-1">
       <%= submit_tag 'Search', class: "btn btn-primary btn-block" %>
     </div>
