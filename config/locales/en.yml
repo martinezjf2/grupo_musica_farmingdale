@@ -1,5 +1,270 @@
 en:
+  # Events#Show has to be Dynamic
+  # Documents#New
+  new-document-heading: "Add New Document"
+
+  # Documente#Index
+  instructions-context: "<a href='https://seguidoresdejesus.s3.amazonaws.com/instructions-english.pdf' target='_blank'>Instructions for Registering in VIRTUS</a>"
+  h2Virtus-title: "Protecting God's Children"
+  h2Virtus-subtitle: "What is VIRTUS?"
+  virtus-content-p1:
+    "VIRTUS is a program in which people receive instruction on methods to prevent child sexual abuse and abuse towards vulnerable individuals. They learn to identify warning signs and know the steps to take when such signs are detected."
+  virtus-content-p2:
+    "Protecting God's Children® for Adults is a training conducted by certified VIRTUS® facilitators on the prevention of child sexual abuse. The training makes participants aware of signs of child sexual abuse, the methods and means used by offenders to commit abuses, and five simple steps that can be followed to prevent child sexual abuse."
+  virtus-content-p3:
+    "Two videos are at the center of the training: <strong>A Moment to Protect God's Children™</strong> and <strong>A Plan to Protect God's Children™</strong>."
+  virtus-content-p4:
+    "Facilitators incorporate policies and procedures into the training that define child sexual abuse, address reporting child sexual abuse, employee and volunteer screening and scrutiny process, and victim advocacy."
+  virtus-content-p5:
+    "Those interested can sign up and create a new account <a href='https://www.virtusonline.org/virtus/reg_0.cfm?theme=0' target='_blank'>HERE</a>! They can also contact us <a href='/contact'>HERE</a>. Please be sure to provide all the requested information in the form!"
+  delete-current-bulletin: "Delete Bulletin"
+  click-aqui-bulletin-del-mes: "Click Here to View Bulletin of the Month (Only Spanish Available)"
+  bulletin-no-disponible: "Bulletin is not available at this time..."
+  nuevo-bulletin: "Add New Bulletin"
+
+  # -------------------------------------------------------------------------------------------------------------------------
+
+  # Events#Calendar
+  calendar-heading: "St.Kilian Parish Calendar"
+  calendar-street: "485 Conklin St"
+  calendar-city: "Farmingdale, New York"
+
+  # Events#Edit
+  editar-evento: "Edit Event"
+
+  # Events#Index
+  todos-eventos: "All Our Hispanic Events"
+  no-hay-eventos: "No events at this time..."
+
+  # Events#New
+  agregar-evento-nuevo-heading: "Add New Event"
+  ingrese-nombre-event: "Enter Event Name"
+  ingrese-fecha-event: "Enter Event Date"
+  ingrese-local-event: "Enter where the event will take place. In the gym, in the cafeteria, in the Church, etc."
+  ingrese-direccion-event: "Enter Address"
+  ingrese-cuidad-event: "Enter City"
+  ingrese-phone-event: "Enter Phone Number"
+  ingrese-zip-event: "Enter Zip Code"
+  ingrese-url-event: "Enter Photo URL"
+  ingrese-descrip-event: "Enter Description"
+
+  # -------------------------------------------------------------------------------------------------------------------------
+
+  # Prayers#Index
+  oraciones-catolicos: "Common Prayers"
+
+  # --------------------------------------------------------------------------------------------------------------------------
+
+  # Sessions#New
+  usuario-login: "Username"
+  contrasena-login: "Password"
+  no-tiene-cuenta-link: "Don't have an account? Create one <a href='/signup'>HERE!</a>"
+  ingresar-usuario-login: "Enter Username"
+  ingresar-contrasena-login: "Enter Password"
+
+  # Sessions#Signup
+  crear-nueva-cuenta: "Create New Account"
+  signup-first: "First Name"
+  signup-last: "Last Name"
+  signup-username: "Username"
+  signup-password: "Password"
+  signup-admincode: "Admin Code"
+  place-signup-first: "Enter First Name"
+  place-signup-last: "Enter Last Name"
+  place-signup-username: "Enter Username"
+  place-signup-password: "Enter Password"
+  place-signup-admin: "Enter Admin Code"
+  signup-button: "Create Account"
+
+  # --------------------------------------------------------------------------------------------------------------------
+
+  # Videos#Index
+  ven-y-goza: "Come and Enjoy With Us"
+
+  # Videos#Edit
+  editar-video-heading: "Edit Video"
+  edit-video-button: "UPDATE"
+
+  # Videos#new
+
+  new-video-heading: "Add New Video"
+  label-video-name: "Video Name"
+  label-link-video: "Video URL"
+  label-date-created: "Video Date"
+  label-category: "Video Category"
+  new-video-button: "ADD"
+  place-name-video: "Enter Video Name"
+  place-url-video: "Enter Video URL"
+  place-category-video: "Select a category"
+
+  # ------------------------------------------------------------------------------------------------------------------------
+
+  # Members#About
+  sdj-about-heading-values: "OUR VALUES"
+  sdj-about-heading: "Followers Of <span class='highlight'>Jesus</span>"
+  sdj-about-context:
+    "Paul was an active man in the persecution of the Church and Christians, but because of the power of heaven and the Atonement of Jesus Christ, he changed completely and became one of God's great servants. His role model was the Savior Jesus Christ. Being a follower of Christ involves striving to adapt our actions, behavior, and life to those of the Savior. It is acquiring virtues; it is being a true disciple of Jesus Christ."
+  sdj-about-value1: "Humility"
+  sdj-about-p1:
+    "Jesus Christ was very humble from the premortal life. In the Council of Heaven, He recognized God's will and allowed it to prevail in the Plan of Salvation for humanity. He said, 'Father, thy will be done, and the glory be thine forever' (Moses 4:2)."
+  sdj-about-value2: "Courage"
+  sdj-about-p2:
+    "Let us have the courage to do what is right, even if it is not popular; the courage to defend our faith and act with faith. Let us have the courage to repent daily, the courage to accept God's will and obey His commandments. Let us have the courage to live righteously and to do what is expected of us in our various responsibilities and callings."
+  sdj-about-value3: "Forgiveness"
+  sdj-about-p3:
+    "Let us sincerely forgive one another to obtain the Father's forgiveness. Forgiveness makes us free and worthy to participate in the Sacrament each Sunday. Forgiveness is required for us to be true disciples of Jesus Christ."
+
+  # ------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+  # Members#Angeles
+
+  # Members#Luz
+
+  # Members#Misa
+
+  # Members#Resos
+
+
+
+
+
+
+
+  # ------------------------------------------------------------------------------------------------------------------------
+
+  # Members#Contact could not do the actual form
+  contact-question: "Do you want to contact us? Fill out this form to receive an email from us!"
+  contact-instructions: "Please fill out the form below to contact us:"
+
+  # Members#Daily Word
+  gospel-of-the-day: "Gospel of the Day: "
+
+  # Members#Forms
+  stkilian-homepage: "St.Kilian Homepage"
+  forms-heading: "Resources"
+  what-is-virtus: "<a style='text-decoration: none; font-size: 20px;' target='_blank' href='https://seguidoresdejesus.s3.amazonaws.com/what-is-virtus.pdf'>What is VIRTUS?</a>"
+  instructions-virtus-regist: "<a style='text-decoration: none; font-size: 20px;' target='_blank' href='https://seguidoresdejesus.s3.amazonaws.com/instructions-english.pdf'>VIRTUS Registration Instructions</a>"
+  code-of-conduct: "<a style='text-decoration: none; font-size: 20px;' target='_blank' href='https://seguidoresdejesus.s3.amazonaws.com/code-of-conduct-english.pdf'>Code of Conduct</a>"
+  form-weekly-bulletin: "Weekly Parish Bulletin"
+  form-retreats: "Retreats Form"
+  yearly-catholic-calendar: "<a style='text-decoration: none; font-size: 20px;' target='_blank' href='https://seguidoresdejesus.s3.amazonaws.com/calendario-catolico.pdf'>Yearly Catholic Calendar</a>"
+
+  # Members#Weekly Bulletin
+  weekly-bulletin-heading: "Weekly Bulletin of Our Parish"
+
+  # -------------------------------------------------------------------------------------------------------------------------------
+
+  # PARTIALS
   # Header Partial
   header-group-two: "30 YEARS"
   header-welcome: "Welcome"
+  header-welcome-with-first-and-last: "Welcome, %{first_name} %{last_name}"
   header-group: "Followers of Jesus"
+
+  # Navbar Partial
+  brand-name-right-corner: "Followers of Jesus"
+  events: "Events"
+
+  # AboutPriest Partial
+
+  # Bodas Partial
+  bodas-heading: "Weddings and Quinceañeras"
+  bodas-body: "<p class='lead text-center'>The parish is open for all who wish to celebrate weddings and quinceañeras! We are willing to help you
+            with the organization and realization. St. Kilian's Church asks for a deposit of $550 as an initiative to celebrate <strong>ONLY</strong> the wedding or quinceañera mass.
+            If you wish to have a music ministry, please contact us by clicking this <a href='/contact' class='btn-primary' onclick='event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/contact'; }, 100);'>link</a>
+            to send an email to the ministry.
+            <br><br><h4 class='text-center'>***The payment for the ministry is separate from the initiative to the parish. It is a donation that families agree to give.***</h4><br><br>
+            <p class='lead text-center'>This donation will be given in person at the time of the mass.</p>
+        </p>"
+
+  # Carousel Partial
+  v1-content: "Call to me and I will answer you and tell you great and unsearchable things you do not know."
+  v1-verse: "Jeremiah 33:3"
+
+  v2-content: "And we know that in all things God works for the good of those who love him, who have been called according to his purpose. For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+  v2-verse: "Romans 8:28-31"
+
+  v3-content: "Lift up your eyes and look to the heavens: Who created all these? He who brings out the starry host one by one and calls forth each of them by name. Because of his great power and mighty strength, not one of them is missing."
+  v3-verse: "Isaiah 40:26"
+
+  v4-content: "However, do not rejoice that the spirits submit to you, but rejoice that your names are written in heaven."
+  v4-verse: "Luke 10:20"
+
+  v5-content: "'Rejoice with me; I have found my lost coin.' In the same way, I tell you, there is rejoicing in the presence of the angels of God over one sinner who repents."
+  v5-verse: "Luke 15:9-10"
+
+  v6-content: "Rejoice in the Lord always. I will say it again: Rejoice! Let your gentleness be evident to all. The Lord is near. Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus."
+  v6-verse: "Philippians 4:4-8"
+
+  v7-content: "Rejoice with those who rejoice; mourn with those who mourn. Live in harmony with one another. Do not be proud, but be willing to associate with people of low position. Do not be conceited."
+  v7-verse: "Romans 12:15-16"
+
+  v8-content: "However, do not rejoice that the spirits submit to you, but rejoice that your names are written in heaven."
+  v8-verse: "Luke 10:20"
+
+
+  # Features Partial
+  features-main-title: "COME AND SHARE WITH US."
+  features-subtitle: "Our Work Is For <span class='highlight'>GOD.</span>"
+  features-caption: "With a deep recognition that God deserves our utmost dedication and devotion, we strive to give Him the best of our lives in our actions, worship, and total surrender."
+  feature-title1: "Youthful Spirit"
+  feature-context1: "A youthful spirit in the church brings vitality, fresh perspectives, enthusiasm for social justice, and promotes exploration and personal and spiritual growth."
+  feature-title2: "Bringing Innovation"
+  feature-context2: "Innovation in the church fosters spiritual growth and relevance, attracting a broader audience and strengthening the community."
+  feature-title3: "Collaborating as a Team"
+  feature-context3: "Through teamwork, the church can achieve a greater impact in its outreach efforts, extending love, compassion, and the message of hope to a wider audience."
+
+  # Footer Partial
+  footer-sdj-link: "Followers of Jesus"
+  footer-noticias: "News"
+  footer-events: "Events"
+  footer-resources: "Resources"
+  footer-contact: "Contact Us"
+  footer-gospel-spanish: "Readings"
+
+  # Invitamos Partial
+  invitamos-heading: "We Invite You to Share with Us!!"
+  invi-partial-grupo-juvenil: "Youth Group - Saturdays"
+  invi-partial-juvenil-context: "We are excited to invite you to be part of our youth group in the Catholic Church! Here you will find a space full of joy, where you can discover your purpose, make incredible friends, and strengthen your relationship with God. We await you with open arms!"
+  invi-partial-misa: "Mass (Spanish) - Saturdays"
+  invi-partial-misa-context: "Come and celebrate the Mass with us, the holiest and most blessed moment in the Church! It will be a unique encounter with the divine presence, where we can renew our spirit, receive the Word of God, and strengthen our communion as a community of believers. Don't miss it, we await you with joy and enthusiasm!"
+  invi-grupoOracion: "Prayer Group - Wednesdays"
+  invi-group-context: "Are you looking for a place to share your faith, connect with other believers, and strengthen your relationship with God? Look no further! Join our vibrant prayer group in the Catholic Church and discover a passionate community that will encourage and guide you on your spiritual journey."
+
+  # Jovenes Partial
+  jovenes-partial-context: "Proverbs 22:6 says, 'Start children off on the way they should go,
+          and even when they are old they will not turn from it.' We must raise children and
+          young people to know God the Father and love the Church of Christ Jesus, and they will be the next generation of Christians and leaders who will serve within the Church, as well as go out and do good in the world. Come! Join us!"
+  jovenes-partial-slogan: "YOUTH FOR CHRIST! TODAY, TOMORROW, AND ALWAYS!"
+  jpartial-h1: "Forms of Expression"
+  jpartial-p1: "We love creating a positive culture by creating short skits that involve the participation of our community."
+  jpartial-h2: "Youth Activities"
+  jpartial-p2: "We love creating dramas to show real-life scenarios where God uses His power to unite families and help those in need."
+  jpartial-h3: "Creativity"
+  jpartial-p3: "We make sure to create unique environments that will leave a positive impact on all members of our community."
+  jpartial-h4: "Love and Collaboration"
+  jpartial-p4: "Everything we do is for God and with much love. We love working together and helping our community grow."
+
+  quieres-ver-mas-button: "Want to See More?"
+
+  # Placeholder Partial
+  meet-the-team: "Come Meet Us!"
+  marlenis-context: "Ministry Coordinator"
+  jeffrey-context: "Sub-coordinator, Software Engineer"
+  elmer-context: "Audio Engineer & Innovator"
+  rosali-context: "Electrical Organizer"
+  john-context: "Drums, Bass Guitar, Visuals"
+  jorge-context: "Singer"
+  fermina-context: "Singer"
+  priest-context: "Priest of the Hispanic Community"
+
+  # Resos Partial
+  resos-partial-heading: "Embrace the Power of the Rosary"
+  resos-partial-ptags: "<p class='lead'>The Rosary, a sacred and powerful prayer, has been cherished for generations as a spiritual guide that leads us through the various stages of life, both in its joyful moments and trials.</p><p>Verse: 'Blessed is the heart that seeks comfort in the beads, for in every Hail Mary, strength, peace, and a glimpse of heaven's light are found.' (Psalm 1:1)</p><p>Join us every Sunday at 5 AM as we come together to pray the Rosary, weaving a tapestry of faith, hope, and unity.</p>"
+  quieres-aprender-mas-button: "Want to Learn More?"

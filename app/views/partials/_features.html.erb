@@ -1,9 +1,9 @@
 <section id="features">
     <div class="feature">
       <div>
-        <h6 class="investPeople">VEN A COMPARTIR CON NOSOTROS.</h6>
-        <h2 class="betterEducation">Nuestro Trabajo Es Para <span class="highlight">DIOS.</span></h2>
-        <p class="featureSubtitle">Con un reconocimiento profundo de que Dios merece nuestra máxima entrega y devoción, procuramos darle lo mejor de nuestras vidas en nuestras acciones, adoración y entrega total.</p>
+        <h6 class="investPeople"><%= t('features-main-title') %></h6>
+        <h2 class="betterEducation"><%= t('features-subtitle').html_safe %></h2>
+        <p class="featureSubtitle"><%= t('features-caption') %></p>
       
     
     </div>
@@ -11,18 +11,18 @@
         
         <div class="feature-box col-lg-4" id="ind-card">
           <%= image_tag 'innovation/teen.png', class: "innovation-image", alt:"teen", width:"180px"%>
-          <h4 class="feature-title">Espiritu Juvenil</h4>
-          <p class="features-text">Un espíritu joven en la iglesia trae vitalidad, perspectivas frescas, entusiasmo por la justicia social y promueve la exploración y el crecimiento personal y espiritual.</p>
+          <h4 class="feature-title"><%= t('feature-title1') %></h4>
+          <p class="features-text"><%= t('feature-context1') %></p>
         </div>
         <div class="feature-box col-lg-4" id="ind-card">
           <%= image_tag 'innovation/light.png', class: "innovation-image", alt:"lightbulb", width:"150px"%>
-          <h4 class="feature-title">Traer innovación</h4>
-          <p class="features-text">La innovación en la iglesia fomenta el crecimiento espiritual y la relevancia, atrayendo a un público más amplio y fortaleciendo la comunidad.</p>
+          <h4 class="feature-title"><%= t('feature-title2') %></h4>
+          <p class="features-text"><%= t('feature-context2') %></p>
         </div>
         <div class="feature-box col-lg-4" id="ind-card">
           <%= image_tag 'innovation/team.png', class: "innovation-image", alt:"team", width:"150px"%>
-          <h4 class="feature-title">Collaborar en Equipo</h4>
-          <p class="features-text">A través del trabajo en equipo, la iglesia puede lograr un mayor impacto en sus esfuerzos de alcance, extendiendo el amor, la compasión y el mensaje de esperanza a un público más amplio.</p>
+          <h4 class="feature-title"><%= t('feature-title3') %></h4>
+          <p class="features-text"><%= t('feature-context3') %></p>
         </div>
       </div>
     </div>
