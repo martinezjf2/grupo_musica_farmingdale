@@ -1,7 +1,7 @@
 
 <section id="events" style="padding-bottom: 50px" class="text-center">
   <div class="events-heading">
-    <h2 id="videos-heading" class="text-white">Add New Document</h2>
+    <h2 id="videos-heading" class="text-white"><%= t('new-document-heading') %></h2>
   </div>
 
 <%= form_with(model: @document, url: virtus_path, local: true) do |form| %>

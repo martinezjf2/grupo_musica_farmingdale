@@ -1,6 +1,6 @@
 <section id="about-author" class="bg-light py-5">
   <h2 class="text-center h2Virtus">
-    Protegiendo a los Hijos de Dios
+    <%= t('h2Virtus-title') %>
   </h2>
 
   <div class="container text-center">
@@ -9,60 +9,39 @@
         <%= image_tag 'virtus/virtusLogo.png', class: "virtusLogo", alt:"virtusLogo"%>
       </div>
       <div class="col-md-8 p-4 virtusContext">
-        <h2>Que es VIRTUS?</h2>
+        <h2><%= t('h2Virtus-subtitle') %></h2>
         <p>
-          VIRTUS es un programa en el que las personas reciben instrucción sobre
-          métodos para prevenir el abuso sexual infantil y hacia personas
-          vulnerables. Aprenden a identificar las señales de alerta y a conocer
-          los pasos de acción a seguir cuando se detectan dichas señales.
+          <%= t('virtus-content-p1') %>
         </p>
         <p>
-          Protegiendo a los Hijos de Dios® para Adultos es una capacitación
-          llevada a cabo por facilitadores certificados de VIRTUS® sobre la
-          prevención del abuso sexual infantil. La capacitación hace que los
-          participantes sean conscientes de los signos de abuso sexual infantil,
-          los métodos y medios utilizados por los agresores para cometer abusos,
-          y cinco pasos sencillos que se pueden seguir para prevenir el abuso
-          sexual infantil.
+          <%= t('virtus-content-p2') %>
         </p>
         <p>
-          Dos videos son el centro de la capacitación: <strong>Un Momento para Proteger
-          a los Hijos de Dios™</strong> y <strong>Un Plan para Proteger a los Hijos de Dios™</strong>.
+          <%= t('virtus-content-p3').html_safe %>
         </p>
         <p>
-          Los facilitadores incorporan políticas y procedimientos en la
-          capacitación que definen el abuso sexual infantil, abordan la denuncia
-          del abuso sexual infantil, la selección y el proceso de escrutinio de
-          empleados y voluntarios, y la defensa de las víctimas.
+          <%= t('virtus-content-p4') %>
         </p>
         <p style="font-weight: 600; font-style: italic">
-          ¡Aquellos que estén interesados pueden inscribirse y crear una cuenta
-          nueva
-          <a
-            href="https://www.virtusonline.org/virtus/sp_reg_1.cfm?theme=0"
-            target="_blank"
-            >AQUÍ</a
-          >! También pueden ponerse en contacto con nosotros
-          <a href="/contact">AQUÍ</a>. ¡Por favor, asegúrense de proporcionar
-          toda la información solicitada en el formulario!
+          <%= t('virtus-content-p5').html_safe %>
         </p>
 
-        <a href="https://seguidoresdejesus.s3.amazonaws.com/instrucciones-de-registracion-de-virtus.pdf">Instrucciones Para Registrar en VIRTUS</a>
+        <a href="https://seguidoresdejesus.s3.amazonaws.com/instrucciones-de-registracion-de-virtus.pdf"><%= t('instructions-context') %></a>
         <br><br>
         <% if @document %>
         <div class="virtus" id="">
           <% if current_user %> 
-          <%= link_to 'Delete Current Bulletin', virtu_path(@document), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger m-2' %> 
+          <%= link_to t('delete-current-bulletin'), virtu_path(@document), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger m-2' %> 
           <% end %> 
-          <%= link_to 'Click Aqui Para Ver Bulletin del Mes', rails_blob_path(@document.file), target: '_blank', class: 'btn btn-primary m-2' %>
+          <%= link_to t('click-aqui-bulletin-del-mes'), rails_blob_path(@document.file), target: '_blank', class: 'btn btn-primary m-2' %>
         </div>
         <% else %>
         <div class="videos-heading text-center">
           <h2 id="videos-heading" class="">
-            Bulletin No esta disponible en este momento...
+           <%= t('bulletin-no-disponible') %>
           </h2>
           <% if current_user %> 
-          <%= link_to 'New Virtus Bulletin', new_virtu_path, class: 'btn btn-primary m-2' %> <% end %>
+          <%= link_to t('nuevo-bulletin'), new_virtu_path, class: 'btn btn-primary m-2' %> <% end %>
         </div>
         <% end %>
       </div>

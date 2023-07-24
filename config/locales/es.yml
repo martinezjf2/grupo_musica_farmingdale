@@ -3,3 +3,81 @@ es:
   header-group-two: "30 AÑOS"
   header-welcome: "Bienvenidos"
   header-group: "Seguidores de Jesus"
+
+  # Navbar Partial
+  brand-name-right-corner: "Seguidores de Jesus"
+  events: "Eventos"
+
+  # AboutPriest Partial
+  # Bodas Partial
+  # Carousel Partial
+  # Features Partial
+  # Flash Partial
+  # Footer Partial
+  # Invitamos Partial
+  # Jovenes Partial
+  # Placeholder Partial
+  # Resos Partial
+
+
+  # Documents#New
+  new-document-heading: "Agregar Documento Nuevo"
+
+  # Documente#Index
+  instructions-context: "Instrucciones Para Registrar en VIRTUS"
+  h2Virtus-title: "Protegiendo a los Hijos de Dios"
+  h2Virtus-subtitle: "Que es VIRTUS?"
+  virtus-content-p1: "VIRTUS es un programa en el que las personas reciben instrucción sobre
+          métodos para prevenir el abuso sexual infantil y hacia personas
+          vulnerables. Aprenden a identificar las señales de alerta y a conocer
+          los pasos de acción a seguir cuando se detectan dichas señales."
+  virtus-content-p2: "Protegiendo a los Hijos de Dios® para Adultos es una capacitación
+          llevada a cabo por facilitadores certificados de VIRTUS® sobre la
+          prevención del abuso sexual infantil. La capacitación hace que los
+          participantes sean conscientes de los signos de abuso sexual infantil,
+          los métodos y medios utilizados por los agresores para cometer abusos,
+          y cinco pasos sencillos que se pueden seguir para prevenir el abuso
+          sexual infantil."
+  virtus-content-p3: "Dos videos son el centro de la capacitación: <strong>Un Momento para Proteger
+          a los Hijos de Dios™</strong> y <strong>Un Plan para Proteger a los Hijos de Dios™</strong>."
+  virtus-content-p4: "Los facilitadores incorporan políticas y procedimientos en la
+          capacitación que definen el abuso sexual infantil, abordan la denuncia
+          del abuso sexual infantil, la selección y el proceso de escrutinio de
+          empleados y voluntarios, y la defensa de las víctimas."
+  virtus-content-p5: "¡Aquellos que estén interesados pueden inscribirse y crear una cuenta
+          nueva <a href='https://www.virtusonline.org/virtus/sp_reg_1.cfm?theme=0' target='_blank'>AQUÍ</a>! También pueden ponerse en contacto con nosotros
+          <a href='/contact'>AQUÍ</a>. ¡Por favor, asegúrense de proporcionar
+          toda la información solicitada en el formulario!"
+  delete-current-bulletin: "Borrar Bulletin"
+  click-aqui-bulletin-del-mes: "Click Aqui Para Ver Bulletin del Mes"
+  bulletin-no-disponible: "Bulletin No esta disponible en este momento..."
+  nuevo-bulletin: "Agregar Nuevo Bulletin"
+
+  # Events#Calendar
+  # Events#Edit
+  # Events#Index
+  # Events#New
+  # Events#Show
+
+  # Members Familiar Partial
+  # Members#About
+  # Members#Angeles
+  # Members#Contact
+  # Members#Daily Word
+  # Members#Events
+  # Members#Forms
+  # Members#Index
+  # Members#Luz
+  # Members#Misa
+  # Members#Resos
+  # Members#Weekly Bulletin
+
+  # Prayers#Index
+
+
+  # Sessions#New
+  # Sessions#Signup
+
+  #Videos#Index
+  #Videos#Edit
+  #Videos#new

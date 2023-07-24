@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-xl bg-body-tertiary" id="navbar">
   <div class="container-fluid inside-navbar">
     <span><%= image_tag "logowhitedove.jpg", class: "logo" %></span
-    ><a class="navbar-brand" href="/">Seguidores de Jesus</a>
+    ><a id="brand-name-right-corner" class="navbar-brand" href="/"><%= t('brand-name-right-corner') %></a>
     <button
       class="navbar-toggler"
       type="button"
@@ -22,7 +22,7 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/events">Events</a>
+          <a class="nav-link" href="/events"><%= t('events') %></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/videos?page=1">Videos</a>
