@@ -56,3 +56,5 @@ gem 'kaminari'
 
 # Amazon S3
 gem 'aws-sdk-s3'
+
+gem 'i18n'

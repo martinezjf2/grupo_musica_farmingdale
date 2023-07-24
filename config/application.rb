@@ -24,6 +24,8 @@ Bundler.require(*Rails.groups)
 module SeguidoresRails
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.i18n.default_locale = :es
+    config.i18n.available_locales = [:en, :es]
     config.load_defaults 6.0
 
     # Settings in config/environments/* take precedence over those specified here.

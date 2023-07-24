@@ -8,7 +8,7 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   # Home/Root Route
   root to: 'members#index'
 
-
+  get 'switch_locale/:locale', to: 'application#switch_locale', as: :switch_locale
 
   # Get Requests
   get '/calendar', to: 'events#calendar'

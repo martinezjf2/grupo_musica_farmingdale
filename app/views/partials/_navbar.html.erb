@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-xl bg-body-tertiary" id="navbar">
-  <div class="container-fluid inside-navbar overflow-auto">
+  <div class="container-fluid inside-navbar">
     <span><%= image_tag "logowhitedove.jpg", class: "logo" %></span
     ><a class="navbar-brand" href="/">Seguidores de Jesus</a>
     <button
@@ -27,6 +27,17 @@
         <li class="nav-item">
           <a class="nav-link" href="/videos?page=1">Videos</a>
         </li>
+        
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Language
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <%= link_to "English", switch_locale_path(:en), class: "dropdown-item", style: "color: black" %>
+            <%= link_to "Español", switch_locale_path(:es), class: "dropdown-item", style: "color: black"%>
+          </ul>
+        </li> -->
+
         <% if current_user %>
         <li class="nav-item">
           <a class="nav-link" onclick="return confirm('Are you sure you want to proceed?')" href="/logout">Log Out</a>

@@ -232,6 +232,7 @@ DEPENDENCIES
   byebug
   dotenv (~> 2.7)
   dotenv-rails
+  i18n
   jbuilder (~> 2.7)
   kaminari
   listen (~> 3.2)
