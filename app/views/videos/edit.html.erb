@@ -1,6 +1,6 @@
 
     <div class="container-fluid newCourseForm">
-      <h3 class="welcomeBack" style="text-align: center;">Editar Video</h3>
+      <h3 class="welcomeBack" style="text-align: center;"><%= t('editar-video-heading') %></h3>
 
       <%= form_for @video, url: video_path do |f| %>
       <%= hidden_field_tag :page, params[:page] || 1  %>
@@ -24,7 +24,7 @@
           <%= f.select :category, ['Predicas', 'Juvenil', 'Musica', 'Dramas', 'Testimonios', 'Inspiracion', 'Retiro/Vigilia', 'Podcast'], { prompt: 'Seleccione una categoría' }, class: "form-control Input" %>
         </div>
       
-        <%=f.submit "AGREGAR", class: "btn btn-lg btn-default loginButton" %> 
+        <%=f.submit t('edit-video-button'), class: "btn btn-lg btn-default loginButton" %> 
       <%end%>
 
     </div>

@@ -1,4 +1,180 @@
 es:
+  # Events#Show has to be Dynamic
+  # Documents#New
+  new-document-heading: "Agregar Documento Nuevo"
+
+  # Documente#Index
+  instructions-context: "Instrucciones Para Registrar en VIRTUS"
+  h2Virtus-title: "Protegiendo a los Hijos de Dios"
+  h2Virtus-subtitle: "Que es VIRTUS?"
+  virtus-content-p1:
+    "VIRTUS es un programa en el que las personas reciben instrucción sobre
+    métodos para prevenir el abuso sexual infantil y hacia personas
+    vulnerables. Aprenden a identificar las señales de alerta y a conocer
+    los pasos de acción a seguir cuando se detectan dichas señales."
+  virtus-content-p2:
+    "Protegiendo a los Hijos de Dios® para Adultos es una capacitación
+    llevada a cabo por facilitadores certificados de VIRTUS® sobre la
+    prevención del abuso sexual infantil. La capacitación hace que los
+    participantes sean conscientes de los signos de abuso sexual infantil,
+    los métodos y medios utilizados por los agresores para cometer abusos,
+    y cinco pasos sencillos que se pueden seguir para prevenir el abuso
+    sexual infantil."
+  virtus-content-p3:
+    "Dos videos son el centro de la capacitación: <strong>Un Momento para Proteger
+    a los Hijos de Dios™</strong> y <strong>Un Plan para Proteger a los Hijos de Dios™</strong>."
+  virtus-content-p4:
+    "Los facilitadores incorporan políticas y procedimientos en la
+    capacitación que definen el abuso sexual infantil, abordan la denuncia
+    del abuso sexual infantil, la selección y el proceso de escrutinio de
+    empleados y voluntarios, y la defensa de las víctimas."
+  virtus-content-p5:
+    "¡Aquellos que estén interesados pueden inscribirse y crear una cuenta
+    nueva <a href='https://www.virtusonline.org/virtus/sp_reg_1.cfm?theme=0' target='_blank'>AQUÍ</a>! También pueden ponerse en contacto con nosotros
+    <a href='/contact'>AQUÍ</a>. ¡Por favor, asegúrense de proporcionar
+    toda la información solicitada en el formulario!"
+  delete-current-bulletin: "Borrar Bulletin"
+  click-aqui-bulletin-del-mes: "Click Aqui Para Ver Bulletin del Mes"
+  bulletin-no-disponible: "Bulletin No esta disponible en este momento..."
+  nuevo-bulletin: "Agregar Nuevo Bulletin"
+
+
+# -------------------------------------------------------------------------------------------------------------------------
+
+  # Events#Calendar
+  calendar-heading: "Calendario Parroqial de St.Kilian"
+  calendar-street: "485 Conklin St"
+  calendar-city: "Farmingdale, New York"
+
+  # Events#Edit
+  editar-evento: "Editar Evento"
+
+  # Events#Index
+  todos-eventos: "Todos Nuestros Eventos"
+  no-hay-eventos: "No hay eventos en este momento..."
+
+
+  # Events#New
+  agregar-evento-nuevo-heading: "Agregar Nuevo Evento"
+  ingrese-nombre-event: "Ingrese Nombre de Evento"
+  ingrese-fecha-event: "Ingrese Fecha del Evento"
+  ingrese-local-event: "Ingrese donde sera el evento. En el gymnasio, en la cafeteria, en la Iglesia, etc.."
+  ingrese-direccion-event: "Ingrese Direccion"
+  ingrese-cuidad-event: "Ingrese Cuidad"
+  ingrese-phone-event: "Ingrese Numero de Telefono"
+  ingrese-zip-event: "Ingrese Codigo Postal"
+  ingrese-url-event: "Ingrese URL de Foto"
+  ingrese-descrip-event: "Ingrese Descripcion"
+
+# -------------------------------------------------------------------------------------------------------------------------
+ 
+  # Prayers#Index
+  oraciones-catolicos: "Oraciones Comunes"
+
+# --------------------------------------------------------------------------------------------------------------------------
+ 
+  # Sessions#New
+  usuario-login: "Usuario"
+  contrasena-login: "Contrasena"
+  no-tiene-cuenta-link: "No tienes cuenta? Crear una <a href='/signup'>AQUI!</a>"
+  ingresar-usuario-login: "Ingrese Usuario"
+  ingresar-contrasena-login: "Ingrese Contraseña"
+
+  # Sessions#Signup
+  crear-nueva-cuenta: "Crear Nueva Cuenta"
+  signup-first: "Primer Nombre"
+  signup-last: "Appellido"
+  signup-username: "Usuario"
+  signup-password: "Contraseña"
+  signup-admincode: "Codigo de Administracion"
+  place-signup-first: "Ingrese Primer Nombre"
+  place-signup-last: "Ingrese Appellido"
+  place-signup-username: "Ingrese Usuario"
+  place-signup-password: "Ingrese Contraseña"
+  place-signup-admin: "Ingrese Codigo de Administracion"
+  signup-button: "Crear Cuenta"
+
+
+# --------------------------------------------------------------------------------------------------------------------
+ 
+  # Videos#Index
+  ven-y-goza: "Ven Y Goza Con Nosotros"
+
+  # Videos#Edit
+  editar-video-heading: "Editar Video"
+  edit-video-button: "ACTUALIZAR"
+
+  # Videos#new
+
+  new-video-heading: "Agregar Nuevo Video"
+  label-video-name: "Nombre del Video"
+  label-link-video: "URL del Video"
+  label-date-created: "Fecha del Video"
+  label-category: "Categoria del Video"
+  new-video-button: "AGREGAR"
+  place-name-video: "Ingrese Nombre del Video"
+  place-url-video: "Ingrese URL del Video"
+  place-category-video: "Seleccione una categoria"
+
+
+# ------------------------------------------------------------------------------------------------------------------------
+  
+  # Members#About
+  sdj-about-heading-values: "NUESTROS VALORES"
+  sdj-about-heading: "Seguidores De <span class='highlight'>Jesus</span>"
+  sdj-about-context:
+    "Pablo era un hombre activo en la persecución a la Iglesia y a los cristianos,
+    pero debido al poder del cielo y a la expiación de Jesucristo, cambió por completo y
+    llegó a ser uno de los grandes siervos de Dios. Su modelo de vida fue el Salvador Jesucristo.
+    Ser un seguidor de Cristo implica esforzarse por adaptar nuestras acciones, conducta y vida a
+    las del Salvador. Es adquirir virtudes; es ser un verdadero discípulo de Jesucristo."
+  sdj-about-value1: "Humildad"
+  sdj-about-p1:
+    "Jesucristo fue muy humilde desde la vida preterrenal. En el Concilio de los Cielos,
+    Él reconoció la voluntad de Dios y permitió que esta prevaleciera en el Plan de Salvación para
+    la humanidad. Él dijo: “Padre, hágase tu voluntad, y sea tuya la gloria para siempre” (Moises 4:2)"
+  sdj-about-value2: "Valor"
+  sdj-about-p2:
+    "Tengamos el valor de hacer lo correcto, aunque no sea popular; el valor para defender
+    nuestra fe y actuar con fe. Tengamos el valor de arrepentirnos a diario, el valor para
+    aceptar la voluntad de Dios y obedecer Sus mandamientos. Tengamos el valor de vivir en
+    rectitud y de hacer lo que se espera de nosotros en nuestras diversas responsabilidades y
+    cargos."
+  sdj-about-value3: "Perdon"
+  sdj-about-p3:
+    "Perdonémonos sinceramente el uno al otro para obtener el perdón del Padre.
+    El perdón nos hace libres y dignos de participar de la Santa Cena cada domingo.
+    Se requiere que perdonemos para que seamos verdaderos discípulos de Jesucristo."
+
+
+# ------------------------------------------------------------------------------------------------------------------------
+ 
+ # Members#Angeles
+
+  # Members#Luz
+
+  # Members#Misa
+
+  # Members#Resos
+
+  # Members#Contact
+
+  # Members#Daily Word
+
+  # Members#Events
+
+  # Members#Forms
+
+  # Members#Index
+
+  # Members#Weekly Bulletin
+
+
+# -------------------------------------------------------------------------------------------------------------------------------
+
+
+
+  # PARTIALS
   # Header Partial
   header-group-two: "30 AÑOS"
   header-welcome: "Bienvenidos"
@@ -10,75 +186,25 @@ es:
   events: "Eventos"
 
   # AboutPriest Partial
+
   # Bodas Partial
+
   # Carousel Partial
+
   # Features Partial
-  # Flash Partial
+
   # Footer Partial
+
   # Invitamos Partial
+
   # Jovenes Partial
+
   # Placeholder Partial
+
   # Resos Partial
 
-
-  # Documents#New
-  new-document-heading: "Agregar Documento Nuevo"
-
-  # Documente#Index
-  instructions-context: "Instrucciones Para Registrar en VIRTUS"
-  h2Virtus-title: "Protegiendo a los Hijos de Dios"
-  h2Virtus-subtitle: "Que es VIRTUS?"
-  virtus-content-p1: "VIRTUS es un programa en el que las personas reciben instrucción sobre
-          métodos para prevenir el abuso sexual infantil y hacia personas
-          vulnerables. Aprenden a identificar las señales de alerta y a conocer
-          los pasos de acción a seguir cuando se detectan dichas señales."
-  virtus-content-p2: "Protegiendo a los Hijos de Dios® para Adultos es una capacitación
-          llevada a cabo por facilitadores certificados de VIRTUS® sobre la
-          prevención del abuso sexual infantil. La capacitación hace que los
-          participantes sean conscientes de los signos de abuso sexual infantil,
-          los métodos y medios utilizados por los agresores para cometer abusos,
-          y cinco pasos sencillos que se pueden seguir para prevenir el abuso
-          sexual infantil."
-  virtus-content-p3: "Dos videos son el centro de la capacitación: <strong>Un Momento para Proteger
-          a los Hijos de Dios™</strong> y <strong>Un Plan para Proteger a los Hijos de Dios™</strong>."
-  virtus-content-p4: "Los facilitadores incorporan políticas y procedimientos en la
-          capacitación que definen el abuso sexual infantil, abordan la denuncia
-          del abuso sexual infantil, la selección y el proceso de escrutinio de
-          empleados y voluntarios, y la defensa de las víctimas."
-  virtus-content-p5: "¡Aquellos que estén interesados pueden inscribirse y crear una cuenta
-          nueva <a href='https://www.virtusonline.org/virtus/sp_reg_1.cfm?theme=0' target='_blank'>AQUÍ</a>! También pueden ponerse en contacto con nosotros
-          <a href='/contact'>AQUÍ</a>. ¡Por favor, asegúrense de proporcionar
-          toda la información solicitada en el formulario!"
-  delete-current-bulletin: "Borrar Bulletin"
-  click-aqui-bulletin-del-mes: "Click Aqui Para Ver Bulletin del Mes"
-  bulletin-no-disponible: "Bulletin No esta disponible en este momento..."
-  nuevo-bulletin: "Agregar Nuevo Bulletin"
-
-  # Events#Calendar
-  # Events#Edit
-  # Events#Index
-  # Events#New
-  # Events#Show
-
   # Members Familiar Partial
-  # Members#About
-  # Members#Angeles
-  # Members#Contact
-  # Members#Daily Word
-  # Members#Events
-  # Members#Forms
-  # Members#Index
-  # Members#Luz
-  # Members#Misa
-  # Members#Resos
-  # Members#Weekly Bulletin
 
-  # Prayers#Index
+# -------------------------------------------------------------------------------------------------------------------------------
 
-
-  # Sessions#New
-  # Sessions#Signup
-
-  #Videos#Index
-  #Videos#Edit
-  #Videos#new
+  # Flash Messages from the controller, check the chatAI to see how we can configure that

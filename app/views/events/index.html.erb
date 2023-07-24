@@ -1,6 +1,6 @@
 <section id="events">
 <div class="events-heading">
-    <h2 id="videos-heading" class="text-white">Todos Nuestros Eventos</h2>
+    <h2 id="videos-heading" class="text-white"><%= t('todos-eventos') %></h2>
     <% if current_user %>
     <%= link_to 'Add New Event', new_event_path, class: "btn btn-primary"%>
     <% end %>
@@ -35,7 +35,7 @@
 <% end %>
 <% else %>
 <div class="events-heading">
-    <h2 id="videos-heading" class="text-white">No hay eventos en este momento</h2>
+    <h2 id="videos-heading" class="text-white"><%= t('no-hay-eventos') %></h2>
 </div>
 <% end %>
 </section>

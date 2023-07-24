@@ -2,36 +2,36 @@
 
 <!-- <div class="section textInputs" id="login"> -->
     <div class="container-fluid newCourseForm">
-        <h3 class="welcomeBack" style="text-align: center;">Sign Up!</h3>
+        <h3 class="welcomeBack" style="text-align: center;"><%= t('crear-nueva-cuenta') %></h3>
         <%= form_for :user, url: signup_path do |f| %>
         
 
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">First Name</label>
-          <%=f.text_field :first_name, class: "form-control Input", :placeholder =>'Enter First Name' %>
+          <label for="exampleFormControlInput1" class="form-label"><%= t('signup-first') %></label>
+          <%=f.text_field :first_name, class: "form-control Input", :placeholder => t('place-signup-first') %>
         </div>
 
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-          <%=f.text_field :last_name, class: "form-control Input", :placeholder =>'Enter Last Name' %>
+          <label for="exampleFormControlInput1" class="form-label"><%= t('signup-last') %></label>
+          <%=f.text_field :last_name, class: "form-control Input", :placeholder => t('place-signup-last') %>
         </div>
 
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Username</label>
-            <%=f.text_field :username, class: "form-control Input", :placeholder =>'Enter Username' %>
+            <label for="exampleFormControlInput1" class="form-label"><%= t('signup-username') %></label>
+            <%=f.text_field :username, class: "form-control Input", :placeholder => t('place-signup-username') %>
           </div>
           
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Password</label>
-            <%=f.password_field :password, class: "form-control Input", :placeholder => 'Enter Password' %>
+            <label for="exampleFormControlInput1" class="form-label"><%= t('signup-password') %></label>
+            <%=f.password_field :password, class: "form-control Input", :placeholder => t('place-signup-password') %>
           </div>
 
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Admin Code</label>
-            <%=f.password_field :admin_code, class: "form-control Input", :placeholder => 'Enter Admin Code' %>
+            <label for="exampleFormControlInput1" class="form-label"><%= t('signup-admincode') %></label>
+            <%=f.password_field :admin_code, class: "form-control Input", :placeholder => t('place-signup-admin') %>
           </div>
         
-          <%=f.submit "SIGN UP", class: "btn btn-lg btn-default loginButton" %> 
+          <%=f.submit t('signup-button'), class: "btn btn-lg btn-default loginButton" %> 
         <%end%>
     
     
