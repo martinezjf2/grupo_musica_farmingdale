@@ -7,7 +7,15 @@
   
       <div class="card-body" id="header-body">
         <p class="card-text text-center" id="header-group-two"><%= t('header-group-two') %></p>
-        <h5 class="card-title text-center" id="header-welcome"><%= t('header-welcome') %></h5>
+        <h5 class="card-title text-center" id="header-welcome">
+
+          <% if !current_user %>
+          <%= t('header-welcome') %>
+          <% else %>
+          <%= t('header-welcome-with-first-and-last', first_name: current_user.first_name, last_name: current_user.last_name) %>
+          <% end %>
+        
+        </h5>
         <p class="card-text text-center" id="header-group"><%= t('header-group') %> </p>
       </div>
     </div>
