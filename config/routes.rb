@@ -3,7 +3,6 @@ Rails.application.routes.draw do
 resources :users
 resources :events
 resources :videos
-resources :prayers
 resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create, :destroy]
   
 

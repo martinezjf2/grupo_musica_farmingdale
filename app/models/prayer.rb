@@ -1,2 +1,0 @@
-class Prayer < ApplicationRecord
-end
