@@ -116,17 +116,134 @@ en:
 
   # ------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
   # Members#Angeles
+  joven-heading: "Join Our Youth Group"
+  joven-heading-h2: "Angels of God"
+  joven-context-full: "Experience the joy of faith, friendship, and service in a vibrant Catholic community."
+  button-aprender-mas: "Learn More"
+  que-significa: "What Does It Mean to Be an <span class='highlight'>Angel of God?</span>"
+  joven-p1: "In the eyes of God, angels are divine messengers, celestial beings entrusted with spreading love, compassion, and guidance. As a Youth Group, we strive to embody the qualities of these angels and bring hope to the world."
+  joven-p2: "Join us on this journey of love, unity, and kindness. Together, we can make a difference and be the angels of God that the world needs."
+
+  aboutJovenes:
+    aboutJovenesHeading: "Youth are the Future of the Catholic Church"
+    aboutJovenesContent: "Youth play a crucial role in the future of the Catholic Church. They are the foundation upon which faith and community will perpetuate and grow. Here are some reasons why youth are so important:"
+    reasons:
+      - "<strong>Inheritance of Faith:</strong> By learning about God and the Catholic faith at an early age, youth prepare to become leaders and advocates for faith in future generations."
+      - "<strong>Renewal and Vitality:</strong> Youth bring energy, enthusiasm, and fresh perspectives to the Church, helping to keep it vibrant and relevant in a constantly changing world."
+      - "<strong>Solidarity and Service:</strong> The youth have a compassionate spirit and are willing to serve others, enriching the community and reflecting God's love in action."
+      - "<strong>Evangelization:</strong> Youth have a significant presence on digital and social platforms, providing them a unique opportunity to spread the message of the Gospel in the modern world."
+  importanceOfKnowingGod:
+    importanceOfKnowingGodHeading: "The Importance of Knowing God from an Early Age"
+    importanceOfKnowingGodContent: "Learning about God from a young age is essential for the spiritual and moral development of youth. Here are some important points:"
+    points:
+      - "<strong>Solid Foundation:</strong> Knowing God from a young age provides a solid foundation to face life's challenges and make faith-based decisions."
+      - "<strong>Personal Relationship with God:</strong> Early knowledge of God allows youth to develop a close and personal relationship with Him, providing comfort and guidance in difficult times."
+      - "<strong>Vocation Discernment:</strong> Knowing God from a young age helps youth discern their vocation in life and understand how they can best serve others and the community."
+      - "<strong>Resilience:</strong> Faith in God can provide youth with the strength and resilience needed to face the challenges and trials they may encounter on their journey."
 
   # Members#Luz
+  luzDelMundoSection:
+    luzDelMundoJumbo:
+      welcomeTitle: "Welcome To Our Hispanic Community!"
+      luzDelMundoTitle: "Light Of The World"
+      content: |
+        We joyfully invite you to join our Hispanic community in the Catholic Church, where we will live and share our faith with enthusiasm and love!
+      learnMoreButton: "Learn More"
+  quoteDiv:
+    quote:
+      title: "You are the %{highlight}Light of the World%{highlight_end}"
+      scripture: '"You are the light of the world. A city set on a hill cannot be hidden." - Matthew 5:14'
+      content_1: "As followers of Jesus, we bear the responsibility of being bearers of His light in a world that desperately needs hope and direction. Our life and testimony should shine with His love and truth."
+      content_2: "Let the light of Christ shine in you and through you. Live in a way that reflects His love, truth, and hope. Be a beacon of light in your surroundings, guiding others to encounter Jesus."
+
+  pequena-communidad-section:
+    h2Pequena: "Participate in Our Small Communities"
+    pequena-comunidad:
+      emmanuel:
+        title: "Emmanuel"
+        schedule: "Mondays, 6PM - 9PM"
+        scripture: "Matthew 1:23"
+        content: |
+          "Behold, the virgin shall conceive and bear a son, and they shall call his name Emmanuel" (which means, God with us).
+          The name Emmanuel reminds us that God is not distant or far away but is with us in every moment of our life, offering His love, guidance, and comfort.
+          Open your heart to the presence of Emmanuel, allow God to be with you at all times, and experience His closeness and transforming love in your life.
+
+      buen_pastor:
+        title: "The Good Shepherd"
+        schedule: "Tuesdays, 6PM - 9PM"
+        scripture: "John 10:11"
+        content: |
+          "I am the good shepherd. The good shepherd lays down his life for the sheep."
+          Jesus presents Himself as the Good Shepherd willing to sacrifice His life for His sheep. His unconditional love and constant care show us the perfect model of leadership and protection.
+          Let Jesus be your Good Shepherd, trust in His guidance, and surrender your life into His loving hands. He will take care of you, protect you, and give you abundant life.
+
+      caminando_con_jesus:
+        title: "Walking With Jesus"
+        schedule: "Fridays, 6PM - 9PM"
+        scripture: "1 John 2:6"
+        content: |
+          "Whoever says he abides in him ought to walk in the same way in which he walked."
+          Walking with Jesus involves living according to His example and teachings. Our life should reflect His love, compassion, and humility, showing the world that we truly abide in communion with Him.
+          Join the journey of walking with Jesus, adopting His way of life, and letting His love transform your actions. Live in communion with Him and be a light that illuminates the path of others towards His love and salvation.
+
+      vida_y_esperanza:
+        title: "Life And Hope"
+        schedule: "Fridays, 6PM - 9PM"
+        scripture: "Jeremiah 29:11"
+        content: |
+          "For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope."
+          Amidst the uncertainties and challenges of life, we can find comfort in God's promise of plans for our welfare and hope. He invites us to trust in His care and purpose at every stage of our journey.
+          Embrace the life and hope that God offers. Let Him be the guide and author of your story. Trust in His plans and walk with hope, knowing that He has a future full of blessings prepared for you.
+
+      seguidores_de_jesus:
+        title: "Followers of Jesus"
+        schedule: "Thursdays, 6PM - 9PM"
+        scripture: "Luke 9:59-60"
+        content: |
+          "And he said to another, 'Follow me.' But he said, 'Lord, let me first go and bury my father.' And Jesus said to him, 'Leave the dead to bury their own dead. But as for you, go and proclaim the kingdom of God.'"
+          Following Jesus involves prioritizing the kingdom of God above all else, even the closest and family obligations.
+          Join the adventure of following Jesus and proclaiming the kingdom of God in your life and the world around you.
+
+      rios_de_agua_viva:
+        title: "Rivers of Living Water"
+        schedule: "Fridays, 6PM - 9PM"
+        scripture: "John 4:13-14"
+        content: |
+          "Jesus said to her, 'Everyone who drinks of this water will be thirsty again, but whoever drinks of the water that I will give him will never be thirsty again. The water that I will give him will become in him a spring of water welling up to eternal life.'"
+          In the midst of a thirsty world, Jesus offers water that satisfies the soul and flows constantly to provide eternal life.
+          Come and drink from the living water that Jesus offers to experience full satisfaction and become a source that shares eternal life with others.  
 
   # Members#Misa
+  misaJumbo:
+    welcomeTitle: "Welcome To Our Hispanic Mass!"
+    content: "We invite you to join us for a memorable worship experience that will uplift your spirit and bring you closer to God!"
+    learnMoreButton: "Learn More"
+  misaCard:
+    header: "What is a Catholic Mass?"
+    subtitle: "The Catholic Mass is a sacred celebration where believers gather to worship and receive the Body and Blood of Jesus Christ."
+    p1: "During the Mass, various rituals and prayers take place. The Liturgy of the Word includes readings from the Bible, including the Old Testament, Psalms, and Gospel. These readings are followed by a homily, where the priest explains and applies the Scriptures to our lives."
+    p2: "The Liturgy of the Eucharist is the central part of the Mass. It involves the consecration of bread and wine, which become the true Body and Blood of Christ through transubstantiation. The faithful participate in Holy Communion, receiving the real presence of Jesus."
+    p3: "The Mass is not only a commemoration of Christ's sacrifice on the cross but also a participation in it. It is a source of grace and spiritual nourishment, strengthening the faith of believers and fostering unity in the Church."
+    p4: "Regularly attending Mass is of great importance for Catholics. It allows them to deepen their relationship with God, receive His grace, and be united with the Church community. The Mass provides an opportunity for worship, prayer, and encountering Christ in a profound way."
+  horarios:
+    header: "Mass Schedule:"
+    li1: "Sundays: 7:00 AM, 8:00 AM, 9:30 AM, 11:00 AM, 12:00 PM"
+    li2: "Mondays to Fridays: 7:30 AM & 8:30 AM"
+    li3: "Saturdays: 5:00 PM"
+  horarios-espanol:
+    header: "Mass Schedule in <span class='highlight'>Spanish:</span>"
+    li1: "Saturdays: 6:15 PM"
+  confessions:
+    header: "Confessions: Why They Are Important"
+    p1: "Confession is the act of acknowledging and expressing our sins or wrongdoings before God. It is an essential aspect of the Christian faith and holds great significance in our spiritual journey."
+    p2: "Confessions provide us with the opportunity to humble ourselves before God, seeking His forgiveness and purification. Through confession, we acknowledge our need for His grace and mercy, recognizing that we have fallen short of His perfect standards."
+    p3: "Confessions are important because they allow us to experience the freedom and joy that come from receiving God's forgiveness. By confessing our sins, we open ourselves to His transformative power, allowing Him to work in our lives and achieve healing and restoration."
+    p4: "In many Christian traditions, confessions take place during regular worship services or in designated spaces within the church. However, confessions can also be made privately, directly to God, in the quietness of our hearts."
+    p5: "It's important to note that confession is not a one-time event but an ongoing practice. As we strive to live a life aligned with God's will, we will inevitably stumble and make mistakes. Confessions serve as a constant reminder of our need for God's grace and as a means to maintain a healthy and authentic relationship with Him."
+    p6: "Take time to reflect on your life, seek God's forgiveness, and make confessions as needed. Embrace the transformative power of confession and experience the abundant life that God has prepared for you."
+    p7: "Confessions in SPANISH are available during:"
+    li1: "Wednesdays (Cafeteria): 7:00 PM - 9:00 PM"  
 
   # Members#Resos
 

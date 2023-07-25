@@ -1,138 +1,135 @@
 <div class="luzDelMundoSection">
   <div class="jumbotron luzDelMundoJumbo">
     <div class="container">
-      <h1>Bienvenidos A Nuestra Comunidad Hispana!</h1>
-      <h2>Luz Del Mundo</h2>
+      <h1><%= t('luzDelMundoSection.luzDelMundoJumbo.welcomeTitle') %></h1>
+      <h2><%= t('luzDelMundoSection.luzDelMundoJumbo.luzDelMundoTitle') %></h2>
       <p>
-        ¡Te invitamos con alegría a unirte a nuestra comunidad hispana en la
-        Iglesia Católica, donde juntos viviremos y compartiremos la fe con
-        entusiasmo y amor!
+        <%= t('luzDelMundoSection.luzDelMundoJumbo.content') %>
       </p>
-      <a href="#quoteDiv" class="btn btn-primary btn-lg">Aprender Mas</a>
+      <a href="#quoteDiv" class="btn btn-primary btn-lg"><%= t('luzDelMundoSection.luzDelMundoJumbo.learnMoreButton') %></a>
     </div>
   </div>
 </div>
 
 <div class="quoteDiv" id="quoteDiv">
-    <div class="quote">
-      <h2>Ustedes son la <span class="highlight">Luz Del Mundo</span></h2>
-      <p>"Como se puede esconder una cuidad asentada sobre un monte?" - Mateo 5:14</p>
-      <p>Como seguidores de Jesús, llevamos la responsabilidad de ser portadores de su luz en un mundo que necesita desesperadamente esperanza y dirección. Nuestra vida y testimonio deben brillar con su amor y verdad.</p>
-      <p>Permítele a la luz de Cristo brillar en tu vida y a través de ti. Vive de manera que reflejes su amor, verdad y esperanza. Sé un faro de luz en tu entorno, guiando a otros hacia el encuentro con Jesús.</p>
-    </div>
+  <div class="quote">
+    <h2><%= t('quoteDiv.quote.title', highlight: '<span class="highlight">', highlight_end: '</span>').html_safe %></h2>
+    <p><%= t('quoteDiv.quote.scripture') %></p>
+    <p><%= t('quoteDiv.quote.content_1') %></p>
+    <p><%= t('quoteDiv.quote.content_2') %></p>
   </div>
+</div>
 
   <%= render "/partials/aboutPriest"%>
-
-
-<div class="pequena-communidad-section">
-    <h2 class="text-center" id="h2Pequena">Participa en Nuestras Pequenas Communidades</h2>
+  
+  <div class="pequena-communidad-section">
+    <h2 class="text-center" id="h2Pequena"><%= t('pequena-communidad-section.h2Pequena') %></h2>
+    
+    <!-- Emmanual pequena-comunidad -->
     <div class="pequena-comunidad" id="pequena-comunidad">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <h3>Emmanuel</h3>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Lunes, 6PM - 9PM</h4>
-            <h5>Mateo 1:23</h5>
-            <p>"He aquí, una virgen concebirá y dará a luz un hijo, y llamarás su nombre Emmanuel, que traducido es: Dios con nosotros."
-                El nombre Emmanuel nos recuerda que Dios no está lejos o distante, sino que está con nosotros en cada momento de nuestra vida, brindándonos su amor, guía y consuelo.
-                Abre tu corazón a la presencia de Emmanuel, permite que Dios esté contigo en todo momento y experimenta su cercanía y amor transformador en tu vida.
-            </p>
-          </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <h3><%= t('pequena-communidad-section.pequena-comunidad.emmanuel.title') %></h3>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <h4><%= t('pequena-communidad-section.pequena-comunidad.emmanuel.schedule') %></h4>
+          <h5><%= t('pequena-communidad-section.pequena-comunidad.emmanuel.scripture') %></h5>
+          <p>
+            <%= t('pequena-communidad-section.pequena-comunidad.emmanuel.content') %>
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="pequena-comunidad" id="pequena-comunidad">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <h3>El Buen Pastor</h3>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Martes, 6PM - 9PM</h4>
-            <h5>Juan 10:11</h5>
-            <p>"Yo soy el buen pastor; el buen pastor su vida da por las ovejas."
-                Jesús se presenta como el Buen Pastor dispuesto a sacrificar su vida por sus ovejas. Su amor incondicional y su cuidado constante nos muestran el modelo perfecto de liderazgo y protección.
-                Deja que Jesús sea tu Buen Pastor, confía en su guía y entrega tu vida en sus manos amorosas. Él te cuidará, te protegerá y te dará vida en abundancia.
-            </p>
+        <!-- buen_pastor pequena-comunidad -->
+        <div class="pequena-comunidad" id="pequena-comunidad">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <h3><%= t('pequena-communidad-section.pequena-comunidad.buen_pastor.title') %></h3>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <h4><%= t('pequena-communidad-section.pequena-comunidad.buen_pastor.schedule') %></h4>
+              <h5><%= t('pequena-communidad-section.pequena-comunidad.buen_pastor.scripture') %></h5>
+              <p>
+                <%= t('pequena-communidad-section.pequena-comunidad.buen_pastor.content') %>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="pequena-comunidad" id="pequena-comunidad">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <h3>Caminando Con Jesus</h3>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Viernes, 6PM - 9PM</h4>
-            <h5>1 Juan 2:6</h5>
-            <p>"En esto conocemos que estamos en él: el que dice que permanece en él, debe andar como él anduvo."
-                Caminar con Jesús implica vivir de acuerdo a su ejemplo y enseñanzas. Nuestra vida debe reflejar su amor, compasión y humildad, demostrando al mundo que verdaderamente estamos en comunión con él.
-                Únete a la jornada de caminar con Jesús, adoptando su forma de vida y dejando que su amor transforme tus acciones. Vive en comunión con él y sé una luz que ilumine el camino de los demás hacia su amor y salvación.
-            </p>
-          </div>
+            <!-- caminando_con_jesus pequena-comunidad -->
+    <div class="pequena-comunidad" id="pequena-comunidad">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <h3><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.title') %></h3>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <h4><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.schedule') %></h4>
+          <h5><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.scripture') %></h5>
+          <p>
+            <%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.content') %>
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="pequena-comunidad" id="pequena-comunidad">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <h3>Vida Y Esperanza</h3>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Viernes, 6PM - 9PM</h4>
-            <h5>Jeremías 29:11 </h5>
-            <p>"Porque yo sé muy bien los planes que tengo para ustedes —afirma el Señor—, planes de bienestar y no de calamidad, a fin de darles un futuro y una esperanza."
-                En medio de las incertidumbres y desafíos de la vida, podemos encontrar consuelo en la promesa de Dios de tener planes de bienestar y esperanza para nosotros. Él nos invita a confiar en su cuidado y propósito en cada etapa de nuestro camino.
-                Abraza la vida y esperanza que Dios ofrece. Permítele ser el guía y el autor de tu historia. Confía en sus planes y camina con esperanza, sabiendo que él tiene un futuro lleno de bendición preparado para ti.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="pequena-comunidad" id="pequena-comunidad">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <h3>Seguidores de Jesus</h3>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Jueves, 6PM - 9PM</h4>
-            <h5>Lucas 9:59-60</h5>
-            <p>"Y le dijo Jesús: Sígueme tú. Pero él dijo: Señor, déjame ir primero y enterrar a mi padre. Jesús le dijo: Deja que los muertos entierren a sus muertos; y tú ve, y anuncia el reino de Dios."
-                Seguir a Jesús implica priorizar el reino de Dios por encima de todo, incluso de las obligaciones más cercanas y familiares.
-                Únete a la aventura de seguir a Jesús y proclamar el reino de Dios en tu vida y en el mundo que te rodea
-             </p>
+        <!-- vida_y_esperanza pequena-comunidad -->
+        <div class="pequena-comunidad" id="pequena-comunidad">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <h3><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.title') %></h3>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <h4><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.schedule') %></h4>
+              <h5><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.scripture') %></h5>
+              <p>
+                <%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.content') %>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="pequena-comunidad" id="pequena-comunidad">
-        <div class="row">
-          <div class="col-sm-12 col-md-4">
-            <h3>Rios de Agua Viva</h3>
-          </div>
-          <div class="col-sm-12 col-md-8">
-            <h4>Viernes, 6PM - 9PM</h4>
-            <h5>Juan 4:13-14</h5>
-            <p>"Jesús le respondió: Cualquiera que beba de esta agua volverá a tener sed, pero el que beba del agua que yo le daré, no tendrá sed jamás, sino que el agua que yo le daré se convertirá en él en una fuente de agua que brota para vida eterna."
-                En medio de un mundo sediento, Jesús ofrece un agua que sacia el alma y fluye constantemente para brindar vida eterna.
-                Ven y bebe del agua viva que Jesús ofrece, para experimentar la satisfacción plena y convertirte en una fuente que comparte vida eterna con otros.
-            </p>
-          </div>
+            <!-- seguidores_de_jesus pequena-comunidad -->
+    <div class="pequena-comunidad" id="pequena-comunidad">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <h3><%= t('pequena-communidad-section.pequena-comunidad.seguidores_de_jesus.title') %></h3>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <h4><%= t('pequena-communidad-section.pequena-comunidad.seguidores_de_jesus.schedule') %></h4>
+          <h5><%= t('pequena-communidad-section.pequena-comunidad.seguidores_de_jesus.scripture') %></h5>
+          <p>
+            <%= t('pequena-communidad-section.pequena-comunidad.seguidores_de_jesus.content') %>
+          </p>
         </div>
       </div>
+    </div>
 
-      
+        <!-- rios_de_agua_viva pequena-comunidad -->
+        <div class="pequena-comunidad" id="pequena-comunidad">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <h3><%= t('pequena-communidad-section.pequena-comunidad.rios_de_agua_viva.title') %></h3>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <h4><%= t('pequena-communidad-section.pequena-comunidad.rios_de_agua_viva.schedule') %></h4>
+              <h5><%= t('pequena-communidad-section.pequena-comunidad.rios_de_agua_viva.scripture') %></h5>
+              <p>
+                <%= t('pequena-communidad-section.pequena-comunidad.rios_de_agua_viva.content') %>
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <h3 class="text-center" style="padding: 10px 10px 55px 10px; font-weight: 700">Puedes seguir nuestra pagina en Facebook. Click <a href="https://www.facebook.com/people/Luz-Del-Mundo-Rcc/pfbid05TFUpxCqzmSpp9LptPTs9DeQ6kw7qqCW8soHy8DycexNk8zAFYRr8SLAJNCoV8C3l/?mibextid=LQQJ4d" target="_blank">Aqui!</a></h3>
+ 
+  
+    <h3 class="text-center" style="padding: 10px 10px 55px 10px; font-weight: 700">Puedes seguir nuestra pagina en Facebook. Click <a href="https://www.facebook.com/people/Luz-Del-Mundo-Rcc/pfbid05TFUpxCqzmSpp9LptPTs9DeQ6kw7qqCW8soHy8DycexNk8zAFYRr8SLAJNCoV8C3l/?mibextid=LQQJ4d" target="_blank">Aqui!</a></h3>
+  </div>
 
-      
-</div>
+
 
 <%= render "/partials/resos"%>
 <%= render "/partials/invitamos"%>
-
 
 
 

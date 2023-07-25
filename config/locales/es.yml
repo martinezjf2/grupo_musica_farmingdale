@@ -144,29 +144,140 @@ es:
 
   # ------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
   # Members#Angeles
+  joven-heading: "Únete a Nuestro Grupo de Jovenes"
+  joven-heading-h2: "Angeles de Dios"
+  joven-context-full: "Experimenta la alegría de la fe, la amistad y el servicio en una comunidad católica vibrante."
+  button-aprender-mas: "Aprender Mas"
+  que-significa: "¿Qué Significa Ser un <span class='highlight'>Ángel de Dios?</span>"
+  joven-p1: "A los ojos de Dios, los ángeles son mensajeros divinos, seres celestiales encargados de difundir amor, compasión y guía. Como Grupo Juvenil, nos esforzamos por encarnar las cualidades de estos ángeles y llevar esperanza al mundo."
+  joven-p2: "Únete a nosotros en este viaje de amor, unidad y bondad. Juntos, podemos marcar la diferencia y ser los ángeles de Dios que el mundo necesita."
+
+  aboutJovenes:
+    aboutJovenesHeading: "Los jóvenes son el futuro de la Iglesia Católica"
+    aboutJovenesContent: "Los jóvenes desempeñan un papel crucial en el futuro de la Iglesia Católica. Son el fundamento sobre el cual la fe y la comunidad se perpetuarán y crecerán. Aquí hay algunas razones por las que los jóvenes son tan importantes:"
+    reasons:
+      - "<strong>Herencia de la fe:</strong> Al aprender sobre Dios y la fe católica a una edad temprana, los jóvenes se preparan para convertirse en líderes y defensores de la fe en las generaciones futuras."
+      - "<strong>Renovación y vitalidad:</strong> Los jóvenes aportan energía, entusiasmo y nuevas perspectivas a la Iglesia, lo que ayuda a mantenerla vibrante y relevante en un mundo en constante cambio."
+      - "<strong>Solidaridad y servicio:</strong> La juventud tiene un espíritu compasivo y está dispuesta a servir a los demás, lo que enriquece la comunidad y refleja el amor de Dios en acción."
+      - "<strong>Evangelización:</strong> Los jóvenes tienen una presencia significativa en las plataformas digitales y sociales, lo que les brinda una oportunidad única para difundir el mensaje del Evangelio en el mundo moderno."
+  importanceOfKnowingGod:
+    importanceOfKnowingGodHeading: "La importancia de conocer a Dios desde temprana edad"
+    importanceOfKnowingGodContent: "Aprender sobre Dios desde una edad temprana es esencial para el desarrollo espiritual y moral de los jóvenes. Aquí se destacan algunos puntos importantes:"
+    points:
+      - "<strong>Formación sólida:</strong> Conocer a Dios desde joven proporciona una base sólida para enfrentar los desafíos de la vida y tomar decisiones fundamentadas en la fe."
+      - "<strong>Relación personal con Dios:</strong> El conocimiento temprano de Dios permite a los jóvenes desarrollar una relación cercana y personal con Él, lo que puede brindar consuelo y guía en momentos difíciles."
+      - "<strong>Discernimiento de la vocación:</strong> Conocer a Dios desde joven ayuda a los jóvenes a discernir su vocación en la vida y a comprender cómo pueden servir mejor a los demás y a la comunidad."
+      - "<strong>Resiliencia:</strong> La fe en Dios puede proporcionar a los jóvenes la fortaleza y la resiliencia necesarias para enfrentar los desafíos y las pruebas que pueden encontrar en su camino."
 
   # Members#Luz
+  luzDelMundoSection:
+    luzDelMundoJumbo:
+      welcomeTitle: "Bienvenidos A Nuestra Comunidad Hispana!"
+      luzDelMundoTitle: "Luz Del Mundo"
+      content: |
+        ¡Te invitamos con alegría a unirte a nuestra comunidad hispana en la
+        Iglesia Católica, donde juntos viviremos y compartiremos la fe con
+        entusiasmo y amor!
+      learnMoreButton: "Aprender Mas"
+  quoteDiv:
+    quote:
+      title: "Ustedes son la %{highlight}Luz Del Mundo%{highlight_end}"
+      scripture: '"Como se puede esconder una cuidad asentada sobre un monte?" - Mateo 5:14'
+      content_1: "Como seguidores de Jesús, llevamos la responsabilidad de ser portadores de su luz en un mundo que necesita desesperadamente esperanza y dirección. Nuestra vida y testimonio deben brillar con su amor y verdad."
+      content_2: "Permítele a la luz de Cristo brillar en tu vida y a través de ti. Vive de manera que reflejes su amor, verdad y esperanza. Sé un faro de luz en tu entorno, guiando a otros hacia el encuentro con Jesús."
+
+  pequena-communidad-section:
+    h2Pequena: "Participa en Nuestras Pequenas Communidades"
+    pequena-comunidad:
+      emmanuel:
+        title: "Emmanuel"
+        schedule: "Lunes, 6PM - 9PM"
+        scripture: "Mateo 1:23"
+        content: |
+          "He aquí, una virgen concebirá y dará a luz un hijo, y llamarás su nombre Emmanuel, que traducido es: Dios con nosotros."
+          El nombre Emmanuel nos recuerda que Dios no está lejos o distante, sino que está con nosotros en cada momento de nuestra vida, brindándonos su amor, guía y consuelo.
+          Abre tu corazón a la presencia de Emmanuel, permite que Dios esté contigo en todo momento y experimenta su cercanía y amor transformador en tu vida.
+
+      buen_pastor:
+        title: "El Buen Pastor"
+        schedule: "Martes, 6PM - 9PM"
+        scripture: "Juan 10:11"
+        content: |
+          "Yo soy el buen pastor; el buen pastor su vida da por las ovejas."
+          Jesús se presenta como el Buen Pastor dispuesto a sacrificar su vida por sus ovejas. Su amor incondicional y su cuidado constante nos muestran el modelo perfecto de liderazgo y protección.
+          Deja que Jesús sea tu Buen Pastor, confía en su guía y entrega tu vida en sus manos amorosas. Él te cuidará, te protegerá y te dará vida en abundancia.
+
+      caminando_con_jesus:
+        title: "Caminando Con Jesus"
+        schedule: "Viernes, 6PM - 9PM"
+        scripture: "1 Juan 2:6"
+        content: |
+          "En esto conocemos que estamos en él: el que dice que permanece en él, debe andar como él anduvo."
+          Caminar con Jesús implica vivir de acuerdo a su ejemplo y enseñanzas. Nuestra vida debe reflejar su amor, compasión y humildad, demostrando al mundo que verdaderamente estamos en comunión con él.
+          Únete a la jornada de caminar con Jesús, adoptando su forma de vida y dejando que su amor transforme tus acciones. Vive en comunión con él y sé una luz que ilumine el camino de los demás hacia su amor y salvación.
+
+      vida_y_esperanza:
+        title: "Vida Y Esperanza"
+        schedule: "Viernes, 6PM - 9PM"
+        scripture: "Jeremías 29:11"
+        content: |
+          "Porque yo sé muy bien los planes que tengo para ustedes —afirma el Señor—, planes de bienestar y no de calamidad, a fin de darles un futuro y una esperanza."
+          En medio de las incertidumbres y desafíos de la vida, podemos encontrar consuelo en la promesa de Dios de tener planes de bienestar y esperanza para nosotros. Él nos invita a confiar en su cuidado y propósito en cada etapa de nuestro camino.
+          Abraza la vida y esperanza que Dios ofrece. Permítele ser el guía y el autor de tu historia. Confía en sus planes y camina con esperanza, sabiendo que él tiene un futuro lleno de bendición preparado para ti.
+
+      seguidores_de_jesus:
+        title: "Seguidores de Jesus"
+        schedule: "Jueves, 6PM - 9PM"
+        scripture: "Lucas 9:59-60"
+        content: |
+          "Y le dijo Jesús: Sígueme tú. Pero él dijo: Señor, déjame ir primero y enterrar a mi padre. Jesús le dijo: Deja que los muertos entierren a sus muertos; y tú ve, y anuncia el reino de Dios."
+          Seguir a Jesús implica priorizar el reino de Dios por encima de todo, incluso de las obligaciones más cercanas y familiares.
+          Únete a la aventura de seguir a Jesús y proclamar el reino de Dios en tu vida y en el mundo que te rodea.
+
+      rios_de_agua_viva:
+        title: "Rios de Agua Viva"
+        schedule: "Viernes, 6PM - 9PM"
+        scripture: "Juan 4:13-14"
+        content: |
+          "Jesús le respondió: Cualquiera que beba de esta agua volverá a tener sed, pero el que beba del agua que yo le daré, no tendrá sed jamás, sino que el agua que yo le daré se convertirá en él en una fuente de agua que brota para vida eterna."
+          En medio de un mundo sediento, Jesús ofrece un agua que sacia el alma y fluye constantemente para brindar vida eterna.
+          Ven y bebe del agua viva que Jesús ofrece, para experimentar la satisfacción plena y convertirte en una fuente que comparte vida eterna con otros.
 
   # Members#Misa
+  misaJumbo:
+    welcomeTitle: "Bienvenidos A Nuestra Misa Hispana!"
+    content: "¡Te invitamos a unirte a nosotros para vivir una experiencia memorable de adoración que elevará tu espíritu y te acercará a Dios!"
+    learnMoreButton: "Aprender Mas"
+  misaCard:
+    header: "¿Qué es una Misa Católica?"
+    subtitle: "La Misa Católica es una celebración sagrada donde los creyentes se reúnen para adorar y recibir el Cuerpo y la Sangre de Jesucristo."
+    p1: "Durante la Misa, se realizan diversos rituales y oraciones. La Liturgia de la Palabra consiste en lecturas de la Biblia, incluyendo el Antiguo Testamento, los Salmos y el Evangelio. Estas lecturas son seguidas por una homilía, donde el sacerdote explica y aplica las Escrituras a nuestras vidas."
+    p2: "La Liturgia de la Eucaristía es la parte central de la Misa. Implica la consagración del pan y el vino, que se convierten en el verdadero Cuerpo y Sangre de Cristo mediante la transubstanciación. Los fieles participan en la Sagrada Comunión, recibiendo la presencia real de Jesús."
+    p3: "La Misa no solo es una conmemoración del sacrificio de Cristo en la cruz, sino también una participación en él. Es una fuente de gracia y alimento espiritual, fortaleciendo la fe de los creyentes y fomentando la unidad en la Iglesia."
+    p4: "Asistir regularmente a la Misa es de gran importancia para los católicos. Les permite profundizar su relación con Dios, recibir su gracia y estar unidos a la comunidad de la Iglesia. La Misa brinda una oportunidad para la adoración, la oración y el encuentro con Cristo de una manera profunda."
+  horarios:
+    header: "Horarios de la Misa:"
+    li1: "Domingos: 7:00 AM, 8:00 AM, 9:30 AM, 11:00 AM, 12:00 PM"
+    li2: "Lunes a Viernes: 7:30 AM & 8:30 AM"
+    li3: "Sábados: 5:00 PM"
+  horarios-espanol:
+    header: "Horarios de la Misa en <span class='highlight'>Español:</span>"
+    li1: "Sábados: 6:15 PM"
+  confessions:
+    header: "Confesiones: Por qué son importantes"
+    p1: "La confesión es el acto de reconocer y expresar nuestros pecados o acciones incorrectas ante Dios. Es un aspecto esencial de la fe cristiana y tiene una gran importancia en nuestro camino espiritual."
+    p2: "Las confesiones nos brindan la oportunidad de humillarnos ante Dios, buscando su perdón y purificación. A través de la confesión, reconocemos nuestra necesidad de su gracia y misericordia, reconociendo que hemos fallado en sus estándares perfectos."
+    p3: "Las confesiones son importantes porque nos permiten experimentar la libertad y alegría que proviene de recibir el perdón de Dios. Al confesar nuestros pecados, nos abrimos a su poder transformador, permitiéndole trabajar en nuestras vidas y lograr la sanación y restauración."
+    p4: "En muchas tradiciones cristianas, las confesiones tienen lugar durante los servicios regulares de adoración o en espacios designados dentro de la iglesia. Sin embargo, las confesiones también se pueden hacer en privado, directamente a Dios, en la tranquilidad de nuestros corazones."
+    p5: "Es importante tener en cuenta que la confesión no es un evento único, sino una práctica continua. A medida que nos esforzamos por vivir una vida alineada con la voluntad de Dios, inevitablemente tropezaremos y cometeremos errores. Las confesiones sirven como un recordatorio constante de nuestra necesidad de la gracia de Dios y como un medio para mantener una relación saludable y auténtica con Él."
+    p6: "Tómate tiempo para reflexionar sobre tu vida, buscar el perdón de Dios y hacer confesiones según sea necesario. Acepta el poder transformador de la confesión y experimenta la vida abundante que Dios ha preparado para ti."
+    p7: "Las confesiones en ESPANOL están disponibles durante:"
+    li1: "Miercoles (Cafeteria): 7:00 PM - 9:00 PM"
 
   # Members#Resos
 
-
-
-
-
-
-
   # ------------------------------------------------------------------------------------------------------------------------
-
 
   # Members#Contact could not do the actual form
   contact-question: "Quiere contactactarnos? Llena este formulario para recibir un correo de nosotros!"
@@ -185,7 +296,6 @@ es:
   form-weekly-bulletin: "Bulletin Semanal de la Parroquia"
   form-retreats: "Formulario para Retiros"
   yearly-catholic-calendar: "<a style='text-decoration: none; font-size: 20px;' target='_blank' href='https://seguidoresdejesus.s3.amazonaws.com/calendario-catolico.pdf'>Calendario Anual</a>"
-
 
   # Members#Weekly Bulletin
   weekly-bulletin-heading: "Bulletin Semanal de Nuestra Parroquia"
@@ -207,14 +317,14 @@ es:
 
   # Bodas Partial
   bodas-heading: "Bodas Y Quinceñeras"
-  bodas-body: "<p class='lead text-center'>La parroquia esta abierto para todos los que quieran celebrar bodas y quinceñeras! Estamos dispuesto en adyudarles 
-            para que esto se organize y para que se realize. La parroquia de St.Kilian's Church pide un deposito de $550 como iniciativa para celebrar <strong>SOLAMENTE</strong> la misa de boda o de quinceñera.
-            Si desea un ministerio de musica, por favor contactarse cliqiando este  <a href='/contact' class='btn-primary' onclick='event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/contact'; }, 100);'>link</a>
-            para mandar un correo electronico al ministerio. 
-            <br><br><h4 class='text-center'>***El pago para el ministerio es aparte de la iniciativa a la parroquia. Es una donacion a lo que las familias estan de acuerdo a entregar.***</h4><br><br>
-            <p class='lead text-center'>Esta donacion se entregara en persona en el momento de la misa.</p>
-        </p>"
-
+  bodas-body:
+    "<p class='lead text-center'>La parroquia esta abierto para todos los que quieran celebrar bodas y quinceñeras! Estamos dispuesto en adyudarles
+    para que esto se organize y para que se realize. La parroquia de St.Kilian's Church pide un deposito de $550 como iniciativa para celebrar <strong>SOLAMENTE</strong> la misa de boda o de quinceñera.
+    Si desea un ministerio de musica, por favor contactarse cliqiando este  <a href='/contact' class='btn-primary' onclick='event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/contact'; }, 100);'>link</a>
+    para mandar un correo electronico al ministerio.
+    <br><br><h4 class='text-center'>***El pago para el ministerio es aparte de la iniciativa a la parroquia. Es una donacion a lo que las familias estan de acuerdo a entregar.***</h4><br><br>
+    <p class='lead text-center'>Esta donacion se entregara en persona en el momento de la misa.</p>
+    </p>"
 
   # Carousel Partial
   v1-content: "Llámame y te responderé; te mostraré cosas grandes y secretas que tú ignoras."
@@ -240,8 +350,6 @@ es:
 
   v8-content: "Sin embargo, alégrense no porque los espíritus se someten a ustedes, sino más bien porque sus nombres están escritos en los cielos."
   v8-verse: "San Lucas 10, Versiculo 20"
-
-
 
   # Features Partial
   features-main-title: "VEN A COMPARTIR CON NOSOTROS."
@@ -271,31 +379,31 @@ es:
   invi-grupoOracion: "Grupo de Oracion - Miercoles"
   invi-group-context: "¿Buscas un lugar donde compartir tu fe, conectarte con otros creyentes y fortalecer tu relación con Dios? ¡No busques más! Únete a nuestro vibrante grupo de oración en la Iglesia católica y descubre una comunidad apasionada que te animará y te guiará en tu camino espiritual."
 
-
   # Jovenes Partial
-  jovenes-partial-context: "Proverbios 22: 6 dice: «Instruye al niño en el camino que debe seguir,
-          y cuando sea viejo no se apartará de él». Debemos formar niños y
-          jóvenes para que conozcan a Dios Padre y amen a la iglesia de Cristo
-          Jesús, y seran la próxima generación de cristianos y líderes que
-          servirán dentro de la iglesia, así como también saldrán y harán el
-          bien en el mundo. Ven! Y Acompañanos!"
+  jovenes-partial-context:
+    "Proverbios 22: 6 dice: «Instruye al niño en el camino que debe seguir,
+    y cuando sea viejo no se apartará de él». Debemos formar niños y
+    jóvenes para que conozcan a Dios Padre y amen a la iglesia de Cristo
+    Jesús, y seran la próxima generación de cristianos y líderes que
+    servirán dentro de la iglesia, así como también saldrán y harán el
+    bien en el mundo. Ven! Y Acompañanos!"
   jovenes-partial-slogan: "JOVENES PARA CRISTO! HOY, MAÑANA, Y SIEMPRE!"
   jpartial-h1: "Forma de Expression"
   jpartial-p1: "Nos encanta crear una cultura positiva mediante la creación de
-          dinámicas breves que involucren la participación de nuestra comunidad."
+    dinámicas breves que involucren la participación de nuestra comunidad."
   jpartial-h2: "Actividades Juveniles"
-  jpartial-p2: "Nos encanta crear dramas para mostrar escenarios de la vida real donde
-          Dios usa su poder para unir familias y ayudar a quienes necesitan
-          ayuda."
+  jpartial-p2:
+    "Nos encanta crear dramas para mostrar escenarios de la vida real donde
+    Dios usa su poder para unir familias y ayudar a quienes necesitan
+    ayuda."
   jpartial-h3: "Creatividad"
   jpartial-p3: "Nos aseguramos de crear entornos únicos que dejarán una huella
-          positiva en todos los miembros de nuestra comunidad."
+    positiva en todos los miembros de nuestra comunidad."
   jpartial-h4: "Amor y Collaboracion"
   jpartial-p4: "Todo lo que hacemos es para Dios y con mucho amor. Nos encanta
-          trabajar juntos y ayudar a nuestra comunidad a crecer."
+    trabajar juntos y ayudar a nuestra comunidad a crecer."
 
   quieres-ver-mas-button: "¿Quieres Ver Mas?"
-
 
   # Placeholder Partial
   meet-the-team: "Ven a Conocernos!"
@@ -315,10 +423,5 @@ es:
 
   # Members Familiar Partial
 # -------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
 
 # Flash Messages from the controller, check the chatAI to see how we can configure that

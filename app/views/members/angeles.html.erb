@@ -1,23 +1,19 @@
 
 <div class="jumbotron jovenesJumbotron">
   <div class="container">
-    <h1>Únete a Nuestro Grupo de Jóvenes</h1>
-    <h2>Angeles De Dios</h2>
-    <p>Experimenta la alegría de la fe, la amistad y el servicio en una comunidad católica vibrante.</p>
-    <a href="#angeles-de-dios" class="btn btn-primary btn-lg">Aprender Mas</a>
+    <h1><%=t('joven-heading')%></h1>
+    <h2><%=t('joven-heading-h2')%></h2>
+    <p><%=t('joven-context-full')%></p>
+    <a href="#angeles-de-dios" class="btn btn-primary btn-lg"><%=t('button-aprender-mas')%></a>
   </div>
 </div>
-
-
-
-
 
 <section class="angel-section" id="angeles-de-dios">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="mb-4">¿Qué Significa Ser un <span class="highlight">Ángel de Dios?</span></h2>
-          <p class="lead">A los ojos de Dios, los ángeles son mensajeros divinos, seres celestiales encargados de difundir amor, compasión y guía. Como Grupo Juvenil, nos esforzamos por encarnar las cualidades de estos ángeles y llevar esperanza al mundo.</p>
+          <h2 class="mb-4"><%= t('que-significa').html_safe %></h2>
+          <p class="lead"><%=t('joven-p1')%></p>
         </div>
       </div>
       <div class="row mt-5">
@@ -31,7 +27,7 @@
       </div>
       <div class="row mt-5">
         <div class="col-md-12">
-          <p class="lead">Únete a nosotros en este viaje de amor, unidad y bondad. Juntos, podemos marcar la diferencia y ser los ángeles de Dios que el mundo necesita.</p>
+          <p class="lead"><%=t('joven-p2')%></p>
           <!-- Add a call-to-action button or any other content here to engage the audience further -->
         </div>
       </div>
@@ -39,46 +35,34 @@
   </section>
 
 
-
-
-
-
-
-
-
-
-
-
 <%= render "/partials/features"%>
 
+ <!-- Assuming this content belongs to the 'aboutJovenes' section -->
 <section id="aboutJovenes">
-<div class="container">
+  <div class="container">
     <div class="section">
-      <h2 class="section-heading aboutJovenesHeading">Los jóvenes son el futuro de la Iglesia Católica</h2>
-      <p class="section-content aboutJovenesContent">Los jóvenes desempeñan un papel crucial en el futuro de la Iglesia Católica. Son el fundamento sobre el cual la fe y la comunidad se perpetuarán y crecerán. Aquí hay algunas razones por las que los jóvenes son tan importantes:</p>
+      <h2 class="section-heading aboutJovenesHeading"><%= t('aboutJovenes.aboutJovenesHeading') %></h2>
+      <p class="section-content aboutJovenesContent"><%= t('aboutJovenes.aboutJovenesContent') %></p>
       <ul class="section-content aboutJovenesContent">
-        <li><strong>Herencia de la fe:</strong> Al aprender sobre Dios y la fe católica a una edad temprana, los jóvenes se preparan para convertirse en líderes y defensores de la fe en las generaciones futuras.</li>
-        <li><strong>Renovación y vitalidad:</strong> Los jóvenes aportan energía, entusiasmo y nuevas perspectivas a la Iglesia, lo que ayuda a mantenerla vibrante y relevante en un mundo en constante cambio.</li>
-        <li><strong>Solidaridad y servicio:</strong> La juventud tiene un espíritu compasivo y está dispuesta a servir a los demás, lo que enriquece la comunidad y refleja el amor de Dios en acción.</li>
-        <li><strong>Evangelización:</strong> Los jóvenes tienen una presencia significativa en las plataformas digitales y sociales, lo que les brinda una oportunidad única para difundir el mensaje del Evangelio en el mundo moderno.</li>
+        <% t('aboutJovenes.reasons').each do |reason| %>
+          <li><%= reason.html_safe %></li>
+        <% end %>
       </ul>
     </div>
 
+<!-- Assuming this content belongs to the 'importanceOfKnowingGod' section -->
+
     <div class="section">
-      <h2 class="section-heading aboutJovenesHeading">La importancia de conocer a Dios desde temprana edad</h2>
-      <p class="section-content aboutJovenesContent">Aprender sobre Dios desde una edad temprana es esencial para el desarrollo espiritual y moral de los jóvenes. Aquí se destacan algunos puntos importantes:</p>
+      <h2 class="section-heading aboutJovenesHeading"><%= t('importanceOfKnowingGod.importanceOfKnowingGodHeading') %></h2>
+      <p class="section-content aboutJovenesContent"><%= t('importanceOfKnowingGod.importanceOfKnowingGodContent') %></p>
       <ul class="section-content aboutJovenesContent">
-        <li><strong>Formación sólida:</strong> Conocer a Dios desde joven proporciona una base sólida para enfrentar los desafíos de la vida y tomar decisiones fundamentadas en la fe.</li>
-        <li><strong>Relación personal con Dios:</strong> El conocimiento temprano de Dios permite a los jóvenes desarrollar una relación cercana y personal con Él, lo que puede brindar consuelo y guía en momentos difíciles.</li>
-        <li><strong>Discernimiento de la vocación:</strong> Conocer a Dios desde joven ayuda a los jóvenes a discernir su vocación en la vida y a comprender cómo pueden servir mejor a los demás y a la comunidad.</li>
-        <li><strong>Resiliencia:</strong> La fe en Dios puede proporcionar a los jóvenes la fortaleza y la resiliencia necesarias para enfrentar los desafíos y las pruebas que pueden encontrar en su camino.</li>
+        <% t('importanceOfKnowingGod.points').each do |point| %>
+          <li><%= point.html_safe %></li>
+        <% end %>
       </ul>
     </div>
   </div>
-
 </section>
+
 <%= render "/partials/invitamos"%>
-
-      
-
 

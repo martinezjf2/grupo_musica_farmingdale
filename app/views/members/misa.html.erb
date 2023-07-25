@@ -1,12 +1,11 @@
 <div class="misaSection">
   <div class="jumbotron misaJumbo">
     <div class="container">
-      <h1>Bienvenidos A Nuestra Misa Hispana!</h1>
+      <h1><%= t('misaJumbo.welcomeTitle') %></h1>
       <p>
-        ¡Te invitamos a unirte a nosotros para vivir una experiencia memorable
-        de adoración que elevará tu espíritu y te acercará a Dios!
+        <%= t('misaJumbo.content') %>
       </p>
-      <a href="#que-significa-la-misa" class="btn btn-primary btn-lg">Aprender Mas</a>
+      <a href="#que-significa-la-misa" class="btn btn-primary btn-lg"><%= t('misaJumbo.learnMoreButton') %></a>
     </div>
   </div>
 
@@ -14,27 +13,27 @@
   <div class="container confessionDiv" id="que-significa-la-misa">
     <div class="card misaCard">
         <div class="card-header misaCardHeader">
-            <h2 class="card-title misaCardTitle text-center">¿Qué es una Misa Católica?</h2>
+            <h2 class="card-title misaCardTitle text-center"><%= t('misaCard.header') %></h2>
         </div>
         <div class="card-body misaCardBody">
             <div class="section-content">
-                <p>La Misa Católica es una celebración sagrada donde los creyentes se reúnen para adorar y recibir el Cuerpo y la Sangre de Jesucristo.</p>
+                <p><%= t('misaCard.subtitle') %></p>
                 <img src="https://seguidoresdejesus.s3.amazonaws.com/mass.png" alt="Misa Católica" class="img-fluid">
-                <p>Durante la Misa, se realizan diversos rituales y oraciones. La Liturgia de la Palabra consiste en lecturas de la Biblia, incluyendo el Antiguo Testamento, los Salmos y el Evangelio. Estas lecturas son seguidas por una homilía, donde el sacerdote explica y aplica las Escrituras a nuestras vidas.</p>
-                <p>La Liturgia de la Eucaristía es la parte central de la Misa. Implica la consagración del pan y el vino, que se convierten en el verdadero Cuerpo y Sangre de Cristo mediante la transubstanciación. Los fieles participan en la Sagrada Comunión, recibiendo la presencia real de Jesús.</p>
-                <p>La Misa no solo es una conmemoración del sacrificio de Cristo en la cruz, sino también una participación en él. Es una fuente de gracia y alimento espiritual, fortaleciendo la fe de los creyentes y fomentando la unidad en la Iglesia.</p>
-                <p>Asistir regularmente a la Misa es de gran importancia para los católicos. Les permite profundizar su relación con Dios, recibir su gracia y estar unidos a la comunidad de la Iglesia. La Misa brinda una oportunidad para la adoración, la oración y el encuentro con Cristo de una manera profunda.</p>
+                <p><%= t('misaCard.p1') %></p>
+                <p><%= t('misaCard.p2') %></p>
+                <p><%= t('misaCard.p3') %></p>
+                <p><%= t('misaCard.p4') %></p>
             </div>
             <hr>
-            <h4 class="text-center">Horarios de la Misa:</h4>
+            <h4 class="text-center"><%= t('horarios.header') %></h4>
             <ul class="mass-hours">
-                <li>Domingos: 7:00 AM, 8:00 AM, 9:30 AM, 11:00 AM, 12:00 PM</li>
-                <li>Lunes a Viernes: 7:30 AM & 8:30 AM</li>
-                <li>Sábados: 5:00 PM</li>
+                <li><%= t('horarios.li1') %></li>
+                <li><%= t('horarios.li2') %></li>
+                <li><%= t('horarios.li3') %></li>
             </ul>
-            <h4 class="text-center">Horarios de la Misa en <span class="highlight">Español:</span></h4>
+            <h4 class="text-center"><%=t('horarios-espanol.header').html_safe%></h4>
             <ul class="mass-hours">
-                <li>Sábados: 6:15 PM</li>
+                <li><%= t('horarios-espanol.li1') %></li>
             </ul>
         </div>
     </div>
@@ -43,19 +42,19 @@
 
   <div class="container confessionDiv">
     <div class="section-title">
-        <h2>Confesiones: Por qué son importantes</h2>
+        <h2><%= t('confessions.header') %></h2>
     </div>
     <div class="section-content">
-        <p>La confesión es el acto de reconocer y expresar nuestros pecados o acciones incorrectas ante Dios. Es un aspecto esencial de la fe cristiana y tiene una gran importancia en nuestro camino espiritual.</p>
-        <p>Las confesiones nos brindan la oportunidad de humillarnos ante Dios, buscando su perdón y purificación. A través de la confesión, reconocemos nuestra necesidad de su gracia y misericordia, reconociendo que hemos fallado en sus estándares perfectos.</p>
-        <p>Las confesiones son importantes porque nos permiten experimentar la libertad y alegría que proviene de recibir el perdón de Dios. Al confesar nuestros pecados, nos abrimos a su poder transformador, permitiéndole trabajar en nuestras vidas y lograr la sanación y restauración.</p>
-        <p>En muchas tradiciones cristianas, las confesiones tienen lugar durante los servicios regulares de adoración o en espacios designados dentro de la iglesia. Sin embargo, las confesiones también se pueden hacer en privado, directamente a Dios, en la tranquilidad de nuestros corazones.</p>
-        <p>Es importante tener en cuenta que la confesión no es un evento único, sino una práctica continua. A medida que nos esforzamos por vivir una vida alineada con la voluntad de Dios, inevitablemente tropezaremos y cometeremos errores. Las confesiones sirven como un recordatorio constante de nuestra necesidad de la gracia de Dios y como un medio para mantener una relación saludable y auténtica con Él.</p>
-        <p>Tómate tiempo para reflexionar sobre tu vida, buscar el perdón de Dios y hacer confesiones según sea necesario. Acepta el poder transformador de la confesión y experimenta la vida abundante que Dios ha preparado para ti.</p>
+        <p><%= t('confessions.p1') %></p>
+        <p><%= t('confessions.p2') %></p>
+        <p><%= t('confessions.p3') %></p>
+        <p><%= t('confessions.p4') %></p>
+        <p><%= t('confessions.p5') %></p>
+        <p><%= t('confessions.p6') %></p>
       </div>  
-    <p class="text-center"><strong>Las confesiones en ESPANOL están disponibles durante:</strong></p>
+    <p class="text-center"><strong><%= t('confessions.p7') %></strong></p>
     <ul class="list-group list-group-horizontal justify-content-center">
-      <li class="list-group-item">Miercoles (Cafeteria): 7:00 pm - 9:00 pm</li>
+      <li class="list-group-item"><%= t('confessions.li1') %></li>
     </ul>
   </div>
 
