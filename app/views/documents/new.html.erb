@@ -1,19 +1,41 @@
-
 <section id="events" style="padding-bottom: 50px" class="text-center">
   <div class="events-heading">
     <h2 id="videos-heading" class="text-white"><%= t('new-document-heading') %></h2>
   </div>
 
-<%= form_with(model: @document, url: virtus_path, local: true) do |form| %>
+  <!-- Form for English Document -->
+  <%= form_with(model: @english_document, url: virtus_path, local: true, id: 'english-document-form') do |form| %>
   <div class="field">
     <%= form.label :file, class: "text-white"%>
     <%= form.file_field :file, class: 'btn btn-primary m-2'%>
   </div>
 
+  <!-- Add a hidden field for the language -->
+  <%= form.hidden_field :language, value: 'en' %>
+
+  <!-- Submit Button -->
   <div class="actions">
-    <%= form.submit "Upload Document", class: 'btn btn-primary m-2' %>
+    <%= form.submit 'Upload English Document', class: 'btn btn-primary m-2', id: 'add-english-button' %>
   </div>
 <% end %>
 
+<!-- Form for Spanish Document -->
+<%= form_with(model: @spanish_document, url: virtus_path, local: true, id: 'spanish-document-form') do |form| %>
+  <div class="field">
+    <%= form.label :file, class: "text-white"%>
+    <%= form.file_field :file, class: 'btn btn-primary m-2'%>
+  </div>
+
+  <!-- Add a hidden field for the language -->
+  <%= form.hidden_field :language, value: 'es' %>
+
+  <!-- Submit Button -->
+  <div class="actions">
+    <%= form.submit 'Upload Spanish Document', class: 'btn btn-primary m-2', id: 'add-spanish-button' %>
+  </div>
+<% end %>
+
+
 </section>
+
 

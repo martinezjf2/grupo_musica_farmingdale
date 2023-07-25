@@ -28,22 +28,44 @@
 
         <%= t('instructions-context').html_safe %>
         <br><br>
-        <% if @document %>
+        <% if @spanish_document %>
         <div class="virtus" id="">
           <% if current_user %> 
-          <%= link_to t('delete-current-bulletin'), virtu_path(@document), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger m-2' %> 
+          <%= link_to "Eliminar Bulletin Del Mes", virtu_path(@spanish_document), method: :delete, data: { confirm: 'Are you sure you want to delete spanish bulletin?' }, class: 'btn btn-danger m-2' %>
           <% end %> 
-          <%= link_to t('click-aqui-bulletin-del-mes'), rails_blob_path(@document.file), target: '_blank', class: 'btn btn-primary m-2' %>
+          <%= link_to "Click Aqui Para Ver Bulletin del Mes", rails_blob_path(@spanish_document.file), target: '_blank', class: 'btn btn-primary m-2' %>
         </div>
         <% else %>
         <div class="videos-heading text-center">
           <h2 id="videos-heading" class="">
-           <%= t('bulletin-no-disponible') %>
+            Bulletin (Espanol) no esta disponible....
           </h2>
           <% if current_user %> 
           <%= link_to t('nuevo-bulletin'), new_virtu_path, class: 'btn btn-primary m-2' %> <% end %>
         </div>
         <% end %>
+
+        <% if @english_document %>
+        <div class="virtus" id="">
+          <% if current_user %> 
+          <%= link_to "Delete Monthly Bulletin", virtu_path(@english_document), method: :delete, data: { confirm: 'Are you sure you want to delete english bulletin?' }, class: 'btn btn-danger m-2' %> 
+          <% end %> 
+          <%= link_to "Click Here To see Monthly Bulletin", rails_blob_path(@english_document.file), target: '_blank', class: 'btn btn-primary m-2' %>
+        </div>
+        <% else %>
+        <div class="videos-heading text-center">
+          <h2 id="videos-heading" class="">
+           Bulletin (English) not available...
+          </h2>
+          <% if current_user %> 
+          <%= link_to t('nuevo-bulletin'), new_virtu_path, class: 'btn btn-primary m-2' %> <% end %>
+        </div>
+        <% end %>
+
+
+
+
+
       </div>
     </div>
   </div>

@@ -5,7 +5,10 @@ resources :events
 resources :videos
 resources :prayers
 resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create, :destroy]
-  # Home/Root Route
+  
+
+
+# Home/Root Route
   root to: 'members#index'
 
   get 'switch_locale/:locale', to: 'application#switch_locale', as: :switch_locale
