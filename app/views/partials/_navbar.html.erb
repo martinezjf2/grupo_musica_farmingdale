@@ -19,13 +19,13 @@
     >
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link active" aria-current="page" href="/" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/'; }, 100);">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/events"><%= t('events') %></a>
+          <a class="nav-link" href="/events" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/events'; }, 100);"><%= t('events') %></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/videos?page=1">Videos</a>
+          <a class="nav-link" href="/videos?page=1" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/videos?page=1'; }, 100);">Videos</a>
         </li>
         
         <li class="nav-item dropdown">
@@ -40,11 +40,11 @@
 
         <% if current_user %>
         <li class="nav-item">
-          <a class="nav-link" onclick="return confirm('Are you sure you want to proceed?')" href="/logout">Log Out</a>
+          <a class="nav-link" onclick="return confirm('Are you sure you want to proceed?')" href="/logout" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/logout'; }, 100);">Log Out</a>
         </li>
         <% else %>
         <li class="nav-item">
-          <a class="nav-link" href="/login">Log In</a>
+          <a class="nav-link" href="/login" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/login'; }, 100);">Log In</a>
         </li>
         <% end %>
       </ul>
