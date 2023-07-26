@@ -276,6 +276,51 @@ es:
     li1: "Miercoles (Cafeteria): 7:00 PM - 9:00 PM"
 
   # Members#Resos
+  resos-full-page:
+    header-h1: "El Santo Rosario"
+    p-lead: "Únete a nuestra comunidad en la poderosa oración del Santo Rosario,
+      acercándonos a la Santísima Virgen María y a Jesucristo. Encuentra paz,
+      sanación y crecimiento espiritual en esta meditación única."
+    que-reso-h1: "El Rosario: Un Camino Atemporal hacia la Conexión Espiritual"
+    que-reso-subtitle: "El Rosario, una apreciada tradición de oración en la fe católica, es una
+        poderosa herramienta que fomenta el crecimiento espiritual, la paz
+        interior y una conexión más profunda con Dios. Esta hermosa devoción
+        tiene una importancia significativa para millones de personas en todo el
+        mundo, ofreciendo consuelo en momentos de angustia y guía en el camino
+        de la fe."
+    quality1: "Reflexión Meditativa"
+    context1: " El Rosario es una oración meditativa que nos guía a través de la vida
+          de Jesucristo y la Virgen María. Cada cuenta del Rosario representa
+          una oración, un momento de reflexión o un acontecimiento de la vida de
+          Cristo. Al meditar sobre estos misterios, podemos experimentar una
+          profunda comprensión del sacrificio y el amor de Cristo."
+
+    quality2: "Cultivando la Paz Interior"
+    context2: "En nuestras vidas aceleradas y a menudo caóticas, el Rosario sirve
+          como un ancla para encontrar la paz interior y la tranquilidad. La
+          repetición rítmica de las oraciones y la concentración en los
+          misterios nos permiten desprendernos de las preocupaciones mundanas y
+          abrazar una sensación de calma."
+
+    quality3: "Fortaleciendo la Fe y la Esperanza"
+    context3: "El Rosario es un poderoso instrumento para fortalecer la fe y fomentar
+          la esperanza. A través de la intercesión de la Santísima Virgen María,
+          los creyentes encuentran el coraje para enfrentar los desafíos de la
+          vida y una esperanza inquebrantable en la providencia de Dios."
+
+    quality4: "Una Comunidad de Creyentes"
+    context4: "El rezo del Rosario no es un acto solitario, sino una experiencia
+          comunitaria que une a los católicos de todo el mundo. Fomenta un
+          sentido de pertenencia a una gran familia espiritual, creando un
+          vínculo de solidaridad y apoyo entre los creyentes."
+
+    quality5: "Conclusión"
+    context5: "En conclusión, el Rosario es más que una simple cadena de cuentas; es
+          una profunda expresión de fe, esperanza y amor. Su importancia radica
+          en su capacidad para transformar vidas, guiando a los creyentes hacia
+          la iluminación espiritual y fortaleciendo su conexión con Dios y la
+          Iglesia."
+      
 
   # ------------------------------------------------------------------------------------------------------------------------
 

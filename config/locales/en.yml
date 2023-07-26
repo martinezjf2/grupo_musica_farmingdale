@@ -246,8 +246,48 @@ en:
     li1: "Wednesdays (Cafeteria): 7:00 PM - 9:00 PM"  
 
   # Members#Resos
+  resos-full-page:
+    header-h1: "The Holy Rosary"
+    p-lead: "Join our community in the powerful prayer of the Holy Rosary,
+      drawing closer to the Blessed Virgin Mary and Jesus Christ. Find peace,
+      healing, and spiritual growth in this unique meditation."
+    que-reso-h1: "The Rosary: A Timeless Path to Spiritual Connection"
+    que-reso-subtitle: "The Rosary, a cherished prayer tradition in the Catholic faith, is a
+        powerful tool that fosters spiritual growth, inner peace, and a deeper
+        connection with God. This beautiful devotion holds significant
+        importance for millions of people worldwide, offering comfort in times
+        of distress and guidance on the path of faith."
+    quality1: "Meditative Reflection"
+    context1: "The Rosary is a meditative prayer that guides us through the life
+          of Jesus Christ and the Virgin Mary. Each bead of the Rosary
+          represents a prayer, a moment of reflection, or an event from the
+          life of Christ. By meditating on these mysteries, we can experience a
+          profound understanding of Christ's sacrifice and love."
 
+    quality2: "Cultivating Inner Peace"
+    context2: "In our fast-paced and often chaotic lives, the Rosary serves as an
+          anchor to find inner peace and tranquility. The rhythmic repetition of
+          prayers and the focus on the mysteries allow us to detach from
+          worldly concerns and embrace a sense of calm."
 
+    quality3: "Strengthening Faith and Hope"
+    context3: "The Rosary is a powerful instrument for strengthening faith and
+          fostering hope. Through the intercession of the Blessed Virgin Mary,
+          believers find the courage to face life's challenges and an
+          unwavering hope in God's providence."
+
+    quality4: "A Community of Believers"
+    context4: "The recitation of the Rosary is not a solitary act but a communal
+          experience that unites Catholics worldwide. It fosters a sense of
+          belonging to a large spiritual family, creating a bond of solidarity
+          and support among believers."
+
+    quality5: "Conclusion"
+    context5: "In conclusion, the Rosary is more than just a string of beads; it is
+          a profound expression of faith, hope, and love. Its significance lies
+          in its ability to transform lives, guiding believers toward spiritual
+          enlightenment and strengthening their connection with God and the
+          Church."
 
 
 
