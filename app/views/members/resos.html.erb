@@ -1,43 +1,86 @@
-<div class="jumbotron text-center">
-    <div class="container">
-      <h1>El Santo Rosario</h1>
-      <p class="lead">Únete a nuestra comunidad en la poderosa oración del Santo Rosario, acercándonos a la Santísima Virgen María y a Jesucristo. Encuentra paz, sanación y crecimiento espiritual en esta meditación única.</p>
-      <a href="#" class="btn btn-primary btn-lg">Aprender Mas</a>
+<div class="jumbotron text-center resosPage">
+  <div class="container">
+    <h1>El Santo Rosario</h1>
+    <p class="lead">
+      Únete a nuestra comunidad en la poderosa oración del Santo Rosario,
+      acercándonos a la Santísima Virgen María y a Jesucristo. Encuentra paz,
+      sanación y crecimiento espiritual en esta meditación única.
+    </p>
+    <a href="#que-es-un-reso" class="btn btn-primary btn-lg">Aprender Mas</a>
+  </div>
+</div>
+
+<section class="py-5 custom-section" id="que-es-un-reso">
+  <div class="container" id="custom-section">
+    <div class="row">
+      <h1 class="text-center mb-4 text-center">
+        El Rosario: Un Camino Atemporal hacia la Conexión Espiritual
+      </h1>
+      <p class="text-center">
+        El Rosario, una apreciada tradición de oración en la fe católica, es una
+        poderosa herramienta que fomenta el crecimiento espiritual, la paz
+        interior y una conexión más profunda con Dios. Esta hermosa devoción
+        tiene una importancia significativa para millones de personas en todo el
+        mundo, ofreciendo consuelo en momentos de angustia y guía en el camino
+        de la fe.
+      </p>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <!-- Sección 1: Reflexión Meditativa -->
+        <h2 class="mt-4">Reflexión Meditativa</h2>
+        <p>
+          El Rosario es una oración meditativa que nos guía a través de la vida
+          de Jesucristo y la Virgen María. Cada cuenta del Rosario representa
+          una oración, un momento de reflexión o un acontecimiento de la vida de
+          Cristo. Al meditar sobre estos misterios, podemos experimentar una
+          profunda comprensión del sacrificio y el amor de Cristo.
+        </p>
+
+        <!-- Sección 2: Cultivando la Paz Interior -->
+        <h2 class="mt-4">Cultivando la Paz Interior</h2>
+        <p>
+          En nuestras vidas aceleradas y a menudo caóticas, el Rosario sirve
+          como un ancla para encontrar la paz interior y la tranquilidad. La
+          repetición rítmica de las oraciones y la concentración en los
+          misterios nos permiten desprendernos de las preocupaciones mundanas y
+          abrazar una sensación de calma.
+        </p>
+
+        <!-- Sección 3: Fortaleciendo la Fe y la Esperanza -->
+        <h2 class="mt-4">Fortaleciendo la Fe y la Esperanza</h2>
+        <p>
+          El Rosario es un poderoso instrumento para fortalecer la fe y fomentar
+          la esperanza. A través de la intercesión de la Santísima Virgen María,
+          los creyentes encuentran el coraje para enfrentar los desafíos de la
+          vida y una esperanza inquebrantable en la providencia de Dios.
+        </p>
+
+        <!-- Sección 4: Una Comunidad de Creyentes -->
+        <h2 class="mt-4">Una Comunidad de Creyentes</h2>
+        <p>
+          El rezo del Rosario no es un acto solitario, sino una experiencia
+          comunitaria que une a los católicos de todo el mundo. Fomenta un
+          sentido de pertenencia a una gran familia espiritual, creando un
+          vínculo de solidaridad y apoyo entre los creyentes.
+        </p>
+
+        <!-- Conclusión -->
+        <h2 class="mt-4">Conclusión</h2>
+        <p>
+          En conclusión, el Rosario es más que una simple cadena de cuentas; es
+          una profunda expresión de fe, esperanza y amor. Su importancia radica
+          en su capacidad para transformar vidas, guiando a los creyentes hacia
+          la iluminación espiritual y fortaleciendo su conexión con Dios y la
+          Iglesia.
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 rosary-image-parent">
+        <%= image_tag 'rosario.png', class: 'rosary-image'%>
+      </div>
     </div>
   </div>
+</section>
 
 <%= render "/partials/invitamos"%>
 
-
-  <style>
-    /* Custom CSS styling */
-.jumbotron {
-    background-image: url('https://seguidoresdejesus.s3.amazonaws.com/rosaryJumbo.png');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 6rem 2rem;
-    text-align: center;
-    margin-bottom: 0;
-    }
-
-  
-   
-    
-.jumbotron h1 {
-    font-size: 4.5rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
-    letter-spacing: 0.4rem;
-    }
-
-.jumbotron p {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
-    }
-  </style>
-
-  <!-- added comment -->
