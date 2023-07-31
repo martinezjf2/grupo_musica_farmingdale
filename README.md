@@ -25,10 +25,18 @@ Things you may want to cover:
 
 Steps to take when cloning this repository
 
+make sure you create an .env file with the environment variables
+
+
 rvm use 3.1.4
 bundle install
 yarn install
+
 rails assets:precompile
 
-bundle exec rails db:drop && bundle exec rails db:create && bundle exec rails db:migrate && bundle exec rails db:seed
+rails db:create && rails db:migrate && rails db:seed
+
+rails s 
+
+Tell Open AI to establish a readme template for ruby on rails prooject with instructions on installing and getting eberything to work
 
