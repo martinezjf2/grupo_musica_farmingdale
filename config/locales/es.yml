@@ -369,7 +369,7 @@ es:
     para que esto se organize y para que se realize. La parroquia de St.Kilian's Church pide un deposito de $550 como iniciativa para celebrar <strong>SOLAMENTE</strong> la misa de boda o de quinceñera.
     Si desea un ministerio de musica, por favor contactarse cliqiando este  <a href='/contact' class='btn-primary' onclick='event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/contact'; }, 100);'>link</a>
     para mandar un correo electronico al ministerio.
-    <br><br><h4 class='text-center'>***El pago para el ministerio es aparte de la iniciativa a la parroquia. Es una donacion a lo que las familias estan de acuerdo a entregar.***</h4><br><br>
+    <br><br><h4 class='text-center'>***El pago para el ministerio es aparte de la iniciativa a la parroquia.***</h4><br><br>
     <p class='lead text-center'>Esta donacion se entregara en persona en el momento de la misa.</p>
     </p>"
 

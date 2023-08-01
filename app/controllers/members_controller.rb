@@ -35,6 +35,13 @@ class MembersController < ApplicationController
     # def guadalupanos
     # end
 
+    def about_parish
+    end
+
+    def stkilian_new_member
+    end
+
+
 
 
 end

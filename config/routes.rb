@@ -40,11 +40,12 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   get '/misa', to: 'members#misa'
   get '/resos', to: 'members#resos'
   get '/forms', to: 'members#forms'
+  get '/our-parish', to: 'members#about_parish'
+  get '/stkilian-new-member', to: 'members#stkilian_new_member'
 
 
 
   # This will be partials instead and will render on various pages
-  # get '/resos', to: 'members#resos'
   # get '/guadalupanos', to: 'members#guadalupanos'
   # get '/pastoral-familiar', to: 'members#familiar'
 

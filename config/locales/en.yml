@@ -338,7 +338,7 @@ en:
             with the organization and realization. St. Kilian's Church asks for a deposit of $550 as an initiative to celebrate <strong>ONLY</strong> the wedding or quinceañera mass.
             If you wish to have a music ministry, please contact us by clicking this <a href='/contact' class='btn-primary' onclick='event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/contact'; }, 100);'>link</a>
             to send an email to the ministry.
-            <br><br><h4 class='text-center'>***The payment for the ministry is separate from the initiative to the parish. It is a donation that families agree to give.***</h4><br><br>
+            <br><br><h4 class='text-center'>***The payment for the ministry is separate from the initiative to the parish.***</h4><br><br>
             <p class='lead text-center'>This donation will be given in person at the time of the mass.</p>
         </p>"
 
