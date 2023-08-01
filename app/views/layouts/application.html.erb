@@ -12,7 +12,7 @@
     <meta name="keywords" content="Seguidores de Jesus, worship, faith, community, ministry, fellowship, church, sermons, events, Christian, Jesus, love, spiritual growth">
     <meta name="author" content="Seguidores de Jesus">
     <meta name="description" content="¡Bienvenidos a Seguidores de Jesús! Únete a nuestra comunidad vibrante para adorar, crecer en fe y experimentar el amor de Cristo. Descubre inspiradoras predicaciones, eventos emocionantes y compañerismo significativo. ¡Todos son bienvenidos!">
-    <meta name="keywords" content="Seguidores de Jesús, adoración, fe, comunidad, ministerio, compañerismo, iglesia, predicaciones, eventos, cristiano, Jesús, amor, crecimiento espiritual">
+    <meta name="keywords" content="Seguidores de Jesus, adoración, fe, comunidad, ministerio, compañerismo, iglesia, predicaciones, eventos, cristiano, Jesús, amor, crecimiento espiritual">
     <meta name="author" content="Seguidores de Jesús">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,6 +42,16 @@
     <%= render "/partials/footer" %>
 
 
+
+
+
+
+
+
+
+
+
+
     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -51,6 +61,19 @@
         })();
     </script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script type="text/javascript">
      function sendMail() {
           document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -59,17 +82,11 @@
               emailjs.sendForm('service_3n8xbix', "contact_form_seg", '#contact-form')
                   .then(function() {
                       console.log('SUCCESS!');
-                      // Get the button element
                       let success = document.getElementById("sendButton");
-                      // Get the contact-form
                       let contactForm = document.getElementById('contact-form');
-                      // reset will clear the form
                       contactForm.reset();
-                      // Underneath will change the html of the button to ay Successfully Sent if succesful
                       success.innerHTML = "Successfully Sent";
-                      // Change the backgroundColor of the button if successful
                       success.style.backgroundColor = "green";
-                      // Within 3 seconds, the page will reload
 
                     let form = document.querySelector(".removeContactForm")
                     form.remove()
@@ -83,10 +100,6 @@
                     newDiv.append(h2)
                     section.append(newDiv)
 
-                    // setInterval(() => window.location.reload(true), 5000)
-
-
-                      // If there is an error, it will log "FAILED..., and console log the error"
                   }, function(error) {
                       console.log('FAILED...', error);
                   });
