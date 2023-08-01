@@ -33,8 +33,8 @@
             Language
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <%= link_to "🇺🇸 English", switch_locale_path(:en), class: "dropdown-item", style: "color: black" %>
-            <%= link_to "🇪🇸 Español", switch_locale_path(:es), class: "dropdown-item", style: "color: black"%>
+            <%= link_to "🇺🇸 English", switch_locale_path(:en), class: "dropdown-item", style: "color: black", onclick: "event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/switch_locale/en'; }, 100);"  %>
+            <%= link_to "🇪🇸 Español", switch_locale_path(:es), class: "dropdown-item", style: "color: black", onclick: "event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/switch_locale/es'; }, 100);" %>
           </ul>
         </li>
        
@@ -46,7 +46,7 @@
             <%= current_user.first_name %>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a style="color: black" onclick="return confirm('Are you sure you want to proceed?')" href="/logout" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/logout'; }, 100);">Log Out</a>
+            <a style="color: black" onclick="event.preventDefault(); if (confirm('Are you sure you want to proceed?')) { setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/logout'; }, 100); }">Log Out</a>
           </ul>
         </li>
 
