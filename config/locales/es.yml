@@ -330,6 +330,8 @@ es:
 
   # Members#Daily Word
   gospel-of-the-day: "Evangelio del Dia: "
+  gospel-comments: "Commentarios"
+  gospel-thoughts: "Pensamientos"
 
   # Members#Forms
   stkilian-homepage: "Pagina de St.Kilian Parish"
@@ -415,6 +417,9 @@ es:
   footer-contact: "Contactanos"
   footer-gospel-spanish: "Lectura"
   nuestra-parroquia: "Nuestra Parroquia"
+  gospel-link-footer: "lectura-del-dia"
+  
+
 
   # Invitamos Partial
   invitamos-heading: "Te Invitamos Compartir con NOSOTROS!!"

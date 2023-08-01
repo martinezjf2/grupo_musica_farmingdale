@@ -22,7 +22,9 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   # get '/users/:id', to: 'members#index'
   # get '/virtus', to: 'members#virtus'
   # get '/documents/show', to: 'documents#show', as: :show_document
-  get '/dailyword', to: 'scraping#dailyword'
+  get '/lectura-del-dia', to: 'scraping#lectura'
+  get '/daily-gospel', to: 'scraping#daily_gospel'
+
   get '/noticias', to: 'scraping#weekly_bulletin'
   get '/pdfs/formulario.pdf', to: redirect('/pdfs/formulario.pdf')
   get '/videos/search', to: 'videos#index', as: 'search_videos'

@@ -2,7 +2,7 @@ require 'net/http'
 
 class ScrapingController < ApplicationController
 
-    def dailyword
+    def lectura
         url = URI.parse(ENV['DAILY_WORD'])
         http = Net::HTTP.new(url.host, url.port)
         http.use_ssl = true if url.scheme == 'https'
@@ -22,12 +22,40 @@ class ScrapingController < ApplicationController
             @evan_thoughts = doc.css('.thoughts_wrapper')[0].content
             @listen = doc.css('.listen')[0]['href']
 
-            render 'members/dailyword'
+            render 'members/lectura'
         
         else
             render plain: "Error: #{response.code} #{response.message}"
         end
     end
+
+    def daily_gospel
+        url = URI.parse(ENV['GOSPEL'])
+        http = Net::HTTP.new(url.host, url.port)
+        http.use_ssl = true if url.scheme == 'https'
+
+        response = http.get(url.path)
+
+        if response.code == '200'
+            html_content = response.body
+            doc = Nokogiri::HTML(html_content)
+            
+            date = Date.current
+            @current_date = date.strftime("%B %e, %Y")
+            
+            @evan_text = doc.css('.evangeli_text')[0].content
+            @evan_comment = doc.css('.comentari_evangeli')[0].content
+            @autor_name = doc.css('.autor_name')[0].content
+            @evan_thoughts = doc.css('.thoughts_wrapper')[0].content
+            @listen = doc.css('.listen')[0]['href']
+
+            render 'members/daily_gospel'
+        
+        else
+            render plain: "Error: #{response.code} #{response.message}"
+        end
+    end
+
 
 
     def weekly_bulletin
