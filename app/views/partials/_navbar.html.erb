@@ -33,10 +33,11 @@
             Language
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <%= link_to "English", switch_locale_path(:en), class: "dropdown-item", style: "color: black" %>
-            <%= link_to "Español", switch_locale_path(:es), class: "dropdown-item", style: "color: black"%>
+            <%= link_to "🇺🇸 English", switch_locale_path(:en), class: "dropdown-item", style: "color: black" %>
+            <%= link_to "🇪🇸 Español", switch_locale_path(:es), class: "dropdown-item", style: "color: black"%>
           </ul>
         </li>
+       
 
         <% if current_user %>
         <li class="nav-item">

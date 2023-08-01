@@ -50,18 +50,6 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   # get '/pastoral-familiar', to: 'members#familiar'
 
 
-
-  
-  # get '/videos?page=1', to: 'videos#index', defaults: {page: 1}, as: 'videos'
-  # post '/videos?page=1', to: 'videos#index', defaults: {page: 1}
-  # get '/videos?page=1/new', to: 'videos#new', as: 'new_video'
-  # get '/videos?page=1/:id/edit', to: 'videos#edit', as: 'edit_video'
-  # get '/videos?page=1/:id', to: 'videos#show', as: 'video'
-  # patch '/videos?page=1/:id', to: 'videos#update'
-  # put '/videos?page=1/:id', to: 'videos#update'
-  # delete '/videos?page=1/:id', to: 'videos#destroy'
-
-
   # Post Requests
   post '/login', to: 'sessions#create'
   post '/events/new', to: 'events#create'
