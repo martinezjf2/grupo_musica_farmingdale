@@ -18,7 +18,7 @@ add the partial for the about pastor from here /partials/aboutPastor
 <div class="jumbotron text-center">
     <h1 class="display-4">Welcome to St. Kilian's Church</h1>
     <p class="lead">Join Us In Worship and Community.</p>
-    <a href="/stkilian-new-member" class="btn btn-primary btn-lg">Register</a>
+    <a href="/stkilian-new-member" class="btn btn-primary btn-lg" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/stkilian-new-member'; }, 100);">Register</a>
   </div>
 
 
