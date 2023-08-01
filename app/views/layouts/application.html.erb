@@ -84,7 +84,109 @@
                   });
           });
       }
-  </script> 
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  function sendMailToKilian() {
+       document.getElementById('contact-form-new-members-st-kilian').addEventListener('submit', function(event) {
+           event.preventDefault();
+           emailjs.sendForm('service_3n8xbix', "newmember_registkilian", '#contact-form-new-members-st-kilian')
+               .then(function() {
+                   console.log('SUCCESS!');
+                   let success = document.getElementById("sendButtonRegister");
+                   let contactForm = document.getElementById('contact-form-new-members-st-kilian');
+                   contactForm.reset();
+                   success.innerHTML = "Successfully Sent";
+                   success.style.backgroundColor = "green";
+
+                 let form = document.querySelector(".removeNewMembersForm")
+                 form.remove()
+                 let section = document.querySelector("section.contact")
+                 let newDiv = document.createElement('div')
+                 newDiv.className = 'events-heading'
+                 let h2 = document.createElement('h2')
+                 section.id = 'events'
+                 h2.className = 'text-white'
+                 h2.id = 'videos-heading'
+                 h2.innerHTML = "¡Gracias por registrarte! ¡No podemos esperar para ponernos en contacto pronto!<br><br> Thank you for registering! We can't wait to be in touch soon!"
+                 newDiv.append(h2)
+                 section.append(newDiv)
+
+               }, function(error) {
+                   console.log('FAILED...', error);
+               });
+       });
+   }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <!-- At the end of your layout file, just before the closing </body> tag -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>

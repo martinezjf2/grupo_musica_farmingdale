@@ -1,5 +1,5 @@
 <section id="" class="contact">
-    <div class="container contact removeContactForm">
+    <div class="container contact removeNewMembersForm">
       <div class="section-title">
         <h2 class="">We are EXCITED for you to JOIN US!!</h2>
         <p class="contact-paragraph">Fill out the form to register</p>
@@ -11,7 +11,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="bg-white rounded shadow p-4 contact-form">
-            <form id="contact-form">
+            <form id="contact-form-new-members-st-kilian">
               <h4 style="text-align: center; padding-bottom: 25px"></h4>
 
               <h3 class="form-label" style="font-weight: 500; text-align: center; padding-bottom: 25px">Family Information:</h3>
@@ -19,19 +19,19 @@
               <div class="row">
               <div class="mt-3 col-lg-4">
                 <label class="form-label" style="font-weight: 500;">Family Last Name <small>REQUIRED</small></label>
-                <input type="text" name="" class="form-control shadow-none" placeholder="" required>
+                <input type="text" name="house_last" class="form-control shadow-none" placeholder="" required>
               </div>
 
 
               <div class="mt-3 col-lg-4">
                 <label class="form-label" style="font-weight: 500;">Address <small>REQUIRED</small></label>
-                <input type="email" name="" class="form-control shadow-none" placeholder="" required>
+                <input type="text" name="house_address" class="form-control shadow-none" placeholder="" required>
               </div>
 
 
               <div class="mt-3 col-lg-4">
                 <label class="form-label" style="font-weight: 500;">City <small>REQUIRED</small></label>
-                <input type="text" name="" class="form-control shadow-none" placeholder="" required>
+                <input type="text" name="house_city" class="form-control shadow-none" placeholder="" required>
               </div>
             </div>
 
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="mt-3 col-lg-4">
                     <label class="form-label" style="font-weight: 500;">State <small>REQUIRED</small></label> 
-                    <select name="state" class="form-control shadow-none" required>
+                    <select name="house_state" class="form-control shadow-none" required>
                       <option value="" selected disabled>Select State</option>
                       <option value="AL">AL</option> - Alabama
                       <option value="AK">AK</option> - Alaska
@@ -97,12 +97,12 @@
 
               <div class="mt-3 col-lg-4">
                 <label class="form-label" style="font-weight: 500;">Zip Code <small>REQUIRED</small></label>
-                <input type="text" name="" class="form-control shadow-none" placeholder="" required pattern="[0-9]{5}">
+                <input type="text" name="house_zip" class="form-control shadow-none" placeholder="" required pattern="[0-9]{5}">
               </div>
 
               <div class="mt-3 col-lg-4">
                 <label class="form-label" style="font-weight: 500;">Title <small>REQUIRED</small></label>
-                <select name="state" class="form-control shadow-none" required>
+                <select name="house_title" class="form-control shadow-none" required>
                     <option value="" selected disabled>Select Title</option>
                     <option value="Mr. & Mrs.">Mr. & Mrs.</option>
                     <option value="Mr.">Mr.</option>
@@ -116,19 +116,19 @@
             <div class="row">
               <div class="mt-3 col-lg-6">
                 <label class="form-label" style="font-weight: 500;">Email <small>REQUIRED</small></label>
-                <input type="text" name="" class="form-control shadow-none" placeholder="" required>
+                <input type="email" name="house_email" class="form-control shadow-none" placeholder="" required>
               </div>
 
               <div class="mt-3 col-lg-6">
                 <label class="form-label" style="font-weight: 500;">Phone Number <small>REQUIRED</small></label>
-                <input type="text" name="" class="form-control shadow-none" placeholder="" required>
+                <input type="text" name="house_phone" class="form-control shadow-none" placeholder="" required>
               </div>
             </div>
 
             <div class="row">
               <div class="mt-3 col-lg-4">
                 <label class="form-label" style="font-weight: 500;">Married <span>REQUIRED</span></label><br>
-                <select name="head-of-house" class="form-control shadow-none">
+                <select name="house_married" class="form-control shadow-none">
                   <option value="" selected disabled required>Select One</option>
                   <option value="Yes">Yes</option>
                   <option value="No">No</option>
@@ -137,7 +137,7 @@
 
               <div class="mt-3 col-lg-8">
                 <label class="form-label" style="font-weight: 500;">Church of Marriage</label>
-                <input type="text" name="" class="form-control shadow-none" placeholder="">
+                <input type="text" name="house_church" class="form-control shadow-none" placeholder="">
               </div>
             </div>
 
@@ -154,6 +154,30 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <!-- Start on the Head of household Form -->
 
             <h5 class="form-label" style="font-weight: 800; padding-top: 20px; padding-bottom: 25px">Person 1: Head of Household</h5>
@@ -161,19 +185,19 @@
             <div class="row">
             <div class="mt-3 col-lg-6">
                 <label class="form-label" style="font-weight: 500;">First Name <small>REQUIRED</small></label>
-                <input type="text" name="" class="form-control shadow-none" placeholder="">
+                <input type="text" name="p1name" class="form-control shadow-none" placeholder="">
               </div>
 
               <div class="mt-3 col-lg-6">
                 <label class="form-label" style="font-weight: 500;">Last Name <small>REQUIRED</small></label>
-                <input type="text" name="" class="form-control shadow-none" placeholder="">
+                <input type="text" name="p1last" class="form-control shadow-none" placeholder="">
               </div>
             </div>
 
             <div class="row">
               <div class="mt-3 col-lg-4">
                 <label class="form-label" style="font-weight: 500;">Gender</label>
-                <select name="gender" class="form-control shadow-none">
+                <select name="p1gender" class="form-control shadow-none">
                   <option value="" selected disabled>Select Gender</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
@@ -182,19 +206,19 @@
 
             <div class="mt-3 col-lg-4">
               <label class="form-label" style="font-weight: 500;">Date of Birth <small>REQUIRED</small></label>
-              <input type="date" name="" class="form-control shadow-none" placeholder="">
+              <input type="date" name="p1dob" class="form-control shadow-none" placeholder="">
             </div>
 
             <div class="mt-3 col-lg-4">
               <label class="form-label" style="font-weight: 500;">Email <small>REQUIRED</small></label>
-              <input type="email" name="" class="form-control shadow-none" placeholder="">
+              <input type="email" name="p1email" class="form-control shadow-none" placeholder="">
             </div>
           </div>
 
           <div class="row">
               <div class="mt-3 col-lg-6">
                 <label class="form-label" style="font-weight: 500;">Head of Household</label>
-                <select name="head-of-house" class="form-control shadow-none">
+                <select name="p1head" class="form-control shadow-none">
                   <option value="" selected disabled>Select One</option>
                   <option value="Yes">Yes</option>
                   <option value="No">No</option>
@@ -205,15 +229,15 @@
               <div class="mt-3 col-lg-6">
                 <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
                 <div class="form-check">
-                  <input type="checkbox" name="sacraments[]" value="baptism" class="form-check-input">
+                  <input type="checkbox" name="p1sac[]" value="baptism" class="form-check-input">
                   <label class="form-check-label">Baptism</label>
                 </div>
                 <div class="form-check">
-                  <input type="checkbox" name="sacraments[]" value="confirmation" class="form-check-input">
+                  <input type="checkbox" name="p1sac[]" value="confirmation" class="form-check-input">
                   <label class="form-check-label">Confirmation</label>
                 </div>
                 <div class="form-check">
-                  <input type="checkbox" name="sacraments[]" value="communion" class="form-check-input">
+                  <input type="checkbox" name="p1sac[]" value="communion" class="form-check-input">
                   <label class="form-check-label">Communion</label>
                 </div>
               </div>
@@ -223,6 +247,28 @@
 <!-- End on the Head of household Form -->
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Start on Person 2 -->
 
 <h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 2:</h5>
@@ -230,19 +276,19 @@
 <div class="row">
 <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">First Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p2name" class="form-control shadow-none" placeholder="">
   </div>
 
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Last Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p2last" class="form-control shadow-none" placeholder="">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
     <label class="form-label" style="font-weight: 500;">Gender</label>
-    <select name="gender" class="form-control shadow-none">
+    <select name="p2gender" class="form-control shadow-none">
       <option value="" selected disabled>Select Gender</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
@@ -251,12 +297,12 @@
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Date of Birth</label>
-  <input type="date" name="" class="form-control shadow-none" placeholder="">
+  <input type="date" name="p2dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Email</label>
-  <input type="email" name="" class="form-control shadow-none" placeholder="">
+  <input type="email" name="p2email" class="form-control shadow-none" placeholder="">
 </div>
 </div>
 
@@ -265,15 +311,15 @@
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="baptism" class="form-check-input">
+      <input type="checkbox" name="p2sac[]" value="baptism" class="form-check-input">
       <label class="form-check-label">Baptism</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="confirmation" class="form-check-input">
+      <input type="checkbox" name="p2sac[]" value="confirmation" class="form-check-input">
       <label class="form-check-label">Confirmation</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="communion" class="form-check-input">
+      <input type="checkbox" name="p2sac[]" value="communion" class="form-check-input">
       <label class="form-check-label">Communion</label>
     </div>
   </div>
@@ -281,6 +327,29 @@
 
  
 <!-- End on the Person 2 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
               
 <!-- Start on Person 3 -->
@@ -290,19 +359,19 @@
 <div class="row">
 <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">First Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p3name" class="form-control shadow-none" placeholder="">
   </div>
 
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Last Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p3last" class="form-control shadow-none" placeholder="">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
     <label class="form-label" style="font-weight: 500;">Gender</label>
-    <select name="gender" class="form-control shadow-none">
+    <select name="p3gender" class="form-control shadow-none">
       <option value="" selected disabled>Select Gender</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
@@ -311,12 +380,12 @@
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Date of Birth</label>
-  <input type="date" name="" class="form-control shadow-none" placeholder="">
+  <input type="date" name="p3dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Email</label>
-  <input type="email" name="" class="form-control shadow-none" placeholder="">
+  <input type="email" name="p3email" class="form-control shadow-none" placeholder="">
 </div>
 </div>
 
@@ -325,15 +394,15 @@
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="baptism" class="form-check-input">
+      <input type="checkbox" name="p3sac[]" value="baptism" class="form-check-input">
       <label class="form-check-label">Baptism</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="confirmation" class="form-check-input">
+      <input type="checkbox" name="p3sac[]" value="confirmation" class="form-check-input">
       <label class="form-check-label">Confirmation</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="communion" class="form-check-input">
+      <input type="checkbox" name="p3sac[]" value="communion" class="form-check-input">
       <label class="form-check-label">Communion</label>
     </div>
   </div>
@@ -342,6 +411,30 @@
  
 <!-- End on Person 3 -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Start on Person 4 -->
 
 <h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 4:</h5>
@@ -349,19 +442,19 @@
 <div class="row">
 <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">First Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p4name" class="form-control shadow-none" placeholder="">
   </div>
 
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Last Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p4last" class="form-control shadow-none" placeholder="">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
     <label class="form-label" style="font-weight: 500;">Gender</label>
-    <select name="gender" class="form-control shadow-none">
+    <select name="p4gender" class="form-control shadow-none">
       <option value="" selected disabled>Select Gender</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
@@ -370,12 +463,12 @@
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Date of Birth</label>
-  <input type="date" name="" class="form-control shadow-none" placeholder="">
+  <input type="date" name="p4dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Email</label>
-  <input type="email" name="" class="form-control shadow-none" placeholder="">
+  <input type="email" name="p4email" class="form-control shadow-none" placeholder="">
 </div>
 </div>
 
@@ -384,15 +477,15 @@
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="baptism" class="form-check-input">
+      <input type="checkbox" name="p4sac[]" value="baptism" class="form-check-input">
       <label class="form-check-label">Baptism</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="confirmation" class="form-check-input">
+      <input type="checkbox" name="p4sac[]" value="confirmation" class="form-check-input">
       <label class="form-check-label">Confirmation</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="communion" class="form-check-input">
+      <input type="checkbox" name="p4sac[]" value="communion" class="form-check-input">
       <label class="form-check-label">Communion</label>
     </div>
   </div>
@@ -401,6 +494,31 @@
  
 <!-- End on Person 4 -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Start on Person 5 -->
 
 <h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 5:</h5>
@@ -408,19 +526,19 @@
 <div class="row">
 <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">First Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p5name" class="form-control shadow-none" placeholder="">
   </div>
 
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Last Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p5last" class="form-control shadow-none" placeholder="">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
     <label class="form-label" style="font-weight: 500;">Gender</label>
-    <select name="gender" class="form-control shadow-none">
+    <select name="p5gender" class="form-control shadow-none">
       <option value="" selected disabled>Select Gender</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
@@ -429,12 +547,12 @@
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Date of Birth</label>
-  <input type="date" name="" class="form-control shadow-none" placeholder="">
+  <input type="date" name="p5dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Email</label>
-  <input type="email" name="" class="form-control shadow-none" placeholder="">
+  <input type="email" name="p5email" class="form-control shadow-none" placeholder="">
 </div>
 </div>
 
@@ -443,15 +561,15 @@
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="baptism" class="form-check-input">
+      <input type="checkbox" name="p5sac[]" value="baptism" class="form-check-input">
       <label class="form-check-label">Baptism</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="confirmation" class="form-check-input">
+      <input type="checkbox" name="p5sac[]" value="confirmation" class="form-check-input">
       <label class="form-check-label">Confirmation</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="communion" class="form-check-input">
+      <input type="checkbox" name="p5sac[]" value="communion" class="form-check-input">
       <label class="form-check-label">Communion</label>
     </div>
   </div>
@@ -460,6 +578,30 @@
  
 <!-- End on Person 5 -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Start on Person 6 -->
 
 <h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 6:</h5>
@@ -467,19 +609,19 @@
 <div class="row">
 <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">First Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p6name" class="form-control shadow-none" placeholder="">
   </div>
 
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Last Name</label>
-    <input type="text" name="" class="form-control shadow-none" placeholder="">
+    <input type="text" name="p6last" class="form-control shadow-none" placeholder="">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
     <label class="form-label" style="font-weight: 500;">Gender</label>
-    <select name="gender" class="form-control shadow-none">
+    <select name="p6gender" class="form-control shadow-none">
       <option value="" selected disabled>Select Gender</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
@@ -488,12 +630,12 @@
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Date of Birth</label>
-  <input type="date" name="" class="form-control shadow-none" placeholder="">
+  <input type="date" name="p6dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
   <label class="form-label" style="font-weight: 500;">Email</label>
-  <input type="email" name="" class="form-control shadow-none" placeholder="">
+  <input type="email" name="p6email" class="form-control shadow-none" placeholder="">
 </div>
 </div>
 
@@ -502,15 +644,15 @@
   <div class="mt-3 col-lg-6">
     <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="baptism" class="form-check-input">
+      <input type="checkbox" name="p6sac[]" value="baptism" class="form-check-input">
       <label class="form-check-label">Baptism</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="confirmation" class="form-check-input">
+      <input type="checkbox" name="p6sac[]" value="confirmation" class="form-check-input">
       <label class="form-check-label">Confirmation</label>
     </div>
     <div class="form-check">
-      <input type="checkbox" name="sacraments[]" value="communion" class="form-check-input">
+      <input type="checkbox" name="p6sac[]" value="communion" class="form-check-input">
       <label class="form-check-label">Communion</label>
     </div>
   </div>
@@ -519,10 +661,33 @@
  
 <!-- End on Person 6-->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <div class="mt-3">
   <label class="form-label" style="font-weight: 500;">Additional Comments</label>
-  <textarea name="" class="form-control shadow-none" placeholder=""></textarea>
+  <textarea name="additional_comments" class="form-control shadow-none" placeholder=""></textarea>
 </div>
 
 
