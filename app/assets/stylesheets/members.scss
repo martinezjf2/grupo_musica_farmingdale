@@ -516,3 +516,35 @@
     margin-bottom: 2rem;
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
   }
+
+
+
+  // About Parish Page
+
+  .aboutParish {
+    background: url('https://seguidoresdejesus.s3.amazonaws.com/stkilianhomepage.jpg');
+    background-position: center 40%;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    height: 600px
+  }
+
+  .aboutParish h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+
+  .aboutParish p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+
+  }
