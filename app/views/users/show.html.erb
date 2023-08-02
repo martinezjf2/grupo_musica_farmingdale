@@ -1,1 +1,26 @@
-<h1>Show Page</h1>
+<!-- app/views/users/show.html.erb -->
+
+<h1>User Information</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Username:</h2>
+      <p><%= @current_user.username %></p>
+    </div>
+    <div class="col-md-6">
+      <h2>First Name:</h2>
+      <p><%= @current_user.first_name %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Last Name:</h2>
+      <p><%= @current_user.last_name %></p>
+    </div>
+    <div class="col-md-6">
+      <h2>Email:</h2>
+      <p><%= @current_user.email %></p>
+    </div>
+  </div>
+</div>
