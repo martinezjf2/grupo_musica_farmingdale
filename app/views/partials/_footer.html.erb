@@ -13,8 +13,8 @@
     <div class="card col-lg-3 col-md-6 col-sm-12" id="ind-div-footer">
       <div class="card-body footerCard">
       <a href="/<%= t('gospel-link-footer') %>" class="btn-primary"><%= t('footer-gospel-spanish') %></a>
-      <a href="/noticias" class="btn-primary"><%= t('footer-noticias') %></a>
-      <a href="/virtus" class="btn-primary">VIRTUS</a>
+      <a href="/noticias" class="btn-primary" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/noticias'; }, 100);"><%= t('footer-noticias') %></a>
+      <a href="/virtus" class="btn-primary" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/virtus'; }, 100);">VIRTUS</a>
       <a href="/videos?page=1" class="btn-primary">Videos</a>
       <!-- <a href="#" class="btn-primary">Blog</a> -->
     </div>
@@ -23,10 +23,10 @@
 
     <div class="card col-lg-3 col-md-6 col-sm-12" id="ind-div-footer">
       <div class="card-body footerCard">
-      <a href="/events" class="btn-primary"><%= t('footer-events') %></a>
-      <a href="/calendar" class="btn-primary">Calendar</a>
-      <a href="/forms" class="btn-primary"><%= t('footer-resources') %></a>
-      <a href="/our-parish" class="btn-primary"><%= t('nuestra-parroquia') %></a>
+      <a href="/events" class="btn-primary" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/events'; }, 100);"><%= t('footer-events') %></a>
+      <a href="/calendar" class="btn-primary" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/calendar'; }, 100);">Calendar</a>
+      <a href="/forms" class="btn-primary" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/forms'; }, 100);"><%= t('footer-resources') %></a>
+      <a href="/our-parish" class="btn-primary" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/our-parish'; }, 100);"><%= t('nuestra-parroquia') %></a>
 
     </div>
     </div>
@@ -43,7 +43,7 @@
 
   <div class="text-center p-4 copyright" style="background-color: rgba(0, 0, 0, 0.025);">
     © 2023 Copyright:
-    <a class="text-reset fw-bold" href="/"><%= t('footer-sdj-link') %></a>
+    <a class="text-reset fw-bold" href="/" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/'; }, 100);"><%= t('footer-sdj-link') %></a>
   </div>
   </div>
 </footer>
