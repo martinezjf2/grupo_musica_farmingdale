@@ -20,6 +20,11 @@
             <label for="exampleFormControlInput1" class="form-label"><%= t('signup-username') %></label>
             <%=f.text_field :username, class: "form-control Input", :placeholder => t('place-signup-username') %>
           </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <%=f.text_field :admin_code, class: "form-control Input", :placeholder => "Email" %>
+          </div>
           
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"><%= t('signup-password') %></label>
