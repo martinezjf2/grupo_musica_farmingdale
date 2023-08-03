@@ -431,3 +431,29 @@ en:
   resos-partial-heading: "Embrace the Power of the Rosary"
   resos-partial-ptags: "<p class='lead'>The Rosary, a sacred and powerful prayer, has been cherished for generations as a spiritual guide that leads us through the various stages of life, both in its joyful moments and trials.</p><p>Blessed is the heart that seeks comfort in the beads, for in every Hail Mary, strength, peace, and a glimpse of heaven's light are found. (Psalm 1:1)</p><p>Join us every Sunday at 5 AM as we come together to pray the Rosary, weaving a tapestry of faith, hope, and unity.</p>"
   quieres-aprender-mas-button: "Want to Learn More?"
+
+
+# Que es Seguidor Partial
+  seguidor:
+    question: "What does it mean to be a follower of Jesus?"
+    subques: "Being a follower of Jesus means loving others as He loved us (John 13:34). Through unconditional love, we reflect His character and bring hope to the world. Join our community and discover the purpose and joy of following Jesus together. We welcome you with open arms!"
+
+    q1: "Love"
+    v1: "<strong>John 13:34</strong> - A new command I give you: Love one another. As I have loved you, so you must love one another."
+    p1: "Loving others unconditionally is foundational to being a follower of Jesus. Through love, we reflect God's character and His love for us."
+
+    q2: "Humility"
+    v2: "<strong>Philippians 2:3</strong> - Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves."
+    p2: "Putting others before ourselves and serving with a humble heart helps us embody the example of Jesus, who humbled Himself for our sake."
+
+    q3: "Faith"
+    v3: "<strong>Hebrews 11:1</strong> - Now faith is confidence in what we hope for and assurance about what we do not see."
+    p3: "Trusting in God's plan and promises, even in uncertain times, demonstrates our faith in His sovereignty and goodness."
+
+    q4: "Forgiveness"
+    v4: "<strong>Ephesians 4:32</strong> - Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you."
+    p4: "Extending forgiveness to others, just as we have received forgiveness from God, promotes healing and reconciliation in relationships."
+
+    q5: "Compassion"
+    v5: "<strong>Colossians 3:12</strong> - Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness, and patience."
+    p5: "Showing compassion to those in need reflects Jesus' love for the marginalized and broken, bringing hope and comfort."

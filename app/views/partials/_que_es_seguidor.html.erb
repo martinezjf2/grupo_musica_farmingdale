@@ -1,83 +1,44 @@
 
-  <style>
-    .seguidor-partial {
-        background-color: #f8f9fa;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    
-    .list-item {
-      padding: 5px;
-      list-style: none;
-    }
-
-    .list-item  h4 {
-        text-align: center;
-      font-weight: 600;
-
-    }
-
-    .image-container {
-      text-align: center;
-    }
-
-    .image-container img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 5px;
-      margin-top: 30px;
-    }
-
-    .reflection {
-      margin-top: 15px;
-    }
-
-    .reflection p {
-      font-style: italic;
-    }
-  </style>
-
-
   <section class="seguidor-partial">
     <div class="container">
       <div class="row">
-        <h2 style="text-align: center; padding-bottom: 25px; font-weight: 700;">¿Qué significa ser seguidor de Jesús?</h2>
-        <p style="text-align: center; padding-bottom: 25px;">Ser un seguidor de Jesús significa amar a los demás como él nos amó (Juan 13:34). A través del amor incondicional, reflejamos su carácter y llevamos esperanza al mundo. Únete a nuestra comunidad y descubre el propósito y la alegría de seguir a Jesús juntos. ¡Te esperamos con los brazos abiertos!</p>
+        <h2 style="text-align: center; padding-bottom: 25px; font-weight: 700;"><%= t('seguidor.question') %></h2>
+        <p style="text-align: center; padding-bottom: 25px;"><%= t('seguidor.subques') %></p>
         <div class="col-md-6">
           <ul>
             <li class="list-item">
-              <h4>Amor</h4>
-              <strong>Juan 13:34 </strong> - Un nuevo mandamiento les doy: que se amen los unos a los otros. Así como yo los he amado, también ustedes deben amarse los unos a los otros.
+              <h4><%= t('seguidor.q1') %></h4>
+              <%= t('seguidor.v1').html_safe %>
               <div class="reflection">
-                <p>Amar a los demás incondicionalmente es fundamental para ser un seguidor de Jesús. A través del amor, reflejamos el carácter de Dios y Su amor por nosotros.</p>
+                <p><%= t('seguidor.p1') %></p>
               </div>
             </li>
             <li class="list-item">
-              <h4>Humildad</h4>
-              <strong>Filipenses 2:3</strong> - No hagan nada por egoísmo o vanidad; más bien, con humildad consideren a los demás como superiores a ustedes mismos.
+              <h4><%= t('seguidor.q2') %></h4>
+              <%= t('seguidor.v2').html_safe %>
               <div class="reflection">
-                <p>Poner a los demás antes que nosotros mismos y servir con un corazón humilde nos ayuda a encarnar el ejemplo de Jesús, quien se humilló por nuestro bien.</p>
+                <p><%= t('seguidor.p2') %></p>
               </div>
             </li>
             <li class="list-item">
-              <h4>Fe</h4>
-              <strong>Hebreos 11:1</strong> - Ahora bien, la fe es la certeza de lo que se espera, la convicción de lo que no se ve.
+              <h4><%= t('seguidor.q3') %></h4>
+              <%= t('seguidor.v3').html_safe %>
               <div class="reflection">
-                <p>Confiar en el plan y las promesas de Dios, incluso en tiempos inciertos, demuestra nuestra fe en Su soberanía y bondad.</p>
+                <p><%= t('seguidor.p3') %></p>
               </div>
             </li>
             <li class="list-item">
-              <h4>Perdón</h4>
-              <strong>Efesios 4:32</strong> - Sean bondadosos y compasivos unos con otros, y perdónense mutuamente, así como Dios los perdonó a ustedes en Cristo.
+              <h4><%= t('seguidor.q4') %></h4>
+              <%= t('seguidor.v4').html_safe %>
               <div class="reflection">
-                <p>Extender el perdón a los demás, así como hemos recibido el perdón de Dios, promueve la sanidad y reconciliación en las relaciones.</p>
+                <p><%= t('seguidor.p4') %></p>
               </div>
             </li>
             <li class="list-item">
-              <h4>Compasión</h4>
-              <strong>Colosenses 3:12</strong> - Así que, como escogidos de Dios, santos y amados, revístanse de compasión, bondad, humildad, mansedumbre y paciencia.
+              <h4><%= t('seguidor.q5') %></h4>
+              <%= t('seguidor.v5').html_safe %>
               <div class="reflection">
-                <p>Mostrar compasión hacia aquellos necesitados refleja el amor de Jesús por los marginados y los quebrantados, llevando esperanza y consuelo.</p>
+                <p><%= t('seguidor.p5') %></p>
               </div>
             </li>
           </ul>

@@ -548,3 +548,42 @@
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
 
   }
+
+
+  // Que es ser seguidor Partial
+
+  .seguidor-partial {
+    background-color: #f8f9fa;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.list-item {
+  padding: 5px;
+  list-style: none;
+}
+
+.list-item  h4 {
+    text-align: center;
+  font-weight: 600;
+
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.reflection {
+  margin-top: 15px;
+}
+
+.reflection p {
+  font-style: italic;
+}

@@ -475,13 +475,39 @@ es:
   quieres-aprender-mas-button: "¿Quieres Aprender Más?"
 
 
+  # Que es ser Seguidor Partial
+  seguidor:
+    question: "¿Qué significa ser seguidor de Jesús?"
+    subques: "Ser un seguidor de Jesús significa amar a los demás como él nos amó (Juan 13:34). A través del amor incondicional, reflejamos su carácter y llevamos esperanza al mundo. Únete a nuestra comunidad y descubre el propósito y la alegría de seguir a Jesús juntos. ¡Te esperamos con los brazos abiertos!"
+
+    q1: "Amor"
+    v1: "<strong>Juan 13:34</strong> - Un nuevo mandamiento les doy: que se amen los unos a los otros. Así como yo los he amado, también ustedes deben amarse los unos a los otros."
+    p1: "Amar a los demás incondicionalmente es fundamental para ser un seguidor de Jesús. A través del amor, reflejamos el carácter de Dios y Su amor por nosotros."
+
+    q2: "Humildad"
+    v2: "<strong>Filipenses 2:3</strong> - No hagan nada por egoísmo o vanidad; más bien, con humildad consideren a los demás como superiores a ustedes mismos."
+    p2: "Poner a los demás antes que nosotros mismos y servir con un corazón humilde nos ayuda a encarnar el ejemplo de Jesús, quien se humilló por nuestro bien."
+
+    q3: "Fe"
+    v3: "<strong>Hebreos 11:1</strong> - Ahora bien, la fe es la certeza de lo que se espera, la convicción de lo que no se ve."
+    p3: "Confiar en el plan y las promesas de Dios, incluso en tiempos inciertos, demuestra nuestra fe en Su soberanía y bondad."
+
+    q4: "Perdón"
+    v4: "<strong>Efesios 4:32</strong> - Sean bondadosos y compasivos unos con otros, y perdónense mutuamente, así como Dios los perdonó a ustedes en Cristo."
+    p4: "Extender el perdón a los demás, así como hemos recibido el perdón de Dios, promueve la sanidad y reconciliación en las relaciones."
+
+    q5: "Compasión"
+    v5: "<strong>Colosenses 3:12</strong> - Así que, como escogidos de Dios, santos y amados, revístanse de compasión, bondad, humildad, mansedumbre y paciencia."
+    p5: "Mostrar compasión hacia aquellos necesitados refleja el amor de Jesús por los marginados y los quebrantados, llevando esperanza y consuelo."
+
+
 
 
 
   # Familiar Partial
   # Familiar Full Page  
   # About Thw Parish Page
-  # Que es ser Seguidor Partial
+  
   # Members Familiar Partial
 # -------------------------------------------------------------------------------------------------------------------------------
 
