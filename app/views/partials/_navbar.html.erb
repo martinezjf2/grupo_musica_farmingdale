@@ -42,9 +42,17 @@
         <% if current_user %>
 
         <li class="nav-item dropdown">
+
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <%= current_user.first_name %>
+            Hi, <%= current_user.first_name %> 
+            <% if current_user.avatar.attached? %>
+              <%= image_tag(current_user.avatar, width: '40px', class: 'rounded-circle topPic', style: "") %>
+            <% else %>
+              <%= image_tag("profileExample.jpeg", width: '40px', class: 'rounded-circle topPic', style: "") %>
+            <% end %>
           </a>
+
+
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 250px; text-align: center">
             <li class="dropdown-item"><a href="<%= user_path(current_user) %>" style="color: black;" onclick="event.preventDefault(); setTimeout(function() { location.reload(true)} , 100); setTimeout(function() { window.location.href = '/users/<%= current_user.id %>'; }, 100); ">View Profile</a></li>
             <li class="dropdown-item"><a href="<%= edit_user_path(current_user) %>" style="color: black;" onclick="event.preventDefault(); setTimeout(function() { location.reload(true)} , 100); setTimeout(function() { window.location.href = '/users/<%= current_user.id %>/edit'; }, 100); ">Edit Profile</a></li>

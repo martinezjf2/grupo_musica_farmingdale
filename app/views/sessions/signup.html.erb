@@ -6,6 +6,24 @@
         <%= form_for :user, url: signup_path do |f| %>
         
 
+
+        
+        <div class="mb-3" style="text-align: center;">
+          
+            <% if @user.avatar.attached? %>
+              <%= image_tag(@user.avatar, width: '200px', class: 'rounded-circle topPic') %>
+            <% else %>
+              <%= image_tag('profileExample.jpeg', width: '200px', class: 'rounded-circle topPic') %>
+            <% end %>
+        </div>
+
+
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Foto de Perfil</label>
+          <%=f.file_field :avatar, class: "form-control Input", :placeholder => t('place-signup-admin') %>
+        </div>
+
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label"><%= t('signup-first') %></label>
           <%=f.text_field :first_name, class: "form-control Input", :placeholder => t('place-signup-first') %>
@@ -23,7 +41,7 @@
 
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <%=f.text_field :admin_code, class: "form-control Input", :placeholder => "Email" %>
+            <%=f.text_field :email, class: "form-control Input", :placeholder => "Email" %>
           </div>
           
           <div class="mb-3">
@@ -35,8 +53,9 @@
             <label for="exampleFormControlInput1" class="form-label"><%= t('signup-admincode') %></label>
             <%=f.password_field :admin_code, class: "form-control Input", :placeholder => t('place-signup-admin') %>
           </div>
-        
-          <%=f.submit t('signup-button'), class: "btn btn-lg btn-default loginButton" %> 
+
+
+          <%=f.submit t('signup-button'), class: "btn btn-primary" %> 
         <%end%>
     
     

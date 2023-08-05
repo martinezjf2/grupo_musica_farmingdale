@@ -1,6 +1,18 @@
 <div class="container-fluid newCourseForm">
   <h3 class="welcomeBack" style="text-align: center;">Actualizar Su Cuenta</h3>
   <%= form_for @current_user do |f| %>
+
+  <div class="mb-3" style="text-align: center;">
+      <% if @current_user.avatar.attached? %>
+        <%= image_tag(@current_user.avatar, width: '200px', class: 'rounded-circle topPic') %>
+      <% end %>
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Update Profile Picture</label>
+    <%= f.file_field :avatar, class: "form-control Input" %>
+  </div>
+
     <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label"><%= t('signup-first') %></label>
       <%= f.text_field :first_name, class: "form-control Input" %>
@@ -28,8 +40,8 @@
 
     <%= f.hidden_field :admin_code, value: @current_user.admin_code %>
 
-    <%= f.submit 'ACTUALIZAR', class: "btn btn-lg btn-default loginButton" %>
-    <%= link_to "Delete Account", user_path(@current_user), method: :delete, data: { confirm: "Are you sure you want to delete your account?" }, class: "btn btn-danger" %>
+    <%= f.submit 'Actualizar Cuenta', class: "btn btn-primary" %>
+    <%= link_to "Borrar Cuenta", user_path(@current_user), method: :delete, data: { confirm: "Are you sure you want to delete your account?" }, class: "btn btn-danger" %>
 
   <% end %>
 </div>
