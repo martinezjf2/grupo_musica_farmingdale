@@ -25,7 +25,8 @@ class MembersController < ApplicationController
     end
 
     def forms
-        @document = Document.all.first
+        @english_document = Document.where(language: 'en').first
+        @spanish_document = Document.where(language: 'es').first
     end
 
     # Create Partials for these two
