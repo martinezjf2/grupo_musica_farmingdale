@@ -29,12 +29,11 @@ class MembersController < ApplicationController
         @spanish_document = Document.where(language: 'es').first
     end
 
-    # Create Partials for these two
-    # def familiar
-    # end
 
-    # def guadalupanos
-    # end
+    def pastoral_familiar
+    end
+
+
 
     def about_parish
     end

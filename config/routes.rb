@@ -42,12 +42,13 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   get '/forms', to: 'members#forms'
   get '/our-parish', to: 'members#about_parish'
   get '/stkilian-new-member', to: 'members#stkilian_new_member'
+  get '/pastoral-familiar', to: 'members#pastoral_familiar'
 
 
 
   # This will be partials instead and will render on various pages
   # get '/guadalupanos', to: 'members#guadalupanos'
-  # get '/pastoral-familiar', to: 'members#familiar'
+ 
 
 
   # Post Requests
