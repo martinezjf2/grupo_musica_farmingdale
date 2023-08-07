@@ -41,6 +41,9 @@ class MembersController < ApplicationController
     def stkilian_new_member
     end
 
+    def spanish_weekly_bulletin
+    end
+
 
 
 

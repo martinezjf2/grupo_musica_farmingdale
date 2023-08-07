@@ -43,6 +43,7 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   get '/our-parish', to: 'members#about_parish'
   get '/stkilian-new-member', to: 'members#stkilian_new_member'
   get '/pastoral-familiar', to: 'members#pastoral_familiar'
+  get '/spanish-weekly-bulletin', to: 'members#spanish_weekly_bulletin'
 
 
 
