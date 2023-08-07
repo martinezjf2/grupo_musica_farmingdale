@@ -7,6 +7,7 @@ Have an Italian yml file as well.
 add the partial for the about pastor from here /partials/aboutPastor
 -->
 
+<!-- Section about St.Kilian Story -->
 
 <div class="jumbotron text-center aboutParish">
   <h1 class="display-4">Bienvenidos a la Iglesia de <br>St. Kilian</h1>
@@ -14,6 +15,11 @@ add the partial for the about pastor from here /partials/aboutPastor
   <a href="/stkilian-new-member" class="btn btn-primary btn-lg" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/stkilian-new-member'; }, 100);">Register</a>
 </div>
 
+
+<%= render "/partials/aboutPastor"%>
+
+
+<%= render "/partials/pastoral_staff"%>
 
 
 <%= render "/partials/invitamos"%>
