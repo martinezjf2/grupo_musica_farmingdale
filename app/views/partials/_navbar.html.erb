@@ -52,7 +52,7 @@
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Language
+            <%= t('idioma') %>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <%= link_to "🇺🇸 English", switch_locale_path(:en), class: "dropdown-item", style: "color: black", onclick: "event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/switch_locale/en'; }, 100);"  %>
