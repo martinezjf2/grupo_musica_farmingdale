@@ -320,7 +320,12 @@ es:
           en su capacidad para transformar vidas, guiando a los creyentes hacia
           la iluminación espiritual y fortaleciendo su conexión con Dios y la
           Iglesia."
-      
+  rosario-partial:
+    header: "Experimenta el Poder del Rosario"
+    p1: "Únete a nosotros en los meses de mayo y octubre para un viaje transformador a través de la oración y la reflexión. Nuestras sesiones de rosario son momentos de conexión espiritual, paz y comunidad."
+    p2: "Abraza la serenidad de las tardes de mayo con nuestras sesiones de rosario al atardecer, que se llevan a cabo todos los días a las 6:00 PM. Siente el calor de las tardes de octubre mientras nos reunimos todos los días a las 6:00 PM."
+    p3: "Únete a nosotros cada domingo por la mañana a las 5:00 AM, donde la primera luz del amanecer da la bienvenida a nuestras oraciones del rosario. Esta sesión temprana brinda un comienzo sereno y meditativo a tu día."
+    p4: "Sé parte de una comunidad vibrante que se une para fortalecer la fe, encontrar consuelo y elevarse mutuamente. ¡Reserva tu lugar ahora para estos poderosos momentos de devoción!"
 
   # ------------------------------------------------------------------------------------------------------------------------
 
@@ -559,6 +564,10 @@ es:
   # Familiar Partial
   # Familiar Full Page  
   # Members Familiar Partial
+  # Pastoral Staff Partial
+  # About Pastor Partial
+  # About Padre Romulo Partial
+  # Finish Forms Page Translations
 # -------------------------------------------------------------------------------------------------------------------------------
 
 # Flash Messages from the controller, check the chatAI to see how we can configure that
