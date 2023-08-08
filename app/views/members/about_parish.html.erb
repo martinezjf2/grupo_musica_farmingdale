@@ -1,49 +1,31 @@
-<!-- Make sure to follow these steps to complete this page -->
 
-<!-- Construct a page for the parish. Include an about me for the Pastor. Office Hours and important forms that we can link to.
-Make sure to create a new action within the members controller to this page.
 
-Have an Italian yml file as well.
-add the partial for the about pastor from here /partials/aboutPastor
--->
 <style>
   .yellow-bg {
-    background-color: #fff9e6; /* Light yellow background color */
-    padding: 40px; /* Add padding around the content */
+    background-color: #fff9e6;
+    padding: 40px;
   }
 </style>
 
 
 <div class="jumbotron text-center aboutParish">
-  <h1 class="display-4">Bienvenidos a la Iglesia de <br>St. Kilian</h1>
-  <p class="lead">Únase a Nosotros en la Adoración Y Comunidad.</p>
-  <a href="/stkilian-new-member" class="btn btn-primary btn-lg" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/stkilian-new-member'; }, 100);">Register</a>
+  <h1 class="display-4"><%= t('parish.header').html_safe %></h1>
+  <p class="lead"><%= t('parish.subheading') %></p>
+  <a href="/stkilian-new-member" class="btn btn-primary btn-lg" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/stkilian-new-member'; }, 100);"><%= t('parish.register') %></a>
 </div>
 
 
 <section class="yellow-bg text-center">
   <img src="https://seguidoresdejesus.s3.amazonaws.com/stkilianglasswitharc.gif" alt="St. Kilian Parish" class="img-fluid">
   <div class="container mt-4">
-    <h2>Bienvenidos a la Parroquia de San Kilian</h2>
-    <p class="lead">¡Nos alegra que estés aquí!</p>
-    <p>¿Cómo me registro? Es cuestión de hacer clic en el botón de Registro de arriba. O, si es más conveniente, simplemente llama a la rectoría al <br>(516) 249-0127 para solicitar que te envíen un formulario a tu hogar. <br>¡Gracias y nuevamente, Bienvenidos!</p>
-    <p>Esperamos darles la bienvenida a ti y a tu familia como los miembros más nuevos de nuestra Familia de la Parroquia de San Kilian.</p>
+    <h2><%= t('parish.section1.heading') %></h2>
+    <p class="lead"><%= t('parish.section1.plead') %></p>
+    <p><%= t('parish.section1.p1').html_safe %></p>
+    <p><%= t('parish.section1.p2') %></p>
   </div>
 </section>
 
-<!-- <div class="container mt-4">
-  <h2>Welcome to St. Kilian Parish!</h2>
-  <p class="lead">We're glad you're here!</p>
-  <p>How do I register? It is a simple matter of clicking the Register button above. Or, if more convenient, just call the rectory at (516) 249-0127 to request a form be mailed to your home. <br>Thank you and again, Welcome!</p>
-  <p>We look forward to welcoming you and your family as the newest members of our St. Kilian Parish Family!</p>
-</div> -->
 
 <%= render "/partials/aboutPastor"%>
-
-
 <%= render "/partials/pastoral_staff"%>
-
-
-
-
 <%= render "/partials/invitamos"%>

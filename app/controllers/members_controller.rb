@@ -9,8 +9,6 @@ class MembersController < ApplicationController
     def about
     end
     
-    def virtus
-    end
 
     def angeles
     end

@@ -400,6 +400,7 @@ es:
   brand-name-right-corner: "Seguidores de Jesus"
   events: "Eventos"
   idioma: "Idioma"
+  grupos: "Grupos"
 
   # AboutPriest Partial
 
@@ -542,13 +543,21 @@ es:
     p5: "Mostrar compasión hacia aquellos necesitados refleja el amor de Jesús por los marginados y los quebrantados, llevando esperanza y consuelo."
 
 
+  # About Thw Parish Page
 
+  parish:
+    header: "Bienvenidos a la Iglesia de <br>St. Kilian"
+    subheading: "Únase a Nosotros en la Adoración Y Comunidad."
+    register: "Registrar"
+    section1:
+      heading: "Bienvenidos a la Parroquia de San Kilian"
+      plead: "¡Nos alegra que estés aquí!"
+      p1: "¿Cómo me registro? Es cuestión de hacer clic en el botón de Registro de arriba. O, si es más conveniente, simplemente llama a la rectoría al <br>(516) 249-0127 para solicitar que te envíen un formulario a tu hogar. <br>¡Gracias y nuevamente, Bienvenidos!"
+      p2: "Esperamos darles la bienvenida a ti y a tu familia como los miembros más nuevos de nuestra Familia de la Parroquia de San Kilian."
 
 
   # Familiar Partial
   # Familiar Full Page  
-  # About Thw Parish Page
-  
   # Members Familiar Partial
 # -------------------------------------------------------------------------------------------------------------------------------
 

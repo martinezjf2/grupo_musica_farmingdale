@@ -370,6 +370,7 @@ en:
   brand-name-right-corner: "Followers of Jesus"
   events: "Events"
   idioma: "Language"
+  grupos: "Groups"
 
   # AboutPriest Partial
 
@@ -498,3 +499,16 @@ en:
     q5: "Compassion"
     v5: "<strong>Colossians 3:12</strong> - Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness, and patience."
     p5: "Showing compassion to those in need reflects Jesus' love for the marginalized and broken, bringing hope and comfort."
+
+
+    # About The Parish Page
+
+  parish:
+    header: "Welcome to <br>St. Kilian's Church"
+    subheading: "Join Us in Worship and Community."
+    register: "Register"
+    section1:
+      heading: "Welcome to St. Kilian's Parish"
+      plead: "We're glad you're here!"
+      p1: "How do I register? It's simply a matter of clicking the Register button above. Or, if more convenient, just call the rectory at <br>(516) 249-0127 to request a form be mailed to your home. <br>Thank you and again, Welcome!"
+      p2: "We look forward to welcoming you and your family as the newest members of our St. Kilian Parish Family."
