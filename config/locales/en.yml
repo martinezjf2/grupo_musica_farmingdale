@@ -317,6 +317,46 @@ en:
   # Members#Weekly Bulletin
   weekly-bulletin-heading: "Weekly Bulletin of Our Parish"
 
+  # Members#StKilian New Member
+  new_member:
+    heading: "We are EXITED for you to JOIN US!!"
+    p1: "Fill out the form to register"
+    subheading: "Family Information:"
+    family-last-name: "Family Last Name"
+    address: "Address"
+    city: "City"
+    state: "State"
+    zip: "Zip Code"
+    title: "Title"
+    email: "Email"
+    phone: "Phone Number"
+    married: "Married"
+    church: "Church of Marriage"
+    subheading2: "Individuals Living in the Home:"
+    first-name: "First Name"
+    last-name: "Last Name"
+    gender: "Gender"
+    male: "Male"
+    female: "Female"
+    select-gender: "Select Gender"
+    date-of-birth: "Date of Birth"
+    head-of-house: "Head of Household"
+    select-one: "Select One"
+    sacraments:
+      heading: "Sacraments Recieved"
+      baptism: "Baptism"
+      confirmation: "Confirmation"
+      communion: "Communion"
+    person1: "Person 1: Head of Household"
+    person2: "Person 2: "
+    person3: "Person 3: "
+    person4: "Person 4: "
+    person5: "Person 5: "
+    person6: "Person 6: "
+    comments: "Additional Comments"
+    si: "Yes"
+    no: "No"
+
   # -------------------------------------------------------------------------------------------------------------------------------
 
   # PARTIALS

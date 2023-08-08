@@ -347,6 +347,46 @@ es:
   # Members#Weekly Bulletin
   weekly-bulletin-heading: "Bulletin Semanal de Nuestra Parroquia"
 
+  # Members#StKilian New Member
+  new_member:
+    heading: "¡Estamos EMOCIONADOS de que te UNAS A NOSOTROS!"
+    p1: "Completa el formulario para registrarte"
+    subheading: "Información Familiar:"
+    family-last-name: "Apellido de la Familia"
+    address: "Dirección"
+    city: "Ciudad"
+    state: "Estado"
+    zip: "Código Postal"
+    title: "Título"
+    email: "Correo Electrónico"
+    phone: "Número de Teléfono"
+    married: "Casado/a"
+    church: "Iglesia del Matrimonio"
+    subheading2: "Personas que Viven en el Hogar:"
+    first-name: "Nombre"
+    last-name: "Apellido"
+    gender: "Género"
+    male: "Masculino"
+    female: "Femenino"
+    select-gender: "Seleccionar Género"
+    date-of-birth: "Fecha de Nacimiento"
+    head-of-house: "Cabeza del Hogar"
+    select-one: "Seleccionar Uno"
+    sacraments:
+      heading: "Sacramentos Recibidos"
+      baptism: "Bautismo"
+      confirmation: "Confirmación"
+      communion: "Comunión"
+    person1: "Persona 1: Cabeza del Hogar"
+    person2: "Persona 2: "
+    person3: "Persona 3: "
+    person4: "Persona 4: "
+    person5: "Persona 5: "
+    person6: "Persona 6: "
+    comments: "Comentarios Adicionales"
+    si: "Sí"
+    no: "No"
+
   # -------------------------------------------------------------------------------------------------------------------------------
 
   # PARTIALS

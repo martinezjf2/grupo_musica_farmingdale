@@ -1,8 +1,8 @@
-<section id="" class="contact">
+<section id="" class="contact" style="padding-top: 30px">
     <div class="container contact removeNewMembersForm">
       <div class="section-title">
-        <h2 class="">We are EXCITED for you to JOIN US!!</h2>
-        <p class="contact-paragraph">Fill out the form to register</p>
+        <h2 class=""><%= t('new_member.heading') %></h2>
+        <p class="contact-paragraph"><%= t('new_member.p1') %></p>
       </div>
 
 
@@ -14,23 +14,23 @@
             <form id="contact-form-new-members-st-kilian">
               <h4 style="text-align: center; padding-bottom: 25px"></h4>
 
-              <h3 class="form-label" style="font-weight: 500; text-align: center; padding-bottom: 25px">Family Information:</h3>
+              <h3 class="form-label" style="font-weight: 500; text-align: center; padding-bottom: 25px"><%= t('new_member.subheading') %></h3>
 
               <div class="row">
               <div class="mt-3 col-lg-4">
-                <label class="form-label" style="font-weight: 500;">Family Last Name <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.family-last-name') %> <small>REQUIRED</small></label>
                 <input type="text" name="house_last" class="form-control shadow-none" placeholder="Enter Last Name" required>
               </div>
 
 
               <div class="mt-3 col-lg-4">
-                <label class="form-label" style="font-weight: 500;">Address <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.address') %> <small>REQUIRED</small></label>
                 <input type="text" name="house_address" class="form-control shadow-none" placeholder="Enter Address" required>
               </div>
 
 
               <div class="mt-3 col-lg-4">
-                <label class="form-label" style="font-weight: 500;">City <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.city') %> <small>REQUIRED</small></label>
                 <input type="text" name="house_city" class="form-control shadow-none" placeholder="Enter City" required>
               </div>
             </div>
@@ -38,7 +38,7 @@
 
             <div class="row">
                 <div class="mt-3 col-lg-4">
-                    <label class="form-label" style="font-weight: 500;">State <small>REQUIRED</small></label> 
+                    <label class="form-label" style="font-weight: 500;"><%= t('new_member.state') %> <small>REQUIRED</small></label> 
                     <select name="house_state" class="form-control shadow-none" required>
                       <option value="" selected disabled>Select State</option>
                       <option value="AL">AL</option> - Alabama
@@ -96,12 +96,12 @@
 
 
               <div class="mt-3 col-lg-4">
-                <label class="form-label" style="font-weight: 500;">Zip Code <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.zip') %> <small>REQUIRED</small></label>
                 <input type="text" name="house_zip" class="form-control shadow-none" placeholder="Enter Zip Code" required pattern="[0-9]{5}">
               </div>
 
               <div class="mt-3 col-lg-4">
-                <label class="form-label" style="font-weight: 500;">Title <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.title') %> <small>REQUIRED</small></label>
                 <select name="house_title" class="form-control shadow-none" required>
                     <option value="" selected disabled>Select Title</option>
                     <option value="Mr. & Mrs.">Mr. & Mrs.</option>
@@ -115,28 +115,28 @@
 
             <div class="row">
               <div class="mt-3 col-lg-6">
-                <label class="form-label" style="font-weight: 500;">Email <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.email') %> <small>REQUIRED</small></label>
                 <input type="email" name="house_email" class="form-control shadow-none" placeholder="Enter Email" required>
               </div>
 
               <div class="mt-3 col-lg-6">
-                <label class="form-label" style="font-weight: 500;">Phone Number <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.phone') %> <small>REQUIRED</small></label>
                 <input type="text" name="house_phone" class="form-control shadow-none" placeholder="Enter Phone Number" required>
               </div>
             </div>
 
             <div class="row">
               <div class="mt-3 col-lg-4">
-                <label class="form-label" style="font-weight: 500;">Married <span>REQUIRED</span></label><br>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.married') %> <span>REQUIRED</span></label><br>
                 <select name="house_married" class="form-control shadow-none">
-                  <option value="" selected disabled required>Select One</option>
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
+                  <option value="" selected disabled required><%= t('new_member.select-one') %></option>
+                  <option value="Yes"><%= t('new_member.si') %></option>
+                  <option value="No"><%= t('new_member.no') %></option>
                 </select>
               </div>
 
               <div class="mt-3 col-lg-8">
-                <label class="form-label" style="font-weight: 500;">Church of Marriage</label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.church') %></label>
                 <input type="text" name="house_church" class="form-control shadow-none" placeholder="Enter Church's Name and Address (if possible)">
               </div>
             </div>
@@ -150,7 +150,7 @@
 
 
 
-            <h3 class="form-label" style="font-weight: 500; padding-top: 60px; padding-bottom: 25px; text-align: center">Individuals Living in the Home:</h3>
+            <h3 class="form-label" style="font-weight: 500; padding-top: 60px; padding-bottom: 25px; text-align: center"><%= t('new_member.subheading2') %></h3>
 
 
 
@@ -180,65 +180,65 @@
 
           <!-- Start on the Head of household Form -->
 
-            <h5 class="form-label" style="font-weight: 800; padding-top: 20px; padding-bottom: 25px">Person 1: Head of Household</h5>
+            <h5 class="form-label" style="font-weight: 800; padding-top: 20px; padding-bottom: 25px"><%= t('new_member.person1') %></h5>
 
             <div class="row">
             <div class="mt-3 col-lg-6">
-                <label class="form-label" style="font-weight: 500;">First Name <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.first-name') %> <small>REQUIRED</small></label>
                 <input type="text" name="p1name" class="form-control shadow-none" placeholder="Enter First Name">
               </div>
 
               <div class="mt-3 col-lg-6">
-                <label class="form-label" style="font-weight: 500;">Last Name <small>REQUIRED</small></label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.last-name') %> <small>REQUIRED</small></label>
                 <input type="text" name="p1last" class="form-control shadow-none" placeholder="Enter Last Name">
               </div>
             </div>
 
             <div class="row">
               <div class="mt-3 col-lg-4">
-                <label class="form-label" style="font-weight: 500;">Gender</label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.gender') %></label>
                 <select name="p1gender" class="form-control shadow-none">
-                  <option value="" selected disabled>Select Gender</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
+                  <option value="" selected disabled><%= t('new_member.select-gender') %></option>
+                  <option value="male"><%= t('new_member.male') %></option>
+                  <option value="female"><%= t('new_member.female') %></option>
                 </select>
               </div>
 
             <div class="mt-3 col-lg-4">
-              <label class="form-label" style="font-weight: 500;">Date of Birth <small>REQUIRED</small></label>
+              <label class="form-label" style="font-weight: 500;"><%= t('new_member.date-of-birth') %> <small>REQUIRED</small></label>
               <input type="date" name="p1dob" class="form-control shadow-none">
             </div>
 
             <div class="mt-3 col-lg-4">
-              <label class="form-label" style="font-weight: 500;">Email <small>REQUIRED</small></label>
+              <label class="form-label" style="font-weight: 500;"><%= t('new_member.email') %> <small>REQUIRED</small></label>
               <input type="email" name="p1email" class="form-control shadow-none" placeholder="Enter Email">
             </div>
           </div>
 
           <div class="row">
               <div class="mt-3 col-lg-6">
-                <label class="form-label" style="font-weight: 500;">Head of Household</label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.head-of-house') %></label>
                 <select name="p1head" class="form-control shadow-none">
-                  <option value="" selected disabled>Select One</option>
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
+                  <option value="" selected disabled><%= t('new_member.select-one') %></option>
+                  <option value="Yes"><%= t('new_member.si') %></option>
+                  <option value="No"><%= t('new_member.no') %></option>
                 </select>
               </div>
 
               
               <div class="mt-3 col-lg-6">
-                <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
+                <label class="form-label" style="font-weight: 500;"><%= t('new_member.sacraments.heading') %></label>
                 <div class="form-check">
                   <input type="checkbox" name="p1sac[]" value="baptism" class="form-check-input">
-                  <label class="form-check-label">Baptism</label>
+                  <label class="form-check-label"><%= t('new_member.sacraments.baptism') %></label>
                 </div>
                 <div class="form-check">
                   <input type="checkbox" name="p1sac[]" value="confirmation" class="form-check-input">
-                  <label class="form-check-label">Confirmation</label>
+                  <label class="form-check-label"><%= t('new_member.sacraments.confirmation') %></label>
                 </div>
                 <div class="form-check">
                   <input type="checkbox" name="p1sac[]" value="communion" class="form-check-input">
-                  <label class="form-check-label">Communion</label>
+                  <label class="form-check-label"><%= t('new_member.sacraments.communion') %></label>
                 </div>
               </div>
             </div>
@@ -271,37 +271,37 @@
 
 <!-- Start on Person 2 -->
 
-<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 2:</h5>
+<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px"><%= t('new_member.person2') %></h5>
 
 <div class="row">
 <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">First Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.first-name') %></label>
     <input type="text" name="p2name" class="form-control shadow-none" placeholder="Enter First Name">
   </div>
 
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Last Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.last-name') %></label>
     <input type="text" name="p2last" class="form-control shadow-none" placeholder="Enter Last Name">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
-    <label class="form-label" style="font-weight: 500;">Gender</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.gender') %></label>
     <select name="p2gender" class="form-control shadow-none">
-      <option value="" selected disabled>Select Gender</option>
-      <option value="male">Male</option>
-      <option value="female">Female</option>
+      <option value="" selected disabled><%= t('new_member.select-gender') %></option>
+      <option value="male"><%= t('new_member.male') %></option>
+      <option value="female"><%= t('new_member.female') %></option>
     </select>
   </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Date of Birth</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.date-of-birth') %></label>
   <input type="date" name="p2dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Email</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.email') %></label>
   <input type="email" name="p2email" class="form-control shadow-none" placeholder="Enter Email">
 </div>
 </div>
@@ -309,18 +309,18 @@
 <div class="row">
   
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.sacraments.heading') %></label>
     <div class="form-check">
       <input type="checkbox" name="p2sac[]" value="baptism" class="form-check-input">
-      <label class="form-check-label">Baptism</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.baptism') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p2sac[]" value="confirmation" class="form-check-input">
-      <label class="form-check-label">Confirmation</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.confirmation') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p2sac[]" value="communion" class="form-check-input">
-      <label class="form-check-label">Communion</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.communion') %></label>
     </div>
   </div>
 </div>
@@ -354,37 +354,37 @@
               
 <!-- Start on Person 3 -->
 
-<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 3:</h5>
+<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px"><%= t('new_member.person3') %></h5>
 
 <div class="row">
 <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">First Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.first-name') %></label>
     <input type="text" name="p3name" class="form-control shadow-none" placeholder="Enter First Name">
   </div>
 
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Last Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.last-name') %></label>
     <input type="text" name="p3last" class="form-control shadow-none" placeholder="Enter Last Name">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
-    <label class="form-label" style="font-weight: 500;">Gender</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.gender') %></label>
     <select name="p3gender" class="form-control shadow-none">
-      <option value="" selected disabled>Select Gender</option>
-      <option value="male">Male</option>
-      <option value="female">Female</option>
+      <option value="" selected disabled><%= t('new_member.select-gender') %></option>
+      <option value="male"><%= t('new_member.male') %></option>
+      <option value="female"><%= t('new_member.female') %></option>
     </select>
   </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Date of Birth</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.date-of-birth') %></label>
   <input type="date" name="p3dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Email</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.email') %></label>
   <input type="email" name="p3email" class="form-control shadow-none" placeholder="Enter Email">
 </div>
 </div>
@@ -392,18 +392,18 @@
 <div class="row">
   
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.sacraments.heading') %></label>
     <div class="form-check">
       <input type="checkbox" name="p3sac[]" value="baptism" class="form-check-input">
-      <label class="form-check-label">Baptism</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.baptism') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p3sac[]" value="confirmation" class="form-check-input">
-      <label class="form-check-label">Confirmation</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.confirmation') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p3sac[]" value="communion" class="form-check-input">
-      <label class="form-check-label">Communion</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.communion') %></label>
     </div>
   </div>
 </div>
@@ -437,37 +437,37 @@
 
 <!-- Start on Person 4 -->
 
-<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 4:</h5>
+<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px"><%= t('new_member.person4') %></h5>
 
 <div class="row">
 <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">First Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.first-name') %></label>
     <input type="text" name="p4name" class="form-control shadow-none" placeholder="Enter First Name">
   </div>
 
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Last Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.last-name') %></label>
     <input type="text" name="p4last" class="form-control shadow-none" placeholder="Enter Last Name">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
-    <label class="form-label" style="font-weight: 500;">Gender</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.gender') %></label>
     <select name="p4gender" class="form-control shadow-none">
-      <option value="" selected disabled>Select Gender</option>
-      <option value="male">Male</option>
-      <option value="female">Female</option>
+      <option value="" selected disabled><%= t('new_member.select-gender') %></option>
+      <option value="male"><%= t('new_member.male') %></option>
+      <option value="female"><%= t('new_member.female') %></option>
     </select>
   </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Date of Birth</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.date-of-birth') %></label>
   <input type="date" name="p4dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Email</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.email') %></label>
   <input type="email" name="p4email" class="form-control shadow-none" placeholder="Enter Email">
 </div>
 </div>
@@ -475,18 +475,18 @@
 <div class="row">
   
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.sacraments.heading') %></label>
     <div class="form-check">
       <input type="checkbox" name="p4sac[]" value="baptism" class="form-check-input">
-      <label class="form-check-label">Baptism</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.baptism') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p4sac[]" value="confirmation" class="form-check-input">
-      <label class="form-check-label">Confirmation</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.confirmation') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p4sac[]" value="communion" class="form-check-input">
-      <label class="form-check-label">Communion</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.communion') %></label>
     </div>
   </div>
 </div>
@@ -521,37 +521,37 @@
 
 <!-- Start on Person 5 -->
 
-<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 5:</h5>
+<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px"><%= t('new_member.person5') %></h5>
 
 <div class="row">
 <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">First Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.first-name') %></label>
     <input type="text" name="p5name" class="form-control shadow-none" placeholder="Enter First Name">
   </div>
 
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Last Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.last-name') %></label>
     <input type="text" name="p5last" class="form-control shadow-none" placeholder="Enter Last Name">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
-    <label class="form-label" style="font-weight: 500;">Gender</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.gender') %></label>
     <select name="p5gender" class="form-control shadow-none">
-      <option value="" selected disabled>Select Gender</option>
-      <option value="male">Male</option>
-      <option value="female">Female</option>
+      <option value="" selected disabled><%= t('new_member.select-gender') %></option>
+      <option value="male"><%= t('new_member.male') %></option>
+      <option value="female"><%= t('new_member.female') %></option>
     </select>
   </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Date of Birth</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.date-of-birth') %></label>
   <input type="date" name="p5dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Email</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.email') %></label>
   <input type="email" name="p5email" class="form-control shadow-none" placeholder="Enter Email">
 </div>
 </div>
@@ -559,18 +559,18 @@
 <div class="row">
   
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.sacraments.heading') %></label>
     <div class="form-check">
       <input type="checkbox" name="p5sac[]" value="baptism" class="form-check-input">
-      <label class="form-check-label">Baptism</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.baptism') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p5sac[]" value="confirmation" class="form-check-input">
-      <label class="form-check-label">Confirmation</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.confirmation') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p5sac[]" value="communion" class="form-check-input">
-      <label class="form-check-label">Communion</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.communion') %></label>
     </div>
   </div>
 </div>
@@ -604,37 +604,37 @@
 
 <!-- Start on Person 6 -->
 
-<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px">Person 6:</h5>
+<h5 class="form-label" style="font-weight: 800; padding-top: 50px; padding-bottom: 5px"><%= t('new_member.person6') %></h5>
 
 <div class="row">
 <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">First Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.first-name') %></label>
     <input type="text" name="p6name" class="form-control shadow-none" placeholder="Enter First Name">
   </div>
 
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Last Name</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.last-name') %></label>
     <input type="text" name="p6last" class="form-control shadow-none" placeholder="Enter Last Name">
   </div>
 </div>
 
 <div class="row">
   <div class="mt-3 col-lg-4">
-    <label class="form-label" style="font-weight: 500;">Gender</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.gender') %></label>
     <select name="p6gender" class="form-control shadow-none">
-      <option value="" selected disabled>Select Gender</option>
-      <option value="male">Male</option>
-      <option value="female">Female</option>
+      <option value="" selected disabled><%= t('new_member.select-gender') %></option>
+      <option value="male"><%= t('new_member.male') %></option>
+      <option value="female"><%= t('new_member.female') %></option>
     </select>
   </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Date of Birth</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.date-of-birth') %></label>
   <input type="date" name="p6dob" class="form-control shadow-none" placeholder="">
 </div>
 
 <div class="mt-3 col-lg-4">
-  <label class="form-label" style="font-weight: 500;">Email</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.email') %></label>
   <input type="email" name="p6email" class="form-control shadow-none" placeholder="Enter Email">
 </div>
 </div>
@@ -642,18 +642,18 @@
 <div class="row">
   
   <div class="mt-3 col-lg-6">
-    <label class="form-label" style="font-weight: 500;">Sacraments Received</label>
+    <label class="form-label" style="font-weight: 500;"><%= t('new_member.sacraments.heading') %></label>
     <div class="form-check">
       <input type="checkbox" name="p6sac[]" value="baptism" class="form-check-input">
-      <label class="form-check-label">Baptism</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.baptism') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p6sac[]" value="confirmation" class="form-check-input">
-      <label class="form-check-label">Confirmation</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.confirmation') %></label>
     </div>
     <div class="form-check">
       <input type="checkbox" name="p6sac[]" value="communion" class="form-check-input">
-      <label class="form-check-label">Communion</label>
+      <label class="form-check-label"><%= t('new_member.sacraments.communion') %></label>
     </div>
   </div>
 </div>
@@ -686,7 +686,7 @@
 
 <br>
 <div class="mt-3">
-  <label class="form-label" style="font-weight: 500;">Additional Comments</label>
+  <label class="form-label" style="font-weight: 500;"><%= t('new_member.comments') %></label>
   <textarea name="additional_comments" class="form-control shadow-none" placeholder=""></textarea>
 </div>
 
