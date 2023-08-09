@@ -42,6 +42,9 @@ class MembersController < ApplicationController
     def spanish_weekly_bulletin
     end
 
+    def guadalupano
+    end
+
 
 
 
