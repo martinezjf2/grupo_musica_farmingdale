@@ -1,17 +1,56 @@
+
+<section style="background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar1.jpeg'); background-size: 1700px; background-attachment: fixed; background-position: center 10%; background-repeat: no-repeat">
+
 <div class="jumbotron text-center aboutFamiliar">
     <h1 class="display-4">Bienvenidos A Nuestro Grupo <br>Pastoral Familiar</h1>
     <p class="lead"></p>
     <a href="#" class="btn btn-primary btn-lg">Aprender Mas</a>
   </div>
   
-  
-  
-  <%= render "/partials/invitamos"%>
+
+  <div class="jumbotron text-center" style="background-color: white; height: 600px">
+    <section class="faith-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <h2 class="section-heading">Strengthening Families Through Faith</h2>
+              <p class="section-content">In a world filled with distractions and challenges, learning about God and nurturing a close relationship with Him is of paramount importance for families. These spiritual foundations provide a sense of purpose, guidance, and unity that can greatly benefit the family unit.</p>
+              <p class="section-content">Being together as a family is a fundamental value that fosters love, support, and understanding. Gathering for religious activities and discussions enables families to share their beliefs, values, and experiences, leading to stronger connections and a deeper appreciation for one another.</p>
+              <p class="section-content">For pastoral families, reunions hold a special significance. These gatherings offer opportunities for pastoral families to exchange insights, seek guidance, and share the unique challenges they face in their roles as spiritual leaders. Through mutual support and shared experiences, pastoral families can grow together and better serve their communities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  </div>
+
+  <div class="jumbotron text-center" style="height: 700px;">
+  </div>
+
+  <div class="jumbotron text-center headingSection" style="background-color: #f5f9ff; height: 600px;">
+    <div class="container">
+        <h1 class="display-4">Ven Acompañanos!</h1>
+        <p class="lead">Join us for our family gatherings where we celebrate faith and togetherness.</p>
+        <p class="contact-details">When: Every Sunday at 10:00 AM</p>
+        <p class="contact-details">Where: [Venue Name], [Venue Address]</p>
+        <p class="contact-details">For more information and to join, contact: [Contact Name] at [Contact Email] or [Contact Phone]</p>
+    </div>
+  </div>
+
+  <div class="jumbotron text-center" style="height: 700px; background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar2.jpeg'); background-size:cover; background-attachment: fixed; background-position: center 10%; background-repeat: no-repeat;">
+  </div>
+
+ 
+
+ </section>
+
+
+
+<%= render "/partials/invitamos"%>
 
   <style>
 
 .aboutFamiliar {
-    background: url('https://seguidoresdejesus.s3.amazonaws.com/Service_1502724393_24.png');
+    background: url('https://seguidoresdejesus.s3.amazonaws.com/Service_1502724393_24.png') fixed;
     background-position: center 10%;
     background-size: cover;
     padding: 6rem 2rem;
@@ -30,6 +69,18 @@
     letter-spacing: 0.4rem;
   }
 
+  .headingSection h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    padding-top: 10rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+    color: white;
+  } 
+
+
+
 
   .aboutFamiliar p {
     font-size: 2rem;
@@ -37,5 +88,22 @@
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
 
   }
+
+  .faith-section {
+      background-color: #f8f9fa;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .section-heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+    .section-content {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
 
   </style>
