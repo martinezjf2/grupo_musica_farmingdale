@@ -605,7 +605,7 @@
 }
 
 .aboutFamiliar h1 {
-  font-size: 4.5rem;
+  font-size: 3.0rem;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -613,17 +613,16 @@
   letter-spacing: 0.4rem;
 }
 
+.aboutFamiliar h2 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+}
+
 .headingSection {
   background-color: #f5f9ff; 
   height: 600px;
-}
-
-.familiarSection1 {
-  background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar1.jpeg'); 
-  background-size: 1700px; 
-  background-attachment: fixed; 
-  background-position: center 60%; 
-  background-repeat: no-repeat
 }
 
 .familiarSection2 {
@@ -633,6 +632,10 @@
 
 .familiarSection3 {
   height: 700px;
+  background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar1.jpeg'); 
+  background-attachment: fixed; 
+  background-position: center 60%; 
+  background-repeat: no-repeat
 }
 
 .familiarSection4 {
@@ -640,7 +643,7 @@
   background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar2.jpeg'); 
   background-size:cover; 
   background-attachment: fixed; 
-  background-position: center 10%; 
+  background-position: center 70%; 
   background-repeat: no-repeat;
 }
 
