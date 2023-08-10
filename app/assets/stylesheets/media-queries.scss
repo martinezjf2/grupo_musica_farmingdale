@@ -582,6 +582,26 @@
     height: 750px
   }
 
+  section.pastoral div.familiarSection3 {
+    height: 400px;
+    background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar1.jpeg'); 
+    background-attachment: fixed; 
+    background-position: center 1%;
+    background-size: 1350px;
+    background-repeat: no-repeat;
+
+  }
+  
+  section.pastoral div.familiarSection4 {
+    height: 400px; 
+    background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar2.jpeg'); 
+    background-size:cover; 
+    background-attachment: fixed; 
+    background-position: center 70%;
+    background-size: 1350px;
+    background-repeat: no-repeat;
+  }
+
 
   div.aboutFamiliar h1 {
     font-size: 1.9rem;
