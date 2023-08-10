@@ -587,3 +587,93 @@
 .reflection p {
   font-style: italic;
 }
+
+
+
+
+// Pastoral Familiar Page
+
+.aboutFamiliar {
+  background: url('https://seguidoresdejesus.s3.amazonaws.com/Service_1502724393_24.png') fixed;
+  background-position: center 10%;
+  background-size: cover;
+  padding: 6rem 2rem;
+  text-align: center;
+  margin-bottom: 0;
+  color: white;
+  height: 600px
+}
+
+.aboutFamiliar h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  letter-spacing: 0.4rem;
+}
+
+.headingSection {
+  background-color: #f5f9ff; 
+  height: 600px;
+}
+
+.familiarSection1 {
+  background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar1.jpeg'); 
+  background-size: 1700px; 
+  background-attachment: fixed; 
+  background-position: center 60%; 
+  background-repeat: no-repeat
+}
+
+.familiarSection2 {
+  background-color: white; 
+  height: 600px
+}
+
+.familiarSection3 {
+  height: 700px;
+}
+
+.familiarSection4 {
+  height: 700px; 
+  background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar2.jpeg'); 
+  background-size:cover; 
+  background-attachment: fixed; 
+  background-position: center 10%; 
+  background-repeat: no-repeat;
+}
+
+.headingSection h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-top: 9rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  letter-spacing: 0.4rem;
+  color: white;
+} 
+
+
+.aboutFamiliar p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+
+}
+
+.faith-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .section1-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .section1-content {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
