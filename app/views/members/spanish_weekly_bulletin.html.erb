@@ -17,7 +17,7 @@
 </div>
 
 
-<div class="mt-5" style="width: 65%; margin: 0 auto;">
+<div class="mt-5" style="padding: 10px 16rem; margin: 0 auto;">
     <% if @events.present? %>
 
         <% first_event = @events[0] %>
@@ -131,11 +131,14 @@
 
     .pagina2 {
         background-color:  #e6f0fe;
-        padding-bottom: 100px
+        padding-bottom: 100px;
+        /* border: black solid 3px */
     }
 
     .pagina2 h2 {
         font-size: 36px;
+        text-align: center;
+        padding-bottom: 15px
     }
 
     .pagina2 p {
@@ -143,7 +146,12 @@
     }
 
     .pagina2NewsContext {
-        padding-top: 45px
+        border: black solid 3px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 20px;
     }
 
 
