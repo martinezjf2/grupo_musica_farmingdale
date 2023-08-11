@@ -535,3 +535,12 @@ en:
       plead: "We're glad you're here!"
       p1: "How do I register? It's simply a matter of clicking the Register button above. Or, if more convenient, just call the rectory at <br>(516) 249-0127 to request a form be mailed to your home. <br>Thank you and again, Welcome!"
       p2: "We look forward to welcoming you and your family as the newest members of our St. Kilian Parish Family."
+  
+  # Santisimo Partial
+
+  santisimo:
+    heading: "The Holy Hour"
+    p1: "The Holy Hour is a time of deep meditation and reflection on the presence of Jesus Christ in the Eucharist. It's an opportunity to connect with the divine, seeking spiritual renewal and solace in the presence of our Lord."
+    p2: "Meditating on the Holy Sacrament allows us to draw closer to God, opening our hearts and minds to His love, grace, and guidance. Through this sacred practice, we find peace, strength, and a renewed sense of purpose."
+    p3: "We invite you to join us <strong>Every Second Wednesday of the Month</strong> to partake in the Holy Hour. It's a time to cherish the Eucharist, offering prayers and adoration as we collectively seek a deeper relationship with Christ. Your presence is a vital part of this blessed experience."
+    p4: "Come and share in this profound spiritual journey. Together, let's honor and celebrate the Santísimo Sacramento del Altar."

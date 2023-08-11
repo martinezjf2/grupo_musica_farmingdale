@@ -579,9 +579,16 @@ es:
       p2: "Esperamos darles la bienvenida a ti y a tu familia como los miembros más nuevos de nuestra Familia de la Parroquia de San Kilian."
 
 
-  # Familiar Partial
-  # Familiar Full Page  
-  # Members Familiar Partial
+# Santisimo Partial
+  santisimo:
+    heading: "La Hora Santa"
+    p1: "La Hora Santa es un momento de profunda meditación y reflexión sobre la presencia de Jesucristo en la Eucaristía. Es una oportunidad para conectarnos con lo divino, buscando renovación espiritual y consuelo en la presencia de nuestro Señor."
+    p2: "Meditar en el Santo Sacramento nos permite acercarnos más a Dios, abriendo nuestros corazones y mentes a Su amor, gracia y guía. A través de esta práctica sagrada, encontramos paz, fortaleza y un renovado sentido de propósito."
+    p3: "Te invitamos a unirte a nosotros <strong>Cada Segundo Miércoles del Mes</strong> para participar en la Hora Santa. Es un momento para apreciar la Eucaristía, ofrecer oraciones y adoración mientras buscamos colectivamente una relación más profunda con Cristo. Tu presencia es una parte vital de esta experiencia bendita."
+    p4: "Ven y comparte en este profundo viaje espiritual. Juntos, honremos y celebremos el Santísimo Sacramento del Altar."
+
+
+
   # Pastoral Staff Partial
   # About Pastor Partial
   # About Padre Romulo Partial

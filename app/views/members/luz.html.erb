@@ -11,22 +11,26 @@
   </div>
 </div>
 
-<div class="quoteDiv" id="quoteDiv">
+<%= render "/partials/aboutPriest"%>
+
+
+<!-- <div class="quoteDiv" id="quoteDiv">
   <div class="quote">
     <h2><%= t('quoteDiv.quote.title', highlight: '<span class="highlight">', highlight_end: '</span>').html_safe %></h2>
     <p><%= t('quoteDiv.quote.scripture') %></p>
     <p><%= t('quoteDiv.quote.content_1') %></p>
     <p><%= t('quoteDiv.quote.content_2') %></p>
   </div>
-</div>
+</div> -->
 
-  <%= render "/partials/aboutPriest"%>
+<%= render "/partials/santisimo"%>
   
   <div class="pequena-communidad-section">
     <h2 class="text-center" id="h2Pequena"><%= t('pequena-communidad-section.h2Pequena') %></h2>
     
     <!-- Emmanual pequena-comunidad -->
     <div class="pequena-comunidad" id="pequena-comunidad">
+      <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-4">
           <h3><%= t('pequena-communidad-section.pequena-comunidad.emmanuel.title') %></h3>
@@ -39,10 +43,13 @@
           </p>
         </div>
       </div>
+      </div>
     </div>
 
         <!-- buen_pastor pequena-comunidad -->
         <div class="pequena-comunidad" id="pequena-comunidad">
+      <div class="container">
+
           <div class="row">
             <div class="col-sm-12 col-md-4">
               <h3><%= t('pequena-communidad-section.pequena-comunidad.buen_pastor.title') %></h3>
@@ -56,41 +63,17 @@
             </div>
           </div>
         </div>
-
-            <!-- caminando_con_jesus pequena-comunidad -->
-    <div class="pequena-comunidad" id="pequena-comunidad">
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <h3><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.title') %></h3>
-        </div>
-        <div class="col-sm-12 col-md-8">
-          <h4><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.schedule') %></h4>
-          <h5><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.scripture') %></h5>
-          <p>
-            <%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.content') %>
-          </p>
-        </div>
       </div>
-    </div>
 
-        <!-- vida_y_esperanza pequena-comunidad -->
-        <div class="pequena-comunidad" id="pequena-comunidad">
-          <div class="row">
-            <div class="col-sm-12 col-md-4">
-              <h3><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.title') %></h3>
-            </div>
-            <div class="col-sm-12 col-md-8">
-              <h4><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.schedule') %></h4>
-              <h5><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.scripture') %></h5>
-              <p>
-                <%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.content') %>
-              </p>
-            </div>
-          </div>
-        </div>
 
-            <!-- seguidores_de_jesus pequena-comunidad -->
+
+
+
+
+              <!-- seguidores_de_jesus pequena-comunidad -->
     <div class="pequena-comunidad" id="pequena-comunidad">
+      <div class="container">
+
       <div class="row">
         <div class="col-sm-12 col-md-4">
           <h3><%= t('pequena-communidad-section.pequena-comunidad.seguidores_de_jesus.title') %></h3>
@@ -104,9 +87,53 @@
         </div>
       </div>
     </div>
+  </div>
+
+
+        <!-- vida_y_esperanza pequena-comunidad -->
+        <div class="pequena-comunidad" id="pequena-comunidad">
+      <div class="container">
+
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <h3><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.title') %></h3>
+            </div>
+            <div class="col-sm-12 col-md-8">
+              <h4><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.schedule') %></h4>
+              <h5><%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.scripture') %></h5>
+              <p>
+                <%= t('pequena-communidad-section.pequena-comunidad.vida_y_esperanza.content') %>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+            <!-- caminando_con_jesus pequena-comunidad -->
+    <div class="pequena-comunidad" id="pequena-comunidad">
+      <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <h3><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.title') %></h3>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <h4><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.schedule') %></h4>
+          <h5><%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.scripture') %></h5>
+          <p>
+            <%= t('pequena-communidad-section.pequena-comunidad.caminando_con_jesus.content') %>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
         <!-- rios_de_agua_viva pequena-comunidad -->
         <div class="pequena-comunidad" id="pequena-comunidad">
+      <div class="container">
+
           <div class="row">
             <div class="col-sm-12 col-md-4">
               <h3><%= t('pequena-communidad-section.pequena-comunidad.rios_de_agua_viva.title') %></h3>
@@ -120,6 +147,8 @@
             </div>
           </div>
         </div>
+      </div>
+
 
  
   

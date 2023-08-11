@@ -1,0 +1,62 @@
+<style>
+    /* Custom Styles */
+    section.holy-hour {
+      background-color: #007bff33; /* Slightly Toned Down btn-primary Color */
+      padding: 4rem 0; /* Vertical and Horizontal Padding */
+      margin-top: 3rem;
+      text-align: center;
+    }
+  
+    .holy-hour-content {
+      color: #333; /* Text Color */
+    }
+  
+    .holy-hour h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .holy-hour p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  
+    .holy-hour a.btn-primary {
+      background-color: #007bff; /* btn-primary Color */
+      border-color: #007bff;
+    }
+  
+    .holy-hour a.btn-primary:hover {
+      background-color: #0056b3; /* btn-primary Color on Hover */
+      border-color: #0056b3;
+    }
+  </style>
+  
+
+
+  <section class="holy-hour">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+            <%= image_tag 'sacramento.png', alt:"Sacramento del Altar", width:"200px", style: "padding-bottom: 40px"%>
+        </div>
+        <div class="col-md-7 holy-hour-content">
+            <h2 class="mb-4"><%= t('santisimo.heading') %></h2>
+            <p>
+                <%= t('santisimo.p1').html_safe %>
+            </p>
+            <p>
+               <%= t('santisimo.p2') %>
+            </p>
+            <p>
+                <%= t('santisimo.p3').html_safe %>
+            </p>
+            <p>
+                <%= t('santisimo.p4') %>
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
