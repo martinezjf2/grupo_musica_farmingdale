@@ -392,6 +392,24 @@ es:
     si: "Sí"
     no: "No"
 
+ # Members#Pastoral Familiar Page
+  pastoral:
+    heading: "¡Bienvenidos A Nuestro Grupo!"
+    h1: "Pastoral Familiar"
+    p: "¡Únete a nosotros para compartir momentos significativos, aprender juntos y fortalecer nuestros lazos familiares! ¡Estamos emocionados de tener nuevas caras en nuestro grupo!"
+    section1:
+      h2: "Fortaleciendo Familias a Través de la Fe"
+      p1: "En un mundo lleno de distracciones y desafíos, aprender sobre Dios y nutrir una relación cercana con Él es de suma importancia para las familias. Estas bases espirituales proporcionan un sentido de propósito, orientación y unidad que puede beneficiar enormemente a la unidad familiar."
+      p2: "Estar juntos como familia es un valor fundamental que fomenta el amor, el apoyo y la comprensión. Reunirse para actividades y discusiones religiosas permite a las familias compartir sus creencias, valores y experiencias, lo que lleva a conexiones más fuertes y a un mayor aprecio mutuo."
+      p3: "Para las familias pastorales, las reuniones tienen un significado especial. Estos encuentros ofrecen oportunidades para que las familias pastorales intercambien ideas, busquen orientación y compartan los desafíos únicos que enfrentan en sus roles como líderes espirituales. A través del apoyo mutuo y las experiencias compartidas, las familias pastorales pueden crecer juntas y servir mejor a sus comunidades."
+    section2:
+      h1: "¡Ven y Acompáñanos!"
+      p1: "Únete a nosotros en nuestras reuniones familiares donde celebramos la fe y la unión."
+      p2: "Cuándo: Primer sábado del mes, 7:45 PM"
+      p3: "Dónde: Iglesia Católica Romana St.Kilian, Sala Verde"
+      p4: "Para obtener más información y unirte, contacta a José Flores al 1 (346) 777-1280 "
+   
+
   # -------------------------------------------------------------------------------------------------------------------------------
 
   # PARTIALS

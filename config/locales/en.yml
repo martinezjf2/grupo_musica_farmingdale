@@ -363,6 +363,23 @@ en:
     si: "Yes"
     no: "No"
 
+# Members#Pastoral Familiar Page
+  pastoral:
+    heading: "Welcome to Our Group!"
+    h1: "Family Ministry"
+    p: "Join us to share meaningful moments, learn together, and strengthen our family bonds! We're excited to have new faces in our group!"
+    section1:
+      h2: "Strengthening Families Through Faith"
+      p1: "In a world filled with distractions and challenges, learning about God and nurturing a close relationship with Him is of paramount importance for families. These spiritual foundations provide a sense of purpose, guidance, and unity that can greatly benefit the family unit."
+      p2: "Being together as a family is a fundamental value that fosters love, support, and understanding. Gathering for religious activities and discussions enables families to share their beliefs, values, and experiences, leading to stronger connections and a deeper appreciation for one another."
+      p3: "For pastoral families, reunions hold a special significance. These gatherings offer opportunities for pastoral families to exchange insights, seek guidance, and share the unique challenges they face in their roles as spiritual leaders. Through mutual support and shared experiences, pastoral families can grow together and better serve their communities."
+    section2:
+      h1: "Come and Join Us!"
+      p1: "Join us for our family gatherings where we celebrate faith and togetherness."
+      p2: "When: First Saturday of the Month, 7:45 PM"
+      p3: "Where: St. Kilian Roman Catholic Church, Green Room"
+      p4: "For more information and to join, contact: Jose Flores at 1 (346) 777-1280 "
+
   # -------------------------------------------------------------------------------------------------------------------------------
 
   # PARTIALS
