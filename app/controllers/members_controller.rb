@@ -40,6 +40,7 @@ class MembersController < ApplicationController
     end
 
     def spanish_weekly_bulletin
+        @events = Event.all.order(:event_date).limit(4)
     end
 
     def guadalupano

@@ -7,6 +7,42 @@
       <a href="#familiarSection2" class="btn btn-primary btn-lg">Aprender Más</a>
       </div>
   </div>
+
+<div class="guadSection2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 history-text">
+          <h2 class="section-title">Historia de Nuestra Señora de Guadalupe</h2>
+          <p>
+            La historia de Nuestra Señora de Guadalupe se remonta al año 1531, cuando la Virgen María apareció al indígena Juan Diego en el cerro de Tepeyac, cerca de la Ciudad de México...
+          </p>
+          <p>
+            La imagen milagrosa de la Virgen de Guadalupe, impresa en la tilma de Juan Diego, se convirtió en un símbolo poderoso de la fe y la unión entre las culturas indígena y española...
+          </p>
+          <p>
+            ¡Te invitamos a unirte a nosotros para honrar a Nuestra Señora de Guadalupe y ser parte de esta hermosa tradición! Si deseas formar parte de nuestra comunidad y aprender más sobre su historia y devoción, ¡únete a nuestro Grupo Guadalupano hoy mismo!
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="guadalupe-image.jpg" alt="Imagen de Nuestra Señora de Guadalupe" class="img-fluid">
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="guadSection3"></div>
+
+<div class="guadSection4">
+    <div class="container"></div>
+</div>
+
+<div class="guadSection5"></div>
+
+
+
+
+
+
   </section>
 
 <%= render "/partials/invitamos"%>
@@ -42,34 +78,60 @@
   letter-spacing: 4px;
 }
 
-.headingSection {
-  background-color: #f5f9ff; 
+.guadalupano p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+
+}
+
+.guadSection2 {
   height: 600px;
+  padding: 50px 0;
+  background-color: #f8f9fa;
+  text-align: center;
 }
 
-.familiarSection2 {
-  background-color: white; 
-  height: 600px
-}
-
-.familiarSection3 {
+.guadSection3 {
   height: 700px;
-  background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar1.jpg'); 
+  background: url('https://media.vaticannews.va/media/content/dam-archive/vaticannews/images-multimedia/srv/08352_13022016.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg'); 
   background-attachment: fixed; 
-  background-position: center 60%; 
+  background-size: cover;
+  background-position: center 20%; 
   background-repeat: no-repeat
 }
 
-.familiarSection4 {
+
+.guadSection4 {
+  height: 600px;
+  background-color: #e6f0fe;
+  padding: 80px 0;
+  text-align: center;
+}
+
+
+
+.guadSection5 {
   height: 700px; 
-  background: url('https://seguidoresdejesus.s3.amazonaws.com/familiar2.jpg'); 
+  background: url('https://www.ncronline.org/files/20211213T1145-OUR-LADY-OF-GUADALUPE-1514131.JPG'); 
   background-size:cover; 
   background-attachment: fixed; 
   background-position: center 70%; 
   background-repeat: no-repeat;
 }
 
-.headingSection h1 {
+.section-title {
+      color: #343a40;
+    }
+
+    .history-text {
+      text-align: left;
+    }
+
+
+
+
+.guadSection3 h1 {
   font-size: 4.5rem;
   font-weight: bold;
   padding-top: 9rem;
@@ -79,19 +141,6 @@
   color: white;
 } 
 
-
-.guadalupano p {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
-
-}
-
-.faith-section {
-    background-color: #f8f9fa;
-    padding: 80px 0;
-    text-align: center;
-  }
   .section1-heading {
     font-size: 24px;
     font-weight: bold;
