@@ -7,19 +7,19 @@
 <%= render "/for-bulletin/features"%>
 
 
-<div class="container" style="padding-top: 150px; padding-bottom: 100px">
+<div class="container endofpage1">
     <h3 class="text-center"><strong>[End of First Page]</strong></h3>
 
     <h3 class="text-center"><strong>[Scroll Down For Second Page]</strong></h3>
 </div>
 
 <section class="pagina2">
-<div class="container" style="padding-top: 100px">
-    <h1 class="text-center" id="header-group-two" style="font-size: 70px">Nuestros Eventos</h1>
+<div class="container padding-top-100" id="bulletinSemanalHeading">
+    <h1 class="text-center font-size-70" id="header-group-two">Nuestros Eventos</h1>
 </div>
 
 
-<div class="mt-5" style="padding: 10px 16rem; margin: 0 auto;">
+<div class="mt-5 entirePagina2Page" >
     <% if @events.present? %>
 
         <% first_event = @events[0] %>
@@ -31,7 +31,7 @@
 
         <div class="row pagina2NewsContext">
             <div class="col-md-6 order-md-1 d-flex align-items-center">
-                <%= image_tag first_event.image, alt: "Event Image", class: "img-fluid", width: "800px" %>
+                <%= image_tag first_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
             </div>
             
             <div class="col-md-6 order-md-2 pt-3">
@@ -60,7 +60,7 @@
                 <p><strong>Descripcion: </strong><%= second_event.description %></p>
             </div>
             <div class="col-md-6 order-md-2 p-2 d-flex align-items-center">
-                <%= image_tag second_event.image, alt: "Event Image", class: "img-fluid", width: "800px" %>
+                <%= image_tag second_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
             </div>
         </div>
 
@@ -71,7 +71,7 @@
 
         <div class="row  pagina2NewsContext">
             <div class="col-md-6 order-md-1 d-flex align-items-center">
-                <%= image_tag third_event.image, alt: "Event Image", class: "img-fluid", width: "800px" %>
+                <%= image_tag third_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
             </div>
             
             <div class="col-md-6 order-md-2 pt-3">
@@ -101,60 +101,21 @@
                 <p><strong>Descripcion: </strong><%= fourth_event.description %></p>
             </div>
             <div class="col-md-6 order-md-2 d-flex align-items-center">
-                <%= image_tag fourth_event.image, alt: "Event Image", class: "img-fluid", width: "800px" %>
+                <%= image_tag fourth_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
             </div>
         </div>
 
     <% else %>
-    <div class="container" style="padding-top: 100px">
-        <h1 class="text-center" id="header-group-two" style="font-size: 70px">No Events Found</h1>
+    <div class="container padding-top-100" >
+        <h1 class="text-center font-size-70" id="header-group-two">No Events Found</h1>
     </div>
     <% end %>
 </div>
 
-<div class="container" style="padding-top: 150px; padding-bottom: 100px">
-
+<div class="container endofpage1">
     <h3 class="text-center"><strong>[End of Second Page]</strong></h3>
 </div>
 </section>
-
-
-
-
-<style>
-    .content-column {
-        padding: 30px; 
-        text-align: center; 
-    }
-
-    .pagina2 {
-        background-color:  #e6f0fe;
-        padding-bottom: 100px;
-    }
-
-    .pagina2 h2 {
-        font-size: 36px;
-        text-align: center;
-        padding-bottom: 15px
-    }
-
-    .pagina2 p {
-        font-size: 25px;
-    }
-
-    .pagina2NewsContext {
-        border: black solid 3px;
-        padding-top: 45px;
-        padding-bottom: 45px;
-        padding-right: 20px;
-        padding-left: 20px;
-        margin-top: 20px;
-    }
-
-
-</style>
-
-
 
 
 

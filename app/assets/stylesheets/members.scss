@@ -651,3 +651,108 @@
     line-height: 1.6;
     margin-bottom: 40px;
   }
+
+
+  // Spanish Weekly Bulletin Page 1
+
+  // For Bulletin Heading Partial
+  .page1Jumbo {
+    height: 600px; 
+    padding-top: 5px;
+  }
+
+  .page1Header1 {
+font-size: 70px;
+color: white;
+letter-spacing: 0.3rem;
+/* z-index: 0; */
+font-weight: bold;
+text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+}
+
+.page1Header2 {
+font-size: 90px;
+color: white;
+letter-spacing: 0.4rem;
+/* z-index: 0; */
+font-weight: bold;
+text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+}
+
+ // For Bulletin invitamos Partial
+
+ // For Bulletin Features Partial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Spanish Weekly Bulletin Page 2
+
+  .pagina2 {
+    background-color:  #e6f0fe;
+    padding-bottom: 100px;
+}
+
+.pagina2 h2 {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 15px
+}
+
+.pagina2 p {
+    font-size: 25px;
+}
+
+.pagina2NewsContext {
+    border: black solid 3px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.entirePagina2Page {
+    padding: 10px 16rem; 
+    margin: 0 auto;
+}
+
+.endofpage1 {
+    padding-top: 100px; 
+    padding-bottom: 100px
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+.font-size-70 {
+    font-size: 70px;
+}
+
+.image-size-800 {
+    width: 800px
+}
