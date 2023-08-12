@@ -1,0 +1,109 @@
+<div class="container endofpage1">
+    <h3 class="text-center"><strong>[End of First Page]</strong></h3>
+
+    <h3 class="text-center"><strong>[Scroll Down For Second Page]</strong></h3>
+</div>
+
+<section class="pagina2">
+<div class="container padding-top-100" id="bulletinSemanalHeading">
+    <h1 class="text-center font-size-70" id="header-group-two">Nuestros Eventos</h1>
+</div>
+
+
+<div class="mt-5 entirePagina2Page" >
+    <% if @events.present? %>
+
+        <% first_event = @events[0] %>
+        <% second_event = @events[1] %>
+        <% third_event = @events[2] %>
+        <% fourth_event = @events[3] %>
+
+
+
+        <div class="row pagina2NewsContext">
+            <div class="col-md-6 order-md-1 d-flex align-items-center">
+                <%= image_tag first_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
+            </div>
+            
+            <div class="col-md-6 order-md-2 pt-3">
+                <h2><%= first_event.event_name %></h2>
+                <p><strong>Fecha: </strong><%= first_event.event_date.strftime("%A, %B %d, %Y") %></p>
+                <p><strong>Hora: </strong><%= first_event.event_start_time.strftime("%I:%M %p") %> - <%= first_event.event_end_time.strftime("%I:%M %p") %></p>
+                <p><strong>Lugar: </strong><%= first_event.location %></p>
+                <p><strong>Direccion: </strong><%= first_event.address %>, <%= first_event.city %> <%= first_event.zip %></p>
+                <p><strong>Telefono: </strong><%= first_event.phone_number %></p>
+                <p><strong>Descripcion: </strong><%= first_event.description %></p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row pagina2NewsContext">
+            <div class="col-md-6 order-md-1 ">
+                <h2><%= second_event.event_name %></h2>
+                <p><strong>Fecha: </strong><%= second_event.event_date.strftime("%A, %B %d, %Y") %></p>
+                <p><strong>Hora: </strong><%= second_event.event_start_time.strftime("%I:%M %p") %> - <%= second_event.event_end_time.strftime("%I:%M %p") %></p>
+                <p><strong>Lugar: </strong><%= second_event.location %></p>
+                <p><strong>Direccion: </strong><%= second_event.address %>, <%= second_event.city %> <%= second_event.zip %></p>
+                <p><strong>Telefono: </strong><%= second_event.phone_number %></p>
+                <p><strong>Descripcion: </strong><%= second_event.description %></p>
+            </div>
+            <div class="col-md-6 order-md-2 p-2 d-flex align-items-center">
+                <%= image_tag second_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="row  pagina2NewsContext">
+            <div class="col-md-6 order-md-1 d-flex align-items-center">
+                <%= image_tag third_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
+            </div>
+            
+            <div class="col-md-6 order-md-2 pt-3">
+                <h2><%= third_event.event_name %></h2>
+                <p><strong>Fecha: </strong><%= third_event.event_date.strftime("%A, %B %d, %Y") %></p>
+                <p><strong>Hora: </strong><%= third_event.event_start_time.strftime("%I:%M %p") %> - <%= third_event.event_end_time.strftime("%I:%M %p") %></p>
+                <p><strong>Lugar: </strong><%= third_event.location %></p>
+                <p><strong>Direccion: </strong><%= third_event.address %>, <%= third_event.city %> <%= third_event.zip %></p>
+                <p><strong>Telefono: </strong><%= third_event.phone_number %></p>
+                <p><strong>Descripcion: </strong><%= third_event.description %></p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="row pagina2NewsContext">
+            <div class="col-md-6 order-md-1 pt-3">
+                <h2><%= fourth_event.event_name %></h2>
+                <p><strong>Fecha: </strong><%= fourth_event.event_date.strftime("%A, %B %d, %Y") %></p>
+                <p><strong>Hora: </strong><%= fourth_event.event_start_time.strftime("%I:%M %p") %> - <%= first_event.event_end_time.strftime("%I:%M %p") %></p>
+                <p><strong>Lugar: </strong><%= fourth_event.location %></p>
+                <p><strong>Direccion: </strong><%= fourth_event.address %>, <%= fourth_event.city %> <%= fourth_event.zip %></p>
+                <p><strong>Telefono: </strong><%= fourth_event.phone_number %></p>
+                <p><strong>Descripcion: </strong><%= fourth_event.description %></p>
+            </div>
+            <div class="col-md-6 order-md-2 d-flex align-items-center">
+                <%= image_tag fourth_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
+            </div>
+        </div>
+
+    <% else %>
+    <div class="container padding-top-100" >
+        <h1 class="text-center font-size-70" id="header-group-two">No Events Found</h1>
+    </div>
+    <% end %>
+</div>
+
+<div class="container endofpage1">
+    <h3 class="text-center"><strong>[End of Second Page]</strong></h3>
+</div>
+</section>
