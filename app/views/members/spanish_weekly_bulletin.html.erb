@@ -36,7 +36,7 @@
             
             <div class="col-md-6 order-md-2 pt-3">
                 <h2><%= first_event.event_name %></h2>
-                <p><strong>Date: </strong><%= first_event.event_date.strftime("%A, %B %d, %Y") %></p>
+                <p><strong>Fecha: </strong><%= first_event.event_date.strftime("%A, %B %d, %Y") %></p>
                 <p><strong>Hora: </strong><%= first_event.event_start_time.strftime("%I:%M %p") %> - <%= first_event.event_end_time.strftime("%I:%M %p") %></p>
                 <p><strong>Lugar: </strong><%= first_event.location %></p>
                 <p><strong>Direccion: </strong><%= first_event.address %>, <%= first_event.city %> <%= first_event.zip %></p>
@@ -52,7 +52,7 @@
         <div class="row pagina2NewsContext">
             <div class="col-md-6 order-md-1 ">
                 <h2><%= second_event.event_name %></h2>
-                <p><strong>Date:</strong><%= second_event.event_date.strftime("%A, %B %d, %Y") %></p>
+                <p><strong>Fecha: </strong><%= second_event.event_date.strftime("%A, %B %d, %Y") %></p>
                 <p><strong>Hora: </strong><%= second_event.event_start_time.strftime("%I:%M %p") %> - <%= second_event.event_end_time.strftime("%I:%M %p") %></p>
                 <p><strong>Lugar: </strong><%= second_event.location %></p>
                 <p><strong>Direccion: </strong><%= second_event.address %>, <%= second_event.city %> <%= second_event.zip %></p>
@@ -76,7 +76,7 @@
             
             <div class="col-md-6 order-md-2 pt-3">
                 <h2><%= third_event.event_name %></h2>
-                <p><strong>Date: </strong><%= third_event.event_date.strftime("%A, %B %d, %Y") %></p>
+                <p><strong>Fecha: </strong><%= third_event.event_date.strftime("%A, %B %d, %Y") %></p>
                 <p><strong>Hora: </strong><%= third_event.event_start_time.strftime("%I:%M %p") %> - <%= third_event.event_end_time.strftime("%I:%M %p") %></p>
                 <p><strong>Lugar: </strong><%= third_event.location %></p>
                 <p><strong>Direccion: </strong><%= third_event.address %>, <%= third_event.city %> <%= third_event.zip %></p>
@@ -93,7 +93,7 @@
         <div class="row pagina2NewsContext">
             <div class="col-md-6 order-md-1 pt-3">
                 <h2><%= fourth_event.event_name %></h2>
-                <p><strong>Date: </strong><%= fourth_event.event_date.strftime("%A, %B %d, %Y") %></p>
+                <p><strong>Fecha: </strong><%= fourth_event.event_date.strftime("%A, %B %d, %Y") %></p>
                 <p><strong>Hora: </strong><%= fourth_event.event_start_time.strftime("%I:%M %p") %> - <%= first_event.event_end_time.strftime("%I:%M %p") %></p>
                 <p><strong>Lugar: </strong><%= fourth_event.location %></p>
                 <p><strong>Direccion: </strong><%= fourth_event.address %>, <%= fourth_event.city %> <%= fourth_event.zip %></p>
@@ -104,15 +104,6 @@
                 <%= image_tag fourth_event.image, alt: "Event Image", class: "img-fluid", width: "800px" %>
             </div>
         </div>
-
-        
-
-
-
-
-
-
-
 
     <% else %>
     <div class="container" style="padding-top: 100px">
@@ -139,7 +130,6 @@
     .pagina2 {
         background-color:  #e6f0fe;
         padding-bottom: 100px;
-        /* border: black solid 3px */
     }
 
     .pagina2 h2 {
