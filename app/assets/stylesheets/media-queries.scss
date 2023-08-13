@@ -536,6 +536,14 @@
     text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
   }
 
+  div.resos5AMSectionImage {
+    background: url('https://seguidoresdejesus.s3.amazonaws.com/resos5am.jpg');
+    background-position: center 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 270px;
+  }
+
 
   // About Parish Page
 
@@ -1303,6 +1311,15 @@ div.history-text {
     font-weight: bold;
     font-size: 36px;
   }
+
+  div.resos5AMSectionImage {
+    background: url('https://seguidoresdejesus.s3.amazonaws.com/resos5am.jpg');
+    background-position: center 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+
 
 
 
@@ -2251,7 +2268,16 @@ div.guadalupano {
       margin-bottom: 2rem;
       text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
     }
-  
+    
+    div.resos5AMSectionImage {
+      background: url('https://seguidoresdejesus.s3.amazonaws.com/resos5am.jpg');
+      background-position: center 60%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      height: 800px;
+    }
 
 
 
