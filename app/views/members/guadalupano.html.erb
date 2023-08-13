@@ -1,9 +1,9 @@
 <section class="grupoGuadaPage">
     <div class="jumbotron text-center guadalupano">
       <div class="container">
-      <h1 class="">Bienvenidos al</h1>
-      <h2>Grupo Guadalupano!</h2>
-      <p class="lead">¡Te invitamos con alegría a unirte a nuestro apasionado Grupo Guadalupano y ser parte de una comunidad comprometida con la fe y el amor! ¡Ven y comparte momentos significativos, aprende juntos y fortalece nuestra conexión espiritual mientras honramos a Nuestra Señora de Guadalupe!</p>
+      <h1 class=""><%= t('guadaPage.header1') %></h1>
+      <h2><%= t('guadaPage.header2') %></h2>
+      <p class="lead"><%= t('guadaPage.p1') %></p>
       <a href="#familiarSection2" class="btn btn-primary btn-lg">Aprender Más</a>
       </div>
   </div>
@@ -12,15 +12,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 history-text">
-          <h2 class="section-title" style="color: #343a40;">Historia de Nuestra Señora de Guadalupe</h2>
+          <h2 class="section-title" style="color: #343a40;"><%= t('guadaPage.historyHeading') %></h2>
           <p>
-            La historia de Nuestra Señora de Guadalupe se remonta al año 1531, cuando la Virgen María apareció al indígena Juan Diego en el cerro de Tepeyac, cerca de la Ciudad de México. En una serie de apariciones, la Virgen le pidió a Juan Diego que construyera un templo en su honor en ese lugar. Este evento se considera un momento crucial en la historia religiosa de México y ha dejado una marca indeleble en la cultura y espiritualidad del país.
+            <%= t('guadaPage.p2') %>
           </p>
           <p>
-            La imagen milagrosa de la Virgen de Guadalupe, impresa en la tilma de Juan Diego, se convirtió en un símbolo poderoso de la fe y la unión entre las culturas indígena y española. A lo largo de los siglos, esta devoción ha continuado creciendo y expandiéndose más allá de las fronteras de México, tocando los corazones de millones de personas en todo el mundo y reafirmando la importancia de la fe y la intercesión divina.
+            <%= t('guadaPage.p3') %>
           </p>
           <p>
-            ¡Te invitamos a unirte a nosotros para honrar a Nuestra Señora de Guadalupe y ser parte de esta hermosa tradición! Si deseas formar parte de nuestra comunidad y aprender más sobre su historia y devoción, ¡únete a nuestro Grupo Guadalupano hoy mismo!
+            <%= t('guadaPage.p4') %>
           </p>
         </div>
         <div class="col-md-6 imgGuadalupana align-items-center">
@@ -35,13 +35,13 @@
 <div class="guadSection4">
   <div class="container">
       <div class="jumbotron text-center">
-          <h1 class="display-4">Join Us for the Guadalupana Celebration!</h1>
-          <p class="lead">A festive gathering to honor Our Lady of Guadalupe</p>
+          <h1 class="display-4"><%= t('guadaPage.invite.heading1') %></h1>
+          <p class="lead"><%= t('guadaPage.invite.p1') %></p>
           <hr class="my-4">
-          <p>Mark your calendars and join us on <strong>December 16, 2023</strong> for a joyous celebration filled with tradition, culture, and faith.</p>
-          <p><strong>Location:</strong> St. Kilian's Roman Catholic Church</p>
-          <p><strong>Time:</strong> 6:30 PM</p>
-          <p>The celebration will commence with a Mass at St. Kilian's Church at 6:30 PM, followed by an evening filled with cultural performances, food, crafts, and community gathering.</p>
+          <p><%= t('guadaPage.invite.p2').html_safe %></p>
+          <p><%= t('guadaPage.invite.p3').html_safe %></p>
+          <p><%= t('guadaPage.invite.p4').html_safe %></p>
+          <p><%= t('guadaPage.invite.p5') %></p>
       </div>
   </div>
 </div>

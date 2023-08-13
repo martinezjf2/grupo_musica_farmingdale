@@ -380,6 +380,22 @@ en:
       p3: "Where: St. Kilian Roman Catholic Church, Green Room"
       p4: "For more information and to join, contact: Jose Flores at 1 (346) 777-1280 "
 
+  # Members#Guadalupen Page
+  guadaPage:
+    header1: "Welcome to the"
+    header2: "Guadalupano Group!"
+    p1: "We joyfully invite you to join our passionate Guadalupano Group and be a part of a community dedicated to faith and love! Come and share meaningful moments, learn together, and strengthen our spiritual connection as we honor Our Lady of Guadalupe!"
+    historyHeading: "History of Our Lady of Guadalupe"
+    p2: "The history of Our Lady of Guadalupe dates back to the year 1531 when the Virgin Mary appeared to the indigenous Juan Diego on the hill of Tepeyac, near Mexico City. In a series of apparitions, the Virgin asked Juan Diego to build a temple in her honor at that location. This event is considered a pivotal moment in Mexico's religious history and has left an indelible mark on the country's culture and spirituality."
+    p3: "The miraculous image of the Virgin of Guadalupe, imprinted on Juan Diego's tilma, became a powerful symbol of faith and unity between indigenous and Spanish cultures. Over the centuries, this devotion has continued to grow and spread beyond Mexico's borders, touching the hearts of millions of people worldwide and reaffirming the importance of faith and divine intercession."
+    p4: "We invite you to join us in honoring Our Lady of Guadalupe and being a part of this beautiful tradition! If you wish to be a part of our community and learn more about its history and devotion, join our Guadalupano Group today!"
+    invite:
+      heading1: "Join Us for the Guadalupana Celebration!"
+      p1: "A festive gathering to honor Our Lady of Guadalupe"
+      p2: "Mark your calendars and join us on <strong>December 16, 2023</strong> for a joyous celebration filled with tradition, culture, and faith."
+      p3: "<strong>Location:</strong> St. Kilian's Roman Catholic Church"
+      p4: "<strong>Time:</strong> 6:30 PM"
+      p5: "The celebration will commence with a Mass at St. Kilian's Church at 6:30 PM, followed by an evening filled with cultural performances, food, crafts, and community gathering."
   # -------------------------------------------------------------------------------------------------------------------------------
 
   # PARTIALS
