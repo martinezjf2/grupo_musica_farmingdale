@@ -603,11 +603,20 @@ es:
     p3: "Te invitamos a unirte a nosotros <strong>Cada Segundo Miércoles del Mes</strong> para participar en la Hora Santa. Es un momento para apreciar la Eucaristía, ofrecer oraciones y adoración mientras buscamos colectivamente una relación más profunda con Cristo. Tu presencia es una parte vital de esta experiencia bendita."
     p4: "Ven y comparte en este profundo viaje espiritual. Juntos, honremos y celebremos el Santísimo Sacramento del Altar."
 
-
+# About Padre Romulo Partial
+  romulo:
+    heading1: "Padre Romulo Gomez"
+    heading2: "Sacerdote de la Comunidad Hispana"
+    p1: "¡Saludos a todos, con gran entusiasmo comparto mi historia!"
+    p2: "Soy el Padre Rómulo, orgullosamente nacido en Rionegro, Antioquia, Colombia. ¡Qué honor es para mí haber sido ordenado Sacerdote en mi amada ciudad el 3 de Noviembre de 1984! Desde ese momento, he emprendido un emocionante viaje en el servicio a Dios y a mi comunidad."
+    p3: "Mis raíces me llevaron a la Diócesis de Ocaña, en el norte de Santander. Durante 20 años, con dedicación y pasión, ejercí el rol de Párroco, dejando una huella profunda en la Diócesis que siempre llevaré en mi corazón. Luego, en el año 2005, un nuevo capítulo comenzó cuando aterricé en Nueva York. Mi misión me llevó a la parroquia de Blessed Sacrament en el Bronx, y luego, mi camino me guió hasta Long Island, donde actualmente resido en la Parroquia de Saint José de Babylon, junto con dos parroquias más, Miraculus Medalla en Wyandanch y San Kilian en Farmingdale."
+    p4: "Con orgullo puedo decir que he servido como Sacerdote durante 39 años. Mi llamado proviene directamente de Jesús, quien me reveló la importancia de servir a aquellos que necesitan el amor y la ayuda de Dios. Cada día, encuentro motivación en poder estar presente en las vidas de quienes enfrentan desafíos y dificultades."
+    p5: "Que las bendiciones de Dios sigan derramándose abundantemente sobre todos ustedes. ¡Espero seguir compartiendo momentos llenos de fe y alegría en este camino que hemos emprendido juntos!"
+    p6: "¡Estoy en la increíble Parroquia de St. Kilian todos los Miércoles de 4 PM a 6:30 PM! Si necesitas hablar conmigo, solo llámame o envíame un mensaje, ¡Haré mi mejor esfuerzo para responder súper rápido en cuando reciba tu mensaje! ¡Bendiciones!"
 
   # Pastoral Staff Partial
   # About Pastor Partial
-  # About Padre Romulo Partial
+  
   # Finish Forms Page Translations
 # -------------------------------------------------------------------------------------------------------------------------------
 
