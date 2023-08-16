@@ -1,42 +1,35 @@
 <div class="mainDiv">
-  <div class="media">
+  <div class="jovenesPartialMedia">
     <div class="media-body">
       <div class="cVHeading">
         <h6 class="investPeople"><%= t('youth-group') %></h6>
         <%= t('jpartial-header').html_safe %>
-        <p>
-          <%= t('jovenes-partial-context') %>
-        </p>
+        <p><%= t('jovenes-partial-context') %></p>
         <p><%= t('jovenes-partial-slogan') %></p>
       </div>
 
-      <div class="cVInfo float-child">
+      <div class="jovenesPartialInfo float-child">
         <h4><%= t('jpartial-h1') %></h4>
-        <p>
-          <%= t('jpartial-p1') %>
-        </p>
+        <p><%= t('jpartial-p1') %></p>
 
         <h4><%= t('jpartial-h2') %></h4>
-        <p>
-          <%= t('jpartial-p2') %>
-        </p>
+        <p><%= t('jpartial-p2') %></p>
 
         <h4><%= t('jpartial-h3') %></h4>
-        <p>
-          <%= t('jpartial-p3') %>
-        </p>
+        <p><%= t('jpartial-p3') %></p>
 
         <h4><%= t('jpartial-h4') %></h4>
-        <p>
-          <%= t('jpartial-p4') %>
-        </p>
+        <p><%= t('jpartial-p4') %></p>
 
-      <a href="/angeles-de-dios" class="btn btn-primary btn-lg"><%= t('quieres-ver-mas-button') %></a>
-
+        <a href="/angeles-de-dios" class="btn btn-primary btn-lg"
+          ><%= t('quieres-ver-mas-button') %></a
+        >
       </div>
 
-
-      <div class="float-child second-jovenes-div" id="second-jovenes-div">
+      <div
+        class="float-child second-jovenes-div d-flex align-items-center justify-content-center"
+        id="second-jovenes-div"
+      >
         <!-- <span class="media-left">
             <iframe
               width="500"
@@ -51,7 +44,7 @@
 
         <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
           <!-- Slides -->
-          <div class="carousel-inner" >
+          <div class="carousel-inner">
             <div class="carousel-item active" style="height: 500px">
               <%= image_tag 'jovenes/1.jpg', class: "d-block w-100" %>
             </div>

@@ -82,22 +82,29 @@
 
   // Core Values from users.scss for about jovenes on homepage
 
+
+  div.jovenesPartialMedia {
+    height: 1650px
+
+  }
+
+  div.jovenesPartialInfo {
+    padding: 0px;
+    height: 850px;
+  }
+
   .media-body {
     width: 90%;
     text-align: center;
   }
 
-  .media {
-    height: 950px;
-  }
+
 
   .float-child {
     width: 100%;
   }
 
-  .cVInfo {
-    padding: 0px;
-  }
+
 
   .second-jovenes-div {
     display: none;
@@ -986,28 +993,35 @@ div.history-text {
 
   // Core Values from users.scss for about jovenes on homepage
 
+  #second-jovenes-div #imageCarousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  div.jovenesPartialMedia {
+    height: 1350px
+
+  }
+
+  div.jovenesPartialInfo {
+    padding: 10px 80px;
+    height: 550px;
+  }
+
   .media-body {
     width: 90%;
     text-align: center;
-  }
-
-  .media {
-    height: 1320px;
   }
 
   .float-child {
     width: 100%;
   }
 
-  .cVInfo {
-    padding: 10px 80px;
-    height: 500px;
+  .second-jovenes-div {
+    display: none;
   }
 
-  #second-jovenes-div #imageCarousel {
-    width: 80%;
-    margin: 0 auto;
-  }
 
   // Core Values from users.scss for about seguidores on about
 
@@ -1911,26 +1925,33 @@ div.guadalupano {
 
   // Core Values from users.scss for about jovenes on homepage
 
-  .media-body {
-    width: 85%;
-  }
-
-  // .media {
-  //     height: 1200px
-  // }
-
-  // .float-child {
-  //     width: 100%;
-  // }
-
-  .cVInfo {
-    padding: 5px 25px;
-  }
 
   // #second-jovenes-div #imageCarousel {
   //     width: 80%;
   //     margin: 0 auto
   // }
+
+
+  #second-jovenes-div #imageCarousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  div.jovenesPartialMedia {
+    height: 980px
+
+  }
+
+  div.jovenesPartialInfo {
+    padding: 5px 25px;
+    height: 550px;
+  }
+
+  .media-body {
+    width: 90%;
+  }
+
 
   // Core Values from users.scss for about seguidores on about
 

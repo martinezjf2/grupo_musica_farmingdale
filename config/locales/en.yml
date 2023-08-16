@@ -480,20 +480,19 @@ en:
   invi-group-context: "Are you looking for a place to share your faith, connect with other believers, and strengthen your relationship with God? Look no further! Join our vibrant prayer group in the Catholic Church and discover a passionate community that will encourage and guide you on your spiritual journey."
 
   # Jovenes Partial
-  jovenes-partial-context: "Proverbs 22:6 says, 'Start children off on the way they should go,
-          and even when they are old they will not turn from it.' We must raise children and
-          young people to know God the Father and love the Church of Christ Jesus, and they will be the next generation of Christians and leaders who will serve within the Church, as well as go out and do good in the world. Come! Join us!"
+  jovenes-partial-context: "Jeremiah 29:11 inspires us: 'For I know the plans I have for you,' declares the Lord, 'plans for welfare and not for evil, to give you a future and a hope.' We motivate our youth to draw closer to God, trust in His plans, and place their goals and dreams in His hands, knowing that He has a magnificent purpose for each one. Come and join us on this journey of faith and fulfillment."
   jovenes-partial-slogan: "YOUTH FOR CHRIST! TODAY, TOMORROW, AND ALWAYS!"
-  jpartial-h1: "Forms of Expression"
-  jpartial-p1: "We love creating a positive culture by creating short skits that involve the participation of our community."
-  jpartial-h2: "Youth Activities"
-  jpartial-p2: "We love creating dramas to show real-life scenarios where God uses His power to unite families and help those in need."
-  jpartial-h3: "Creativity"
-  jpartial-p3: "We make sure to create unique environments that will leave a positive impact on all members of our community."
+  jpartial-h1: "Expression Pathway"
+  jpartial-p1: "We passionately believe in promoting a positive culture through the creation of interactive activities that engage our vibrant community. Every expression, whether it's a shared smile or a kind word, reflects the love of God and builds meaningful connections among us."
+  jpartial-h2: "Youth Initiatives"
+  jpartial-p2: "We are deeply excited to bring to life dramas that portray real-life scenarios where God's transformative power brings families together and aids the needy. Our passion lies in showcasing how faith and divine intervention can bring hope and healing through our actions."
+  jpartial-h3: "Freedom of Creativity"
+  jpartial-p3: "We dedicate our efforts to creating unique environments where individualities thrive and the seeds of creativity bestowed by God flourish. Every idea, no matter how small, has the potential to inspire and enrich our lives and the lives of others."
   jpartial-h4: "Love and Collaboration"
-  jpartial-p4: "Everything we do is for God and with much love. We love working together and helping our community grow."
+  jpartial-p4: "Everything we undertake is done with love and devotion to God. We work together in harmony, recognizing that our collective effort is a testimony of our faith. We contribute to the growth of our community with humility and joy, reaching out to those around us."
   jpartial-header: "<h3>Angels of <span class='highlight'>God</span></h3>"
-  youth-group: "SPANISH YOUTH GROUP"
+  youth-group: "YOUTH GROUP"
+
 
   quieres-ver-mas-button: "Want to See More?"
 

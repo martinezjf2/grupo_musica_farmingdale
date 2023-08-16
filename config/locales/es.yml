@@ -512,28 +512,16 @@ es:
   invi-group-context: "¿Buscas un lugar donde compartir tu fe, conectarte con otros creyentes y fortalecer tu relación con Dios? ¡No busques más! Únete a nuestro vibrante grupo de oración en la Iglesia católica y descubre una comunidad apasionada que te animará y te guiará en tu camino espiritual."
 
   # Jovenes Partial
-  jovenes-partial-context:
-    "Proverbios 22: 6 dice: «Instruye al niño en el camino que debe seguir,
-    y cuando sea viejo no se apartará de él». Debemos formar niños y
-    jóvenes para que conozcan a Dios Padre y amen a la iglesia de Cristo
-    Jesús, y seran la próxima generación de cristianos y líderes que
-    servirán dentro de la iglesia, así como también saldrán y harán el
-    bien en el mundo. Ven! Y Acompañanos!"
+  jovenes-partial-context: "Jeremías 29:11 nos inspira: 'Porque yo sé los planes que tengo para ustedes —declara el Señor—, planes de bienestar y no de calamidad, para darles un futuro y una esperanza.' Motivamos a nuestros jóvenes a acercarse más a Dios, confiar en Sus designios y poner en Sus manos sus metas y sueños, sabiendo que Él tiene un propósito grandioso para cada uno. Ven y únete a este camino de fe y realización."
   jovenes-partial-slogan: "JOVENES PARA CRISTO! HOY, MAÑANA, Y SIEMPRE!"
-  jpartial-h1: "Forma de Expression"
-  jpartial-p1: "Nos encanta crear una cultura positiva mediante la creación de
-    dinámicas breves que involucren la participación de nuestra comunidad."
-  jpartial-h2: "Actividades Juveniles"
-  jpartial-p2:
-    "Nos encanta crear dramas para mostrar escenarios de la vida real donde
-    Dios usa su poder para unir familias y ayudar a quienes necesitan
-    ayuda."
-  jpartial-h3: "Creatividad"
-  jpartial-p3: "Nos aseguramos de crear entornos únicos que dejarán una huella
-    positiva en todos los miembros de nuestra comunidad."
-  jpartial-h4: "Amor y Collaboracion"
-  jpartial-p4: "Todo lo que hacemos es para Dios y con mucho amor. Nos encanta
-    trabajar juntos y ayudar a nuestra comunidad a crecer."
+  jpartial-h1: "Camino de Expression"
+  jpartial-p1: "Creemos apasionadamente en la promoción de una cultura positiva a través de la creación de actividades interactivas que involucran a nuestra vibrante comunidad. Cada expresión, ya sea una sonrisa compartida o una palabra amable, refleja el amor de Dios y construye lazos significativos entre nosotros."
+  jpartial-h2: "Iniciativas Juveniles"
+  jpartial-p2: "Nos emociona profundamente dar vida a dramas que representan situaciones de la vida real donde el poder transformador de Dios une a las familias y auxilia a los necesitados. Nuestra pasión radica en mostrar cómo la fe y la intervención divina pueden traer esperanza y sanación a través de nuestras acciones."
+  jpartial-h3: "Libertad Creatividad"
+  jpartial-p3: "Dedicamos nuestro esfuerzo a crear ambientes únicos donde las individualidades prosperan y donde las semillas de la creatividad que Dios nos ha otorgado florecen. Cada idea, por pequeña que parezca, tiene el potencial de inspirar y enriquecer nuestras vidas y las vidas de los demás."
+  jpartial-h4: "Amor y Cooperacion"
+  jpartial-p4: "Todo lo que emprendemos lo hacemos con amor y devoción hacia Dios. Trabajamos juntos en armonía, reconociendo que nuestro esfuerzo colectivo es un testimonio de nuestra fe. Contribuimos al crecimiento de nuestra comunidad con humildad y alegría, extendiendo la mano a quienes nos rodean."
   jpartial-header: "<h3>Angeles De <span class='highlight'>Dios</span></h3>"
   youth-group: "GRUPO JUVENIL"
 
