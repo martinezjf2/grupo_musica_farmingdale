@@ -440,6 +440,15 @@ es:
   events: "Eventos"
   idioma: "Idioma"
   grupos: "Grupos"
+  groups:
+    misas: "Misas"
+    rosary: "Rosarios"
+    guadal: "Guadalupano"
+    luz: "Luz del Mundo"
+    angeles: "Angeles de Dios"
+    pastoral: "Pastoral Familiar"
+    parish: "Nuestra Parroquia"
+
 
   # AboutPriest Partial
 

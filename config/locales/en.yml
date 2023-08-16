@@ -410,6 +410,14 @@ en:
   events: "Events"
   idioma: "Language"
   grupos: "Groups"
+  groups:
+    misas: "Mass"
+    rosary: "The Rosary"
+    guadal: "Guadalupen Group"
+    luz: "Light of the World"
+    angeles: "Angels of God"
+    pastoral: "Family Ministry"
+    parish: "Our Parish"
 
   # AboutPriest Partial
 
