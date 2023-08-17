@@ -46,6 +46,9 @@ class MembersController < ApplicationController
     def guadalupano
     end
 
+    def copyright
+    end
+    
 
 
 
