@@ -861,3 +861,75 @@ color: white;
 #about-the-priest img {
   width: 450px
 }
+
+
+
+
+
+// About the Bishop Page
+
+  .bishopHeading {
+    padding: 3.5rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+  }
+
+  .bishopHeading h1 {
+    padding-top: 1rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+  .bishopHeading p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  .bishopHeading h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  #imgBishop {
+    width: 38rem; /* Adjust the width as needed */
+    height: 750px; /* Adjust the height as needed */
+    position: absolute;
+    top: 5%;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: -2; /* Behind the text */
+    opacity: 1;
+  }
+
+  .backgroundOverlay {
+    background: url("https://live.staticflickr.com/8852/17961565884_e1564eecd4_b.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 77%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -3;
+    height: 600px;
+  }
+
+  .paragraphBishop p {
+    font-size: 18px;
+  }
+
+  .portraitBishop {
+    padding-bottom: 45px;
+    display: none;
+  }

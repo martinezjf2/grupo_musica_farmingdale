@@ -848,6 +848,87 @@ div.history-text {
     width: 300px
   }
 
+
+  // About the Bishop Page
+
+  div.bishopHeading {
+    padding: 3.5rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+  }
+
+  div.bishopHeading h1 {
+    padding-top: 2.5rem;
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+  div.bishopHeading p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  div.bishopHeading h2 {
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+  #imgBishop {
+    // width: 38rem; 
+    // height: 750px; 
+    // position: absolute;
+    // top: 5%;
+    // right: 0;
+    // bottom: 0;
+    // object-fit: cover;
+    // z-index: -2; 
+    // opacity: 1;
+    display: none
+  }
+
+  div.backgroundOverlay {
+    background: url("https://live.staticflickr.com/8852/17961565884_e1564eecd4_b.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -3;
+    height: 750px;
+  }
+
+  div.portraitBishop {
+    padding-bottom: 25px;
+    display: block;
+  }
+
+  div.portraitBishop img {
+    // padding-bottom: 45px;
+    // display: none;
+  }
+
+  .holinessImage {
+   display: none
+}
+
+  .paragraphBishop p {
+    font-size: 18px;
+  }
+
+
+
   // New Submission for Virtus
 
 
@@ -1764,6 +1845,82 @@ div.guadalupano {
     width: 330px
   }
 
+  
+
+
+
+   // About the Bishop Page
+
+   div.bishopHeading {
+    padding: 4.5rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+  }
+
+  div.bishopHeading h1 {
+    font-size: 3.0rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+  div.bishopHeading p {
+    font-size: 2.0rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+
+
+  div.bishopHeading #imgBishop {
+    width: 30rem; 
+    height: 620px; 
+    position: absolute;
+    top: 18%;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: -2; 
+    opacity: 1;
+  }
+
+  div.backgroundOverlay {
+    background: url("https://live.staticflickr.com/8852/17961565884_e1564eecd4_b.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -3;
+    height: 750px;
+  }
+
+  div.portraitBishop {
+    padding-bottom: 25px;
+    display: none;
+  }
+
+  div.portraitBishop img {
+    // padding-bottom: 45px;
+    // display: none;
+  }
+
+  .holinessImage {
+  //  display: none
+}
+
+  .paragraphBishop p {
+    font-size: 18px;
+  }
+
+
 
 
 
@@ -2645,6 +2802,75 @@ div.guadalupano {
   div#about-the-priest img {
     width: 430px
   }
+
+
+
+  // About the Bishop Page
+
+  .bishopHeading {
+    padding: 3.5rem 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+  }
+
+  div.bishopHeading h1 {
+    padding-top: 1rem;
+    font-size: 4.0rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+    letter-spacing: 0.4rem;
+  }
+
+  div.bishopHeading p {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  }
+
+
+
+  #imgBishop {
+    width: 38rem; /* Adjust the width as needed */
+    height: 750px; /* Adjust the height as needed */
+    position: absolute;
+    top: 5%;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: -2; /* Behind the text */
+    opacity: 1;
+  }
+
+  .backgroundOverlay {
+    background: url("https://live.staticflickr.com/8852/17961565884_e1564eecd4_b.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 77%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -3;
+    height: 600px;
+  }
+
+  .paragraphBishop p {
+    font-size: 18px;
+  }
+
+  .portraitBishop {
+    padding-bottom: 45px;
+    display: none;
+  }
+
+
+
+
 
   // New Submission for Virtus
 
