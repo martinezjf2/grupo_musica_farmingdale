@@ -49,6 +49,9 @@ class MembersController < ApplicationController
     def copyright
     end
     
+    def bishop 
+    end
+     
 
 
 

@@ -46,6 +46,8 @@ resources :documents, path: 'virtus', as: 'virtus', only: [:index, :new, :create
   get '/spanish-weekly-bulletin', to: 'members#spanish_weekly_bulletin'
   get '/guadalupano', to: 'members#guadalupano'
   get '/copyright', to: 'members#copyright'
+  get '/about-the-bishop', to: 'members#bishop'
+
 
 
 
