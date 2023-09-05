@@ -6,7 +6,7 @@
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="row justify-content-center align-items-center">
 
     <div class="col-lg-4 col-md-12 ind-card text-center">
         <div class="card" >
@@ -24,7 +24,7 @@
     
     <div class="col-lg-4 col-md-12 ind-card text-center">
       <div class="card">
-        <%= image_tag('church.jpg') %>
+        <%= image_tag ('church.jpg')%>
         <div class="card-body">
           <h4 class="card-title"><%= t('invi-partial-misa') %></h4>
           <h5 class="card-title">485 Conklin St. Farmingdale NY 11735 (St.Kilian Roman Catholic Church)</h5>
@@ -37,7 +37,7 @@
 
     <div class="col-lg-4 col-md-12 ind-card text-center">
         <div class="card">
-          <%= image_tag('assamblea.jpg') %>
+          <%= image_tag ('assamblea.jpg')%>
           <div class="card-body">
             <h4 class="card-title"><%= t('invi-grupoOracion') %></h4>
             <h5 class="card-title"><%= t('luzDelMundoSection.luzDelMundoJumbo.luzDelMundoTitle') %></h5>
@@ -48,6 +48,56 @@
           </div>
         </div>
      </div>
+
+
+
+
+
+
+
+     <div class="col-lg-4 col-md-12 ind-card text-center">
+      <div class="card">
+        <img src="https://smmwichita.com/images/stories/solutio/events/Ourlady.jpg" width="auto" height="230px" />
+        <div class="card-body">
+          <h4 class="card-title">Grupo Guadalupano</h4>
+          <h5 class="card-title">485 Conklin St. Farmingdale NY 11735 (St.Kilian Roman Catholic Church)</h5>
+          <h6 class="card-text">6:15 PM - 7:30 PM</h6>
+          <p class="card-text"><%= t('invi-partial-misa-context') %></p>
+          <a href="/misa" class="btn btn-primary" style="margin-top: 10px;" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/misa'; }, 100);"><%= t('quieres-ver-mas-button') %></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-lg-4 col-md-12 ind-card text-center">
+      <div class="card">
+        <img src="https://2.bp.blogspot.com/-yEV4wzmqqXI/UBaV45pEZHI/AAAAAAAABzk/cyKkD4vg7j4/s1600/sirviendo.jpg" width='auto' height="230px" />
+        <div class="card-body">
+          <h4 class="card-title">Atentiendo el Llamado del Senor</h4>
+          <h5 class="card-title">485 Conklin St. Farmingdale NY 11735 (St.Kilian Roman Catholic Church)</h5>
+          <h6 class="card-text">6:15 PM - 7:30 PM</h6>
+          <p class="card-text"><%= t('invi-partial-misa-context') %></p>
+          <a href="/misa" class="btn btn-primary" style="margin-top: 10px;" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/misa'; }, 100);">Subscribete</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-lg-4 col-md-12 ind-card text-center">
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/68/b7/29/68b72937564071dbf236fddbf50f6eca.jpg" width="auto" height="230px" />
+        <div class="card-body">
+          <h4 class="card-title">Pastoral Familiar</h4>
+          <h5 class="card-title">485 Conklin St. Farmingdale NY 11735 (St.Kilian Roman Catholic Church)</h5>
+          <h6 class="card-text">6:15 PM - 7:30 PM</h6>
+          <p class="card-text"><%= t('invi-partial-misa-context') %></p>
+          <a href="/misa" class="btn btn-primary" style="margin-top: 10px;" onclick="event.preventDefault(); setTimeout(function() { location.reload(true); }, 100); setTimeout(function() { window.location.href = '/misa'; }, 100);"><%= t('quieres-ver-mas-button') %></a>
+        </div>
+      </div>
+    </div>
+
+    
 
   </div>
 </div>
