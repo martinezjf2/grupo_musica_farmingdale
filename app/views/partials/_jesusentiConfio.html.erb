@@ -1,0 +1,71 @@
+<style>
+  .jesus-en-ti-confio {
+    padding-top: 10px;
+    position: relative;
+  }
+
+  .jesusImage {
+    position: relative;
+  }
+
+  .custom-img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .venText {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .quote {
+    margin-top: 0px;
+    font-style: italic;
+  }
+
+  .jesusSection {
+    padding: 40px;
+    text-align: center;
+    background-color: #e6f7ff;
+  }
+</style>
+<section class="container-fluid jesusSection">
+  <div>
+    <div class="jesus-en-ti-confio">
+      <h2 id="title"><%= t('jesus_section.title') %></h2>
+      <h4 id="subtitle"><%= t('jesus_section.subtitle') %></h4>
+      <p id="verse-quote" class="quote"><%= t('jesus_section.verse_quote') %></p>
+    </div>
+
+    <div class="jesus-en-ti-confio">
+      <div class="row">
+        <div class="col-md-6 jesusImage">
+          <img
+            id="image"
+            alt="Image"
+            class="custom-img"
+            src="<%= t('jesus_section.content.image_url') %>"
+          />
+        </div>
+        <div class="col-md-6 venText">
+          <h2 id="discover-title"><%= t('jesus_section.content.discover_title') %></h2>
+          <p id="paragraph-1"><%= t('jesus_section.content.paragraphs.one') %></p>
+          <p id="paragraph-2"><%= t('jesus_section.content.paragraphs.two') %></p>
+          <p id="paragraph-3"><%= t('jesus_section.content.paragraphs.three') %></p>
+          <p class="quote" id="quote"><%= t('jesus_section.content.paragraphs.four') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -655,6 +655,30 @@ es:
     p5: "Que las bendiciones de Dios sigan derramándose abundantemente sobre todos ustedes. ¡Espero seguir compartiendo momentos llenos de fe y alegría en este camino que hemos emprendido juntos!"
     p6: "¡Estoy en la increíble Parroquia de St. Kilian todos los Miércoles de 4 PM a 6:30 PM! Si necesitas hablar conmigo, solo llámame o envíame un mensaje, ¡Haré mi mejor esfuerzo para responder súper rápido en cuando reciba tu mensaje! ¡Bendiciones!"
 
+# Jesus en ti Confio partial
+  jesus_section:
+    title: "Jesús En Ti Confío"
+    subtitle: "Segundo Ministerio de Música en Español"
+    verse_quote: |
+      "Confía en el Señor con todo tu corazón y no te apoyes en tu propio entendimiento; 
+      en todos tus caminos somételo, y él enderezará tus sendas."
+      - Proverbios 3:5-6
+
+    content:
+      image_url: "https://havenlight.com/cdn/shop/products/YK1010172.jpg?v=1697810680"
+      discover_title: "Descubre Fe, Comunidad y Compasión"
+      paragraphs:
+        one: "Ven, únete a nuestra familia parroquial donde la fe, la comunidad y la compasión convergen. Experimenta el calor de la fraternidad, celebra la abundancia de la fe y descubre una comunidad vibrante y solidaria donde tu viaje único es abrazado con corazones abiertos."
+        two: "Nuestra parroquia es un lugar donde las conexiones van más allá de los servicios dominicales. Inspirados por Hechos 2:42-47, nos dedicamos a la enseñanza de los apóstoles, la comunión, el partir del pan y la oración. Como comunidad, compartimos no solo en la adoración, sino también en los desafíos y triunfos de la vida, formando lazos que resisten la prueba del tiempo."
+        three: "En el espíritu de Romanos 12:4-5, reconocemos que cada miembro aporta dones únicos a nuestra comunidad. Ya sea que busques crecimiento espiritual, amistades significativas u oportunidades para servir, nuestra parroquia ofrece un espacio acogedor para que explores, te conectes y contribuyas."
+        four: "Mateo 18:20 (NVI): 'Porque donde dos o tres se reúnen en mi nombre, allí estoy en medio de ellos.'"
+
+
+
+
+
+
+
   # Pastoral Staff Partial
   # About Pastor Partial
 

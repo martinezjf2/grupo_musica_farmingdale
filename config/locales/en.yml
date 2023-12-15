@@ -854,3 +854,21 @@ en:
     p4: "With pride, I can say that I have served as a Priest for 39 years. My calling comes directly from Jesus, who revealed to me the importance of serving those who need the love and help of God. Each day, I find motivation in being present in the lives of those facing challenges and difficulties."
     p5: "May God's blessings continue to pour abundantly upon all of you. I look forward to sharing moments full of faith and joy on this journey we have embarked upon together!"
     p6: "I am at the incredible Saint Kilian Parish every Wednesday from 4 PM to 6:30 PM! If you need to talk to me, just give me a call or send me a message. I will do my best to respond quickly as soon as I receive your message! Blessings!"
+
+  # Jesus en ti Confio Partial
+  jesus_section:
+    title: "Jesus In You We Trust"
+    subtitle: "Second Spanish Music Ministry"
+    verse_quote: |
+      "Trust in the Lord with all your heart and lean not on your own understanding; 
+      in all your ways submit to him, and he will make your paths straight." 
+      - Proverbs 3:5-6
+
+    content:
+      image_url: "https://havenlight.com/cdn/shop/products/YK1010172.jpg?v=1697810680"
+      discover_title: "Discover Faith, Community, and Compassion"
+      paragraphs:
+        one: "Come, join our parish family where faith, community, and compassion converge. Experience the warmth of fellowship, celebrate the richness of faith, and discover a vibrant and supportive community where your unique journey is embraced with open hearts."
+        two: "Our parish is a place where connections go beyond Sunday services. Inspired by Acts 2:42-47, we devote ourselves to the apostles' teaching, fellowship, breaking of bread, and prayer. As a community, we share not only in worship but in the challenges and triumphs of life, forming bonds that withstand the test of time."
+        three: "In the spirit of Romans 12:4-5, we recognize that each member brings unique gifts to our community. Whether you're seeking spiritual growth, meaningful friendships, or opportunities to serve, our parish provides a welcoming space for you to explore, connect, and contribute."
+        four: "Matthew 18:20 (NIV): 'For where two or three gather in my name, there am I with them.'"
