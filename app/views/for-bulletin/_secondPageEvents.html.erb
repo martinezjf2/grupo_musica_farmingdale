@@ -80,7 +80,7 @@
 
 
 
-
+<% if fourth_event.present? %>
         <div class="row pagina2NewsContext">
             <div class="col-md-6 order-md-1 pt-3">
                 <h2><%= fourth_event.event_name %></h2>
@@ -95,6 +95,7 @@
                 <%= image_tag fourth_event.image, alt: "Event Image", class: "img-fluid image-size-800" %>
             </div>
         </div>
+        <% end %>
 
     <% else %>
     <div class="container padding-top-100" >
