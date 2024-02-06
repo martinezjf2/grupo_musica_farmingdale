@@ -84,3 +84,12 @@ class ScrapingController < ApplicationController
     end
 
 end
+
+
+
+# 1. Make a Webpage for Alcoholicos Aniomos and when they have meetings
+# 2. Make a webpage for Hospitalidad y Lectores, and when they have meeting a to join the group.
+# 3. Have a partial on the homepage that will give the most current events that will happen soon so users can see what to join and to see what grouops to join.
+# 4. Make a partial about the Eucharistic Adoration that occurs within the chapel.
+# 5. Grupo Juvenil: Have a video that explains what is the purpose of what is a "Angel de Dios". Post on their homepage.
+# 6. Join the parishs' picnic and maybe ask the Pastor if the Spanish Community can join with typical food such as atol or elote loco.
