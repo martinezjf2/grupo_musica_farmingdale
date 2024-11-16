@@ -10,10 +10,10 @@
     "bootstrap": "^5.2.3",
     "browser": "^0.2.6",
     "jquery": "^3.6.4",
-    "sass": "^1.81.0",
-    "turbolinks": "^5.2.0",
     "popper": "^1.0.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "sass": "^1.81.0",
+    "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "engines": {
@@ -21,6 +21,8 @@
     "yarn": "1.22.19"
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "webpack-dev-server": "^4.15.0"
   }
 }
